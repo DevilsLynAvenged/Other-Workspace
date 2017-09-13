@@ -741,9 +741,7 @@ background-size: cover;
     font-weight: bold;
     font-style: italic;
 }
-    background-color: #182d06 !important;
-}
-
+   
 #bda-qem button:hover {
     background-color: #305a0c !important;
 }
