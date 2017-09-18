@@ -1,0 +1,642 @@
+.status-invisible, .status-offline {
+    background-image: url(http://i0.kym-cdn.com/photos/images/original/001/122/779/9b4.png) !important;
+    width: 30px !important;
+    height: 30px !important;
+    background-size: cover;
+    right: -166px !important;
+}
+.status-online {
+   background-image: url(http://suptg.thisisnotatrueending.com/qstarchive/370138/images/1468563264939.png)!important;
+   background-size: cover;
+    width: 30px !Important;
+    height: 30px !important;
+    right: -166px!important;
+    
+}
+.status-idle {
+    background-image: url(https://pbs.twimg.com/media/C579cMnU0AAeAhp.png) !important;
+    background-size: cover;
+    width: 30px !Important;
+    height: 30px !important;
+    right: -166px!important;
+}
+.status-dnd {
+    background-image: url(https://i.warosu.org/data/jp/img/0162/39/1481934660806.png) !important;
+    background-size: cover;
+    width: 30px !Important;
+    height: 30px !important;
+    right: -166px!important;
+}
+.status-streaming {
+    background-image: url(https://i.imgur.com/uvLNB2u.png) !important;
+    background-size: cover;
+    width: 30px !Important;
+    height: 30px !important;
+    right: -166px!important;
+}
+.status.status-typing {
+   width: 30px!important;
+    height: 30px !important;
+    right: -166px!important;
+    box-shadow: inset 1px 1px 30px 2px rgba(0,0,0,0.96);
+}
+.container-iksrDt {
+    height: 132px;
+    background: rgba(0,0,0,0.3);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+.container-iksrDt .avatar-small {
+    position: relative;
+    bottom: -15px;
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    border: 3px solid white;
+    border-radius: 12px;
+}
+.container-iksrDt .status-dnd {
+    background-image: url(https://i.warosu.org/data/jp/img/0162/39/1481934660806.png) !important;
+    background-size: cover;
+    width: 48px !Important;
+    height: 48px !important;
+    right: -169px !important;
+    bottom: -19px;
+}
+.container-iksrDt .status-online {
+   background-image: url(http://suptg.thisisnotatrueending.com/qstarchive/370138/images/1468563264939.png)!important;
+   background-size: cover;
+    width: 48px !Important;
+    height: 48px !important;
+    right: -169px !important;
+    bottom: -19px;
+    
+}
+.container-iksrDt .status-idle {
+    background-image: url(https://pbs.twimg.com/media/C579cMnU0AAeAhp.png) !important;
+    background-size: cover;
+   width: 48px !Important;
+    height: 48px !important;
+    right: -169px !important;
+    bottom: -19px;
+}
+
+.accountDetails-15i-_e .username {
+   font-weight: bold;
+    position: relative;
+    bottom: 44px;
+    overflow: visible;
+    padding-top: 29px;
+    font-size: 20px;
+    left: -69px;
+ }
+.accountDetails-15i-_e .discriminator {
+    display: block;
+    padding-top: 1px;
+    opacity: 1;
+    font-size: 20px;
+    position: relative;
+    top: 32px;
+    text-align: center;
+    left: -13px;
+    padding-bottom: 10px;
+}
+.container-iksrDt .status-invisible {
+    background-image: url(http://i0.kym-cdn.com/photos/images/original/001/122/779/9b4.png) !important;
+    width: 48px !important;
+    height: 48px !important;
+    background-size: cover;
+    right: -169px !important;
+    bottom: -19px !important;
+}
+.button-1aU9q1 {
+    width: 32px;
+    height: 32px;
+    padding-right: -1px;
+     background: rgba(255, 255, 255, 0.5) no-repeat 50% 50%;
+    background-size: 18px 18px;
+    position: relative;
+    opacity: 0.9;
+    border-radius: 12px;
+    right: 82px;
+    bottom: 4px;
+  }
+.button-1aU9q1:hover {
+    width: 32px;
+    height: 32px;
+    padding-right: -1px;
+     background: rgba(255, 255, 255, 0.5) no-repeat 50% 50%;
+    background-size: 18px 18px;
+    position: relative;
+    opacity: 0.9;
+    border: 3px solid white;
+    border-radius: 12px;
+    right: 82px;
+    bottom: 4px;
+  }
+.headerNormal-1cioxU {
+    background: url(https://i.imgur.com/Qc9hSOJ.jpg);
+    background-size: cover;
+    
+}
+.headerName-2N8Pdz {
+    font-weight: 700;
+    color: red;
+    background: white;
+}
+.headerUsernameNoNickname-1iGxNP {
+    color: red;
+    background: white;
+}
+.headerDiscriminator-3fLlCR {
+    font-size: 12px;
+    color: red;
+    background: white;
+}
+.headerActivityText-3qBQRo {
+    font-size: 14px;
+    padding: 0 10px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    background: white;
+}
+.headerTagNormal-KyD3_J {
+    color: red;
+    background: white;
+}
+/* Deafen Tooltip */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 253.723px; top: 903.012px;"] {
+    position: absolute;
+    top: 900px !important;
+    left: 171px !important;
+}
+/* Mute Tooltip */
+[class*="tooltip tooltip-top tooltip-black"][style="left: 228.73px; top: 903.012px;"] {
+    position: absolute;
+    top: 900px !important;
+    left: 148px !important;
+}
+/* Undeafen Tooltip */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 245.723px; top: 903.012px;"] {
+      position: absolute;
+    top: 900px !important;
+    left: 165px !important;
+}
+/*UnMute Tooltip*/
+[class*="tooltip tooltip-top tooltip-black"][style="left: 219.73px; top: 903.012px;"] {
+   position: absolute;
+    top: 900px !important;
+    left: 139px !important;
+}
+.avatar-1jmnc- {
+    border: 6px solid black;
+    border-radius: 15px;
+}
+.popout-UKvsJt {
+    width: 120px;
+    height: 120px;
+}
+.avatarHint-2i5XWK {
+   border-radius: 15px;
+   box-shadow: inset 0 0 120px rgba(255,255,255,.95);
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+ }
+.body-3rkFrF {
+    background-color: #000;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+.footer-2J5zqP {
+    padding: 10px;
+    background-color: #000;
+}
+
+.member-roles .member-role {
+    background-color: #fff;
+    border-radius: 13px;
+    border: 1px solid red;
+    font-size: 12px;
+    line-height: 19px;
+    color: red;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: inline-block;
+    margin-right: 4px;
+}
+.quick-message {
+    border: 1px solid white;
+    background: #000;
+    border-radius: 13px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 8px 10px;
+    resize: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+.avatarStatusInvisible-135znp, .avatarStatusOffline-3tuNny {
+    background-image: url(http://i0.kym-cdn.com/photos/images/original/001/122/779/9b4.png) !important;
+   background-size: cover;
+      width: 45px !Important;
+    height: 45px !important;
+    right: -2px!important;
+    border-radius: 15px;
+}
+.avatarStatusOnline-3Io--E {
+   background-image: url(http://suptg.thisisnotatrueending.com/qstarchive/370138/images/1468563264939.png)!important;
+   background-size: cover;
+    width: 45px !Important;
+    height: 45px !important;
+    right: -2px!important;
+    border-radius: 15px;
+    
+}
+.avatarStatusIdle-3ADLtR {
+    background-image: url(https://pbs.twimg.com/media/C579cMnU0AAeAhp.png) !important;
+    background-size: cover;
+     width: 45px !Important;
+    height: 45px !important;
+    right: -2px!important;
+    border-radius: 15px;
+}
+.avatarStatusDnd-31uU1Q {
+    background-image: url(https://i.warosu.org/data/jp/img/0162/39/1481934660806.png) !important;
+    background-size: cover;
+      width: 45px !Important;
+    height: 45px !important;
+    right: -2px!important;
+    border-radius: 15px;
+}
+.avatarStatusStreaming-3lGjGk {
+    background-image: url(https://i.imgur.com/uvLNB2u.png) !important;
+    background-size: cover;
+    width: 45px !Important;
+    height: 45px !important;
+    right: -2px!important;
+    border-radius: 15px;
+}
+.avatar-profile .status {
+    width: 45px !important;
+    height: 45px !important;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 4px solid #000;
+    bottom: 2px;
+    right: 1px !important;
+ }
+
+#user-profile-modal .tab-bar .tab-bar-item {
+   color: red;
+}
+.tab-bar.TOP .tab-bar-item {
+   font-size: 14px;
+    font-weight: bold;
+    color: red !important;
+}
+.tab-bar.TOP .tab-bar-item.selected {
+    border-bottom: 2px solid red !important;
+ }
+#user-profile-modal .guilds .section .connected-accounts .connected-account {
+    border-radius: 3px;
+    border: 1px solid red;
+}
+#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name {
+    font-weight: bold;
+    font-size: 16px;
+    color: red;
+}
+#user-profile-modal .guilds .section .section-header {
+   color: red;
+}
+.note textarea {
+  color: red;
+}
+s, strike, del {
+    text-decoration: line-through;
+    color: red;
+}
+#user-profile-modal .header:after {
+   background-image: url(https://cdn.suwalls.com/wallpapers/anime/momiji-inubashiri-touhou-project-44772-1920x1200.jpg) !important;
+   background-size: 120% 120%;
+   background-repeat: no-repeat;
+}
+.avatar-large {
+    width: 70px;
+    height: 70px;
+    background-size: 70px 70px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+    border: 5px solid black;
+    border-radius: 12px;
+}
+.theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code {
+    background: #222222;
+    font-size: 20px;
+    line-height: 32px;
+    padding-top: 3px;
+    color: white;
+    border-radius: 12px;
+}
+.chat>.content .messages .message-group .markup pre {
+   border-radius: 12px;
+    border-color: rgba(0, 0, 0, 0.46) !important;
+}
+.theme-dark .channel-members h2 {
+    color: red;
+    text-align: center;
+    background: rgba(0,0,0,0.8);
+    font-size: 19px;
+    font-weight: bold;
+    border: 4px solid black;
+}
+.channel-members .member {
+   margin-bottom: 11px;
+    border: 3px solid;
+    padding-left: 23px;
+    font-weight: 500;
+    background: black;
+ }
+
+.channel-members .member .member-activity-text, .theme-dark .message-group h2 .timestamp {
+    color: white;
+}
+.chat>.content .messages .message-group h2 .user-name {
+    font-weight: bold;
+    font-size: 23px;
+}
+.flex-horizontal>.flex-spacer, .theme-dark .channel-members {
+    background: rgba(0,0,0,0.2) !important
+}
+.scroller-NXV0-d, .scroller-fzNley {
+    background: rgba(0,0,0,0.4);
+    border: 2px solid black;
+}
+.chat>.title-wrap.title-wrap-dark, .header-1tSljs {
+    background: rgba(0,0,0,0.7) !important;
+}
+.platform-osx .guilds-wrapper, .theme-dark #friends .friends-header  {
+    background: rgba(0,0,0,0.7) !important;
+}
+#friends .friends-table .friends-table-body, .theme-dark #friends .friends-table .friends-table-header {
+    background: rgba(0,0,0,0.4);
+}
+#friends .friends-table .friends-row .friends-column-status .friend-activity-text, #friends .friends-table .friends-row .friends-column-status .status-text, #friends .friends-table .friends-row .discord-tag .username, .theme-dark #friends .friends-table .friends-table-header .friends-column {
+    color: white;
+}
+.private-channels .channel .channel-name, .private-channels header {
+    opacity: 0.6;
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary {
+    background-color: white;
+    color: red;
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected {
+    background-color: #fff;
+    color: red;
+}
+.guilds-wrapper .guilds .friends-icon {
+    width: 50px;
+    height: 50px;
+    background-image: url(https://i.pinimg.com/736x/51/c4/00/51c400b289c3e937cea56adf36927db0--catgirl-suddenly.jpg);
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+}
+[id*="bd-pub-button"][style*="line-height: 20px; font-size: 12px;"] {
+    background: white;
+    color: red;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.guilds-wrapper .guilds-add {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: white;
+    color: red;
+    border: 1px solid black;
+    padding: 0;
+    font-size: 50px;
+    font-weight: bold;
+  }
+.guilds-wrapper .guilds-add:hover {
+   border-radius: 50%;
+    background: black;
+    color: #00FF00;
+    border: 1px solid black;
+    padding: 0;
+    font-size: 50px;
+    font-weight: bold;
+  }
+.guilds-wrapper .guild  a  {
+    width: 49px;
+    height: 49px;
+    background-size: cover;
+    border-radius: 15px !important;
+    border: 2px outset white;
+    
+ }
+.guilds-wrapper .guilds .guild .guild-inner {
+    cursor: pointer;
+    overflow: visible;
+    background: #2f3136;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+}
+.background-2nyTH_ {
+    opacity: 0;
+}
+.foreground-2zy1hc {
+    opacity: 0;
+}
+.contentSelectedText-3j5CXt {
+   background: black !important;
+    padding-bottom: 2px;
+}
+.nameSelectedText-32NDX5 {
+    color: red;
+   font-weight: bold;
+}
+.nameDefault-Lnjrwm {
+    color: white;
+    font-size: 22px;
+}
+.guilds-wrapper .guilds .guild.unread:before {
+    background: red;
+}
+.badge {
+    border-radius: 15px;
+    background-clip: padding-box;
+    background-color: white;
+     color: red;
+   font-size: 19px;
+    font-weight: bold;
+    width: 18px;
+    height: 18px;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: center;
+ }
+.new-messages-indicator.new-messages-indicator-mention {
+    background-color: transparent;
+    color: transparent;
+    width: 102px;
+    height: 92px;
+}
+.new-messages-indicator .icon.icon-unread-arrow {
+    background-image: url(https://i.pinimg.com/736x/51/c4/00/51c400b289c3e937cea56adf36927db0--catgirl-suddenly.jpg);
+    background-size: cover;
+    width: 54px;
+    height: 54px;
+    position: relative;
+    left: -33px;
+    top: -12px;
+    opacity: 1;
+} 
+.upload-modal .footer {
+   background-color: white;
+ }
+.upload-modal .footer .button-primary {
+    color: red;
+}
+.upload-modal .footer .button:first-child {
+    background-color: #d9d9d9;
+   color: red;
+}
+.upload-modal .inner {
+  border: 2px dashed white;
+   color: red;
+}
+.upload-modal {
+    background: #d9d9d9;
+}
+.theme-brand .inner-3if5cm {
+    background-color: rgba(255,255,255,0.3);
+}
+.upload-modal .inner .file .icon.image {
+    border: 1px solid black;
+}
+.theme-brand .textArea-20yzAH {
+    color: black;
+}
+.channel-text-area-default [class*="inner-"], .channel-text-area-default [class*="autocomplete-"], .channel-text-area-default [class*="autocompleteInner-"], .channel-text-area-default [class*="selectorSelected-"] {
+    background: rgba(255,255,255,0.2) !important;
+    border: 1px solid;
+}
+.unread-23Kvxk {
+    position: absolute;
+    margin-left: 1px;
+    margin-top: -11px;
+     background-image: url(http://i0.kym-cdn.com/photos/images/original/000/910/172/b23.png) !important;
+     background-size: 100% 100%;
+     width: 24px;
+    height: 24px;
+ }
+ .cardPrimaryEditable-2IQ7-V[style*="background-color: rgb(114, 137, 218);"],
+.radio-item.checked[style*="background-color: rgb(114, 137, 218);"],
+.theme-light .ui-card-primary.checked {
+    background-color: #DDD !important;
+    border: solid 4px #EEE !important;
+    }
+.barFill-18ABna {
+    background: red;
+    height: 200%;
+}
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
+   background: red;
+}
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked {
+    background: white;
+}
+
+div[class*="switchEnabled"][class*=valueChecked] {
+    background-color: red;
+ }
+div[class*="switchEnabled"][class*=valueUnchecked] {
+    background-color: white;
+}
+[class*="barFill-18ABna"][style*="background: rgb(105, 196, 154)"]
+{
+    background: red !important;
+}
+[class*="bar-2cFRGz"][style*="background: rgb(251, 184, 72)"]
+{
+    background: white !important;
+}
+.theme-dark .bar-2cFRGz {
+    background: white;
+}
+.ui-standard-sidebar-view .bda-slist li {
+    background: #BBB;
+    border-bottom: 2px solid black;
+}
+.ui-standard-sidebar-view .bda-slist li:nth-child(odd) {
+    background: #EEE;
+    border-top: 2px solid black;
+}
+[layer-id="user-settings"] input[type="checkbox"]:checked + div polyline {
+    stroke: red;
+}
+.bda-slist .bda-name {
+    color: red;
+    font-weight: 700;
+    font-size: 12px;
+}
+.ui-standard-sidebar-view .bda-slist .bda-description { 
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
+[class*="titleChecked-3Ngoss title-1M-Ras"][style*="color: rgb(255, 255, 255);"] {
+    color: red !important;
+}
+.theme-dark .message-group .comment .markup .mention {
+    background-color: red;
+    color: white;
+    border-radius: 13px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    padding-left: 8px;
+    border: 1px solid;
+}
+.theme-dark .message-group .comment .markup .mention:hover {
+    background-color: white;
+    color: red;
+    border-radius: 13px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    padding-left: 8px;
+    border: 1px solid;
+}
+.buttonBrandFilled-3Mv0Ra, .itemDefaultSelected-1UAWLe, #bd-settings-sidebar .ui-tab-bar-item.selected, .ui-standard-sidebar-view #editor-detached button {
+    color: red;
+    background-color: white;
+    font-weight: bold;
+}
+.theme-dark .ui-standard-sidebar-view .btn-close {
+    border-color: red;
+}
+.theme-dark .itemDefault-3NDwnY, .theme-dark .header-1-f9X5, #bd-settings-sidebar .ui-tab-bar-header, #bd-settings-sidebar .ui-tab-bar-item {
+    color: white;
+}
+.itemBrand-mC9YR4, .app a {
+    color: red;
+}
+[class*="fill"][fill*="#dcddde"] {
+    fill: red;
+}
+.bd-pfbtn {
+    color: red;
+    background: white;
+}   
