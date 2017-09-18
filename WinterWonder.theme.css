@@ -281,8 +281,8 @@
     background-color: rgba(0,0,243,0.4) !important;
 }
 .guilds-wrapper .guilds .guild.unread:before {
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     border-radius: 1px;
     background: #8a8e94;
     margin-top: -31px;
