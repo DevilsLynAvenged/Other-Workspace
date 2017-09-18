@@ -113,7 +113,7 @@
     border: 1px solid #427df4;
 }
 ::-webkit-input-placeholder {
-  color: #4b83fc !important;
+  color: white !important;
 }
 .channel-text-area-default [class*="textArea-"], .channel-text-area-default [class*="selector-"] [class*="marginLeft8-"] {
     color: #4b83fc !important;
@@ -281,8 +281,8 @@
     background-color: rgba(0,0,243,0.4) !important;
 }
 .guilds-wrapper .guilds .guild.unread:before {
-    width: 30px;
-    height: 30px;
+    width: 10px;
+    height: 10px;
     border-radius: 1px;
     background: #8a8e94;
     margin-top: -31px;
