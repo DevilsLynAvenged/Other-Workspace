@@ -8,7 +8,6 @@
     width: 95px;
     height: 95px;
     opacity: 1;
-    animation: flip 2s linear 0s infinite normal;
     position: relative;
     right: -14px;
     filter:saturate(2);
@@ -16,11 +15,6 @@
 }
 /* Theme Stuff */ 
 
-@keyframes flip {
-0%{ transform: rotateY(0deg); }
-50%{ transform: rotateY(180deg); }
-100%{ transform: rotateY(0deg); }
-}
 .message-group .btn-reaction {
     background: url(data:image/png;base64,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) 60% no-repeat;
     opacity: 1;
@@ -39,16 +33,10 @@
     height: 20px;
 }
 .channel-text-area-default [class*="inner-"], .channel-text-area-default [class*="autocomplete-"], .channel-text-area-default [class*="autocompleteInner-"], .channel-text-area-default [class*="selectorSelected-"] {
-    background: linear-gradient(91deg, #111122, #030202, #aa0101, #000000, #000000);
-    background-size: 500% 500%;
-    animation: Chat 6s ease-in infinite;
+    background: #000000;
     border: 6px outset #000;
 }
-@keyframes Chat { 
-    0%{background-position:82% 0%}
-    50%{background-position:19% 100%}
-    100%{background-position:82% 0%}
-}
+
 .theme-dark .attachButtonForeground-3VZiXQ {
     fill: transparent;
     opacity: 1;
@@ -73,7 +61,7 @@
     width: 20px !important;
     height: 20px !important;
     border-radius: 100px !important;
-    animation: flip 2s linear 0s infinite normal;
+   
  }
 .status-idle {
     background-image: url(https://www.chipsandgames.com/images/products/detail/213yl.png) !important;
@@ -81,7 +69,7 @@
     width: 20px !important;
     height: 20px !important;
     border-radius: 100px !important;
-    animation: flip 2s linear 0s infinite normal;
+    
  }
 .status-dnd {
     background-image: url(https://www.chipsandgames.com/images/products/detail/209rd.png) !important;
@@ -89,7 +77,7 @@
     width: 20px !important;
     height: 20px !important;
     border-radius: 100px !important;
-    animation: flip 2s linear 0s infinite normal;
+    
  }
 .status-invisible, .status-offline {
     background-image: url(https://www.chipsandgames.com/images/products/detail/213wt.png) !important;
@@ -97,7 +85,7 @@
     width: 20px !important;
     height: 20px !important;
     border-radius: 100px !important;
-    animation: flip 2s linear 0s infinite normal;
+    
  }
 .status-streaming {
     background-image: url(http://www.chipsandgames.com/images/products/detail/209pr.png) !important;
@@ -105,13 +93,9 @@
     width: 20px !important;
     height: 20px !important;
     border-radius: 100px !important;
-    animation: flip 2s linear 0s infinite normal;
+   
  }
-@keyframes flip {
-0%{ transform: rotateY(0deg); }
-50%{ transform: rotateY(180deg); }
-100%{ transform: rotateY(0deg); }
-}
+
 .chat .new-messages-bar button, .chat .new-messages-bar button:last-child, .chat .divider.divider-red>span {
     text-align: left;
     background: none;
@@ -129,7 +113,7 @@
     height: 30px !important;
     border-radius: 100px !important;
     border: 2px solid black !important;
-    animation: flip 2s linear 0s infinite normal;
+    
 }
 .avatarStatusDnd-31uU1Q { 
     background-image: url(https://www.chipsandgames.com/images/products/detail/209rd.png) !important;
@@ -138,7 +122,7 @@
     height: 30px !important;
     border-radius: 100px !important;
     border: 2px solid black !important;
-    animation: flip 2s linear 0s infinite normal;
+    
 }
 .avatarStatusOnline-3Io--E { 
      background-image: url(https://www.chipsandgames.com/images/products/detail/201gr.png) !important;
@@ -147,7 +131,7 @@
     height: 30px !important;
     border-radius: 100px !important;
     border: 2px solid black !important;
-    animation: flip 2s linear 0s infinite normal;
+    
 }
 .header-3mZJcV .avatarStatusInvisible-135znp { 
     background-image: url(https://www.chipsandgames.com/images/products/detail/213wt.png) !important;
@@ -156,7 +140,7 @@
     height: 30px !important;
     border-radius: 100px !important;
     border: 2px solid black !important;
-    animation: flip 2s linear 0s infinite normal;
+    
 }
 .avatarStatusStreaming-3lGjGk { 
      background-image: url(http://www.chipsandgames.com/images/products/detail/209pr.png) !important;
@@ -165,7 +149,7 @@
     height: 30px !important;
     border-radius: 100px !important;
     border: 2px solid black !important;
-    animation: flip 2s linear 0s infinite normal;
+   
 } 
 #user-profile-modal .scroller, #user-profile-modal .tab-bar-container {
     background: #111111;
@@ -214,7 +198,7 @@
     line-height: 16px;
     background: transparent;
 }
-#user-profile-modal .guilds .section .note textarea::-webkit-input-placeholder, #user-profile-modal .guilds .section .section-header {
+#user-profile-modal .guilds .section .note textarea::-webkit-input-placeholder, #user-profile-modal .guilds .section .section-header, ::-webkit-input-placeholder {
   color: #cc1111 !important;
 }
 #user-profile-modal .header .header-info .header-info-inner .discord-tag .username {
@@ -423,9 +407,8 @@ div[class*="switchEnabled"][class*=valueUnchecked] {
     font-size: 35px;
     font-weight: bold;
 }
-::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+::-webkit-scrollbar-track {
+   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
 	border-radius: 10px;
 	background-color: transparent;
     display: none;
@@ -556,8 +539,7 @@ div[class*="switchEnabled"][class*=valueUnchecked] {
     margin-top: -4px;
    background-size: cover;
    background-image: url(http://www.chipsandgames.com/images/products/detail/209rd.png) !important;
-   animation: flip 2s linear 0s infinite normal;
-}
+ }
 .wrapper-2xO9RX {
     background-image: url(http://www.chipsandgames.com/images/products/detail/209bk.png) !important;
     background-size: cover;
@@ -592,23 +574,9 @@ div[class*="switchEnabled"][class*=valueUnchecked] {
     border: 2px solid #cc1111;
     border-radius: 15px;
     overflow-x: auto;
-    font-size: 15px;
-    animation: pulse 1s infinite backwards;
- }
-@keyframes pulse {
-  0% {
+    font-size: 11px;
     
-    box-shadow: 0 0 0 0 rgba(255,255,255, 1);
-  }
-  70% {
-     
-      box-shadow: 0 0 0 10px rgba(204,169,44, 0);
-  }
-  100% {
-      
-      box-shadow: 0 0 0 0 rgba(204,169,44, 0);
-  }
-}
+ }
 .guilds-wrapper .guilds .guild .guild-inner {
     display: block;
     width: 50px;
@@ -622,8 +590,7 @@ div[class*="switchEnabled"][class*=valueUnchecked] {
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
-    animation: flip 2s linear 0s infinite normal;
-}
+ }
 .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:not(.selected) {
     background-color: #111;
     border: 1px outset #cc1111;
