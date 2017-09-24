@@ -754,10 +754,10 @@ div[class*="switchEnabled"][class*=valueUnchecked] {
     right: 39px;
 }
 .container-iksrDt .avatar-small {
-   width: 54px;
-    height: 54px;
+   width: 29px;
+    height: 29px;
     background-size: cover;
-    border: 3px solid #cc1111;
+    border: 3px inset #cc1111;
 }
 .container-iksrDt .status {
     border: 2px solid #292c31;
