@@ -158,8 +158,8 @@
     border: 1px solid #111111;
 }
 .avatar-profile .status {
-    width: 60px !important;
-    height: 60px !important;
+    width: 30px !important;
+    height: 30px !important;
    border: 4px solid #000;
     bottom: 2px;
     right: 2px;
@@ -754,8 +754,8 @@ div[class*="switchEnabled"][class*=valueUnchecked] {
     right: 39px;
 }
 .container-iksrDt .avatar-small {
-   width: 29px;
-    height: 29px;
+   width: 49px;
+    height: 49px;
     background-size: cover;
     border: 3px inset #cc1111;
 }
