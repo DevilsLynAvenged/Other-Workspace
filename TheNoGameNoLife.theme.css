@@ -770,3 +770,9 @@ color: white !important;
     border-radius: 55px;
     font-size: 40px;
 }
+.message-group .avatar-large {
+ width: 112px;
+ height: 112px;
+ background-size: cover;
+ margin-left: 12px;
+}
