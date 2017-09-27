@@ -671,7 +671,7 @@ color: white !important;
     100% {border-radius: 5px;}
 }
 .channel-text-area-default [class*="inner-"], .channel-text-area-default [class*="autocomplete-"], .channel-text-area-default [class*="autocompleteInner-"], .channel-text-area-default [class*="selectorSelected-"] {
-    background-color: rgba(227, 79, 141, 0.3);
+    background-color: rgba(227, 79, 141, 0.3) !important;
 }
 .channel-text-area-default [class*="inner-"]:active, .channel-text-area-default [class*="autocomplete-"], .channel-text-area-default [class*="autocompleteInner-"], .channel-text-area-default [class*="selectorSelected-"] {
     background-color: rgba(227, 79, 141, 0.6);
