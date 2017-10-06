@@ -257,18 +257,18 @@
 .quick-message::-webkit-input-placeholder {
     color: #cc1111 !important;
 }
+.note textarea:focus {
+    background: #000;
+}
+.note textarea {
+    color: red;
+}
 .quick-message {
-    border: 2px outset #333333;
+    border: 2px outset #333;
     background: #000;
     border-radius: 13px;
-    width: 100%;
-    font-size: 14px;
-    line-height: 18px;
-    padding: 8px 10px;
-    resize: none;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    outline: none;
+    color: red;
+    font-weight: bold;
 }
 .member-roles .member-role {
     cursor: default;
@@ -778,6 +778,4 @@ div[class*="switchEnabled"][class*=valueUnchecked] {
   .theme-dark .inner-3if5cm {
     background-color: rgba(114, 0,  0, 0.4);
 }
-.note textarea:focus {
-    background: #000;
-}
+
