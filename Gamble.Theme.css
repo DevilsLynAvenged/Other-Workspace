@@ -778,3 +778,6 @@ div[class*="switchEnabled"][class*=valueUnchecked] {
   .theme-dark .inner-3if5cm {
     background-color: rgba(114, 0,  0, 0.4);
 }
+.note textarea:focus {
+    background: #000;
+}
