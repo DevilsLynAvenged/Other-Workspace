@@ -2358,7 +2358,7 @@ color: white;
 }
 /* Upload Modal(Easier One to Get)*/
 .upload-modal .inner .file .icon.image {
-    border: 5px solid #498415;
+    border: 5px solid white;
     border-radius: 1px;
     background-size: cover;
     -webkit-box-shadow: 0 2px 8px rgba(0,0,0,.4);
