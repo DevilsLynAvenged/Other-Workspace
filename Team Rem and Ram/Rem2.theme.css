@@ -654,7 +654,7 @@ border: 3px solid #a3c5f5;
     font-style: italic;
 }
 ::-webkit-input-placeholder {
-	color: #a3c5f5 !important;
+	color: white !important;
 }
 .channel-text-area-default [class*="inner-"], .channel-text-area-default [class*="autocomplete-"], .channel-text-area-default [class*="autocompleteInner-"], .channel-text-area-default [class*="selectorSelected-"] {
 	background-color: rgba(0,0,0,0.4);
@@ -669,7 +669,7 @@ border: 3px solid #a3c5f5;
     border-radius: 14px;
  }
 .theme-dark .textArea-20yzAH {
-    color: #a3c5f5;
+    color: white;
 }
 .theme-dark .message-group .edit-message .edit-operation {
     color: white;
