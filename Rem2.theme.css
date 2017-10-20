@@ -369,8 +369,7 @@ s:hover, strike:hover, del:hover {
 }
 .theme-dark .message-group .comment .markup {
 	color: white;
-	font-size: 13px;
-	background-clip: text;
+        background-clip: text;
 	text-shadow: 3px 2px 4px black;
 }
 .chat>.content .messages .message-group h2 .user-name {
@@ -502,8 +501,8 @@ s:hover, strike:hover, del:hover {
     opacity: 1;
 }
 .message-group .avatar-large {
-	width: 62px;
-	height: 62px;
+	width: 32px;
+	height: 32px;
 	background-size: cover;
     border-radius: 14%;
     margin-left: 3%;
