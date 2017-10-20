@@ -1488,7 +1488,7 @@ s:hover, strike:hover, del:hover {
 	margin: inherit;
 	left: 63%;
 	top: 144px !important;
-	background: #F4ABC3;
+	background: #ffab00;
  }
 .popout .status-dnd {
 	width: 52px;
@@ -1609,7 +1609,7 @@ s:hover, strike:hover, del:hover {
 	right: -3px;
 	width: 17px;
     border: 1px solid black !important;
-    background: #F4ABC3;
+    background: #ffab00;
     border-radius: 14%;
 }
 .channel-members .avatar-small .status-dnd {
@@ -1642,7 +1642,7 @@ s:hover, strike:hover, del:hover {
 }
 .private-channels .status-idle {
     border: 2px solid black;
-    background: #F4ABC3;
+    background: #ffab00;
     border-radius: 14%;
 }
 .private-channels .status-dnd {
@@ -1689,7 +1689,7 @@ s:hover, strike:hover, del:hover {
 }
 #friends .friends-table .friends-row .friends-column-status .status-idle {
    border: 2px solid black;
-    background: #F4ABC3;
+    background: #ffab00;
      width: 22px;
     height: 22px;
     border-radius: 14%;
@@ -1706,7 +1706,7 @@ s:hover, strike:hover, del:hover {
     border-radius: 14%;
 }
 .status-idle {
-   background: #F4ABC3;
+   background: #ffab00;
     border-radius: 14%;
 }
 .status-dnd {
