@@ -1668,7 +1668,6 @@ s:hover, strike:hover, del:hover {
 }
 .theme-dark .message-group .comment .markup {
 	color: white;
-	font-size: 13px;
 	background-clip: text;
 	text-shadow: 3px 2px 4px black;
 }
