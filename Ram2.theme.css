@@ -1497,7 +1497,7 @@ s:hover, strike:hover, del:hover {
 	margin: inherit;
 	left: 147%;
 	top: 72px !important;
-	background: #e84a7f;
+	background: #a6001a;
 }
 .popout .status-invisible {
 	width: 52px;
@@ -1619,7 +1619,7 @@ s:hover, strike:hover, del:hover {
 	right: -3px;
 	width: 17px;
     border: 2px solid black !important;
-    background:#e84a7f;
+    background:	#a6001a;
     border-radius: 14%;
 }
 .channel-members .status-streaming{
@@ -1647,7 +1647,7 @@ s:hover, strike:hover, del:hover {
 }
 .private-channels .status-dnd {
     border: 2px solid black;
-    background:#e84a7f;
+    background:	#a6001a;
     border-radius: 14%;
 }
 .private-channels .status-offline {
@@ -1695,7 +1695,7 @@ s:hover, strike:hover, del:hover {
 }
 #friends .friends-table .friends-row .friends-column-status .status-dnd {
    border: 2px solid black;
-    background:#e84a7f;
+    background:	#a6001a;
      width: 22px;
     height: 22px;
     border-radius: 14%;
@@ -1709,7 +1709,7 @@ s:hover, strike:hover, del:hover {
     border-radius: 14%;
 }
 .status-dnd {
-    background:#e84a7f;
+    background:	#a6001a;
     border-radius: 14%;
 }
 .status-invisible, .status-offline {
