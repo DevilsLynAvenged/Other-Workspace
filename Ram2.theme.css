@@ -1231,8 +1231,8 @@ u:hover, ins:hover {
 	width: 100%;
 }
 .message-group .avatar-large {
-	width: 62px;
-	height: 62px;
+	width: 32px;
+	height: 32px;
 	background-size: cover;
     border-radius: 14%;
     margin-left: 3%;
