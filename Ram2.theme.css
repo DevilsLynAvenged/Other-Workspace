@@ -1478,7 +1478,7 @@ s:hover, strike:hover, del:hover {
 	margin: inherit;
 	left: -20%;
 	top: 216px !important;
-	background: #00FF00;
+	background: #004d33;
     
 }
 .popout .status-idle {
@@ -1488,7 +1488,7 @@ s:hover, strike:hover, del:hover {
 	margin: inherit;
 	left: 63%;
 	top: 144px !important;
-	background: #ffab00;
+	background: #ee9600;
  }
 .popout .status-dnd {
 	width: 52px;
@@ -1600,7 +1600,7 @@ s:hover, strike:hover, del:hover {
 	right: -3px;
 	width: 17px;
     border: 1px solid black !important;
-    background: #00FF00;
+    background: #004d33;
  }
 .channel-members .avatar-small .status-idle {
 	
@@ -1609,7 +1609,7 @@ s:hover, strike:hover, del:hover {
 	right: -3px;
 	width: 17px;
     border: 1px solid black !important;
-    background: #ffab00;
+    background: #ee9600;
     border-radius: 14%;
 }
 .channel-members .avatar-small .status-dnd {
@@ -1637,12 +1637,12 @@ s:hover, strike:hover, del:hover {
 
 .private-channels .status-online {
     border: 2px solid black;
-    background: #00FF00;
+    background: #004d33;
     border-radius: 14%;
 }
 .private-channels .status-idle {
     border: 2px solid black;
-    background: #ffab00;
+    background: #ee9600;
     border-radius: 14%;
 }
 .private-channels .status-dnd {
@@ -1680,7 +1680,7 @@ s:hover, strike:hover, del:hover {
 /* Friends Table Status */
 #friends .friends-table .friends-row .friends-column-status .status-online {
    border: 2px solid black;
-    background: #00FF00;
+    background: #004d33;
     width: 22px;
     height: 22px;
     border-radius: 14%;
@@ -1688,7 +1688,7 @@ s:hover, strike:hover, del:hover {
 }
 #friends .friends-table .friends-row .friends-column-status .status-idle {
    border: 2px solid black;
-    background: #ffab00;
+    background: #ee9600;
      width: 22px;
     height: 22px;
     border-radius: 14%;
@@ -1701,11 +1701,11 @@ s:hover, strike:hover, del:hover {
     border-radius: 14%;
 }
 .status-online {
-    background-color: #00FF00;
+    background-color: #004d33;
     border-radius: 14%;
 }
 .status-idle {
-   background: #ffab00;
+   background: #ee9600;
     border-radius: 14%;
 }
 .status-dnd {
@@ -1730,7 +1730,7 @@ s:hover, strike:hover, del:hover {
     border-color: black;
 }
 .statusOnline-1Mp2_H {
-    background-color: #f08eaf;
+    background-color: #004d33;
     border-radius: 14%;
     margin-right: 5px;
 } 
@@ -1739,7 +1739,7 @@ s:hover, strike:hover, del:hover {
     border-color: black;
 }
 .statusIdle-2AQdvu {
-    background-color: #F4ABC3;
+    background-color: #ee9600;
     border-radius: 14%;
     margin-right: 5px;
 }
