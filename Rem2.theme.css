@@ -156,8 +156,8 @@ s:hover, strike:hover, del:hover {
     width: 7px;
 }
 .channel-members .avatar-small {
-	width: 43px;
-	height: 43px;
+	width: 34px;
+	height: 34px;
 	background-size: cover;
 	border-radius: 14%;
     border: 3px solid #9FC3F5;
