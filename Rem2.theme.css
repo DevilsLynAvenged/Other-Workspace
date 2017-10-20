@@ -7,6 +7,7 @@
 	text-shadow: 1px 5px 15px #000000, 1px 5px 6px #000000;
     font-size: 70%;
     text-align: center;
+	
 }
 .channel-members .member .member-activity strong {
 	font-weight: normal;
@@ -484,8 +485,8 @@ s:hover, strike:hover, del:hover {
     width: 30px;
 }
 .icon-3XfMwL {
-    min-width: 33px;
-    width: 33px;
+    min-width: 35px;
+    width: 35px;
 }
 .theme-dark .description-YnaVYa, .theme-dark .descriptionUsername-1quCGz, .theme-dark .contentTitle-sL6DrN {
     color: #a3c5f5;
