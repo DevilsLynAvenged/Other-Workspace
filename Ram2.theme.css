@@ -1093,7 +1093,7 @@ font-weight: bold;
 .header-toolbar .toolbar-badge {
 	background-color: #F4ABC3;
 	border: 2px solid black;
-	border-radius: 14%;
+	border-radius: 50%;
 	box-shadow: none;
 	height: 40%;
 	position: absolute;
@@ -1240,11 +1240,11 @@ u:hover, ins:hover {
     border: 4px solid #f08eaf;
 }
 .emoji {
-    min-height: 72px;
-    min-width: 72px;
+    min-height: 32px;
+    min-width: 32px;
     border-radius: 14px; 
     box-shadow: -9px 11px 26px 0px rgba(0,0,0,0.75);
-    border: 3px solid #f08eaf;
+    border: 2px solid #f08eaf;
 }
 #user-profile-modal .guilds .avatar-large {
     border-radius: 14px; 
@@ -1478,7 +1478,7 @@ s:hover, strike:hover, del:hover {
 	margin: inherit;
 	left: -20%;
 	top: 216px !important;
-	background: #ca1c56;
+	background: #00FF00;
     
 }
 .popout .status-idle {
@@ -1600,7 +1600,7 @@ s:hover, strike:hover, del:hover {
 	right: -3px;
 	width: 17px;
     border: 1px solid black !important;
-    background: #ca1c56;
+    background: #00FF00;
  }
 .channel-members .avatar-small .status-idle {
 	
@@ -1637,7 +1637,7 @@ s:hover, strike:hover, del:hover {
 
 .private-channels .status-online {
     border: 2px solid black;
-    background: #f08eaf;
+    background: #00FF00;
     border-radius: 14%;
 }
 .private-channels .status-idle {
@@ -1662,26 +1662,26 @@ s:hover, strike:hover, del:hover {
 }
 .theme-dark .message-group h2 span {
     color: white;
-	font-size: 21px;
+	font-size: 13px;
 	background-clip: text;
 	text-shadow: 3px 2px 4px black;
 }
 .theme-dark .message-group .comment .markup {
 	color: white;
-	font-size: 23px;
+	font-size: 13px;
 	background-clip: text;
 	text-shadow: 3px 2px 4px black;
 }
 .chat>.content .messages .message-group h2 .user-name {
     color: rgba(255, 255, 255, 0.8);
-    font-size: 23px;
+    font-size: 17px;
 	background-clip: text;
 	text-shadow: 3px 2px 4px black;
 }
 /* Friends Table Status */
 #friends .friends-table .friends-row .friends-column-status .status-online {
    border: 2px solid black;
-    background: #f08eaf;
+    background: #00FF00;
     width: 22px;
     height: 22px;
     border-radius: 14%;
@@ -1702,7 +1702,7 @@ s:hover, strike:hover, del:hover {
     border-radius: 14%;
 }
 .status-online {
-    background-color: #f08eaf;
+    background-color: #00FF00;
     border-radius: 14%;
 }
 .status-idle {
