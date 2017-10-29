@@ -1,0 +1,781 @@
+.chat .content .messages .message-group .avatar-large {
+    background-size: cover;
+    width: 65px;
+    height: 65px;
+    border: 4px solid #cc1111;
+}
+.chat .content .messages .message-group .avatar-large:hover{
+    width: 65px;
+    height: 65px;
+    opacity: 1;
+    position: relative;
+    right: -14px;
+    filter:saturate(2);
+    border: 4px solid #cc1111;
+}
+/* Theme Stuff */ 
+.channel-text-area-default [class*="textArea-"], .channel-text-area-default [class*="selector-"] [class*="marginLeft8-"] {
+    color: #cc1111;
+}
+.message-group .btn-reaction {
+    background: url(data:image/png;base64,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) 60% no-repeat;
+    opacity: 1;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+.message-group .comment>div:hover .btn-reaction, .message-group .comment>div:hover .btn-option {
+    opacity: 1;
+}
+.message-group .btn-option {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAA5klEQVRoQ+2YsRGDMAxFocpGaTMAVTbJKNkkVQZIy0ZUcBTkuMTHyULGEveoJRn9JyThtgn+tMHfvyGB2gQhAIGdCiRL6HZ/j1txP6/OTemRwEzq2Q+bxHZWydf9cb38CW5CgASEiCCwCEUXEpaMxMxNP5e8bMqGBLTKWflBwEpJbRyTSaw93MKPBNwvc8vUXf8j/E5i18tc+ARSH1ooApIELLqJNsY5u5BWjRp+rBI1VF+fCQGXBLiZOxCLyRxwvQtJJjEJCEuOmzlu5oSlkmPGJM5Rq4QtBEqomhMTAjlqlbANT2ACZSyYMQ7KHHoAAAAASUVORK5CYII=) 50% no-repeat;
+    opacity: 1;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+.channel-text-area-default [class*="inner-"], .channel-text-area-default [class*="autocomplete-"], .channel-text-area-default [class*="autocompleteInner-"], .channel-text-area-default [class*="selectorSelected-"] {
+    background: #000000;
+    border: 6px outset #000;
+}
+
+.theme-dark .attachButtonForeground-3VZiXQ {
+    fill: transparent;
+    opacity: 1;
+}
+.attachButton-Di6YUh {
+    opacity: 1;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAACVUlEQVRIS+2UwYsSYRjG33HWCDclFcoQqUARnY4hHUSzOokwItqkf0G1RYcgwbsX6xS1/gXipMKgIB4CI0UQ9pjrDtql0h0vTqS5grJNjGjsDo4zQ3vc9zTD97zP73vm+95BQFmhFEV9UKlUf3Acf6ikFVEgRrvdbt9qtV7leyqVStXv99+X2y8XpO50Oj9sNtsCsqpSqfQZx/G7cmByQGqapnt2u/3KOkOKouqhUMgjBZMCbYSszOXANoG2aJruiyURJpCCiYEUQeQkWwdCaZo+lJtEbjIhCG21Wl8xDLshdbib1svl8qdAIHDvpOYUKJlMvkkkEi//B7LqTaVSr+Px+KvVuzDRBQBwAsDWUnCT47icHDCCIGEA+LbUHgPAPgDMxEBCT4zjuJZMEAYAbTGt1Bydg84/3b+74+Q4jr+mkoUgCD8WB5tu3W0AuAgAXwDgl0B4fTQadbRaLT9fojUej2c6nc4GAN8FossAcAsAjhCGYSYmk0lDkmQ6Go0+FbpVq9U9n8/Hb0a0arXantfrdQkFmUwmHYvFHg8GgyNkOBz+NhgM24VC4X0kEnm2xg2p1+tNh8OBGY3G7ZPrw+Fw0m639z0ezx0A4IS9+Xz+XTgc3mFZdiIHxPfzg30NADTL55XnBAAOxaKeArEsO9br9ZeKxeLbYDD4QvLUFQgoiuI9ny8S9Xo91mw265vN5gHDMB/n8zmqwEtUiqLoscVieeByuZz9fv8nQpLkLkEQT87CXMwjl8vtLn6q2Ww27Xa7H2k0GvVZAqfT6azRaGQJgtj5C5gCAGEzC3tYAAAAAElFTkSuQmCC) !important;
+    background-size: cover;
+}
+.channel-members .avatar-small {
+   margin-bottom: 9px;
+   border: 5px solid blue; 
+  border: 5px outset #cc1111;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+}
+.status-online {
+    background-image: url(https://www.chipsandgames.com/images/products/detail/201gr.png) !important;
+    background-size: cover;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 100px !important;
+   
+ }
+.status-idle {
+    background-image: url(https://www.chipsandgames.com/images/products/detail/213yl.png) !important;
+    background-size: cover;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 100px !important;
+    
+ }
+.status-dnd {
+    background-image: url(https://www.chipsandgames.com/images/products/detail/209rd.png) !important;
+    background-size: cover;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 100px !important;
+    
+ }
+.status-invisible, .status-offline {
+    background-image: url(https://www.chipsandgames.com/images/products/detail/213wt.png) !important;
+    background-size: cover;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 100px !important;
+    
+ }
+.status-streaming {
+    background-image: url(http://www.chipsandgames.com/images/products/detail/209pr.png) !important;
+    background-size: cover;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 100px !important;
+   
+ }
+
+.chat .new-messages-bar button, .chat .new-messages-bar button:last-child, .chat .divider.divider-red>span {
+    text-align: left;
+    background: none;
+    color: #fff;
+    font-weight: 500;
+    background: #cc1111;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding: 6px 10px;
+    line-height: 14px;
+}
+.avatarStatusIdle-3ADLtR { 
+    background-image: url(https://www.chipsandgames.com/images/products/detail/213yl.png) !important;
+    background-size: cover;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 100px !important;
+    border: 2px solid black !important;
+    
+}
+.avatarStatusDnd-31uU1Q { 
+    background-image: url(https://www.chipsandgames.com/images/products/detail/209rd.png) !important;
+    background-size: cover;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 100px !important;
+    border: 2px solid black !important;
+    
+}
+.avatarStatusOnline-3Io--E { 
+     background-image: url(https://www.chipsandgames.com/images/products/detail/201gr.png) !important;
+    background-size: cover;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 100px !important;
+    border: 2px solid black !important;
+    
+}
+.header-3mZJcV .avatarStatusInvisible-135znp { 
+    background-image: url(https://www.chipsandgames.com/images/products/detail/213wt.png) !important;
+    background-size: cover;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 100px !important;
+    border: 2px solid black !important;
+    
+}
+.avatarStatusStreaming-3lGjGk { 
+     background-image: url(http://www.chipsandgames.com/images/products/detail/209pr.png) !important;
+    background-size: cover;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 100px !important;
+    border: 2px solid black !important;
+   
+} 
+#user-profile-modal .scroller, #user-profile-modal .tab-bar-container {
+    background: #111111;
+    border: 1px solid #111111;
+}
+.avatar-profile .status {
+    width: 30px !important;
+    height: 30px !important;
+   border: 4px solid #000;
+    bottom: 2px;
+    right: 2px;
+}
+#user-profile-modal .header:after {
+   background-size: cover;
+     background-attachment: absolute;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-image: url(http://images.picstatio.com/u/5a5b45/tablet_cute-art-anime-girl-Jabami-Yumeko.jpg)!important;
+}
+#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name, #user-profile-modal .tab-bar .tab-bar-item{
+    color: #cc1111;
+}
+#user-profile-modal .tab-bar .tab-bar-item.selected {
+    color: #cc1111;
+    font-weight: bold;
+    border-bottom-color: #cc1111;
+}
+#user-profile-modal .guilds .section .connected-accounts .connected-account {
+    border-radius: 7px;
+    border: 1px solid #cc1111;
+}
+#user-profile-modal .guilds .section+.section {
+    border-top: 1px solid #cc1111;
+}
+#user-profile-modal .guilds .section .connected-accounts .connected-account a .connected-account-open-icon {
+    width: 50px;
+    height: 50px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    background-size: cover;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAABu0lEQVRoQ+2Z4W3CQAyFn5UOYCYpSBmgm5QN2g3abkAnaDpJF6CiTBLzv8jVqUSiCHo2HEeCjr/x2f7e84UkR7iSH10JBwpI35wsjgzSkQUzfwNPBExBxFkgVEWB5gZ4mYhIrKZptObMMxA9xJKd5brqay3yGMttBWmDE5XqZCLyFUua4vqCebwmWkBVapFRLKcNZDTSkKhuW1N8rKj1+txR19SYJ6G1SUucp24BsSh6akxx5JCCHmVOdWF7vadu2SMplU8xCcWR4ohDgbLZU2w6h+DR0OJIcSQ6JMcFZB2trpi1Vc87TQFJvUc2Hy0+iGjc5e6tI4fg/0CoLkF0631dzjpa+0B2ISrgbk3UDgpkH0T4LuVRtxPHsybp0+8hiNCYp6mLgvwHMRiQGMQgQCwQvQexQvQaxAPRLxDV91pkGpryQlifw3bjPHc62+2XuckN4XXRBNIplcuJs/2P5Byn7fFKPlq5ndgI93vQA6zqto0e95lGa87cgOgeqsvwANid6X0yT5Xo7djNbFqX8ugtOLIGZhXwmBFiBdWmAp6THYaalLtwkGm0LtyjqXwBMcmUMag4klFsU6kfD0zpQjh2YTAAAAAASUVORK5CYII=) no-repeat 50%;
+}
+#user-profile-modal .guilds .section .note textarea {
+    color: #cc1111 !important;
+    font-size: 14px;
+    line-height: 16px;
+    background: transparent;
+}
+#user-profile-modal .guilds .section .note textarea::-webkit-input-placeholder, #user-profile-modal .guilds .section .section-header, ::-webkit-input-placeholder {
+  color: #cc1111 !important;
+}
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .username {
+    color: #cc1111;
+    font-weight: bold;
+}
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator {
+    font-size: 36px;
+    color: #cc1111;
+    position: relative;
+    left: 12px !important;
+}
+#user-profile-modal .header .header-info .header-info-inner .activity {
+    width: 250px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4f545c;
+    padding-top: 4px;
+}
+#user-profile-modal .header .header-info .header-info-inner .activity {
+   color: #cc1111 !important;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 16px;
+    color: #4f545c;
+    padding-top: 4px;
+}
+#user-profile-modal .header .header-info .header-info-inner .activity strong {
+   color: #cc1111 !important;
+    font-size: 14px;
+    font-weight: bold;
+}
+.channel-members .member .member-activity-text {
+    color: #cc1111;
+    font-style: italic;
+    font-weight: bold;
+}
+.body-3rkFrF {
+    padding: 10px;
+    background-color: #111111;
+}
+.footer-2J5zqP {
+    border-top-color: #111111;
+    background: #111111;
+}
+.theme-dark .chat form .typing span {
+    color: rgba(255, 255, 255, 0.8);
+}
+.typing .text {
+    display: inline-block;
+    }
+
+.quick-message::-webkit-input-placeholder {
+    color: #cc1111 !important;
+}
+.note textarea:focus {
+    background: #000;
+}
+.note textarea {
+    color: red;
+}
+.quick-message {
+    border: 2px outset #333;
+    background: #000;
+    border-radius: 13px;
+    color: red;
+    font-weight: bold;
+}
+.member-roles .member-role {
+    cursor: default;
+    background-color: #000;
+    border-radius: 100px;
+    border: 1px outset #333333;
+    font-size: 12px;
+    line-height: 12px;
+    color: #cc1111;
+    font-weight: bold;   
+}
+
+
+.body-3rkFrF .note-3Zfyi2 textarea::-webkit-input-placeholder {
+    color: #cc1111 !important;
+}
+.bodyTitleText-hSiL7d {
+    color: #cc1111;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.headerNormal-1cioxU {
+    background: url(https://images2.alphacoders.com/854/854421.png);
+    background-size: cover;
+}
+.avatarNormal-3luwna {
+    border-color: #111111;
+}
+.ui-standard-sidebar-view .bda-slist li:nth-child(odd) {
+    background: #111111;
+    border-top: 1px solid #cc1111;
+}
+.bda-slist .bda-name, .ui-standard-sidebar-view .bda-slist .bda-description {
+  color: #cc1111;
+  border-top: 1px solid #000;
+}
+
+.ui-standard-sidebar-view .bda-slist li {
+    background: #000000;
+    border-bottom: 1px solid #cc1111;
+}
+.itemBrand-mC9YR4 {
+    color: #cc1111;
+    font-weight: bold;
+}
+.app a, .connecting a {
+  color: #cc1111;
+    font-weight: bold;
+}
+.theme-dark .itemDefault-3NDwnY:hover {
+    border: 5px solid #000;
+    background-color: #121111;
+    color: #cc1111;
+}
+.barFill-18ABna {
+    background: #cc1111;
+    height: 100%;
+}
+#bd-settings-sidebar .ui-tab-bar-item:hover {
+    border: 5px solid #000;
+    background-color: #121111;
+    color: #cc1111;
+}
+#bd-settings-sidebar .ui-tab-bar-item.selected {
+    border: 5px solid #000;
+    background-color: #121111;
+    color: #cc1111;
+}
+
+
+div[class*="switchEnabled"][class*=valueChecked] {
+    background-color: #cc1111;
+ }
+div[class*="switchEnabled"][class*=valueUnchecked] {
+    background-color: #994444;
+}
+[class*="barFill-18ABna"][style*="background: rgb(105, 196, 154)"]
+{
+    background: #cc1111 !important;
+}
+[class*="bar-2cFRGz"][style*="background: rgb(251, 184, 72)"]
+{
+    background: #000 !important;
+}
+.theme-dark .bar-2cFRGz {
+    background: #000;
+}
+.tooltip-right:after {
+    border-right-color: #cc1111 !important;
+}
+.tooltip-top:after {
+    border-top-color: #cc1111 !important;
+}
+.tooltip-bottom:after {
+    border-bottom-color: #cc1111 !important;
+}
+.tooltip {
+  background-color: #000;
+    border: 2px inset #555;
+    border-radius: 10px;
+   color: #cc1111;
+}
+[layer-id="user-settings"] input[type="checkbox"]:checked + div polyline {
+    stroke: #cc1111;
+}
+.cardPrimaryEditable-2IQ7-V[style*="background-color: rgb(114, 137, 218);"],
+.radio-item.checked[style*="background-color: rgb(114, 137, 218);"],
+.theme-light .ui-card-primary.checked {
+    background-color: #000 !important;
+    border: solid 4px #cc1111 !important;
+}
+.buttonBrandFilled-3Mv0Ra, .itemDefaultSelected-1UAWLe, #bd-settings-sidebar .ui-tab-bar-item.selected {
+    color: #cc1111;
+    background-color: #121111;
+    border: 1px outset gray;
+}
+.buttonBrandFilled-3Mv0Ra:hover, .itemDefaultSelected-1UAWLe:hover, #bd-settings-sidebar .ui-tab-bar-item.selected:hover {
+    color: #cc1111;
+    background-color: #121111;
+    border: 2px inset gray;
+}
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
+   background: #994444;
+}
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked {
+    background: #cc1111;
+}
+.bd-pfbtn, .ui-standard-sidebar-view .bda-slist .bda-right button{
+    background: #000;
+    color: #cc1111;
+    font-size: 15px;
+    font-weight: bold;
+}
+.ui-standard-sidebar-view #editor-detached button {
+    background: #000;
+    color: #cc1111;
+    font-size: 35px;
+    font-weight: bold;
+}
+::-webkit-scrollbar-track {
+   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	background-color: transparent;
+    display: none;
+ }
+
+::-webkit-scrollbar
+{
+	width: 5px !important;
+	background-color: transparent;
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb
+{
+    border: 0px solid #cc1111 !important;
+	border-radius: 10px;
+    background-color: transparent !important;
+}
+.scrollbarGhost-K_3Xa9::-webkit-scrollbar-track-piece 
+{
+    background-color: transparent !important;
+    border-radius: 10px;
+}
+.badge { 
+    background-image: url(http://www.chipsandgames.com/images/products/detail/209bk.png) !important;
+    background-size: cover;
+    background-position: center;
+  position: relative;
+    height: 16px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 14px;
+    width: 16px;
+    text-align: center;
+    padding-bottom: 2px;
+    clip-path: circle(50% at 50% 50%);
+    background-size: cover;
+    margin-bottom: 2px !important;
+}
+.new-messages-indicator.new-messages-indicator-mention {
+    background-image: url(https://www.chipsandgames.com/images/products/detail/209rd.png) !important;
+    background-size: cover;
+    color: transparent;
+    border-radius: 25px;
+    margin-bottom: 19px;
+    left: 16px;
+    opacity: 1;
+    width: 45px;
+    height: 45px;
+} 
+.new-messages-indicator .icon.icon-unread-arrow {
+   margin-left: -23px;
+    width: 22px !important;
+    height: 22px !important;
+    background-size: cover;
+    opacity: 1;
+}
+
+#instant-invite-modal .clipboard-input-inner input {
+    color: #cc1111;
+    background: #000;
+    font-size: 24px;
+    border: 3px outset #cc1111;
+    
+}
+#instant-invite-modal .form-header header {
+    color: #cc1111;
+    font-size: 18px;
+    line-height: 24px;
+}
+#instant-invite-modal .blurb {
+    font-size: 14px;
+    color: #cc1111;
+    opacity: 1;
+}
+#instant-invite-modal .expire-text {
+   font-size: 19px;
+   color: #cc1111;
+}
+.form.deprecated .form-inner {
+    background-color: #000;
+    color: #cc1111;
+}
+.form.deprecated .form-header {
+    background: #000;
+ }
+#instant-invite-modal .form-actions {
+   color: #cc1111;
+    background-color: #000;
+ }
+#instant-invite-modal .copy {
+   background-color: #000;
+    color: #cc1111;
+}
+.clipboard-input-inner button:first-of-type:before {
+    background: transparent;
+    border-right-color: #cc1111;
+}
+.clipboard-input-inner {
+    border: 3px outset #333333;
+    border-radius: 9px;
+ }
+#instant-invite-modal-advanced .form-actions {
+    background-color: #cc1111;
+}
+.popout-menu {
+    background: black;
+ }
+.theme-dark .attachButtonPlus-2l1NEU {
+    fill: transparent;
+}
+.foreground-2zy1hc {
+    fill: transparent;
+    opacity: 1;
+}
+.background-2nyTH_ {
+    fill: transparent;
+}
+.unread-23Kvxk {
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    clip-path: circle(50% at 50% 50%);
+    top: 27%;
+    border-radius: 100px;
+    left: 3%;
+    margin-top: -4px;
+   background-size: cover;
+   background-image: url(http://www.chipsandgames.com/images/products/detail/209rd.png) !important;
+ }
+.wrapper-2xO9RX {
+    background-image: url(http://www.chipsandgames.com/images/products/detail/209bk.png) !important;
+    background-size: cover;
+    background-position: center;
+    border-radius: 95px;
+    width: 12px;
+    height: 15px;
+    text-align: center;
+    clip-path: circle(50% at 50% 50%);
+}
+[class*="copybutton"][style*="color: rgb(131, 148, 150); border: 2px solid rgb(40, 43, 48); background-color: rgb(46, 49, 54);"] {
+    background: black !important;
+    border: 2px outset #222222 !important;
+    border-radius: 5px;
+    color: #cc1111 !important;
+}
+[class*="copybutton"][style*="color: rgb(131, 148, 150); border: 2px solid rgb(40, 43, 48); background-color: rgb(46, 49, 54);"]:hover {
+    background: black !important;
+    border: 2px inset #cc1111 !important;
+    border-radius: 5px;
+    color: #cc1111 !important;
+  }
+[class*="copybutton"][style*="color: rgb(131, 148, 150); border: 2px solid rgb(40, 43, 48); background-color: rgb(46, 49, 54);"]:focus {
+    background: black !important;
+    border: 2px inset #cc1111 !important;
+    border-radius: 5px;
+    color: #cc1111 !important;
+   animation: pulse 1s 3 backwards;
+ }
+ .theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code {
+    background: rgba(0,0,0,0.5);
+    border: 2px solid #cc1111;
+    border-radius: 15px;
+    overflow-x: auto;
+    font-size: 11px;
+    
+ }
+.guilds-wrapper .guilds .guild .guild-inner {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: transparent !important;
+}
+.guilds-wrapper .guilds .friends-icon {
+    width: 50px;
+    height: 50px;
+    background-image: url(http://www.chipsandgames.com/images/products/detail/209rd.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+ }
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:not(.selected) {
+    background-color: #111;
+    border: 1px outset #cc1111;
+    color: #cc1111;
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
+   box-shadow: 1px 1px 13px 4px rgba(204,17,17,1);
+    background: #111;
+}
+#friends .friends-table .friends-table-body, #friends .friends-table .friends-table-header, #friends .friends-header, .scrollerWrap-2uBjct {
+   background: rgba(0,0,0,0.7) !important;
+}
+
+.private-channels .channel .channel-name {
+    color: #8e0b0b;
+    opacity: 1;
+}
+.private-channels .channel .channel-name:hover, #friends .friends-table .friends-table-header .friends-column, .private-channels header , #friends .friends-table .friends-row .discord-tag .username, #friends .friends-table .friends-row .friends-column-status .status-text  { 
+    color: #cc1111 !important;
+    opacity: 1;
+}
+
+.private-channels .channel .channel-activity-text {
+    color: #cc1111;
+}
+#friends .friends-header .tab-bar .tab-bar-item {
+    background: black;
+    color: #cc1111 !important;
+}
+#friends .friends-header .tab-bar .tab-bar-item.selected {
+    background: #112 !important;
+    border: 1px solid #555566;
+}
+#friends .friends-table .friends-row .discord-tag .discriminator {
+    color: #ef2a2a;
+    opacity: 1;
+    font-style: italic;
+}
+.nameSelectedText-32NDX5, .nameDefault-Lnjrwm {
+    color: red;
+    border: 1px solid red;
+    text-align: center;
+    font-weight: bold;
+}
+.nameHoveredText-2FFqiz {
+    animation: pulse 1s infinite;
+    color: red;
+}
+.nameDefaultText-QoumjC, .nameDefaultVoice-1swZoh {
+    color: #bf0d0d !important;
+}
+.chat>.title-wrap.title-wrap-dark .channel-name, .header-1tSljs {
+    color: red;
+}
+.chat>.title-wrap>.title .channel-name .channel-icon {
+    color: transparent;
+ }
+.nameHoveredVoice-TIoHRJ {
+    color: red;
+    font-weight: bold;
+}
+.nameDefault-1I0lx8 {
+    color: #bf0d0d;
+}
+.nameHovered-28u_Fz, .nameSpeaking-3ROx9q {
+    color: red;
+    font-weight: bold;
+}
+.avatarSpeaking-3teDH6 {
+    
+    box-shadow: 0px 0px 2px 2px #cc1111, inset 0 0 1px 2.5px #000;
+}
+.nameSelectedVoice-XpjYTw { 
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
+.chat>.title-wrap.title-wrap-dark .topic {
+    color: red;
+ }
+ .upload-modal {
+    background-color: #000;
+    border-radius: 10px;
+    border: 2px solid #cc1111;
+}
+.upload-modal .inner {
+    border: 2px dashed #cc1111;
+    border-radius: 10px 10px 10px 10px;
+    color: #cc1111;
+}
+.theme-dark .message-group h2 span {
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+}
+.theme-brand .inner-3if5cm, .upload-modal .footer {
+    background: black;
+}
+.theme-brand .textArea-20yzAH {
+    color: #cc1111;
+    font-weight: bold;
+}
+.upload-modal .footer .button:first-child {
+   background-color: black;
+    color: #cc1111;
+ }
+.upload-modal .footer .button-primary {
+    color: #cc1111;
+    background-color: #111111;
+ }
+.guilds-wrapper .guilds .guild.unread:before {
+   background: #cc1111;
+ }
+.theme-dark .channel-members h2 {
+    color: #cc1111;
+    font-size: 14px; 
+    font-weight: bold;
+ }
+.channel-members .member {
+    background: transparent !important;
+}
+.theme-dark .channel-members .member:hover {
+    background: black !important;
+    border: 5px solid #cc1111;
+    border-radius: 10px;
+}
+.container-iksrDt {
+    height: 129px;
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+ }
+.theme-dark .message-group .comment .markup .mention {
+    background: black;
+    color: red;
+}
+.theme-dark .message-group .comment .markup .mention:hover {
+    background: black;
+    color: red;
+    border: 3px solid;
+    border-radius: 10px;
+}
+.accountDetails-15i-_e .username {
+    overflow: visible;
+    position: relative;
+    top: 46px;
+    right: 39px;
+    font-size: 19px;
+    text-align: center;
+    font-weight: bold;
+}
+.accountDetails-15i-_e .discriminator {
+    display: block;
+    padding-top: 1px;
+    opacity: 0.8;
+    font-size: 10px;
+     position: relative;
+    top: 46px;
+    right: 39px;
+}
+.container-iksrDt .avatar-small {
+   width: 49px;
+    height: 49px;
+    background-size: cover;
+    border: 3px inset #cc1111;
+}
+.container-iksrDt .status {
+    border: 2px solid #292c31;
+    position: relative;
+    left: 75px;
+    width: 45px !important;
+    height: 45px !important; 
+}
+.button-1aU9q1{
+    opacity: 1;
+    background-color: rgba(124,0,0,0.2);
+    position: relative;
+    right: 19px;
+}
+.upload-modal .inner .file .icon.image {
+   border: 4px solid #cc1111;
+}
+  .theme-dark .inner-3if5cm {
+    background-color: rgba(114, 0,  0, 0.4);
+}
+
