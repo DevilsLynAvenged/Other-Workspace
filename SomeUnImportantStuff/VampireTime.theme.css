@@ -1,0 +1,613 @@
+.flex-spacer, .scroller-fzNley {
+   background: rgba(0,0,0,0.40);
+}
+ 
+.channel-text-area-default [class*="inner-"], .channel-text-area-default [class*="autocomplete-"], .channel-text-area-default [class*="autocompleteInner-"], .channel-text-area-default [class*="selectorSelected-"] {
+    background-color: rgba(74,44,82,0.5) !important;
+    border: 3px solid #411548;
+}
+.theme-dark .message-group:not(.has-divider) {
+    border-bottom-color: transparent;
+}
+.chat .new-messages-bar button:first-child {
+    text-align: left;
+    background: rgba(74,44,82,0.8);
+    border: 3px solid #411548;
+    border-right-color: transparent;
+    color: #fff !important;
+    line-height: 27px;
+}
+.chat .new-messages-bar button:last-child {
+    border-left-color: transparent !important;
+    background: rgba(74,44,82,0.8);
+    color: #fff;
+    border: 3px solid #411548;
+}
+.theme-dark .friends-table .messages .divider.divider-red>span, .theme-dark .messages-wrapper .messages .divider.divider-red>span {
+    background: rgba(74,44,82,1)  !important;
+    border: 3px solid #411548;
+    font-size: 24px;
+    letter-spacing: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+ }
+.autocompleteRow-31UJBI {
+    padding: 0 8px;
+    font-size: 14px;
+    line-height: 29px;
+}
+.marginLeft8-34JoM2 {
+    margin-left: 8px;
+    text-align: left;
+    
+}
+.icon-3XfMwL {
+    min-width: 56px;
+    width: 56px;
+}
+.xsmall-2rXiD4 {
+    width: 75px;
+    height: 75px;
+}
+.theme-dark .channel-members .avatar-small .status {
+    border-color: transparent;
+    background: transparent;
+}
+.theme-dark .channel-members .avatar-small .status:hover {
+    border-color: transparent;
+    background: transparent;
+}
+
+.status.status-typing {
+    width: 60px!important;
+    margin-right: 25px!important;
+}
+.spinner {
+   margin-top: -3.1px;
+    margin-right: -4px;
+}
+.headerNormal-1cioxU {
+    background:  url(https://i.pinimg.com/originals/6f/c9/3c/6fc93cc85ee33d26a7d71cc13b971ac7.jpg);
+    background-size: 350px 293px;
+}
+.body-3rkFrF  {
+    background-color: rgba(74,44,82,0.4);
+    padding: 10px;
+    border-bottom: 1px solid #000;
+}
+.footer-2J5zqP {
+    background-color: rgba(74,44,82,0.4); 
+}
+.member-roles .member-role {
+    cursor: default;
+    background-color: rgba(74,44,82,0.7);
+    border-radius: 3px;
+    border: 4px solid black;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    border-radius: 12px;
+}
+.avatar-1jmnc- {
+    border: 4px solid black;
+ }
+.popout-UKvsJt {
+    width: 90px;
+    height: 90px;
+}
+.avatar-1BXaQj {
+    background-clip: padding-box;
+    position: relative;
+    background-color: none;
+    background-position: 50%;
+    background-size: 100%;
+    border-radius: 20%;
+   margin-left: -132px;
+  
+}
+.xsmall-2rXiD4 {
+    width: 75px;
+    height: 75px;
+    margin-left: 8px;
+}
+.avatarHint-2i5XWK {
+    position: absolute;
+  margin-left: -131px;
+    z-index: 2;
+    width: 95px;
+    border-radius: 20%;
+ }
+
+.quick-message {
+    border: 1px solid black;
+    background: black;
+    border-radius: 8px;
+ }
+.contentSelectedText-3j5CXt {
+    border-left: 3px solid purple;
+}
+.contentUnreadText-3oxASB {
+   border-left: 3px solid darkviolet;
+    border-radius: 1px;
+    
+}
+.unread-23Kvxk {
+    display: none;
+}
+.contentHoveredText-2HYGIY {
+    border-left: 3px solid mediumpurple;
+}
+.bd-pfbtn {
+    background: #7646a0;
+    color: #FFF;
+    border-radius: 15px;
+ }
+#bd-settings-sidebar .ui-tab-bar-item.selected, .itemDefaultSelected-1UAWLe {
+    color: #fff;
+    background-color: transparent;
+    border-left: 3px solid purple;
+    border-right: 3px solid purple;
+    border-radius: 1px;
+}
+#bd-settings-sidebar .ui-tab-bar-item:hover, .theme-dark .itemDefault-3NDwnY:hover {
+    color: #f6f6f7;
+    background-color: transparent;
+    border-left: 3px solid mediumpurple;
+}
+.buttonBrandFilledDefault-2Rs6u5:hover {
+    background-color: #6e2e89;
+}
+.buttonBrandFilledDefault-2Rs6u5 {
+    background-color: #441e66;
+}
+.itemBrand-mC9YR4, .app a {
+    color: purple;
+}
+.ui-standard-sidebar-view #editor-detached button {
+    background: #441e66;
+    color: #FFF;
+    border-radius: 15px;
+    font-size: 40px;
+}
+.private-channels .status {
+    border: none;
+    background: none;
+}
+.theme-dark .channel-members .avatar-small .status-online {
+    background-image: url(https://i.imgur.com/2c7ma3a.png) !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    margin-right: 25px;
+ }
+.theme-dark .channel-members .avatar-small .status-idle {
+    background-image: url(https://i.imgur.com/e4smd0c.png) !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    margin-right: 25px;
+}
+.theme-dark .channel-members .avatar-small .status-dnd {
+    background-image: url(https://i.imgur.com/PiSf7BI.png) !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    margin-right: 25px;
+}
+.theme-dark .channel-members .avatar-small .status-streaming {
+    background-image: url(https://i.imgur.com/IQlj6QV.png) !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    margin-right: 25px;
+}
+.private-channels .status.status-offline {
+    background-image: url(https://i.imgur.com/mvRhfUr.png) !important;
+    background-size: 100% 100%;
+     background-repeat: no-repeat;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    left: 152px;
+}
+.private-channels .status.status-idle {
+    background-image: url(https://i.imgur.com/e4smd0c.png) !important;
+    background-size: 100% 100%;
+     background-repeat: no-repeat;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    left: 152px;
+}
+.private-channels .status.status-online {
+    background-image: url(https://i.imgur.com/2c7ma3a.png) !important;
+    background-size: 100% 100%;
+     background-repeat: no-repeat;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    left: 152px;
+ }
+.private-channels .status.status-dnd {
+    background-image: url(https://i.imgur.com/PiSf7BI.png) !important;
+    background-size: 100% 100%;
+     background-repeat: no-repeat;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    left: 152px;
+ }
+.private-channels .status.status-streaming {
+    background-image: url(https://i.imgur.com/IQlj6QV.png) !important;
+    background-size: 100% 100%;
+     background-repeat: no-repeat;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    left: 152px;
+}
+.container-iksrDt {
+    height:62px;
+    background: rgba(134, 0, 179, 0.2);
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+ }
+.container-3lnMWU {
+    background: rgba(134, 0, 179, 0.2);
+}
+.container-iksrDt .status {
+    border: none;
+    background: none;
+}
+.container-iksrDt .status.status-dnd {
+    background-image: url(https://i.imgur.com/PiSf7BI.png) !important;
+    background-size: 100% 100%;
+     background-repeat: no-repeat;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    left: 70px;
+    margin: auto;
+    top: 42px;
+ }
+.container-iksrDt .status.status-online {
+    background-image: url(https://i.imgur.com/2c7ma3a.png) !important;
+    background-size: 100% 100%;
+     background-repeat: no-repeat;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    left: 70px;
+    margin: auto;
+    top: 42px;
+ }
+.container-iksrDt .status.status-idle {
+    background-image: url(https://i.imgur.com/e4smd0c.png) !important;
+    background-size: 100% 100%;
+     background-repeat: no-repeat;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    left: 70px;
+    margin: auto;
+    top: 42px;
+ }
+.container-iksrDt .status.status-invisible {
+    background-image: url(https://i.imgur.com/mvRhfUr.png) !important;
+    background-size: 100% 100%;
+     background-repeat: no-repeat;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    left: 70px;
+    margin: auto;
+    top: 42px;
+ }
+.mention-RlZ5F3 {
+   background-color: rgba(124,1,171,.9);
+}
+.container-2SvV0F {
+   border-radius: 14px;
+    color: #fff;
+ }
+.badge {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    text-align: center;
+    background-color: rgba(124,1,171,.9);
+ }
+.wrapper-2xO9RX {
+    background-image: url(https://i.imgur.com/IQlj6QV.png) !important;
+    background: transparent;
+     background-size: cover;
+     background-repeat: no-repeat;
+    width: 32px;
+    height: 22px;
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    font-size: 19px;
+}
+[id*="bd-pub-button"][style*="line-height: 20px; font-size: 12px;"] {
+    background: rgba(114,1,181,0.9);
+}
+.guilds-wrapper .guilds .friends-icon {
+    background-image: url(https://i.imgur.com/4js3yn7.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    height: 50px;
+    width: 50px;
+}
+.theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code {
+    background: #111;
+    color: #fff;
+    font-size: 13px;
+    line-height: 24px;
+    border: 5px solid black;
+}
+.chat>.content .messages .message-group .markup pre {
+    background: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0) !important;
+}
+.channel-members .member:hover {
+    background: rgba(114, 1, 181, 0.27) !important;
+    border: none;
+}
+.status-3jUEha {
+   border: none;
+    background: none;
+}
+ .avatarStatusOnline-3Io--E {
+    background-image: url(https://i.imgur.com/2c7ma3a.png) !important;
+    background-size: cover;
+       width: 70px;
+    height: 40px;
+    position: absolute;
+    left: 20px;
+     bottom: -10px;
+}
+.avatarStatusStreaming-3lGjGk {
+    background-image: url(https://i.imgur.com/IQlj6QV.png) !important;
+    background-size: cover;
+       width: 70px;
+    height: 40px;
+    position: absolute;
+    left: 20px;
+     bottom: -10px;
+}
+.avatarStatusIdle-3ADLtR {
+      background-image: url(https://i.imgur.com/e4smd0c.png) !important;
+    background-size: cover;
+       width: 70px;
+    height: 40px;
+    position: absolute;
+    left: 20px;
+     bottom: -10px;
+}
+.avatarStatusDnd-31uU1Q {
+      background-image: url(https://i.imgur.com/PiSf7BI.png) !important;
+    background-size: cover;
+       width: 70px;
+    height: 40px;
+    position: absolute;
+    left: 20px;
+     bottom: -10px;
+}
+.avatarStatusOffline-3tuNny {
+      background-image: url(https://i.imgur.com/mvRhfUr.png) !important;
+    background-size: cover;
+       width: 70px;
+    height: 40px;
+    position: absolute;
+    left: 20px;
+     bottom: -10px;
+}
+#user-profile-modal {
+    background-image: url(http://technohouse.fm/wp-content/uploads/2012/05/13078430344971.jpg);
+    border-radius: 3px;
+ 
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    height: 546px;
+    min-height: 360px;
+    overflow: hidden;
+    position: relative;
+    width: 540px;
+}
+.avatar-profile .status-online {
+     background-image: url(https://i.imgur.com/PiSf7BI.png) !important;
+    background-size: cover;
+   border: none;
+     width: 70px;
+    height: 40px;
+    position: absolute;
+    left: 70px;
+     bottom: -10px;
+ }
+.avatar-profile .status-idle {
+     background-image: url(https://i.imgur.com/PiSf7BI.png) !important;
+    background-size: cover;
+   border: none;
+     width: 70px;
+    height: 40px;
+    position: absolute;
+    left: 70px;
+     bottom: -10px;
+ }
+.avatar-profile .status-dnd{
+     background-image: url(https://i.imgur.com/PiSf7BI.png) !important;
+    background-size: cover;
+   border: none;
+     width: 70px;
+    height: 40px;
+    position: absolute;
+    left: 70px;
+     bottom: -10px;
+ }
+.avatar-profile .status-offline {
+     background-image: url(https://i.imgur.com/mvRhfUr.png) !important;
+    background-size: cover;
+   border: none;
+     width: 70px;
+    height: 40px;
+    position: absolute;
+    left: 70px;
+     bottom: -10px;
+ }
+.status { 
+    background: none;
+  }
+.theme-dark .channel-members .member.popout-open .status, .theme-dark .channel-members .member:hover .status {
+    border: none !important;
+}
+.theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover {
+    background: rgba(0,0,0,0.4);
+}
+.theme-dark .message-group .comment .markup .mention {
+    background-color: rgba(70,0,70,0.5);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: white;
+    border: 6px solid black;
+    border-radius: 12px;
+}
+.theme-dark .message-group .comment .markup .mention:hover {
+    background-color: rgba(160,0,160,0.5);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: white;
+    border: 6px solid black;
+    border-radius: 12px;
+}
+.xsmall-2rXiD4 {
+    width: 35px;
+    height: 35px;
+    margin-left: 8px;
+}
+#user-profile-modal .tab-bar .tab-bar-item {
+   color: #3d0099;
+}
+.tab-bar.TOP .tab-bar-item {
+   font-size: 14px;
+    font-weight: bold;
+    color: #3d0099 !important;
+}
+.tab-bar.TOP .tab-bar-item.selected {
+    border-bottom: 2px solid #3d0099 !important;
+ }
+#user-profile-modal .guilds .section .connected-accounts .connected-account {
+    border-radius: 3px;
+    border: 1px solid purple;
+}
+#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name {
+    font-weight: bold;
+    font-size: 16px;
+    color: #3d0099;
+}
+#user-profile-modal .guilds .section .section-header {
+   color: #3d0099;
+}
+#user-profile-modal .header:after {
+   background-image: url(https://static.zerochan.net/Vampy.%28Shingeki.no.Bahamut%29.full.1952875.jpg) !important;
+   background-size: 120% 160%;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.upload-modal .footer {
+   background-color: #290066;
+ }
+.upload-modal .footer .button-primary {
+    color: #3d0099;
+}
+.upload-modal .footer .button:first-child {
+    background-color: #5200cc;
+   color: #944dff;
+}
+.upload-modal .inner {
+  border: 2px dashed white;
+   color: black;
+    font-weight: bold;
+}
+.upload-modal {
+    background: #3d0099;
+}
+
+.upload-modal .inner .file .icon.image {
+    border: 4px solid black;
+}
+.theme-brand .textArea-20yzAH {
+    color: black;
+}
+ .cardPrimaryEditable-2IQ7-V[style*="background-color: rgb(114, 137, 218);"],
+.radio-item.checked[style*="background-color: rgb(114, 137, 218);"],
+.theme-light .ui-card-primary.checked {
+    background-color: #3d0099 !important;
+    border: solid 4px black !important;
+    }
+.barFill-18ABna {
+    background: #3d0099;
+    height: 200%;
+}
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
+   background: red;
+}
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked {
+    background: white;
+}
+
+div[class*="switchEnabled"][class*=valueChecked] {
+    background-color: #3d0099;
+ }
+div[class*="switchEnabled"][class*=valueUnchecked] {
+    background-color: #7a00cc;
+}
+[class*="barFill-18ABna"][style*="background: rgb(105, 196, 154)"]
+{
+    background: #3d0099 !important;
+}
+[class*="bar-2cFRGz"][style*="background: rgb(251, 184, 72)"]
+{
+    background: #7a00cc !important;
+}
+.theme-dark .bar-2cFRGz {
+    background: #7a00cc;
+}
+.ui-standard-sidebar-view .bda-slist li {
+    background: #4c0080;
+    border-bottom: 2px solid black;
+}
+.ui-standard-sidebar-view .bda-slist li:nth-child(odd) {
+    background: #2e004d;
+    border-top: 2px solid black;
+}
+[layer-id="user-settings"] input[type="checkbox"]:checked + div polyline {
+    stroke: #3d0099;
+}
+[class*="checkbox-1QwaS4 center-1MLNrE flex-3B1Tl4 justifyCenter-29N31w alignCenter-3VxkQP box-XhjOl4 checked-2TahvT"][style*="border-color: rgb(114, 137, 218);"] {
+    border-color: black !important;
+}
+.ui-standard-sidebar-view .bda-slist .bda-right button {
+    background: purple;
+    color: #FFF;
+}
+.ui-standard-sidebar-view .bda-slist .bda-description, .bda-slist .bda-name {
+    font-weight: bold;
+    color: white;
+}
+
+
+
