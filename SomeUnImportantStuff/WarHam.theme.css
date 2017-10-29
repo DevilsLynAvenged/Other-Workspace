@@ -1,1 +1,1660 @@
 
+.theme-dark .channel-members h2 {
+	color: rgba(255, 255, 255, 0.6) !important;
+	background: rgba(99, 73, 23, 0.57);
+	padding-top: 12px;
+	padding-bottom: 12px;
+	box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.75);
+	text-shadow: 1px 5px 6px #000000;
+}
+.channel-members .member .member-activity strong {
+	font-weight: normal;
+	color: white;
+}
+.channel-members .member .member-activity-text {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: white;
+	padding-top: 7px;
+}
+[class*="embed-color-pill"] {
+	display: none;
+}
+.theme-dark .message-group .embed {
+	background-color: rgba(0, 0, 0, 0.17);
+	box-shadow: -1px 7px 5px 0px rgba(0, 0, 0, 0.75);
+	border-radius: 15px;
+}
+.embed .embed-author-icon {
+	border-radius: 5px;
+	height: 40px;
+	margin-right: 9px;
+	width: 40px;
+	box-shadow: -1px 7px 5px 0px rgba(0, 0, 0, 1);
+}
+.theme-dark .message-group .embed-wrapper .embed-color-pill {
+	background-color: transparent;
+}
+.chat .jump-to-present-bar button {
+	background: rgba(0, 0, 0, 0.77);
+	color: rgba(255, 255, 255, 0.6) !important;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-size: 124% !important;
+	font-weight: normal;
+	text-shadow: 1px 5px 6px #000000;
+}
+.chat .jump-to-present-bar .spinner {
+	padding-right: 7px;
+	background: black;
+}
+.theme-dark .channel-members .member.popout-open {
+	background: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.35);
+}
+.headerNormal-1cioxU {
+	background-image: url(https://vignette3.wikia.nocookie.net/warhammer40k/images/f/fe/391766a.jpg/revision/latest?cb=20100823035919);
+	background-size: cover;
+	background-position: center;
+}
+.body-3rkFrF,
+.footer-2J5zqP {
+	background: rgba(66, 48, 16, 0.77);
+}
+.headerStreaming-3F-wjT {
+	background: #330066;
+}
+.theme-dark .input-2YozMi:focus {
+	border-color: #A57927;
+}
+.member-roles .member-role {
+	background-color: currentColor!important;
+	border: 3.5px solid !important;
+	border-radius: 9px;
+}
+.member-roles .member-role .name {
+	color: #FFF;
+}
+.member-roles .member-role {
+	background-color: #000 !important;
+}
+.bodyTitleIconForeground-itKW-t {
+	fill: #B6852B;
+}
+.bodyTitleText-hSiL7d {
+	color: #B6852B;
+	text-transform: capitalize;
+}
+/* ==== Theme in Progress === */
+
+.channel-members .avatar-small {
+	width: 43px;
+	height: 43px;
+	background-size: cover;
+	border-radius: 44px;
+}
+/*  Private Channel Avatar Stuff */
+
+.avatar-small .status {
+	border-radius: 55px;
+	bottom: -3px;
+	height: 17px;
+	right: -3px;
+	width: 17px;
+}
+.status {
+	height: 30px;
+	width: 30px;
+}
+.private-channels .channel .avatar-small {
+	width: 34px;
+	height: 34px;
+	background-size: cover;
+	border-radius: 36px;
+}
+.message-group .comment .attachment-image a,
+.message-group .comment .attachment-image canvas,
+.message-group .comment .attachment-image img,
+.message-group .image {
+	border-radius: 12px;
+	border-color: #000000 #7c5a1d #000000 #7c5a1d;
+	border-style: solid;
+	border-top-width: 5px;
+	border-bottom-width: 5px;
+	border-left-width: 5px;
+	border-right-width: 5px;
+}
+.theme-dark .message-group .comment .markup {
+	color: white;
+	font-size: 17px;
+	background-clip: text;
+	text-shadow: 3px 3px 4px black;
+}
+.markup .mention {
+	text-shadow: 3px 3px 4px black;
+	font-size: 24px;
+}
+/* === DM Video Call Stuff === */
+
+.ui-join-video-call-button {
+	background-color: rgba(130, 93, 23, 0.68);
+	border-radius: 21px;
+	border: 4px solid rgba(182, 133, 43, 0.33);
+}
+.ui-join-video-call-button .icon {
+	height: 36px;
+	width: 36px;
+}
+.ui-join-video-call-button .call-divider {
+	background-color: rgba(182, 133, 43, 0.33);
+	opacity: 1;
+}
+.ui-call-avatar-border.video.selected:not(.speaking) {
+	border-radius: 3px;
+	box-shadow: inset 0 0 0 2px #423010;
+	border: 1px solid rgba(182, 133, 43, 0.33);
+}
+.ui-call-avatar-border.video.speaking {
+	border-radius: 3px;
+	box-shadow: inset 0 0 0 2px #C6912F;
+	border: 1px solid rgba(182, 133, 43, 0.83);
+}
+.ui-call-avatar-overlay {
+	background-color: rgba(0, 0, 0, .8);
+	height: 100%;
+	width: 100%;
+}
+/* === status icon and text popup === */
+
+.status-icon-text {
+	color: transparent;
+	display: none;
+}
+.status-picker .popout-menu-item .helper {
+	display: none;
+}
+.theme-dark .header-toolbar .toolbar-badge {
+	border-color: black;
+}
+.header-toolbar .toolbar-badge {
+	background-color: #7c5a1d;
+	border: 3px solid;
+	border-radius: 35px;
+	box-shadow: none;
+	height: 9px;
+	position: absolute;
+	left: 15px;
+	top: 1px;
+	width: 10px;
+}
+.avatarSpeaking-3teDH6 {
+	border: 3px solid #C6912F;
+}
+.avatarDefault-3jtQoc,
+.avatarSpeaking-3teDH6 {
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: 40px 40px;
+	border-radius: 20%;
+	height: 40px;
+	margin-left: 8px;
+	width: 40px;
+}
+.userDefault-2_cnT0,
+.userHovered-3tfm93 {
+	margin-bottom: 28px;
+}
+[class="status status-online"][style*="margin-right: 14px;"] {
+	background-image: linear-gradient(rgba(51, 204, 51, 0.35), rgba(31, 122, 31, 0.45)), url(https://totalwarwarhammer.gamepedia.com/media/totalwarwarhammer.gamepedia.com/b/ba/Wh_main_vmp_waldenhof_256.png) !important;
+	background-size: cover;
+	border-radius: 1px;
+	width: 46px;
+	height: 46px;
+	right: 7px;
+	position: relative;
+}
+[class="status status-idle"][style*="margin-right: 14px;"] {
+	background-image: linear-gradient(rgba(255, 219, 77, 0.25), rgba(255, 204, 0, 0.25)), url(https://i.pinimg.com/originals/2c/64/13/2c641363c3f2370ed080478acf8bc53a.png) !important;
+	background-size: cover;
+	border-radius: 1px;
+	width: 46px;
+	height: 46px;
+	right: 7px;
+	position: relative;
+}
+[class="status status-dnd"][style*="margin-right: 14px;"] {
+	background-image: linear-gradient(rgba(255, 77, 77, 0.15), rgba(230, 0, 0, 0.15)), url(https://totalwarwarhammer.gamepedia.com/media/totalwarwarhammer.gamepedia.com/9/9b/Mon_256_Torgovann.png) !important;
+	background-size: cover;
+	border-radius: 1px;
+	width: 46px;
+	height: 46px;
+	right: 7px;
+	position: relative;
+}
+[class="status status-invisible"][style*="margin-right: 14px;"] {
+	background-image: linear-gradient(rgba(166, 166, 166, 0.15), rgba(128, 128, 128, 0.65)), url(https://www.honga.net/totalwar/warhammer2/images/warhammer2/flags/wh2_main_vmp_the_silver_host/mon_256.png) !important;
+	background-size: cover;
+	border-radius: 1px;
+	width: 46px;
+	height: 46px;
+	right: 7px;
+	position: relative;
+}
+[class*="status-picker popout-menu"].popout-menu {
+	background: black;
+	width: 66px;
+}
+.popout-menu {
+	background: #000;
+	border-radius: 5px;
+	width: 256px;
+}
+.popout-menu .popout-menu-item {
+	background-color: #000;
+	color: white;
+	opacity: 1;
+	font-size: 110%;
+}
+.popout-menu .popout-menu-item:hover {
+	background-color: #222;
+	opacity: 1;
+	color: white;
+}
+.status-picker .popout-menu-item {
+	display: block;
+	flex-direction: row;
+	background: black;
+	width: 56px;
+}
+.popout-menu .popout-menu-separator {
+	border-bottom: 1px solid black;
+}
+.avatar-1jmnc- {
+	border-radius: 82px;
+	border-color: #000000 #7c5a1d #000000 #7c5a1d;
+	border-style: solid;
+	border-top-width: 10px;
+	border-bottom-width: 10px;
+	border-left-width: 10px;
+	border-right-width: 10px;
+}
+.popout-UKvsJt {
+	height: 150px;
+	width: 150px;
+}
+.avatarHint-2i5XWK {
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 92px;
+	box-shadow: none;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: Capitalize;
+	z-index: 0 !important;
+}
+.avatarHintInner-1JYcVr {
+	background: rgba(0, 0, 0, 0.5);
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.quick-message {
+	background: black;
+	border-color: #000000 #7c5a1d #000000 #7c5a1d;
+	border-style: solid;
+	border-top-width: 5px;
+	border-bottom-width: 5px;
+	border-left-width: 5px;
+	border-right-width: 5px;
+	border-radius: 1px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+::-webkit-input-placeholder {
+	color: #C6912F !important;
+}
+.channel-text-area-default [class*="inner-"], .channel-text-area-default [class*="autocomplete-"], .channel-text-area-default [class*="autocompleteInner-"], .channel-text-area-default [class*="selectorSelected-"] {
+	background-color: rgba(0, 0, 0, .6);
+	border-radius: 34px;
+	border: 4px solid rgba(198, 145, 47, 0.52);
+}
+.theme-dark .attachButtonPlus-2l1NEU {
+	fill: #A57927;
+}
+.channel-text-area-default [class*="textArea-"], .channel-text-area-default [class*="selector-"] [class*="marginLeft8-"] {
+	color: #D8AC5A !important;
+	border-radius: 34px;
+}
+.attachButtonPlus-2l1NEU {
+	opacity: 0.7;
+}
+.spriteNormal-3BYqCK {
+	border-radius: 59px;
+	filter: saturate(3);
+	opacity: .8;
+}
+/* User Profile Modal */
+
+#user-profile-modal .scroller {
+	background: black;
+}
+#user-profile-modal .guilds .section+.section {
+	border-top-color: #A57927;
+}
+#user-profile-modal .guilds .section .section-header {
+	color: #A57927;
+	font-size: 22px;
+	font-weight: 700;
+}
+.note textarea:focus {
+	background: black;
+}
+#user-profile-modal .guilds .section .connected-accounts .connected-account {
+	border-radius: 63px;
+	border-color: #000000 #7c5a1d #000000 #7c5a1d;
+	border-style: solid;
+	border-top-width: 5px;
+	border-bottom-width: 5px;
+	border-left-width: 5px;
+	border-right-width: 5px;
+	background: rgba(124, 90, 29, 0.52);
+}
+#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name {
+	color: white;
+	font-size: 130%;
+	font-weight: bold;
+	font-style: italic;
+}
+#user-profile-modal .tab-bar-container {
+	background-color: #000;
+	border-bottom: 1px solid black;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
+	overflow: visible;
+	padding-left: 213px;
+	padding-right: 20px;
+}
+#user-profile-modal .tab-bar .tab-bar-item {
+	color: #7C5A1D;
+	padding: 0 5px 20px;
+}
+#user-profile-modal .tab-bar .tab-bar-item:hover {
+	color: #7C5A1D;
+	padding: 0 5px 20px;
+}
+#user-profile-modal .tab-bar .tab-bar-item.selected {
+	border-bottom-color: #7C5A1D;
+	color: #7C5A1D;
+	font-weight: bold;
+}
+#user-profile-modal .tab-bar .tab-bar-item.selected:nth-child(2) {
+	border-bottom-color: #B6852B;
+	color: #B6852B;
+	font-weight: bold;
+}
+#user-profile-modal .tab-bar .tab-bar-item.selected:nth-child(3) {
+	border-bottom-color: #C6912F;
+	color: #C6912F;
+	font-weight: bold;
+}
+#user-profile-modal .tab-bar .tab-bar-item:nth-child(2) {
+	color: #B6852B;
+	padding: 0 5px 20px;
+}
+#user-profile-modal .tab-bar .tab-bar-item:nth-child(3) {
+	color: #C6912F;
+	padding: 0 5px 20px;
+}
+#user-profile-modal .actions .btn.add-friend {
+	background: #7C5A1D;
+}
+#user-profile-modal .actions .btn.add-friend:hover {
+	background: #7C5A1D;
+}
+#user-profile-modal .header:after {
+	background-image:  linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(http://3.bp.blogspot.com/-yrvkWa5SrtI/VR_-i-2pOwI/AAAAAAAADZs/U_JYDf4ein4/s1600/hammer.jpg) !important;
+	background-size: cover;
+	background-position: center;
+}
+.theme-dark #user-profile-modal .guilds .guild:hover {
+	background: #7C5A1D;
+	color: black !important;
+}
+.theme-dark #user-profile-modal .guilds .guild:hover:nth-of-type(2n) {
+	background: #B6852B;
+	color: black !important;
+}
+.theme-dark #user-profile-modal .guilds .guild:hover:nth-of-type(3n) {
+	background: #B6852B;
+	color: black !important;
+}
+.theme-dark #user-profile-modal .guilds .guild:hover:nth-of-type(4n) {
+	background: #B6852B;
+	color: black !important;
+}
+.tab-bar.TOP .tab-bar-item:hover {
+	border-bottom: 2px solid #C6912F;
+}
+#user-profile-modal .guilds .guild {
+	color: white;
+}
+#user-profile-modal .scroller::-webkit-scrollbar-thumb {
+	border: 2px solid transparent !important;
+	border-radius: 10px;
+	background: black !important;
+}
+.body-3rkFrF {
+   border-bottom: 1px solid #A57927;
+}
+::-webkit-scrollbar-thumb {
+  border: 2px solid transparent !important;
+  border-radius: 10px;
+  background: transparent !important;
+}
+
+.avatar-profile,
+.avatar-profile .status,
+#user-profile-modal .guilds .guild .status {
+  border-radius: 62px;
+}
+
+.status-online {
+  background-image: linear-gradient( rgba(51, 204, 51, 0.35), rgba(31, 122, 31, 0.45)), url(https://totalwarwarhammer.gamepedia.com/media/totalwarwarhammer.gamepedia.com/b/ba/Wh_main_vmp_waldenhof_256.png) !important;
+  background-size: cover;
+  border-radius: 62px !important;
+}
+
+.status-idle {
+  background-image: linear-gradient( rgba(255, 219, 77, 0.25), rgba(255, 204, 0, 0.25)), url(https://i.pinimg.com/originals/2c/64/13/2c641363c3f2370ed080478acf8bc53a.png) !important;
+  background-size: cover;
+  border-radius: 62px !important;
+}
+
+.status-dnd {
+  background-image: linear-gradient( rgba(255, 77, 77, 0.15), rgba(230, 0, 0, 0.15)), url(https://totalwarwarhammer.gamepedia.com/media/totalwarwarhammer.gamepedia.com/9/9b/Mon_256_Torgovann.png) !important;
+  background-size: cover;
+  border-radius: 62px !important;
+}
+
+.status-invisible {
+  background-image: linear-gradient( rgba(166, 166, 166, 0.15), rgba(128, 128, 128, 0.65)), url(https://www.honga.net/totalwar/warhammer2/images/warhammer2/flags/wh2_main_vmp_the_silver_host/mon_256.png) !important;
+  background-size: cover;
+  border-radius: 62px !important;
+}
+
+.status-streaming {
+  background-image: linear-gradient( rgba(77, 0, 77, 0.15), rgba(77, 0, 77, 0.35)), url(http://vignette2.wikia.nocookie.net/warhammerfb/images/b/ba/Symbol_of_the_Grail.PNG/revision/latest?cb=20150617010310) !important;
+  background-size: cover;
+  border-radius: 62px !important;
+}
+
+.channel-members .avatar-small .status {
+  width: 23px;
+  height: 23px;
+}
+
+
+/* container part */
+
+.container-iksrDt {
+  background: rgba(149, 109, 35, 0.22);
+  color: #fff;
+  display: block;
+  flex-shrink: 0;
+  font-size: 14px;
+  font-weight: 400;
+  height: 92px;
+  margin-bottom: 1px;
+  padding: 5px 10px;
+}
+
+.button-1aU9q1 {
+  background: #74551B no-repeat 50% 50%;
+  background-size: 18px 18px;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  height: 42px;
+  justify-content: center;
+  opacity: 2;
+  padding: 0;
+  position: relative;
+  width: 32px;
+  margin: 2px;
+  left: 59px;
+  top: 18px;
+}
+
+.button-1aU9q1:hover {
+  border: 3px solid #A57927;
+  background: #74551B no-repeat 50% 50%;
+}
+
+.button-1aU9q1:nth-of-type(3) {
+  background: #A57927 !important;
+  opacity: 1;
+}
+
+.button-1aU9q1:nth-of-type(3):hover {
+  border: 3px solid #D8AC5A;
+  opacity: 1;
+}
+
+.container-iksrDt .status {
+  width: 23px;
+  height: 23px;
+}
+
+.container-iksrDt .avatar-small {
+  margin-top: 41px;
+  width: 52px;
+  height: 52px;
+  background-size: cover;
+  border-radius: 62px;
+  position: relative;
+  left: 3px;
+}
+
+.accountDetails-15i-_e .username {
+  max-width: 214px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: relative;
+  right: 62px;
+  font-size: 20px;
+}
+
+.accountDetails-15i-_e .discriminator {
+  right: 62px;
+  font-size: 15px;
+  position: relative;
+}
+
+#user-profile-modal .guilds .guild .status-offline {
+  background-image: linear-gradient( rgba(166, 166, 166, 0.15), rgba(128, 128, 128, 0.65)), url(https://www.honga.net/totalwar/warhammer2/images/warhammer2/flags/wh2_main_vmp_the_silver_host/mon_256.png) !important;
+  background-size: cover;
+}
+
+.status-invisible,
+.status-offline {
+  background-image: linear-gradient( rgba(166, 166, 166, 0.15), rgba(128, 128, 128, 0.65)), url(https://www.honga.net/totalwar/warhammer2/images/warhammer2/flags/wh2_main_vmp_the_silver_host/mon_256.png) !important;
+  background-size: cover;
+}
+
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .username,
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#user-profile-modal .header .header-info .header-info-inner .activity {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#user-profile-modal .empty {
+  background: black;
+}
+
+#user-profile-modal .empty .empty-icon-friends {
+  background: url(http://i.imgur.com/Q79bBx2.png) 80% 80% no-repeat;
+  background-size: 123px 75px;
+  height: 123px;
+  width: 123px;
+}
+
+
+/* Mini Popup Status */
+
+.statusOnline-1Mp2_H {
+  background-image: linear-gradient( rgba(51, 204, 51, 0.35), rgba(31, 122, 31, 0.45)), url(https://totalwarwarhammer.gamepedia.com/media/totalwarwarhammer.gamepedia.com/b/ba/Wh_main_vmp_waldenhof_256.png) !important;
+  background-size: cover;
+  border-radius: 1px;
+}
+
+.statusIdle-2AQdvu {
+  background-image: linear-gradient( rgba(255, 219, 77, 0.25), rgba(255, 204, 0, 0.25)), url(https://i.pinimg.com/originals/2c/64/13/2c641363c3f2370ed080478acf8bc53a.png) !important;
+  background-size: cover;
+  border-radius: 1px;
+}
+
+.statusDnd-35xAXU {
+  background-image: linear-gradient( rgba(255, 77, 77, 0.15), rgba(230, 0, 0, 0.15)), url(https://totalwarwarhammer.gamepedia.com/media/totalwarwarhammer.gamepedia.com/9/9b/Mon_256_Torgovann.png) !important;
+  background-size: cover;
+  border-radius: 1px;
+}
+
+.statusInvisible-2ci18Q,
+.statusOffline-jZXr_u {
+  background-image: linear-gradient( rgba(166, 166, 166, 0.15), rgba(128, 128, 128, 0.65)), url(dhttps://www.honga.net/totalwar/warhammer2/images/warhammer2/flags/wh2_main_vmp_the_silver_host/mon_256.png) !important;
+  background-size: cover;
+  border-radius: 1px;
+}
+*{
+    cursor: url(https://img00.deviantart.net/3c01/i/2012/136/7/6/ww_hero__s_sword_cursors_by_blueamnesiac-d500iee.png), pointer !important;
+    cursor: url(https://img00.deviantart.net/3c01/i/2012/136/7/6/ww_hero__s_sword_cursors_by_blueamnesiac-d500iee.png), default !important;
+}
+.theme-dark .chat .divider.divider-red>span {
+ background: #956D23 !important;
+  color: #fff !important;
+  border: 3px solid black;
+  font-size: 23px;
+  letter-spacing: 13px;
+  font-weight: bold;
+}
+
+.theme-dark .chat .new-messages-bar button {
+    background-color: rgba(165, 121, 39, 0.52) !important;
+    opacity: 1;
+    color: white !important;
+    font-size: 20px;
+}
+
+.theme-dark.context-menu {
+  background: black !important;
+}
+
+.theme-dark.context-menu .item:hover {
+  background: #956D23;
+  color: #fff;
+}
+.context-menu .item.danger:hover {
+  color: white !important;
+}
+
+.theme-dark.context-menu .context-menu {
+  background: black;
+  border: 1px solid black;
+}
+
+.theme-dark.context-menu .item-subMenu {
+  background: #000;
+}
+
+.context-menu {
+  background: black;
+}
+
+.context-menu .item:hover {
+  background: black;
+  color: white;
+}
+
+
+.search-popout .results-group {
+  background: rgba(0,0,0,0.3);
+}
+
+.search-popout .option:after {
+  background: rgba(0,0,0,0.3);
+}
+
+.search-popout .search-query.selected {
+  background-color: rgba(0,0,0,0.3);
+}
+
+.keybind-shortcut.dim span {
+  background-color: #fff;
+  color: black;
+}
+
+.keybind-shortcut span {
+  border: 3px solid #95989d;
+  border-radius: 22px;
+  box-shadow: inset 0 -4px 0 #caccce;
+}
+
+.search-popout .search-query {
+  background: rgba(0,0,0,0.3);
+  color: white;
+}
+
+.search-popout .option.selected {
+  background-color: #956D23;
+}
+
+
+.search-popout .option.user .display-avatar {
+  border-radius: 61px;
+  height: 38px;
+  width: 38px;
+}
+
+.search-popout .option {
+  border-radius: 1px;
+  cursor: pointer;
+  font-size: 16px;
+  height: 34px;
+  margin-bottom: 9px;
+}
+
+.search-popout {
+  background-color: rgba(0,0,0,0.3);
+  border: none;
+  border-radius: 1px;
+}
+
+[class*="displayed-nick"] {
+  color: white !Important;
+  font-weight: bold;
+}
+
+[class*="filter"] {
+  color: white !important;
+  font-weight: bold;
+}
+
+[class*="answer"] {
+  color: white !important;
+  font-weight: bold;
+}
+
+[class*="non-text"] {
+  color: white !important;
+  font-weight: bold;
+}
+
+.search-popout .option strong {
+  font-weight: bold;
+  color: white !important;
+}
+
+.search .DraftEditor-root .public-DraftEditor-content:focus {
+  overflow-x: auto;
+  overflow-y: hidden;
+  box-shadow: 0px 0px 100px 0px rgba(255, 255, 255, 0.2) inset;
+}
+.need-help-modal.deprecated a {
+  color: #956D23;
+   
+}
+.need-help-modal.deprecated {
+  background:rgba(0,0,0,0.7);
+}
+
+.need-help-modal.deprecated .header input[type=text]:focus {
+  border-bottom: 1px solid #f0f0f0;
+  margin: 15px 0;
+  background:rgba(0,0,0,0.7);
+  color: white;
+}
+
+.need-help-modal.deprecated .header input[type=text] {
+  border-bottom: 1px solid #f0f0f0;
+  margin: 15px 0;
+  background: rgba(0,0,0,0.7);
+  color: white;
+}
+
+.need-help-modal.deprecated .form-inner.loading,
+.need-help-modal.deprecated .footer {
+  background: rgba(0,0,0,0.7);
+}
+.theme-dark .search-results-wrap .search-result .search-result-message.hit {
+  border-color: #000000 #7c5a1d #000000 #7c5a1d;
+  border-style: solid;
+  border-top-width: 8px;
+  border-bottom-width: 8px;
+  border-left-width: 8px;
+  border-right-width: 8px;
+  background: rgba(0,0,0,0.3);
+}
+
+.theme-dark .search-results-wrap .search-result .hit {
+  box-shadow: 0px 2px 19px 3px #202020;
+}
+
+.theme-dark .search-results-wrap .search-result.expanded .search-result-message {
+  background-color: #1a1a1a !important;
+}
+.channels-wrap [class*="scroller-"] [class*="container-"]:nth-child(1n)>:first-child [class*="c"] {
+  color: white;
+  background:  #956D23;
+  border-radius: 61px;
+  text-shadow: 3px 0px 2px #000000;
+}
+
+
+.theme-dark .modal-3HOjGZ,
+.theme-dark .footer-1PYmcw {
+  background: black;
+}
+
+.buttonBrandFilled-3Mv0Ra {
+  background-color: #956D23;
+  color: #fff;
+}
+
+.buttonBrandFilled-3Mv0Ra:hover {
+  background-color: #956D23;
+  color: #fff;
+}
+
+.theme-dark .ui-select .Select-menu-outer {
+  background: #000 !important;
+  border-color: #202225;
+}
+
+.theme-dark .ui-select .Select-option:hover {
+  color: white;
+  background: #956D23 !important;
+}
+
+
+.theme-dark .ui-select .Select-option {
+  color: white;
+}
+
+.theme-dark .roundRemoveButton-1NEXB9 {
+  background-color: #000;
+}
+
+.theme-dark .roundRemoveButton-1NEXB9:hover {
+  background-color: #000;
+}
+
+.roundRemoveButton-1NEXB9 {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAB/UlEQVRoQ+2Yv07DQAzG7TZI9AlYKpWNFSRGpAILz9wFqNQRCdZuVMrCExSJEqNrmjZt/pzv7AtUXNcmvu/nz/H5DuHIf3jk+iEC/LaD0YHogDAD/6uElreX5yZhg+e3d2Hial/3ic924PPu+mKFvYlZuQ9f48Hj60ITYnl/NfqGk6mJmVD2cPr0MufEZwFsxE8B4WwdlGChCbEVjzDaxP9IKBtzIKwAFfFFWpQgKuJ38VkQ/gAKTjSKz2PrAJhYjS4IIDTEm+WtDhSOakJoiXcC0HJCU7wzgBRCW7wXgC9ECPHeAK4QocSLALgQ5rn1DltsUuXtldkq23ZkdhdqCtLenShFAqAeDivvK4gXO8BrsZQ/hqVcESxc5p2gDhxATOpLpQShNIIU64pLqJyd/GNNZoB1JUOABGkPVzeak6w6QEbJjBCGeyWzHdAo7cMfBdhrlVRT97spU3UUV3Fge9gpt8qOIMQAbW0UM0rJrFD7TegcikQAnAnVspGJy8kbgCO+6DaWUUIE4QXgIr74dm0QvhubM4CPeCYE6wh5uCs7AUjEh4JgA2iIDwHBAtAUrw1hBQghXhPCH0Bpqgx+sVV78lIS3+iEw3nB6kBl3u/gctfl3pUNYEB8rr/bTlOH//nEdwJwEdPVsxGgq0w3rRMdiA4IMxBLSJhA8es/hbn/QHs8knYAAAAASUVORK5CYII=);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  border-radius: 61px;
+  cursor: pointer;
+}
+
+
+.status.status-typing.status {
+  width: 23px !important;
+  right: -2px !important;
+}
+
+.spinner {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 61px;
+}
+
+.theme-dark .chat form .typing span {
+  color: white;
+  font-size: 14px;
+  font-style: italic;
+}
+.channel-members .avatar-small .status {
+  right: -8px;
+}
+
+[class*="checkbox-1QwaS4 center-1MLNrE flex-3B1Tl4 justifyCenter-29N31w alignCenter-3VxkQP box-XhjOl4 checked-2TahvT"][style*="border-color: rgb(114, 137, 218);"] {
+  background-color: #000 !important;
+  border-color: #000000 #7c5a1d #000000 #7c5a1d !important;
+  border-style: solid;
+  border-top-width: 5px;
+  border-bottom-width: 5px;
+  border-left-width: 5px;
+  border-right-width: 5px;
+  border-radius: 1px;
+}
+
+.cardPrimaryEditable-2IQ7-V[style*="background-color: rgb(114, 137, 218);"],
+.radio-item.checked[style*="background-color: rgb(114, 137, 218);"],
+.theme-light .ui-card-primary.checked {
+  background-color: black !important;
+  border-color:  #000000 #7c5a1d #000000 #7c5a1d !important;
+  border-style: solid;
+  border-top-width: 5px;
+  border-bottom-width: 5px;
+  border-left-width: 5px;
+  border-right-width: 5px;
+  border-radius: 1px;
+}
+
+.checkbox .checkbox-inner input[type=checkbox]:checked+span:after {
+  border-color: white;
+  border-style: solid;
+}
+
+.checkbox .checkbox-inner input[type=checkbox]:checked+span {
+  background-color: black !important;
+  border-color:  #000000 #7c5a1d #000000 #7c5a1d !important;
+  border-style: solid;
+  border-top-width: 3px;
+  border-bottom-width: 3px;
+  border-left-width: 3px;
+  border-right-width: 3px;
+  border-radius: 1px;
+}
+
+[class*="alignCenter-3VxkQP box-XhjOl4 center-1MLNrE checkbox-1QwaS4 checked-2TahvT flex-3B1Tl4 justifyCenter-29N31w"][style="background-color: rgb(114, 137, 218); border-color: rgb(114, 137, 218);"] {
+  background: black !important;
+  border-color: #000000 #7c5a1d #000000 #7c5a1d !important;
+  border-style: solid;
+  border-top-width: 5px;
+  border-bottom-width: 5px;
+  border-left-width: 5px;
+  border-right-width: 5px;
+  border-radius: 1px;
+}
+
+[class*="checkbox"] [class*="checked"] polyline {
+  stroke: white !Important;
+}
+
+.theme-dark .message-group h2 span {
+    color: white;
+    font-weight: bold;
+}
+
+.guilds-wrapper .guilds .friends-icon {
+    background-image: url(https://vignette.wikia.nocookie.net/warhammer40k/images/1/17/Ravenwing_Icon.png/revision/latest?cb=20150713085714);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    height: 50px;
+    width: 50px;
+}
+[id*="bd-pub-button"][style*="line-height: 20px; font-size: 12px;"]{
+background-color: black !important;
+  margin-top: -7px;
+}
+.theme-dark .contentTitle-sL6DrN {
+    color: #7c5a1d;
+}
+
+
+.guilds-wrapper .guilds .guild.unread:before {
+    background: transparent;
+    
+    height: 42px;
+    width: 42px;
+    margin-top: -23px;
+    margin-left: 15px;
+   border-color:#000000 #7c5a1d #000000 #7c5a1d;
+  border-style: solid;
+  border-top-width: 5px;
+  border-bottom-width: 5px;
+  border-left-width: 5px;
+  border-right-width: 5px;
+    border-radius: 61px;
+}
+.guilds-wrapper .guild-separator:after {
+background: black;
+}
+.guilds-wrapper .guilds .guild .guild-inner {
+    background: transparent !important;
+    border-radius: 61px !important;
+}
+.guilds-wrapper .guilds .guild .guild-inner a  {
+    width: 41px;
+    height: 41px;
+    background-size: cover;
+    margin-left: 5px;
+   margin-top: 7px !important;
+    z-index: 0;
+    border-radius: 65px;
+}
+.guilds-wrapper .guilds .guild.selected:before {
+    background: transparent;
+}
+
+.guilds-wrapper .guilds-add {
+    background: transparent;
+    border: 1px dashed #7c5a1d;
+    border-radius: 61px;
+    color: #7c5a1d;
+    font-size: 40px;
+    font-weight: bold;
+ }
+.guilds-wrapper .guilds-add:hover {
+    background: transparent;
+    border: 1px solid #7c5a1d;
+    border-radius: 61px;
+    color: #7c5a1d;
+    font-size: 40px;
+    font-weight: bold;
+ }
+
+.create-guild-container.deprecated .create-or-join .form-inner {
+   background-color: rgba(0, 0, 0, 0.95);
+    background-image: url(/assets/19494428f3a5649ffd64818fc75d0e76.png),url(/assets/6906eb345e3aeb89322c5167db31c1f6.png);
+    background-position: 0 100%,100% 100%;
+    background-repeat: no-repeat;
+    background-size: 155px auto,75px auto;
+    box-sizing: border-box;
+    height: 420px;
+    padding: 30px 24px;
+    width: 520px;
+}
+.create-guild-container.deprecated .action {
+    background: rgba(0, 0, 0, 0.75);
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 61px;
+}
+
+#friends .friends-table .friends-row .friends-column-name .avatar-small {
+    width: 36px;
+    height: 36px;
+   margin-left: 12px;
+    background-size: cover;
+    border-radius: 61px;
+}
+.private-channels .channel .channel-name, .private-channels header {
+   color: #b3b3b3;
+    flex-grow: 1;
+    opacity: 1;
+    font-size: 15px;
+ }
+#friends .friends-table .friends-row .friends-column-guilds .avatar-small {
+    background-color: #7c5a1d;
+    color: #fff;
+    border-radius: 34px;
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary {
+    background-color: #7c5a1d;
+    color: #fff;
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:hover {
+    background-color: #C6912F !important;
+    color: #fff;
+}
+.theme-dark #friends .friends-table .friends-table-header .friends-column, #friends .friends-table .friends-row .discord-tag .discriminator {
+    color: white;
+}
+.theme-dark #friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn {
+    border-color: rgba(255, 255, 255, 0.4);
+    color: white;
+    border-color: #000000 #7c5a1d #000000 #7c5a1d;
+  border-style: solid;
+  border-top-width: 5px;
+  border-bottom-width: 5px;
+  border-left-width: 5px;
+  border-right-width: 5px;
+  border-radius: 61px
+}
+.theme-dark #friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn:hover {
+    border-color: rgba(255, 255, 255, 0.4);
+    color: white;
+    border-color: #000000 #7c5a1d #000000 #7c5a1d;
+  border-style: solid;
+  border-top-width: 5px;
+  border-bottom-width: 5px;
+  border-left-width: 5px;
+  border-right-width: 5px;
+  border-radius: 41px;
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected {
+    background-color: #7c5a1d;
+    color: #fff;
+}
+
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary.selected {
+    background-color: #333;
+    color: white;
+}
+
+.theme-dark #friends .friends-table .friends-row:hover {
+    background: #7c5a1d !important;
+    border: 5px solid rgba(0, 0, 0, 1);
+}
+
+.wrapper-2ldvyE, .private-channels .channel.selected a, .private-channels .channel:hover a {
+    border: 5px solid #74551B;
+ }
+.theme-dark .private-channels .channel.selected a, .private-channels .channel:hover a {
+  background: black !important;
+}
+
+#friends .btn {
+    background-color: #7c5a1d;
+    border-radius: 21px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 10px;
+    padding: 4px 8px;
+    opacity: 0.7;
+}
+/* Tooltip Redo */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 131.833px; top: 995px;"]{
+ left: 194px !important;
+    top: 1009px !important;
+    position: absolute;
+    
+}
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 162.833px; top: 995px;"]{
+    left: 224px !important;
+ top: 1009px !important;
+ position: absolute;
+    
+}
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 123.833px; top: 992.333px;"] {
+  left: 186px !important;
+  top: 1009px !important;
+    position: absolute;
+   
+}
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 155.333px; top: 992.333px;"] {
+  left: 218px !important;
+ top: 1009px !important;
+ position: absolute;
+   
+}
+.tooltip.tooltip-black {
+    border: 1px solid black;
+    background: #7c5a1d;
+}
+
+.tooltip.tooltip-black.tooltip-top:after {
+    border-top-color: transparent;
+}
+.tooltip.tooltip-black.tooltip-bottom:after {
+    border-bottom-color: transparent;
+}
+.tooltip.tooltip-black.tooltip-right:after {
+    border-right-color: transparent;
+}
+
+.progress {
+background-color: #7c5a1d;
+overflow: hidden;
+width: 150px;
+}
+.message-group .comment .attachment .upload>.progress {
+border-radius: 61px;
+height: 6px;
+margin-top: 6px;
+width: 300px;
+}
+.progress .progress-bar {
+ background-color: #956D23;
+ transition: width .2s ease-in;
+}
+
+.guilds-wrapper .guilds-error:hover {
+    background-color: transparent;
+    border: 1px solid #C6912F;
+    color: white;
+}
+.guilds-wrapper .guilds-error {
+    background: transparent;
+    border: 2px solid #74551B;
+    border-radius: 1px;
+   color: #fff!important;
+}
+.tooltip.tooltip-red {
+    background-color: #D4A449;
+    color: #fef6f6;
+}
+.tooltip.tooltip-red.tooltip-right:after {
+    border-right-color: #f04747;
+}
+.wrapper-2xO9RX {
+ border-radius: 61px;
+    color: #fff;
+   background: #7c5a1d;
+}
+
+.ui-standard-sidebar-view #editor-detached button {
+     background: #7c5a1d;
+    color: #FFF;
+    border-radius: 1px;
+    border: 3px solid black;
+ }
+
+.ui-standard-sidebar-view .bda-slist .bda-right button {
+    background: #7c5a1d;
+    color: #FFF;
+    border-radius: 61px;
+    border: 3px solid black;
+    font-size: 20px;
+    height: 52px;
+    margin-top: -12px
+}
+
+.theme-dark .cardPrimary-ZVL9Jr {
+    background:  #7c5a1d;
+    border-radius: 1px;
+    border: 5px outset black;
+}
+
+#bd-settings-sidebar .ui-tab-bar-item, .theme-dark .itemDefault-3NDwnY {
+    color: white;
+ }
+
+#bd-settings-sidebar .ui-tab-bar-header, .theme-dark .header-1-f9X5 {
+    color: white;
+    font-weight: bold;
+}
+
+.theme-dark .buttonBrandFilled-3Mv0Ra, .itemDefaultSelected-1UAWLe, .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
+    color: #fff;
+    background-color: transparent;
+    border: 3px outset;
+}
+.theme-dark .itemDefault-3NDwnY:hover, #bd-settings-sidebar .ui-tab-bar-item:hover {
+    color:  #7c5a1d;
+    background-color: black;
+    border: 2px outset white;
+}
+#instant-invite-modal .clipboard-input-inner input {
+    color: white;
+    background: #634917;
+    font-size: 24px;
+ }
+#instant-invite-modal .form-header header {
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+}
+#instant-invite-modal .blurb {
+    font-size: 14px;
+    color: white;
+    opacity: 1;
+}
+#instant-invite-modal .expire-text {
+   font-size: 19px;
+   color: white;
+}
+.form.deprecated .form-inner {
+    background-color:  #634917;
+    color: white;
+}
+.form.deprecated .form-header {
+    background: black;
+ }
+#instant-invite-modal .form-actions {
+   color: white;
+    background-color: black;
+ }
+#instant-invite-modal .copy {
+   background-color:  #634917;
+}
+.clipboard-input-inner button:first-of-type:before {
+    background: transparent;
+    border-right-color: black;
+}
+.clipboard-input-inner {
+    border: 2px outset black;
+    border-radius: 11px;
+ }
+#instant-invite-modal-advanced .form-actions {
+    background-color: black;
+}
+.clipboard-input-inner button {
+   border-left: 4px solid black;
+}
+
+.clipboard-input-copied button {
+    background-color: #634917 !important;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADZ0lEQVRoQ+2Zv24TQRDGv02FaDASBRWipMOhoovTUBAj7fkFSJ4gzhMEngDnCQgv4NuIM6LLRaJOnC5llCoFEqZBSIAHzXFn2fdvd+/2bAVl2529/X47szu7cwI3vIkbrh+3AIkHXw29DRLUAdAhoCWA9rx3CRgLYAIgFCTCjz3/xIX3a3ngpS/bAtgVgATQshQ0IUARcPDJU2PLsTPzSgAsfA14x6tddeLUuHAK7FUBsQKQvmz9AvYF0HckfOEzBAxGntqz+bYxQBwu79OxbTOZiS3vFQJ2TL1hBBCHzHGFODfRnGczmQKbJhBagBWIT4CMIEoBVijeGKIQIN6wx03HvC7GeE+MPLVeZFcI0PXlAMCuboIl9R8Enso9+XIB4tA5W5I4o2mmwHreps4F6PqSTxxXScpI4OMHLVx+5ZtGYQsDT22mezMAq1j99qOHkM+e4OzqGkenF4UEeV7IAGz58lAAr42WzYFRIj75VBkEAR9GntqenzYD0PXlt2UlrLT4RNjhl3FROE0CT90vBOj6kuOe47/xViRenV5gfHVdNv9m4KkwMVjwQNeXbwDsN62+hniW9jbwFOuM2iLAUIYQ2GgSoKZ4EOFo1FP8/sgCbPnyrMnMW1c8K05n5nQIkc3qt+7eweTHT6MhLsQnEwWemumuDJAIMth0cCmeIWoDpAWVQbgWXxuAw6b/4nkmbPIgmhBfDjCUYwg81QW1iTATG908uf2E86CnZiWbysdomUCemO826WayX3RQpceobSIrgsgT4UJ8/N2SRFbhKmEC4VA8MxRfJbh3aygnQuCezpXz/WUQLsUT4fuopxYqgM6u03kQLsXHWVh/na7zoJmHcC2eAYweNGzYrXGpYwhumiuxTYT+syWcBD2Veeb+n4/6yAs3uawSJSJftn4T+H2gzcz28WAxIpV50yO1pUVBCG2PVQt5paZ8bP4RaH/21GWRoVFxdxUQLJ4EOroKtRaAyaN/A0v0hKl41mYEkECsEQ4b3xOE86nAtm7lk5AyBphtbIArAk0VfQuLuJX3QN7AKFsTBs4qGISTqUDfdNXnNVl5IA0T/zfrgyBtTyqOc4joN+ugivBKIVR25sVVvQ4oqmq3MnuFcE7ApRDgf8JcaZ5V1+ocu7U8UGdiV2NvAVytZNXv/AVcza9AJzQLCgAAAABJRU5ErkJggg==)!important;
+    border: 2px solid black !important;
+    color: rgba(0, 0, 0, 0)!important;
+    background-size: 50% 70%;
+}
+.clipboard-input-copied .clipboard-input-inner {
+    border: 4px solid black;
+}
+
+.unread-23Kvxk {
+    background-image: url(https://vignette3.wikia.nocookie.net/warhammer40k/images/f/fe/391766a.jpg/revision/latest?cb=20100823035919) !important;
+    border-radius: 61px;
+    height: 16px;
+    margin-top: -8px;
+    position: absolute;
+    top: 50%;
+    background-size: cover;
+    width: 16px;
+}
+
+.colorDefaultText-2v6rRX, .colorDefaultVoice-1x4dEl, .colorHoveredText-1CsxK1, .colorHoveredVoice-1P3kui, .colorLockedText-2onHWv, .colorLockedVoice-2VCSgk, .colorSelectedText-3YhFC6, .colorSelectedVoice-ieXC3Z, .colorUnreadText-1KwCnP, .colorUnreadVoice-1Ztv9I {
+    color: white;
+}
+.icon-3tVJnl {
+    display: block;
+    margin-right: 14px;
+    opacity: 1;
+}
+
+.barFill-18ABna {
+    background: #956D23;
+    height: 200%;
+}
+
+div[class*="switchEnabled"][class*=valueChecked] {
+    background-color: #634917;
+ }
+div[class*="switchEnabled"][class*=valueUnchecked] {
+    background-color: #956D23;
+}
+[class*="barFill-18ABna"][style*="background: rgb(105, 196, 154)"]
+{
+    background: #634917 !important;
+}
+[class*="bar-2cFRGz"][style*="background: rgb(251, 184, 72)"]
+{
+    background: #634917 !important;
+}
+.theme-dark .bar-2cFRGz {
+    background: #634917;
+}
+.ui-standard-sidebar-view .content-column.default, #bd-settingspane-container  {
+   background: transparent;
+}
+.bd-pfbtn  {
+  background: none;
+  border: 2px solid #7c5a1d;
+  width: 224px;
+  font-size: 24px;
+}
+
+
+.itemBrand-mC9YR4, .app a {
+    color: #7c5a1d;
+}
+.bda-slist .bda-name {
+    color: #7c5a1d;
+    font-weight: 700;
+    font-size: 12px;
+    
+}
+#bd-settings-sidebar .ui-tab-bar-item, .theme-dark .itemDefault-3NDwnY {
+    color: #956D23 !important;
+}
+.ui-standard-sidebar-view .bda-slist .bda-description {
+    border-top: 1px solid #7c5a1d;
+    color: #7c5a1d;
+    padding-top: 15px;
+   
+ }
+
+.ui-standard-sidebar-view .bda-slist li {
+    background: #131313;
+     border: 1px solid;
+    margin-bottom: 12px;
+    padding-top: 11px;
+}
+.ui-standard-sidebar-view .bda-slist li:nth-child(odd) {
+    background: black;
+   border: 1px solid #7c5a1d;
+}
+.bda-slist li div:not(.bda-right):nth-of-type(2) {
+    color: red;
+}
+
+.ui-switch {
+    background: rgba(0,0,0,.3)!important;
+    border-radius: 60px;
+    box-shadow: none!important;
+}
+.ui-switch, .ui-switch-checkbox {
+    width: 35px;
+    height: 18px;
+}
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
+   background:#956D23 !important;
+   height: 25px;
+   width: 46px;
+   border-radius: 61px
+}
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked {
+    background:#634917 !important;
+}
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch:before {
+    background: #f6f6f7;
+    border-radius: 61px;
+ }
+ 
+.bda-dark .emoji-picker .category, .emoji-picker .scroller, .bda-dark .emoji-picker {
+    background-color: black;
+}
+.emoji-picker .category {
+    color: white;
+ }
+.bda-dark .emoji-picker .scroller .emoji-item.selected {
+    background: rgba(123, 123, 123, 0.37);
+    background-size: 120% 120%;
+    background-repeat: no-repeat;
+}
+.emoji-picker .scroller .emoji-item.selected {
+    background-color: #111;
+    border-radius: 1px;
+}
+.theme-dark .user-settings-voice .preview-overlay {
+    background-color: black;
+    border-color: white;
+}
+
+#bda-qem-twitch-container .scroller-wrap, #bda-qem-favourite-container .scroller-wrap, .emote-menu-inner, .bda-dark #bda-qem button {
+    height: 100%;
+    background: black;
+}
+.bda-dark #bda-qem button:hover {
+    background-color: #101010;
+}
+.bda-dark #bda-qem button.active {
+    background-color: black;
+}
+.theme-dark .statusInvisible-2ci18Q, .theme-dark .statusOffline-jZXr_u {
+    border-color: black !important;
+    background-image: linear-gradient( rgba(166, 166, 166, 0.15), rgba(128, 128, 128, 0.65)), url(dhttps://www.honga.net/totalwar/warhammer2/images/warhammer2/flags/wh2_main_vmp_the_silver_host/mon_256.png) !important;
+ }
+
+.theme-dark .invite-button.join:hover {
+    border-color: #7c5a1d;
+}
+.invite-button.join:hover {
+    border-color: #C6912F !important;
+}
+.theme-dark .invite-button {
+    background-color: #111;
+    border: 3px dashed black;
+}
+.invite-button-icon {
+    background-color: #000;
+    border: 1px solid #222;
+    border-radius: 51px;
+}
+.invite-button-icon:before {
+    border-color: #7c5a1d;
+    border-style: solid;
+    border-width: 0 6px 6px 0;
+    opacity: 1;
+}
+.invite-button.join:hover .invite-button-icon {
+    border-color: #7c5a1d;
+}
+.theme-dark .invite-button .invite-button-header {
+    color: white;
+}
+.invite-button-icon.expired {
+    background-color: black;
+    border: 4px solid red;
+}
+.invite-button-icon.accepted {
+    background-color:#7c5a1d;
+    border-color: #C6912F;
+}
+
+.badge { background: black;
+  position: relative;
+    margin-right: 16px !important;
+    width: 12px;
+    height: 12px;
+    text-align: center;
+    border-radius: 1px;
+}
+.mention-RlZ5F3 {
+    background-color: black;
+    background-image: url(http://3.bp.blogspot.com/-yrvkWa5SrtI/VR_-i-2pOwI/AAAAAAAADZs/U_JYDf4ein4/s1600/hammer.jpg) !important;
+    background-size: cover;
+    height: 53px;
+    width: 53px;
+    margin-top: -11px !important;
+    z-index: 3;
+} 
+.mention-RlZ5F3:hover {
+    background-color: black;
+} 
+.unread-mentions-indicator-bottom, .unread-mentions-indicator-top {
+    height: 50px;
+    left: 0;
+    overflow: hidden;
+    padding: 6px;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+}
+.unread-mentions-indicator-bottom .unread-mentions-bar, .unread-mentions-indicator-top .unread-mentions-bar {
+  box-shadow: none;
+}
+.bar-Y-RLyN {
+   border-radius: 41px;
+   color: transparent;
+}
+.icon-2qNMWC {
+    color: #000;
+    height: 92px;
+    margin-left: -14px;
+    width: 92px;
+}
+.unread-2TDDFN {
+    display: none;
+}
+.theme-dark .message-group .comment .markup code.inline,
+.theme-dark .message-group .comment .markup pre code {
+  width: auto !important;
+  background: rgba(0,0,0,0.6);
+    line-height: 23px;
+   
+}
+.theme-dark .hljs {
+  color: white;
+}
+.popout-open .header-1tSljs {
+    background-color: #7c5a1d;
+}
+
+.status-3jUEha {
+    border-radius: 50px !important;
+    
+}
+
+.upload-drop-modal .bgScale {
+border-radius: 41px;
+background:rgba(124, 90, 29, 0.79) ;
+}
+.upload-drop-modal .inner {
+border: 4px dashed white;
+border-radius: 41px;
+}
+
+
+.theme-dark .message-group .comment .markup .mention:hover {
+    border: 2px solid #7c5a1d;
+    border-radius: 41px;
+  background: #111 !important;
+    
+}
+.theme-dark .message-group .comment .markup .mention {
+    background: black !important;
+    border-radius: 41px;
+    color: #7c5a1d;
+    padding-top: 0px;
+    padding-bottom: 1px;
+    border: 1px solid #7c5a1d;
+    font-size: 140%
+}
+.theme-dark .message-group .mentioned .message-text:after {
+    background: none;
+    border-left: none;
+}
+.theme-dark .message-group .mentioned .message-text {
+    background: rgba(198, 145, 47, 0.29);
+}
+
+.theme-dark .message-group a {
+    color: #D9A200;
+}
+.theme-dark .message-group .embed {
+    background-color: rgba(46,38,64,0.5);
+    border-color: black;
+}
+.theme-dark .message-group .embed-wrapper .embed-color-pill {
+    background-color: white;
+}
+
+.theme-dark .reaction.reaction-me, .theme-dark .reaction {
+    background: rgba(0,0,0,0.35);
+}
+.theme-dark .reaction .reaction-count {
+    color: white
+}
+.theme-dark .reaction.reaction-me .reaction-count {
+    color: red;
+}
+.reaction .emoji {
+    height: 2rem;
+    margin: 3px 0!important;
+    min-height: auto;
+    min-width: auto;
+    width: 2rem;
+}
+
+.upload-modal .inner .file .icon.image {
+    border: 5px solid white;
+    border-radius: 61px;
+    background-size: cover;
+    box-shadow: 0 2px 8px rgba(0,0,0,.4);
+}
+.upload-modal .footer { 
+    background-color: #634917;
+  }
+.upload-modal .footer .button {
+   background-color: rgba(198, 145, 47, 0.79);
+   color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 31px;
+}
+.message-group .image {
+    vertical-align: bottom;
+    max-width: 520px;
+    border-radius: 31px;
+    border: 2px outset gray;
+}
+.upload-modal .inner {
+    background:  #634917;
+    border: 2px dashed white;
+    border-radius: 31px;
+    margin: 10px;
+    color: #fff;
+}
+.upload-modal {
+    width: 520px;
+    min-height: 258px;
+    background-color: #634917;
+    border-radius: 31px;
+}
+.theme-brand .inner-3if5cm {
+    background-color: #634917;
+    border-radius: 31px;
+    border: 1px solid white;
+}
+
+.icon.icon-file.document {
+    background-image: url(http://www.desysteconline.com/images/document-256.png);
+    animation: zoomIn 1.5s ease 0s 1 forwards; 
+    background-size: cover;
+    background-position: center;
+}
+
+@keyframes zoomIn {
+  0% {
+  opacity: 0;
+  -webkit-transform: scale3d(.3, .3, .3);
+  transform: scale3d(.3, .3, .3);
+  }
+  50% {
+  opacity: 1;
+  }
+  } 
+
+
