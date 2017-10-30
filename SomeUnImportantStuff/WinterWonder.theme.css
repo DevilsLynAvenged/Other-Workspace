@@ -521,3 +521,532 @@ position: absolute;
     color: #FFF;
 }
 
+
+ .upload-modal {
+   background-color: rgba(0,0,123,0.7);
+}
+.upload-modal .footer {
+    border-radius: 0 0 10px 10px;
+    background-color: rgba(0,0,123,0.7);
+ }
+.theme-brand .inner-3if5cm {
+    background-color: rgba(0,0,153,0.3);
+}
+
+.channel-text-area-default [class*="textArea-"], .channel-text-area-default [class*="selector-"] [class*="marginLeft8-"] {
+    color: white !important;
+}
+ .container-2OU7Cz, .theme-dark .title-qAcLxz, .channels-3g2vYe, .theme-dark .chat form, .theme-dark .headerBar-cxbhPD {
+    background-color: transparent;
+}
+.theme-dark .search-answer, .theme-dark .search-filter, .search-popout .date-picker .date-picker-hint .hint-value {
+    background-color: rgba(0,0,255,0.5);
+    border: 1.5px solid white;
+}
+.search-popout .option:after {
+   background: rgba(0,0,255,0.3);
+}
+.search-popout .search-option .filter, .search-popout .search-option .answer, .search-popout .results-group .header, .search-popout .option .filter, .search-popout .option .non-text, .search-popout .option .answer, .search-popout .search-query .search-for strong, .search-popout .option.user .display-username, .search-popout .results-group .header, .search-popout .option .filter, .search-popout .search-query .search-for, .search-popout .option.user .displayed-nick, .search-popout .option strong {
+    color: white;
+    font-weight: 500;
+    margin: 0 4px 0 0;
+}
+.search-popout .search-option .filter:hover , .search-popout .search-option .answer:hover , .search-popout .results-group .header:hover , .search-popout .option .filter:hover , .search-popout .option .non-text:hover , .search-popout .option .answer:hover {
+    color: white;
+    font-weight: 500;
+    margin: 0 4px 0 0;
+}
+.search-popout .option.selected,.search-popout .option.selected:after, .search-popout .option.selected:before {
+    background-color: rgba(0,0,255,0.3) !important;
+}
+.keybind-shortcut.dim span {
+    background-color: rgba(0,0,255,0.3);
+    color: white;
+}
+.keybind-shortcut span {
+    border: 1px solid rgba(0, 0, 255,0.4);
+    border-radius: 2px;
+    box-shadow: inset 0 -4px 0 rgba(255, 255, 255,0.4);
+}
+.keybind-shortcut.dim span:active {
+    color: white;
+}
+.search-popout .option.selected:after {
+    background:  rgba(0,0,255,0.3);
+}
+.search-popout {
+background: rgba(0,0,255,0.3);
+}
+.search-popout .date-picker .date-picker-hint .hint {
+color: white;
+}
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker, .theme-light .ui-calendar-picker .react-datepicker, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__header, .theme-light .ui-calendar-picker .react-datepicker__header {
+    background-color: rgba(0,0,255,0.8);
+}
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day-name, .theme-light .ui-calendar-picker .react-datepicker__day-name, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__current-month, .theme-light .ui-calendar-picker .react-datepicker__current-month {
+color: rgba(255,255,255,1);
+}
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day, .theme-light .ui-calendar-picker .react-datepicker__day {
+    border-left-color: rgba(0,0,0,0.6);
+    border-top-color: rgba(0,0,0,0.6);
+     color: rgba(255,255,255,1);
+}
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:after, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:after {
+    background-color: rgba(0,0,255,.05);
+}
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled:hover, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled:hover {
+    background-color: rgba(0,0,255,.05);
+    color: rgba(255,255,255,.2);
+}
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--previous, .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--previous  {
+ background: transparent;
+ }
+
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:hover, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day:hover, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:hover, .theme-light .ui-calendar-picker .react-datepicker__day:hover {
+    background-color: rgba(0,0,255,0.8);
+    color: white;
+}
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__week .react-datepicker__day:last-of-type, .theme-light .ui-calendar-picker .react-datepicker__week .react-datepicker__day:last-of-type {
+    border-right-color: black;
+}
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day--disabled, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day--outside-month, .theme-light .ui-calendar-picker .react-datepicker__day--disabled, .theme-light .ui-calendar-picker .react-datepicker__day--outside-month {
+    background-color: rgba(0,0,255,0.6);
+    color: rgba(255,255,255,.6);
+}
+.slider-handle {
+	border: 3px solid white;
+	background-color: rgba(0,0,255,0.6);
+	}
+.slider-handle span {
+	border-radius: 10px;
+	background-color: rgba(0, 0, 255, .7);
+}
+
+.slider-bar-fill {
+	background: blue;
+}
+.message-group .mentioned .message-text:after {
+    background: none;
+    border: none;
+}
+.theme-dark .message-group .mentioned .message-text {
+    background: rgba(0,0,250,.2);
+}
+/* Full Main Invited Button */
+.theme-dark .invite-button {
+    background-color: rgba(0,0,255,0.3); !important;
+    border-color: rgba(255,255,255,0.3)!important;
+    border-width: 3px;
+    border-style: outset;
+}
+.theme-dark .invite-button.join:hover {
+     background-color: rgba(0,0,255,0.6); !important;
+    border-color: white !important;
+    border-width: 3px;
+    border-style: outset;
+}
+.theme-dark .invite-button .invite-button-header, .theme-dark .invite-button .invite-button-body {
+    color: white;
+}
+/* Green Invite Button Accepted Part */
+.invite-button-icon.accepted {
+    background-color: rgba(0,0,255,0.5);
+    border-color: white;
+    border-width: 3px;
+    border-style: inset;
+}
+.invite-button-icon.accepted:before {
+    border-color: white;
+    opacity: 0.7;
+}
+/* Green Invite Button Not Accepted Part */
+.invite-button-icon.accepted {
+    background-color: rgba(0,0,255,0.5);
+    border-color: white;
+    border-width: 3px;
+    border-style: inset;
+}
+.invite-button.join:hover .invite-button-icon {
+    border-color: rgba(0,0,255,0.7);
+}
+.invite-button-icon {
+    background-color: rgba(0,0,255,0.4);
+    border-color: white;
+    border-width: 3px;
+    border-style: outset;
+    border-radius: 50%;
+}
+.invite-button-icon:before {
+    border-color: white;
+    opacity: 1;
+    border-style: solid;
+    border-width: 0 6px 6px 0;
+}
+/* Bot Tags for Different Locations*/
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .bot-tag {
+    background:  rgba(0,0,255,0.5);
+    border-radius: 50px;
+    color: white!important;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 4px 4px;
+}
+.theme-dark .message-group h2 span .bot-tag {
+    background:  rgba(0,0,255,0.5);
+    border-radius: 13px;
+    color: white!important;
+    font-size: 16px;
+    padding: 5px 5px;
+}
+.channel-members .bot-tag {
+    height: 14px;
+    line-height: 15px;
+    padding: 2px 4px;
+    font-size: 12px;
+    background:  rgba(0,0,255,0.5);
+    border-radius: 13px;
+    color: white !important;
+}
+.wrapper-2ldvyE {
+    background-color:  rgba(0,0,255,0.5);
+    border-radius: 50px;
+    color: white;
+    border: 3px outset rgba(255,255,255,0.4);
+}
+.chat .jump-to-present-bar button {
+    background: rgba(0,0,255,0.5);
+    color: white;
+}
+.chat .jump-to-present-bar .spinner .spinner-item {
+    background-color: white;
+}
+.chat .jump-to-present-bar .spinner {
+    background: rgba(0,0,255,0.5);
+}
+
+.theme-dark .message-group .edit-message .edit-operation {
+    color: rgba(255,255,255,0.5);
+    font-size: 18px
+}
+.message-group .edit-message .edit-operation>a {
+  color: white;
+    font-size: 18px;
+}
+.avatarStatus-1g8f0K {
+    border: 3px solid rgba(0, 0, 0, 1) !important;
+    height: 64px;
+    width: 64px;
+    z-index: 3;
+}
+.theme-dark .mention-RlZ5F3 {
+    background: rgba(0,0,255,0.5) !important;
+}
+.theme-dark .mention-RlZ5F3:hover {
+    background: rgba(0,0,255,0.7) !important;
+}
+.theme-dark .chat form .typing {
+    background-color: transparent;
+}
+.theme-dark .chat form {
+    background-color: transparent !important;
+}
+.badge {
+ background-color: rgba(0,0,255,0.3);
+ border-radius: 53px;
+ color: #fff;
+ border: 2px inset white;
+ padding: 4px 7px;
+    
+}
+.buttonRedFilled-1NjJNj {
+    background-color: rgba(0,0,255,0.5);
+    color: white;
+}
+.buttonRedFilled-1NjJNj:hover {
+    background-color: rgba(0,0,255,0.5);
+    color: white;
+    border: 3px outset rgba(255,255,255,0.5);
+}
+.buttonRedFilled-1NjJNj:active{
+    background-color: rgba(0,0,255,0.5);
+    color: white;
+    border: 3px inset rgba(255,255,255,0.5);
+}
+.theme-dark.context-menu {
+    background: rgba(0,0,255,0.5);
+    color: white;
+}
+
+.theme-dark.context-menu .item-subMenu {
+    background: rgba(0,0,255,0.8);
+   
+}
+.theme-dark.context-menu .item:hover {
+    background: rgba(0,0,255,0.5);
+    color: white;
+}
+.theme-dark.context-menu .context-menu {
+    background: rgba(0,0,255,0.5);
+    border: 1px solid black;
+ }
+ .theme-dark.context-menu .item {
+    color: white;
+}
+#user-profile-modal .avatar-wrapper {
+background: transparent;
+}
+#user-profile-modal .header:after {
+ background: #00002b;
+}
+#user-profile-modal .actions .btn.add-friend,#user-profile-modal .actions .btn.add-friend:hover {
+    background: #00006b;
+}
+.popout-UKvsJt {
+    height: 190px;
+    width: 190px;
+}
+.notice.notice-info {
+    background-color: rgba(0,0,255,0.2);
+}
+.private-channels .channel.selected a {
+    background-color: rgba(0,0,255,.6);
+    color: #fff;
+}
+#friends .friends-table .friends-row .friends-column-guilds .avatar-small {
+    background-color: rgba(0,0,255,.6);
+    color: white;
+}
+.theme-dark #friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn {
+    border: 4px outset rgba(0,0,255,0.6);
+    box-shadow: 1px 1px 1px #000, 1px 1px 1px #000, 1px 1px 1px #000;
+    color: white;
+}
+#friends .friends-table .friends-table-body {
+    background: rgba(0,0,0,0.4);
+}
+.theme-dark #friends .tab-bar .tab-bar-item {
+    color: white;
+    opacity: 1;
+}
+.theme-dark #friends .tab-bar .tab-bar-item.selected {
+    background-color: rgba(0,0,255,0.5);
+    color: white;
+    border: 3px inset white;
+}
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary {
+    background-color: rgba(0,0,255,0.5);
+    color: white;
+    border: 2px solid rgba(255,255,255,0.3);
+}
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover {
+    background-color: rgba(0,0,255,0.5) !important;
+    color: white;
+    border: 2px outset rgba(255,255,255,0.6);
+}
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary.selected {
+    background-color: rgba(0,0,255,0.5);
+    color: white;
+    border: 3px inset white;
+}
+#friends .btn {
+    background-color: rgba(0,0,255,0.5) !important;
+    color: white;
+    border: 2px outset rgba(255,255,255,0.6);
+}
+.theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-suggestions-header, #friends .friends-table .friend-table-add-wrapper .friend-table-add-header .friends-table-add {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    background-color: rgba(0,0,255,0.1);
+}
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action:hover {
+    background-color: rgba(0,0,255,0.5) !important;
+    border: 4px outset rgba(255,255,255,1);
+}
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action {
+    background-color: rgba(0,0,255,0.5) !important;
+    color: white;
+    border: 4px  solid rgba(255,255,255,0.3);
+    border-radius: 50%;
+}
+.wrapper-2xO9RX {
+    background-clip: padding-box;
+    background-color: rgba(0,0,255,0.5);
+    border-radius: 53px;
+    color: #fff;
+    padding: 5px 8px;
+ }
+ .icon-3w_81G {
+  color: white;
+}
+.theme-dark .ui-select>.Select .Select-option {
+    background-color: rgba(0,0,195,0.6);
+    color: white;
+}
+.checkbox .checkbox-inner+span {
+    color: white;
+}
+.icon-3_ICKH {
+    fill: white;
+}
+.lighten-bXgwKO {
+    opacity: 1;
+}
+.theme-dark .ui-select>.Select .Select-menu-outer {
+    background: rgba(0,0,195,0.6);
+    border-color: white;
+}
+
+.Select .Select-menu {
+    border-radius: 0 0 3px 3px;
+    background: rgba(0,0,195,0.6);
+    }
+    .clipboard-input-copied .clipboard-input-inner {
+    border-color: white;
+}
+.form.deprecated .control-group .help-text,.form.deprecated .control-group label, .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label, .has-value.Select--single>.Select-control .Select-value .Select-value-label {
+    color:gray;
+}
+.inner-1_1f7b {
+    background: transparent;
+}
+.instant-invite-modal {
+    background: transparent;
+    
+}
+ #instant-invite-modal .form-actions, .form.deprecated .form-inner, .form.deprecated .form-header {
+background: rgba(0,0,195,0.6) !important;
+}
+#instant-invite-modal-advanced .form-actions .btn-default {
+    background-color: rgba(0,0,195,0.2);
+    color: white;
+}
+#instant-invite-modal-advanced .form-actions .btn-default:active {
+    background-color: rgba(0,0,195,0.2);
+    color: white;
+}
+.form.deprecated .btn-default:hover {
+    border-bottom: 2px solid #c11;
+}
+.form.deprecated .btn-default {
+   border-bottom: 2px solid red;
+}
+.form.deprecated .btn-default:active {
+   border-bottom: 2px solid red;
+}
+#instant-invite-modal .checkbox .checkbox-inner span, #instant-invite-modal-advanced .checkbox .checkbox-inner span {
+    border: 2px solid white;
+}
+.form.deprecated .form-inner:first-child {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+#instant-invite-modal-advanced .form-actions {
+    background-color: rgba(0,0,195,0.6) !important;
+    border-top: none;
+    padding-top: 0;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.form.deprecated .btn-primary:active{
+    background-color: rgba(0,0,195,0.6) ;
+    border-radius: 53px;
+    border: 3px inset rgba(255,255,255,0.8) !important;
+     color: white;
+}
+.form.deprecated .btn-primary:hover {
+    background-color: rgba(0,0,195,0.6) ;
+    border-radius: 53px;
+    border: 3px outset rgba(255,255,255,0.8);
+     color: white;
+}
+.form.deprecated .btn-primary {
+    background-color: rgba(0,0,195,0.6);
+    border-radius: 53px;
+    border: 3px solid rgba(255,255,255,0.4);
+    color: white;
+}
+#instant-invite-modal .expire-text, #instant-invite-modal .blurb, #instant-invite-modal .form-header header {
+color: white;
+}
+.theme-dark .footer-1PYmcw, .theme-dark .header-3sp3cE {
+    background-color: rgba(0,0,195,0.6) !important;
+} 
+.content-1Cut5s {
+    background: rgba(0,0,195,0.6) !important;
+}
+.theme-dark .modal-3HOjGZ {
+   background-color: transparent;
+}
+.themeDefault-3M0dJU {
+    background: darkblue !important;
+}
+.themeDefault-3M0dJU.valueChecked-3Bzkbm {
+    background-color: blue !important;
+}
+.theme-dark .friends-table .messages .divider.divider-red>span, .theme-dark .messages-wrapper .messages .divider.divider-red>span {
+    background-color: #00002b !important;
+}
+.chat .new-messages-bar button:first-child,.chat .new-messages-bar button:last-child {
+    background-color: rgba(0,0,100,1) !important;
+    color: #fff !important;
+}
+/* Emote Stuff */
+.bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container {
+    background-color: #00005c;
+}
+.bda-dark #bda-qem button.active {
+    background-color: #00004c;
+    color: white;
+    font-weight: bold;
+}
+
+.bda-dark #bda-qem button {
+    background: #00008c;
+    border-left: none;
+    box-shadow: none;
+    color: white;
+    font-weight: bold;
+    border: none;
+ }
+ .bda-dark #bda-qem button:hover {
+    background: #00005c;
+    border-left: none;
+    box-shadow: none;
+    color: white;
+    font-weight: bold;
+    border: none;
+ }
+ .bda-dark #bda-qem {
+    border-bottom: 1px solid black !important;
+}
+.emoji-picker .scroller .emoji-item {
+    background-position: 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+}
+.bda-dark .emoji-picker, .emoji-picker .scroller {
+    background-color: #00004c;
+}
+.emoji-picker .categories .item.selected {
+    border-bottom-color: blue;
+}
+ .bda-dark .emoji-picker .header .search-bar {
+    background-color: #00004c;
+}
+.bda-dark .emoji-picker .category {
+    background-color: #00004c;
+}
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
+   background: #00004f;
+ }
+ .theme-dark .autocomplete-1TnWNR {
+    background-color: rgba(0,0,125,0.5);
+}
+.theme-dark .selectorSelected-2M0IGv {
+    background-color: rgba(0,0,175,0.5);
+}
+.flexChild-1KGW5q, .container-iksrDt, form, .member:hover {
+    background: rgba(0, 0, 0, 0) !important;
+}
+
+
