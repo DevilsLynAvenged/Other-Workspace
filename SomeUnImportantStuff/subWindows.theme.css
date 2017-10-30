@@ -55,8 +55,6 @@
 /* =======Photo Stuff Crap====*/
 
 .modal-image .image {
-  width: 523px;
-  height: 523px;
   border-radius: 34px;
   position: relative;
   bottom: 32px !important;
