@@ -875,22 +875,6 @@ span:not(.spinner-item) {
   padding: 5px 10px;
 }
 
-.button-1aU9q1 {
-  background: #D93F0B no-repeat 50% 50%;
-  background-size: 18px 18px;
-  border: none;
-  border-radius: 1px;
-  cursor: pointer;
-  height: 42px;
-  justify-content: center;
-  opacity: 2;
-  padding: 0;
-  position: relative;
-  width: 32px;
-  margin: 2px;
-  left: 59px;
-  top: 18px;
-}
 
 .button-1aU9q1:hover {
   border: 3px solid #f56b3d;
