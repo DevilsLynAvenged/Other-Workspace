@@ -1055,4 +1055,14 @@ color: white;
 .horizontal-2BEEBe>.flex-lFgbSz, .horizontal-2BEEBe>.flexChild-1KGW5q {
    background: transparent !important;
 }
-
+.message-group .mentioned .message-text:after {
+    background: none;
+    border-left: none;
+    border-radius: 2px 0 0 2px;
+    bottom: 0;
+    content: " ";
+    left: -6px;
+    position: absolute;
+    top: 0;
+    width: 2px;
+}
