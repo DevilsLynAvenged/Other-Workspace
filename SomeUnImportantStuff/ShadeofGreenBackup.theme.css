@@ -1417,3 +1417,10 @@ color: white;
     display: block;
     background:  rgba(0,33,0,1) !important;
 }
+.horizontal-2BEEBe>.flexChild-1KGW5q:last-child, .horizontal-2BEEBe>.flexChild-1KGW5q:first-child {
+    background: transparent !important;
+}
+
+.horizontal-2BEEBe>.flex-lFgbSz, .horizontal-2BEEBe>.flexChild-1KGW5q {
+   background: transparent !important;
+}
