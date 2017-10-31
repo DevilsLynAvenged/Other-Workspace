@@ -1067,5 +1067,8 @@ color: white;
     width: 2px;
 }
 .theme-dark .chat form .typing {
-    background-color: #36393e;
+    background-color: transparent;
+}
+.theme-dark .chat form {
+    background-color: transparent !important;
 }
