@@ -1040,10 +1040,10 @@ color: white;
    background: #00004f;
  }
  .theme-dark .autocomplete-1TnWNR {
-    background-color: rgba(0,0,125,0.5);
+    background-color: rgba(0,0,75,0.5);
 }
 .theme-dark .selectorSelected-2M0IGv {
-    background-color: rgba(0,0,175,0.5);
+    background-color: rgba(0,0,75,0.8);
 }
 .flexChild-1KGW5q, .container-iksrDt, form, .member:hover {
     background: rgba(0, 0, 0, 0) !important;
