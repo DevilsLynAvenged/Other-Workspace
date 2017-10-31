@@ -1980,4 +1980,10 @@ background: rgba(234, 98, 143,0.8) !important;
     margin-top: -11px !important;
     z-index: 3;
 }
+.horizontal-2BEEBe>.flexChild-1KGW5q:last-child, .horizontal-2BEEBe>.flexChild-1KGW5q:first-child {
+    background: transparent !important;
+}
 
+.horizontal-2BEEBe>.flex-lFgbSz, .horizontal-2BEEBe>.flexChild-1KGW5q {
+   background: transparent !important;
+}
