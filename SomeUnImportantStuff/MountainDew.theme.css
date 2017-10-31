@@ -2365,13 +2365,13 @@ background: #006622 !important;
 background: #006622 !important;
 }
 .theme-dark .autocomplete-1TnWNR {
-    background-color: rgba(153, 0, 0,0.3);
+    background-color: rgba(0, 153, 0,0.3);
 }
 .theme-dark .contentTitle-sL6DrN {
     color: orange;
 }
 .theme-dark .selectorSelected-2M0IGv {
-    background-color:  rgba(153, 0, 0,0.7);
+    background-color:  rgba(0, 153, 0,0.7);
 }
 .horizontal-2BEEBe>.flexChild-1KGW5q:last-child, .horizontal-2BEEBe>.flexChild-1KGW5q:first-child {
     background: transparent !important;
