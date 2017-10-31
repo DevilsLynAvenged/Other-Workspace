@@ -1066,3 +1066,6 @@ color: white;
     top: 0;
     width: 2px;
 }
+.theme-dark .chat form .typing {
+    background-color: #36393e;
+}
