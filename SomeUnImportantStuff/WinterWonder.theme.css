@@ -1072,3 +1072,8 @@ color: white;
 .theme-dark .chat form {
     background-color: transparent !important;
 }
+.badge, .wrapper-2xO9RX {
+    background-color: blue;
+    border-radius: 53px;
+    color: #fff;
+}
