@@ -1214,14 +1214,7 @@ color: white;
 .theme-dark .chat form {
     background-color: transparent !important;
 }
-.badge {
- background-color: rgba(0,0,255,0.3);
- border-radius: 53px;
- color: #fff;
- border: 2px inset white;
- padding: 4px 7px;
-    
-}
+
 .buttonRedFilled-1NjJNj {
     background-color: black;
     color: red;
@@ -1423,4 +1416,11 @@ color: white;
 
 .horizontal-2BEEBe>.flex-lFgbSz, .horizontal-2BEEBe>.flexChild-1KGW5q {
    background: transparent !important;
+}
+.badge {
+    background-color: rgba(0,255,0,0.6) !important;
+    border-radius: 53px;
+    color: #fff;
+    border: 2px inset #fff;
+    padding: 4px 7px;
 }
