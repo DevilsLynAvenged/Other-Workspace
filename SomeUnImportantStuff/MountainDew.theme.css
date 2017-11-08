@@ -1241,11 +1241,11 @@ input[type="checkbox" i][value*="on"] {
 .btn-close path[fill] {
     fill: #1dab07;
 }
-div[class*="switchEnabled"][class*=valueChecked] {
-    background-color: #1dab07;
+.theme-dark div[class*="switchEnabled"][class*=valueChecked] {
+    background-color: #1dab07 !important;
  }
-div[class*="switchEnabled"][class*=valueUnchecked] {
-    background-color: #157a05;
+.theme-dark div[class*="switchEnabled"][class*=valueUnchecked] {
+    background-color: #157a05 !important;
 }
 [class*="barFill-18ABna"][style*="background: rgb(105, 196, 154)"]
 {
