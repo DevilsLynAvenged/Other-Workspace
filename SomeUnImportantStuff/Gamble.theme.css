@@ -1595,3 +1595,7 @@ background: red;
 .iconCollapsed-1INdMX, .iconDefault-xzclSQ, .iconHovered-3PRzOR, .iconHoveredCollapsed-jNYgOD, .iconMuted-Hb4ttQ, .iconUnread-3sxnnr {
     color: red;
 }
+.user-settings-connections .connection-header .connection-account-value:nth-child(2) {
+     color: black !important;
+}
+
