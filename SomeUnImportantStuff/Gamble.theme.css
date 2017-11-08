@@ -1591,3 +1591,7 @@ background: red;
 .spinner-pulsing-ellipsis .spinner-item {
    background: red;
 }
+
+.iconCollapsed-1INdMX, .iconDefault-xzclSQ, .iconHovered-3PRzOR, .iconHoveredCollapsed-jNYgOD, .iconMuted-Hb4ttQ, .iconUnread-3sxnnr {
+    color: red;
+}
