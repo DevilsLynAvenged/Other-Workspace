@@ -1627,3 +1627,11 @@ background: red;
 .theme-dark .ui-standard-sidebar-view .btn-close path[fill] {
     fill: red;
 }
+
+.theme-dark .input-2YozMi:focus {
+    border-color: #c11;
+}
+
+.theme-dark .input-2YozMi {
+   color: red;
+}
