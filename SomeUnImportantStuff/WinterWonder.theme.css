@@ -495,10 +495,10 @@ position: absolute;
     border: 1px dashed;
 }
 .themeDefault-3M0dJU.valueChecked-3Bzkbm {
-    background-color: rgba(0,0,123,1);
+    background-color: rgba(0,0,123,1) !important;
 }
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked {
-    background: rgba(0,0,123,1);
+    background: rgba(0,0,123,1) !important;
 }
 .ui-standard-sidebar-view .bda-slist li:nth-child(odd) {
     background: rgba(0,0,112,1);
@@ -977,7 +977,7 @@ color: white;
 .theme-dark .modal-3HOjGZ {
    background-color: transparent;
 }
-.themeDefault-3M0dJU {
+.theme-dark .themeDefault-3M0dJU {
     background: darkblue !important;
 }
 .themeDefault-3M0dJU.valueChecked-3Bzkbm {
