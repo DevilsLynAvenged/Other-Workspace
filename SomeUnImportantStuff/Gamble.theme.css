@@ -49,12 +49,11 @@
     background-size: cover;
 }
 .channel-members .avatar-small {
-   margin-bottom: 9px;
-   border: 5px solid blue; 
-  border: 5px outset #cc1111;
+    margin-bottom: 1px;
+    border: 5px outset #cc1111;
     border-radius: 8px;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     background-size: cover;
 }
 .status-online {
@@ -715,11 +714,16 @@ div[class*="switchEnabled"][class*=valueUnchecked] {
  }
 .channel-members .member {
     background: transparent !important;
+    margin-top: 5px;
+    padding-top: 34px;
+    padding-bottom: 44px;
 }
 .theme-dark .channel-members .member:hover {
     background: black !important;
     border: 5px solid #cc1111;
     border-radius: 10px;
+    padding-top: 29px;
+    padding-bottom: 28px;
 }
 .container-iksrDt {
     height: 129px;
