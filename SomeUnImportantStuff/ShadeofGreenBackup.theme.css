@@ -962,12 +962,14 @@ background: transparent !important;
     background: #284d00;
 }
 
-div[class*="switchEnabled"][class*=valueChecked] {
+.theme-dark div[class*="switchEnabled"][class*=valueChecked] {
     background-color: #428000;
  }
-div[class*="switchEnabled"][class*=valueUnchecked] {
+.theme-dark div[class*="switchEnabled"][class*=valueUnchecked] {
     background-color: #284d00;
 }
+
+
 [class*="barFill-18ABna"][style*="background: rgb(105, 196, 154)"]
 {
     background: #284d00 !important;
@@ -1304,10 +1306,10 @@ color: white;
 #user-profile-modal .actions .btn.add-friend,#user-profile-modal .actions .btn.add-friend:hover {
     background: #006b00;
 }
-.themeDefault-3M0dJU {
+.theme-dark .themeDefault-3M0dJU {
     background: #004f00 !important;
 }
-.themeDefault-3M0dJU.valueChecked-3Bzkbm {
+.theme-dark .themeDefault-3M0dJU.valueChecked-3Bzkbm {
     background-color: #007f00 !important;
 }
 .theme-dark .friends-table .messages .divider.divider-red>span, .theme-dark .messages-wrapper .messages .divider.divider-red>span {
