@@ -978,9 +978,9 @@ color: white;
    background-color: transparent;
 }
 .theme-dark .themeDefault-3M0dJU {
-    background: darkblue !important;
+    background-color: darkblue !important;
 }
-.themeDefault-3M0dJU.valueChecked-3Bzkbm {
+.theme-dark .themeDefault-3M0dJU.valueChecked-3Bzkbm {
     background-color: blue !important;
 }
 .theme-dark .friends-table .messages .divider.divider-red>span, .theme-dark .messages-wrapper .messages .divider.divider-red>span {
