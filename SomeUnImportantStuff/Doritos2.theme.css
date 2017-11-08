@@ -1382,11 +1382,11 @@ input[type="checkbox" i][value*="on"] {
 .btn-close path[fill] {
     fill: #D90307;
 }
-div[class*="switchEnabled"][class*=valueChecked] {
-    background-color: #D90307;
+.theme-dark div[class*="switchEnabled"][class*=valueChecked] {
+    background-color: #D90307 !important;
  }
-div[class*="switchEnabled"][class*=valueUnchecked] {
-    background-color: #b00306;
+.theme-dark div[class*="switchEnabled"][class*=valueUnchecked] {
+    background-color: #b00306 !important;
 }
 [class*="barFill-18ABna"][style*="background: rgb(105, 196, 154)"]
 {
