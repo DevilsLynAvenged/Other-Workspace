@@ -1057,10 +1057,14 @@ color: white;
     background: rgba(0, 0, 0, 0) !important;
 }
 
+.horizontalReverse-2LanvO>.flex-lFgbSz:last-child, .horizontalReverse-2LanvO>.flexChild-1KGW5q:last-child, .horizontalReverse-2LanvO>.flex-lFgbSz:first-child, .horizontalReverse-2LanvO>.flexChild-1KGW5q:first-child {
+    background: transparent !important;
+}
 
-.horizontal-2BEEBe>.flex-lFgbSz, .horizontal-2BEEBe>.flexChild-1KGW5q {
+.horizontal-2BEEBe>.flex-lFgbSz {
    background: transparent !important;
 }
+
 .message-group .mentioned .message-text:after {
     background: none;
     border-left: none;
