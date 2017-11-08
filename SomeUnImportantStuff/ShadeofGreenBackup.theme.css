@@ -1410,7 +1410,7 @@ color: white;
     display: block;
     background:  rgba(0,33,0,1) !important;
 }
-.horizontal-2BEEBe>.flexChild-1KGW5q:last-child, .horizontal-2BEEBe>.flexChild-1KGW5q:first-child {
+.horizontal-2BEEBe>.flexChild-1KGW5q:last-child, .horizontal-2BEEBe>.flexChild-1KGW5q:first-child:not(div[class*="switchEnabled"][class*=valueUnchecked]) {
     background: transparent !important;
 }
 
