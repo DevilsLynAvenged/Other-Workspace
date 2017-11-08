@@ -1611,3 +1611,19 @@ background: red;
     color: #c11;
 }
 
+
+.theme-dark .ui-standard-sidebar-view .esc-text {
+    color: #c11;
+}
+
+.theme-dark .ui-standard-sidebar-view .btn-close {
+    border-color: #c11;
+}
+
+.theme-dark .ui-standard-sidebar-view .btn-close:hover {
+    background: rgba(125,0,0,0.6);
+}
+
+.theme-dark .ui-standard-sidebar-view .btn-close path[fill] {
+    fill: red;
+}
