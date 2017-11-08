@@ -963,10 +963,10 @@ background: transparent !important;
 }
 
 .theme-dark div[class*="switchEnabled"][class*=valueChecked] {
-    background-color: #428000;
+    background-color: #428000 !important;
  }
 .theme-dark div[class*="switchEnabled"][class*=valueUnchecked] {
-    background-color: #284d00;
+    background-color: #284d00 !important;
 }
 
 
