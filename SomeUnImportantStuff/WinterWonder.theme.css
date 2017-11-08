@@ -985,6 +985,15 @@ color: white;
 .theme-dark .modal-3HOjGZ {
    background-color: transparent;
 }
+.horizontal-2BEEBe>.flexChild-1KGW5q {
+	
+}
+
+
+.horizontal-2BEEBe>.flexChild-1KGW5q:not(.themeDefault-3M0dJU) {
+	background: transparent !important;
+}
+
 .theme-dark .themeDefault-3M0dJU {
     background-color: darkblue !important;
 }
