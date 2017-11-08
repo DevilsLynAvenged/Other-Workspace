@@ -407,11 +407,19 @@ border-right: 1px solid rgb(255, 255, 255) !important;
 .theme-dark .hljs-attribute {
  color: #FFF; 
 }
-     
+
+.horizontal-2BEEBe>.flex-lFgbSz .chat {
+    background: rgba(0,0,0,0.2) !important;
+}
+.theme-dark .message-group .comment .markup pre {
+    background: transparent;
+    border-color: transparent;
+}
 .theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code {
-    background: rgba(0,0,43,0.8);
+    background: rgba(0,0,43,0.5);
     border: 1px solid white;
-    border-radius: 20px
+    border-radius: 20px;
+    text-shadow: 3px 3px 3px #000;
 }
 .theme-dark .hljs-selector-class {
     color: #1C7AE2;
