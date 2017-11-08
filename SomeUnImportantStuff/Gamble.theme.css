@@ -340,10 +340,10 @@
 
 
 div[class*="switchEnabled"][class*=valueChecked] {
-    background-color: #cc1111;
+    background-color: #cc1111 !important;
  }
 div[class*="switchEnabled"][class*=valueUnchecked] {
-    background-color: #994444;
+    background-color: #994444 !important;
 }
 [class*="barFill-18ABna"][style*="background: rgb(105, 196, 154)"]
 {
