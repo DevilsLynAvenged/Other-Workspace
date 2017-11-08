@@ -1602,3 +1602,17 @@ background: red;
     color: black !important;
     font-weight: 400;
 }
+.theme-dark #bd-settingspane-container .scroller div > h2 {
+    color: #c11;
+}
+.theme-dark .ui-standard-sidebar-view .esc-text {
+    color: #c11;
+}
+
+.theme-dark .ui-standard-sidebar-view .btn-close {
+    border-color: #c11;
+}
+
+.theme-dark .ui-standard-sidebar-view .btn-close path[fill] {
+    fill: red;
+}
