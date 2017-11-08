@@ -339,12 +339,13 @@
 }
 
 
-div[class*="switchEnabled"][class*=valueChecked] {
+.theme-dark div[class*="switchEnabled"][class*=valueChecked] {
     background-color: #cc1111 !important;
  }
-div[class*="switchEnabled"][class*=valueUnchecked] {
+.theme-dark div[class*="switchEnabled"][class*=valueUnchecked] {
     background-color: #994444 !important;
 }
+
 [class*="barFill-18ABna"][style*="background: rgb(105, 196, 154)"]
 {
     background: #cc1111 !important;
