@@ -1587,3 +1587,7 @@ background: red;
 .horizontal-2BEEBe>.flex-lFgbSz .chat {
     background: rgba(0,0,0,0.4) !important;
 }
+
+.spinner-pulsing-ellipsis .spinner-item {
+   background: red;
+}
