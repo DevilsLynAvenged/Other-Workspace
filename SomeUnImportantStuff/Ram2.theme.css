@@ -322,10 +322,10 @@ width: 300px;
 }
 
 .theme-dark div[class*="switchEnabled"][class*=valueChecked] {
-    background-color: #e84a7f;
+    background-color: #e84a7f !important;
  }
 .theme-dark div[class*="switchEnabled"][class*=valueUnchecked] {
-    background-color: #F4ABC3;
+    background-color: #F4ABC3 !important;
 }
 [class*="barFill-18ABna"][style*="background: rgb(105, 196, 154)"]
 {
