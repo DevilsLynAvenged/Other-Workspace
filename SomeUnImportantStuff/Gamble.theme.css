@@ -1595,7 +1595,10 @@ background: red;
 .iconCollapsed-1INdMX, .iconDefault-xzclSQ, .iconHovered-3PRzOR, .iconHoveredCollapsed-jNYgOD, .iconMuted-Hb4ttQ, .iconUnread-3sxnnr {
     color: red;
 }
-.user-settings-connections .connection-header .connection-account-value:nth-child(2) {
+.user-settings-connections .connection-header .connection-account-value {
      color: black !important;
 }
-
+.user-settings-connections .connection-options .connection-option-switch h3 {
+    color: black !important;
+    font-weight: 400;
+}
