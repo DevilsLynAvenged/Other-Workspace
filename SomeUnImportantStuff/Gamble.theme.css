@@ -647,6 +647,9 @@ div[class*="switchEnabled"][class*=valueUnchecked] {
 .chat>.title-wrap.title-wrap-dark .channel-name, .header-1tSljs {
     color: red;
 }
+.theme-dark .header-1tSljs {
+    background: black !important;
+}
 .chat>.title-wrap>.title .channel-name .channel-icon {
     color: transparent;
  }
@@ -1550,8 +1553,8 @@ background: red;
 }
 .avatarStatus-1g8f0K {
     border: 3px solid rgba(0, 0, 0, 1) !important;
-    height: 64px;
-    width: 64px;
+    height: 64px !important;
+    width: 64px !important;
     z-index: 3;
 }
 .wrapper-2xO9RX {
