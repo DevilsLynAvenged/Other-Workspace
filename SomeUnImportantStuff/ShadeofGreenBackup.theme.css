@@ -1406,7 +1406,7 @@ color: white;
     display: block;
     background:  rgba(0,33,0,1) !important;
 }
-.horizontal-2BEEBe>.flexChild-1KGW5q:last-child:not(.themeDefault-3M0dJU), .horizontal-2BEEBe>.flexChild-1KGW5q:first-child:not(.themeDefault-3M0dJU) {
+.horizontal-2BEEBe>.flexChild-1KGW5q:last-child:not(.themeDefault-3M0dJU.valueChecked-3Bzkbm), .horizontal-2BEEBe>.flexChild-1KGW5q:first-child:not(.themeDefault-3M0dJU.valueChecked-3Bzkbm) {
     background: transparent !important;
 }
 
