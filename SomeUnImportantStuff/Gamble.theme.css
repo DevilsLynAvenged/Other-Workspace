@@ -1342,6 +1342,12 @@ border: 2px solid red;
     border: 1.5px solid red;
     color: red;
 }
+
+.search-popout .date-picker .date-picker-hint .hint-value:hover {
+    background-color: black;
+    border: 1.5px solid red;
+    color: red;
+}
 .search-popout .date-picker .date-picker-hint .hint {
 color: red;
 }
