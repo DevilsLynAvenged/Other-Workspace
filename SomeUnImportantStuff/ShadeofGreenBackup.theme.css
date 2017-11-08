@@ -1427,3 +1427,8 @@ color: white;
     border-radius: 53px;
     color: #fff;
 }
+[class*="bd-pfbtn bd-updatebtn"][style*="left: 220px;"] {
+     margin-left: 18px;
+     top: -45px;
+}
+
