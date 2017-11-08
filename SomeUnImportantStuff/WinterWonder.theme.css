@@ -1096,3 +1096,8 @@ color: white;
     border-radius: 53px;
     color: #fff;
 }
+
+.private-channels .channel:hover a {
+    background-color: #00006f;
+    color: #fff;
+}
