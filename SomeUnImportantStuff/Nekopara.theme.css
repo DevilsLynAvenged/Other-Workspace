@@ -1,5 +1,3 @@
-
-
 /* Main Chat Area */
 
 .theme-dark .chat form,
@@ -12,9 +10,6 @@
 	background-color: rgba(86, 67, 75, 0.81);
 }
 
-.titleBar-3_fDwJ {
-	background-color: rgba(86, 67, 75, 0.81) !important;
-}
 
 .theme-dark .message-group .comment .markup code.inline {
 	background: rgba(86, 67, 75, 0.71) !important;
@@ -138,13 +133,7 @@
 	color: rgb(255, 255, 255);
 }
 
-.chat .divider.divider-red>span {
-	background: #56434b !important;
-	color: #fff !important;
-	text-align: left;
-	width: 10.2%;
-	border: 2px solid rgba(255, 255, 255, 0.6);
-}
+
 
 .chat .new-messages-bar {
 	background-color: rgba(86, 67, 75, 0.65);
@@ -2052,4 +2041,15 @@ form,
     margin-left: 6px;
     padding: 5px 5px;
     border: 2px solid rgba(255,255,255,0.5);
+}
+/* Split Here */
+.chat .divider.divider-red>span {
+	background: #56434b !important;
+	color: #fff !important;
+	text-align: left;
+	width: 10.2%;
+	border: 2px solid rgba(255, 255, 255, 0.6);
+}
+ .titleBar-3_fDwJ {
+	background-color: rgba(86, 67, 75, 0.81) !important;
 }
