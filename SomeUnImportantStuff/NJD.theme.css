@@ -2028,12 +2028,12 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
 }
 .message-group:not(.compact) .avatar-large[style*="235302947058089984"]~ .comment .message h2 span.username-wrapper::after,
 .channel-members .member .avatar-small[style="235302947058089984"]~ .member-inner .member-username .member-username-inner::after {
-	content: "New Jersey Devils Fan";
-	color: #fff;
+	content: "New Jersey Devils Fan" !important;
+	color: #fff !important;
 	border-radius: 3px;
-	background: black;
+	background: black !important;
 	margin-left: 6px;
-	border: 2px outset #C8102E;
+	border: 2px outset #C8102E !important;
 	font-size: 10px;
 	font-weight: 600;
 	text-transform: uppercase;
