@@ -2026,3 +2026,21 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
     background-color: black !important;
     color: white;
 }
+.message-group:not(.compact) .avatar-large[style*="235302947058089984"]~ .comment .message h2 span.username-wrapper::after,
+.channel-members .member .avatar-small[style="235302947058089984"]~ .member-inner .member-username .member-username-inner::after {
+	content: "New Jersey Devils Fan";
+	color: #fff;
+	border-radius: 3px;
+	background: black;
+	margin-left: 6px;
+	border: 2px outset #C8102E;
+	font-size: 10px;
+	font-weight: 600;
+	text-transform: uppercase;
+	vertical-align: bottom;
+	padding: 4px 4px;
+	line-height: 14px;
+	flex-shrink: 0;
+	-webkit-flex-shrink: 0;
+	text-shadow: rgba(0, 0, 0, 0.6) 4px 2px 1px;
+}
