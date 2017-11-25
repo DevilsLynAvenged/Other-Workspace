@@ -1,3 +1,22 @@
+.horizontal-2BEEBe>.flexChild-1KGW5q:last-child, .horizontal-2BEEBe>.flexChild-1KGW5q:first-child {
+    background: transparent !important;
+}
+.theme-dark .user-settings-connections .connect-account-btn .connect-account-btn-inner {
+    background-color: green !important;
+    border-color: #00FF00 !important;
+    border-width: 2px;
+    transition: border-width .2s ease-in;
+}
+.theme-dark .user-settings-connections .connect-account-btn .connect-account-btn-inner:hover {
+    border-width: 4px;
+}
+.horizontal-2BEEBe>.flex-lFgbSz, .horizontal-2BEEBe>.flexChild-1KGW5q {
+   background: transparent !important;
+}
+.mention-RlZ5F3 {
+    background-color: rgba(14,84,3,0.8) !important;
+    color: #e7e7e7;
+}
 /* Role Name List Title */
 .theme-dark .channel-members h2 {
 	color: rgb(231,231,231) !important;
@@ -17,11 +36,7 @@
 }
 /* Some Message Stuff */
 .header, .messages-popout, .message-group {
-    background-color: rgba(0, 0, 0, 0.4) !important;
     margin-bottom: 4px;
-    padding-right: 14px;
-    padding-left: 14px;
-    border-radius: 12px;
 }
 .header, .messages-popout, .message-group:hover {
     background-color: rgba(0, 0, 0, 0.6) !important;
@@ -490,15 +505,15 @@ border-color: rgb(14, 17, 218);
     letter-spacing: 12px;
 }
 .chat .avatar-large {
-   width: 74px;
-   height: 74px;
+   width: 44px;
+   height: 44px;
     background-size: cover;
    border: 3px solid #199306;
    transition: width 0.5s ease, border-color 0.5s ease, height 0.5s ease, border-radius 0.5s ease;
 }
 .chat .avatar-large:hover {
-   width: 94px;
-   height: 94px;
+   width: 64px;
+   height: 64px;
    border-color: #25dc09;
    background-size: cover;
     opacity: 1;
@@ -597,8 +612,8 @@ border-color: rgb(14, 17, 218);
     opacity: 0.5;
  }
 .emoji {
-    min-height: 62px;
-    min-width: 62px;
+    min-height: 32px;
+    min-width: 32px;
 }
 #user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator {
     color: #e7e7e7;
@@ -1140,12 +1155,16 @@ width: 300px;
 .bd-pfbtn  {
   background: #0e5403;
   border: 2px solid #189405;
-  font-size: 21px;
+  font-size: 14px;
   color: #e7e7e7;
 }
-[class*="bd-pfbtn bd-updatebtn"][style*="left: 220px;"] {
-   margin-left: 72px;
-    margin-top: -31px;
+.bd-pfbtn:hover  {
+  background: #0e5403;
+  border: 3px solid #189405;
+}
+[class*="bd-pfbtn bd-updatebtn"][style*="left"] {
+   margin-left: 2px;
+   margin-top: -25px;
 }
 input[type*="checkbox"][class*="ui-switch-checkbox"][value*="on"] {
     border-radius: 50px;
@@ -1579,34 +1598,29 @@ input[type="checkbox" i][value*="on"] {
    font-size: 22px;
    font-family: 'AirMillHouseItalic' !important;
 }
-.channel-members .avatar-small {
-    margin-bottom: 12px;
-    width: 42px;
-    height: 42px;
-    background-size: cover;
-}
+
 .theme-dark .channel-members .avatar-small .status-online {
     border-color: #2f3136;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
 }
 .theme-dark .channel-members .avatar-small .status-idle {
     border-color: #2f3136;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
 }
 .theme-dark .channel-members .avatar-small .status-dnd {
     border-color: #2f3136;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
 }
 .theme-dark .channel-members .avatar-small .status-streaming {
     border-color: #2f3136;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
 }
 .theme-dark .channel-members .avatar-small .status-online:before {
@@ -1614,17 +1628,17 @@ input[type="checkbox" i][value*="on"] {
 	margin-left: 2px;
 	position: absolute;
 	bottom: -7.1px;
-	font-size: 17px;
+	font-size: 10px;
 	opacity: 1;
 	font-family: 'AirMillHouseItalic' !important;
 	color: white;
 }
 .theme-dark .channel-members .avatar-small .status-idle:before {
 	content: "I" !important;
-	margin-left: 6px;
+	margin-left: 5px;
 	position: absolute;
 	bottom: -7.1px;
-	font-size: 17px;
+	font-size: 10px;
 	opacity: 1;
 	font-family: 'AirMillHouseItalic' !important;
 	color: white;
@@ -1633,18 +1647,18 @@ input[type="checkbox" i][value*="on"] {
 	content: "D" !important;
 	margin-left: 3px;
 	position: absolute;
-	bottom: -6px;
-	font-size: 17px;
+	bottom: -8px;
+	font-size: 10px;
 	opacity: 1;
 	font-family: 'AirMillHouseItalic' !important;
 	color: white;
 }
 .theme-dark .channel-members .avatar-small .status-streaming:before {
 	content: "S" !important;
-	margin-left: 2px;
+	margin-left: 4px;
 	position: absolute;
 	bottom: -7.1px;
-	font-size: 17px;
+	font-size: 10px;
 	opacity: 1;
 	font-family: 'AirMillHouseItalic' !important;
 	color: white;
@@ -2038,10 +2052,9 @@ input[type="checkbox" i][value*="on"] {
     text-decoration: none;
 }
 .user-settings-keybinds .ghost-pill {
-    background-color: rgba(250,166,26,.1);
     border-radius: 50px;
-    color: #faa61a;
-    font-size: 19px;
+    color: white;
+    font-size: 14px;
 }
 .keyboard-shortcuts-modal .scroller-wrap .scroller {
     border-radius: 1px;
@@ -2099,7 +2112,7 @@ input[type="checkbox" i][value*="on"] {
 .bda-slist .bda-name {
     color: #e7e7e7;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 13px;
     max-height: 36px;
     opacity: 1;
 }
@@ -2107,6 +2120,10 @@ input[type="checkbox" i][value*="on"] {
     border-top: none;
     color: #e7e7e7;
     opacity: 1;
+    font-size: 12px;
+}
+.notice.notice-info {
+    background-color: #0e5403;
 }
 #bd-customcss-detach-container {
    background-color: black;
@@ -2183,8 +2200,14 @@ display: none;
     border-radius: 53px !important;
     border: 1px solid rgba(255, 255, 255,0.4);
 }
- .container-2OU7Cz, .theme-dark .title-qAcLxz, .channels-3g2vYe, .theme-dark .chat form, .theme-dark .headerBar-cxbhPD {
+ .container-2OU7Cz, .theme-dark .title-qAcLxz, .channels-3g2vYe, .theme-dark .headerBar-cxbhPD {
     background-color: transparent;
+}
+.titleBar-3_fDwJ {
+    background: rgba(0,0,0,0.5) !important;
+}
+.theme-dark .chat form {
+    background: transparent !important;
 }
 .guilds-wrapper .guilds {
     background: rgba(0,0,0,0.5);
