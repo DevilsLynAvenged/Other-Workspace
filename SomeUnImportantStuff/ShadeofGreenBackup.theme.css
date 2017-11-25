@@ -1,10 +1,13 @@
 /* For Voice Chat in DM ^ */
 .avatar-large  {
-    width: 80px;
-    height: 80px;
-    background-size: 80px 80px;
-    border: 6px outset #477920;
+    width: 60px;
+    height: 60px;
+    background-size: 60px 60px;
+    border: 2px outset #477920;
     border-radius: 10px;
+}
+.theme-dark .friends-table .messages .divider.divider-red>span, .theme-dark .messages-wrapper .messages .divider.divider-red>span {
+    background: none !important;
 }
 .theme-dark .friends-table, .theme-dark .messages-wrapper {
     background: #1B3409;
@@ -37,7 +40,7 @@
 }
 .theme-dark .friends-table .messages .divider.divider-red>span, .theme-dark .messages-wrapper .messages .divider.divider-red>span {
     color: rgb(59,161,26);
-    font-size: 30px;
+    font-size: 14px;
 }
 .theme-dark .channel-members {
      background: #1B3409;
@@ -60,7 +63,7 @@
 }
 
 .container-iksrDt {
-    height: 132px;
+    height: 52px;
     background: #1B3409;
     color: #fff;
     border: 3px outset #2f5115
@@ -185,7 +188,7 @@
 
 .status-picker .popout-menu-item {
   display: block;
-    background: black;
+    background: transparent;
 }
 .status-picker .popout-menu-item:hover {
   background: black;
@@ -325,8 +328,8 @@ content: "DND" !important;
     border-radius: 5px;
     overflow: hidden;
     width: 216px;
-    height: 255px;
-    margin-bottom: -29px;
+    box-shadow: none;
+    margin-top: -9px;
     z-index: 0;
     background: black;
 }
@@ -415,7 +418,16 @@ content: "DND" !important;
     background-size: 90%;
 }
 .justifyCenter-29N31w {
-   background: #1B3409;
+   background: #1B3409 !important;
+}
+.theme-dark .contentTitle-sL6DrN, .marginLeft8-34JoM2, .theme-dark .description-YnaVYa, .theme-dark .descriptionUsername-1quCGz, .theme-dark .descriptionDiscriminator-3KCIMj, .marginLeft4-3RAvyQ, .theme-dark .hljs-comment, .theme-dark .hljs-quote {
+    color: white;
+}
+.theme-brand .iconForeground-1U-F96, .theme-dark .iconForeground-1U-F96 {
+    fill: white;
+}
+.notice.notice-info {
+    background-color: rgb(0,55,0);
 }
 .header-toolbar .toolbar-badge {
     width: 10px;
@@ -452,7 +464,8 @@ background-size: 80%;
     font-size: 100%;
     font-family: Arial !important;
 }
-.icon-3dhTrw path { fill: transparent !important; }
+.icon-3dhTrw path { fill: white !important;
+opacity: 1;}
 .popout-open .header-1tSljs {
     background-color: #1B3409;
 }
@@ -681,23 +694,14 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYA
 background-size: cover;
 }
 .accountDetails-15i-_e .username {
-   position: relative;
-    bottom: 35px;
     font-size: 18px;
-      font-weight: bold;
-    overflow: visible;
-    left: -14px;
     font-style: italic;
-    
+    color: green;
 }
 .accountDetails-15i-_e .discriminator {
-    position: relative;
     text-align: center;
-    bottom: -42px;
-    left: 19px;
-    font-size: 20px;
-    opacity: 1;
-    font-weight: bold;
+    font-size: 14px;
+    opacity: 0.5;
     font-style: italic;
 }
 .theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code {
@@ -736,35 +740,63 @@ background-size: cover;
 .emoji-picker .category, .emoji-picker, .emoji-picker .header .search-bar {
  background: #182d06 !important;
  }
-.tooltip.tooltip-bottom:after {
-     border-bottom-color: #39004d !important;
-}
+
 #bda-qem button { 
     background: #162b05 !important;
 }
-.tooltip.tooltip-brand.tooltip-right:after {
-    border-right-color: #162b05;
-}
 
-.tooltip.tooltip-brand {
-    background-color: #162b05;
-}
-.tooltip.tooltip-top:after {
-    border-top-color: #162b05 !important;
- }
 
 .theme-dark.context-menu {
     background: #26470b!important;
 }
 .context-menu .item-subMenu:hover { 
-    background: #26470b !important;
+    background: green !important;
 }
 .context-menu .item-subMenu { 
-    background: #26470b !important;
+    background: green !important;
     border: 1px solid;
 }
 .context-menu .item {
-    background: #26470b  !important;
+    background: none !important;
+}
+.context-menu {
+    background: rgb(0,45,0);
+    border-radius: 0px;
+    box-shadow: none;
+}
+.tooltip.tooltip-red {
+    background-color: rgba(0,69,0,0.5);
+    color: white;
+}
+.tooltip.tooltip-black {
+    background-color: rgb(0,69,0);
+    color: white;
+    border: 3px solid green;
+}
+.tooltip.tooltip-red.tooltip-right:after {
+    border-right: none;
+}
+.tooltip.tooltip-black.tooltip-top:after {
+    border-top: none;
+}
+.tooltip.tooltip-black.tooltip-right:after {
+    border-right: none;
+}
+.tooltip.tooltip-black.tooltip-bottom:after {
+    border-bottom: none;
+}
+.tooltip.tooltip-black.tooltip-left:after {
+    border-left: none;
+}
+#user-profile-modal .guilds .avatar-large {
+    background-color: rgb(0,45,0);
+}
+#user-profile-modal .guilds .guild:hover {
+    background: linear-gradient(90deg,rgb(0,75,0) 90%,rgb(0,75,0));
+    color: black !important;
+}
+.context-menu .item:hover {
+    background: green !important;
 }
  .theme-dark .autocomplete-1TnWNR { 
     background: rgba(38, 71, 11, 0.7) !important;
@@ -1312,8 +1344,13 @@ color: white;
 .theme-dark .themeDefault-3M0dJU.valueChecked-3Bzkbm {
     background-color: #007f00 !important;
 }
+.mask-2vyqAW {
+    border-radius: 3px;
+    -webkit-mask: none;
+    mask: none;
+}
 .theme-dark .friends-table .messages .divider.divider-red>span, .theme-dark .messages-wrapper .messages .divider.divider-red>span {
-    background-color: #002b00 !important;
+    background: none !important;
 }
 .chat .new-messages-bar button:first-child,.chat .new-messages-bar button:last-child {
     background-color: rgba(0,100,0,1) !important;
@@ -1375,20 +1412,18 @@ color: white;
     background: #003f00;
 }
 .icon-mr9wAc {
-    -webkit-app-region: no-drag;
-    cursor: pointer;
-    height: 44px;
-    width: 44px;
+    height: 24px;
+    width: 24px;
 }
 .theme-dark .iconBadge-1FYlQB {
     background-color: green;
-    border-radius: 50%;
-    border: 3px solid black;
-    height: 18px;
+    border-radius: 50px;
+    border: 2px solid black;
+    height: 8px;
     position: absolute;
-    right: 3px;
-    top: 3px;
-    width: 18px;
+    right: 5px;
+    top: -1px;
+    width: 8px;
 }
 .theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover {
     background: green;
@@ -1431,4 +1466,3 @@ color: white;
      margin-left: 18px;
      top: -45px;
 }
-
