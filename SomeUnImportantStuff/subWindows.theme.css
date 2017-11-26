@@ -1,4 +1,9 @@
-
+.chat .new-messages-bar {
+    background: transparent !important;
+}
+.theme-dark .chat form .typing {
+    background-color: transparent;
+}
 .mask-2vyqAW {
     border-radius: 0;
     -webkit-mask: none;
