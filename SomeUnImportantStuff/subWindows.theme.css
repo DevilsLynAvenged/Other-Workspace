@@ -2572,13 +2572,9 @@ div[class*="switchEnabled"][class*=valueUnchecked] {
 }
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked {
     background: #f56b3d !important;
-    height: 100%;
-    width: 100%;
 }
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
     background: #f2460d !important;
-    height: 100%;
-    width: 100%;
 }
 .user-settings-connections .connection-options .connection-option-switch h3 {
     background: transparent !important;
@@ -2586,9 +2582,7 @@ div[class*="switchEnabled"][class*=valueUnchecked] {
 .chat .new-messages-bar {
   background-color: rgba(0,0,0,0.4);
 }
-.marginBottom20-2Ifj-2 {
-    margin-bottom: -10px;
-}
+
 .popout-UKvsJt {
     height: 150px;
     width: 150px;
@@ -2636,4 +2630,3 @@ div[class*="switchEnabled"][class*=valueUnchecked] {
 .horizontal-2BEEBe>.flex-lFgbSz, .horizontal-2BEEBe>.flexChild-1KGW5q {
    background: transparent !important;
 }
-
