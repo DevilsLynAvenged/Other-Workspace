@@ -2562,13 +2562,9 @@ color: white;
 }
 div[class*="switchEnabled"][class*=valueChecked] {
     background-color: #f56b3d !important;
-    height: 100%;
-    width: 100%;
 }
 div[class*="switchEnabled"][class*=valueUnchecked] {
     background-color: #f2460d !important;
-    height: 100%;
-    width: 100%;
 }
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked {
     background: #f56b3d !important;
