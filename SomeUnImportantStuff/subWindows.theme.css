@@ -916,14 +916,6 @@ span:not(.spinner-item) {
   left: 3px;
 }
 
-.accountDetails-15i-_e .username {
-  max-width: 214px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  position: relative;
-  right: 62px;
-  font-size: 20px;
-}
 
 .accountDetails-15i-_e .discriminator {
   right: 62px;
