@@ -1017,8 +1017,8 @@ span:not(.spinner-item) {
 }
 
 .message-group .avatar-large {
-  width: 72px;
-  height: 72px;
+  width: 42px;
+  height: 42px;
   background-size: cover;
   border-radius: 1px;
   border-color: #D93F0B #8CAC42 #D9A200 #3371A8;
