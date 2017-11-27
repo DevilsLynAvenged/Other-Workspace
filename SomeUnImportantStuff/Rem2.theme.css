@@ -1994,10 +1994,10 @@ background: rgba(71, 145, 235,0.8) !important;
 .note textarea {
 color: white;
 }
-.horizontal-2BEEBe>.flexChild-1KGW5q:last-child, .horizontal-2BEEBe>.flexChild-1KGW5q:first-child {
+.horizontal-2BEEBe>.flexChild-1KGW5q:last-child {
     background: transparent !important;
 }
 
-.horizontal-2BEEBe>.flex-lFgbSz, .horizontal-2BEEBe>.flexChild-1KGW5q {
+.horizontal-2BEEBe>.flex-lFgbSz{
    background: transparent !important;
 }
