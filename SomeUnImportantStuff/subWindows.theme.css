@@ -1,3 +1,80 @@
+.bot-tag {
+    background: black;
+    border: 1px solid white
+}
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+    border-color: transparent;
+}
+.theme-dark .inner-3if5cm {
+    background-color: black;
+}
+.theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover {
+    background: transparent;
+}
+.horizontal-2BEEBe>.flexChild-1KGW5q:last-child {
+    background: transparent !important;
+}
+.channels-3g2vYe {
+    background-color: transparent;
+}
+.container-RYiLUQ {
+    background-color: transparent;
+}
+.container-2OU7Cz {
+    background-color: transparent;
+}
+.theme-dark .layer, .theme-dark .layers {
+    background: transparent;
+}
+.guilds-wrapper {
+    background-color: transparent;
+}
+.theme-dark .chat form .typing {
+    background-color: transparent;
+}
+.theme-dark .chat form {
+    background-color: transparent;
+    box-shadow: none;
+}
+.theme-dark .chat>.content {
+    background-color: transparent;
+}
+.theme-dark .chat {
+    background-color: transparent;
+}
+.chat .messages {
+    background: transparent;
+}
+.theme-dark .friends-table, .theme-dark .messages-wrapper {
+    background-color: transparent;
+}
+.theme-dark .channel-members {
+    background-color: transparent;
+}
+.theme-dark .title-qAcLxz {
+    background: transparent;
+    box-shadow: none;
+}
+.theme-dark #friends {
+    background-color: transparent;
+}
+.theme-dark .headerBar-cxbhPD {
+    background: transparent;
+}
+.contentSelectedText-3j5CXt,.contentHoveredText-2HYGIY {
+    background-color: transparent;
+}
+.theme-dark .ui-standard-sidebar-view .content-region {
+    background: transparent;
+}
+.theme-dark .ui-standard-sidebar-view .sidebar-region {
+    background: transparent;
+}
+.theme-dark .ui-standard-sidebar-view {
+    background: transparent;
+}
+
 .chat .new-messages-bar {
     background: transparent !important;
 }
@@ -2629,7 +2706,7 @@ div[class*="switchEnabled"][class*=valueUnchecked] {
 .chat .new-messages-bar {
   background-color: rgba(0,0,0,0.4);
 }
-.horizontal-2BEEBe>.flexChild-1KGW5q:first-child,.horizontal-2BEEBe>.flexChild-1KGW5q:last-child {
+.horizontal-2BEEBe>.flexChild-1KGW5q:last-child {
    background: transparent !important;
 }
 .popout-UKvsJt {
@@ -4266,6 +4343,13 @@ background-size: cover;
 background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAADNklEQVR4Xu2a/VEVMRTFzynAURuQRwVABWIHdKBUoFagViAdKBVQgmIDYgViBYoWcJ27kziPvGTzsdk187KZYfjjsZvcX879fBCdL3ZuP1YAqwI6J7C6QOcCWIPg6gJLu4CIPALwSfclebL0/u5+iypgy/hjA2DR/X2wFzuAa3xXAHzGdwMgZHwXAMaM33sAMeP3GkCK8XsLINX4XAAickzypnbdUDUN5hifA0BEtHA6BfCM5OeaEKoByDU+FYCIfADwwhj9G8ARydtaEKoAKDE+BYBjvLX5pmYJHQUgIu8BDKXryNoA0J/QugPwcKcOJ4P7i8gZgKvAC9+RfFtDBaMARET9bmhcJqxzI+GnmQC0adKgd+DZ+xeAQ5L6e9KaG8A5yY8iooErCYBR3DfznCrvC4AHHiurqGBOAIPxevBUAI7Pn2jaE5FXANQN3aUB8WCqCuYC8M/4VACegHdL8tA8r1Hf5wr39inxhTkA7BwqpgARuQDw0mOAdSFNg5oO3XVJ0qbIEvvHZ4IjQfASwCBvZ2mK2glMCQC8MQLAoAKTZn/6giHJx0WWm4dKFZAVgBIAjGUbGws0Ixx5jB0+L4XQBADj56qo5x5DXpO8EBHN+288n08qj1sCECp8BrX1AEBz/lfPDV+TPBWRUCDMckf3/S0poHsA3btAv0Ew0nTZNKjxwdeV/pc0qLflK4S0iSkphOzEx41RP0huRgqhO5LaNRav0iA4tmEXpXCMeEkz5MaA4fZNkfQ9MHBpshmycEra4W0IsXb4D4AnrbbD9yDEeoFtOZnOUJsqHaSEagN9ZFIBZPecIwa47jFlJKaR3zdr1BnjZurt60FThqLaq6cMRX0DCwtDM8NOtGbrQ9FYpLOfmzSlPb2vXQ2+ZgzASIeoqTZ2IalHjysg9U0lEGIAPBBU+voVWVtfjJQqIQWAgWAnRpN6f99lRmNAqgJKIKQCMBDa/3I0F0IOgNyLSP376grIgbDXAIxsNfUFs8PeA4hB6ALAGIRuAIQgdAXAB6E7AA4E/WfpaiVtatpz/262NFh6oKWfWwEsTby1/VYFtHYjS59nVcDSxFvbb1VAazey9Hn+ArynDl8tDYmdAAAAAElFTkSuQmCC)!important;
 background-size: cover;
 }
+.theme-dark .ui-hover-card:before {
+    background-color: black;
+    border-color: white;
+    border-width: 2px;
+}
 /* Settings(Owner) Icon*/
 [class*='icon-3rMtHF'] {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAFwklEQVR4Xu2b67UVRRCFqwLwQQRCAoIJCEQAJuAjAcEIhAgEExBMQIlAMAHBBIQIBA2gXN9dPYc5M11d1TN3hoXn9p/74/T0Y3fV3lXVfVVOvOmJ718uALiwgBNHYDcXMLPLIvJJEu9Xqvoy2XdVt10AMLOvReSnzpV+oaq/dn7T3X0vAB6IyJ3O1d1X1Xud33R33wuApyJyvXN1z1T1Ruc33d33AsC6VybyWlUvLfiu65PNATCzayLyR9eq3na+sjUZ7gGAR4CvRGRgek8hNifCPQDwCPCwOTO7LSK/VKxkcyLsBqDouWRMs/T9TUQ44Wk7mHfp91elDxZys2Ou1LrG83QBUBb6QkQ+FJHnIvJIRJ5MF1j6fS8imH+tvVHVj8c/mNlrEfnI6c88WMNRcFTmuVXmgWv+EZGrGcCGeXoBYCFfVRZ5AENEkK6HBSSP+2YSZ2aRVLI55mau8aanczxWVQ/42XrSAJgZG8Ocz6PNfNvMCHqwmvNouA2Ahq0HAKQMM1vbYP/bqspJHlqRS0LfbL7QWsdTVb2ZWWgKgIWx/Mw0ReTBdOPTTsXSMOGaq2X2NPT5RlVx2WYLATAzyAqGPiKtaODR7/ABG+/K7grB4RZLgYBUURr+ui0DQMs3H2PODnu/gZ3XZnQlRuAkawrBHLiNB1IYRzQBaOgziB4GL4vEbGFnGlKJn89OvVgUiRF8MlgVpwQnoA6zEyvrYKNXy/hPkOAB3IBAm+F0BACsX8vIILJr08WWzbGx55XfCIZascFgpp7mA5Y3Nr8BYI1Am4ToAhDIHqeE1BwxuedoC0k0RWLMWRSEw/J4ypXFFgBefD7sk8DkegTCSn0Pfbhs/lkQeLlJVeQCmVKWe1ILT35qSGvHb1pSRgUA4UcR+aChJvdU9f4ksMHnawlOh4Ieus6IzMzgk1bJ7F8R+TaKBUIARj72ewsEVT0ay8y8vIEhIVHS5IFDILe7jShwFt+bWavKhDzeiNyThaQAGIHApgYpGp8kZexDylvU4G/nqIkd7joKAiiepl8af2NmSGyN9ZFg4o8UQacBKCB4Zk1KDGmetUaBoyqfo+9acnZEZGZGXDDEHWOsj4CK/K0XAC8jPGLrBvN/p6qcstvMDFf4odIhO0c6E+xygXKyWQC8Mli4uEb88VBVAWewMi9ED+cYg7uVBZw8AN7pvPcusJYEYe7PvBS1qAeFl1oR9d2SYAk5ueCsVYVequqVCZt7MoiUYglHWV/ZPOTn1fOmMkiQVQMK+SP6Oz8ZzMTbnYEQllALhGobAtfeQCiVp6RUoMTzUZV35ttBLSGS5+nvtVA4ylMA4c6qUDiZzKxNViIw1o6/LBlKbJ5k4/PI13ZKh5t5ioj0p8NBQSSdbJQAKjLXmhX0FkS4B/BulvoLImXh3m1NVc4Kk5MsvXBKYpkqL8kS6fX0Gow8wRub3zz5bD60iAoirZx+XBQdrqqGhAgJwuy8oighda0oSv3OK4pyezxIMIkQRVGKoyRfrcr18qJoYnA0nU3XanFsBDNe9dCpZJbEH94cjO/FDmFJLcwFillzkp5/RSxerfJGHyVumKMh4KnLqy9GVpDYdIEAQUDTvLQs5EtRJH3D6yCRItHQAkbhbXR9HZ3I8DvWBD/ULkfxcy8azI5Pv/QLsx4ATvt6vLiCV+ikDsdvEBJM/XNQRV7yQILA68tSSIV4cZFafXKbBxIFAMzzz7K5w6adpystzZ+9ATQzskfvZseLDVjPGAxA+rTnJjrtAiMuOPPRzC
+
+
