@@ -9,6 +9,11 @@
     background-color: #000056;
     border: 2px solid blue;
 }
+.theme-dark .inner-3if5cm {
+    background-color: #000056;
+    border: 2px solid white;
+}
+
 .channel-members h2 {
     color: #4d8ff1 !important;
     font-size: 15px;
