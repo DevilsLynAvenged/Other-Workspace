@@ -1,6 +1,10 @@
 .horizontal-2BEEBe>.flexChild-1KGW5q:last-child, .horizontal-2BEEBe>.flexChild-1KGW5q:first-child {
     background: transparent !important;
 }
+.aka-2Ba14Z {
+    background-color: green !important;
+    border-color: #00FF00 !important;
+}
 .theme-dark .user-settings-connections .connect-account-btn .connect-account-btn-inner {
     background-color: green !important;
     border-color: #00FF00 !important;
