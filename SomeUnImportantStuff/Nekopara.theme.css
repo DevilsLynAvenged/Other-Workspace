@@ -9,7 +9,13 @@
 	padding: 4px 0 10px 9px;
 	background-color: rgba(86, 67, 75, 0.81);
 }
-
+.aka-2Ba14Z {
+    -ms-flex-negative: 0;
+    background: rgba(86, 67, 75, 1);
+    border-radius: 3px;
+    color: #fff;
+    border: 2px solid rgba(255,255,255,0.4);
+}
 
 .theme-dark .message-group .comment .markup code.inline {
 	background: rgba(86, 67, 75, 0.71) !important;
