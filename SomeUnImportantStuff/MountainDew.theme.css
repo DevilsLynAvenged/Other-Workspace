@@ -21,6 +21,9 @@
     background-color: rgba(14,84,3,0.8) !important;
     color: #e7e7e7;
 }
+.scroller-fzNley,.private-channels .search-bar {
+   background: rgba(1, 71, 19,0.5);
+}
 /* Role Name List Title */
 .theme-dark .channel-members h2 {
 	color: rgb(231,231,231) !important;
