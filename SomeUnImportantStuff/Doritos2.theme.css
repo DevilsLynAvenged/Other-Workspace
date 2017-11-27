@@ -2,6 +2,9 @@
     background-color: rgba(201, 3, 6,0.8) !important;
     color: #FD5E00;
 }
+.scroller-NXV0-d {
+    background: rgba(0,0,0,0.3);
+}
 .theme-dark .channel-members h2 {
 	color: rgb(255, 187, 16) !important;
 	font-weight: bold;
