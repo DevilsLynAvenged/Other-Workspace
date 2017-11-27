@@ -2042,3 +2042,82 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
 	-webkit-flex-shrink: 0;
 	text-shadow: rgba(0, 0, 0, 0.6) 4px 2px 1px;
 }
+.channels-3g2vYe {
+    background-color: transparent;
+}
+.container-RYiLUQ {
+    background-color: transparent;
+}
+.container-2OU7Cz {
+    background-color: transparent;
+}
+.theme-dark .layer, .theme-dark .layers {
+    background: transparent;
+}
+.guilds-wrapper {
+    background-color: transparent;
+}
+.theme-dark .chat form .typing {
+    background-color: transparent;
+}
+.theme-dark .chat form {
+    background-color: transparent;
+    box-shadow: none;
+}
+.theme-dark .chat>.content {
+    background-color: transparent;
+}
+.theme-dark .chat {
+    background-color: transparent;
+}
+.chat .messages {
+    background: transparent;
+}
+.theme-dark .friends-table, .theme-dark .messages-wrapper {
+    background-color: transparent;
+}
+.theme-dark .channel-members {
+    background-color: transparent;
+}
+.theme-dark .title-qAcLxz {
+    background: transparent;
+    box-shadow: none;
+}
+.theme-dark #friends {
+    background-color: transparent;
+}
+.theme-dark .headerBar-cxbhPD {
+    background: transparent;
+}
+.contentSelectedText-3j5CXt,.contentHoveredText-2HYGIY {
+    background-color: transparent;
+}
+.theme-dark .ui-standard-sidebar-view .content-region {
+    background: rgba(0,0,0,0.3);
+}
+.theme-dark .ui-standard-sidebar-view .sidebar-region {
+    background: rgba(0,0,0,0.3);
+}
+.theme-dark .ui-standard-sidebar-view {
+    background: transparent;
+}
+.app,
+.callout-backdrop,
+.bda-backdrop,
+#pubs-container:before {
+	background-image: url("https://i.imgur.com/2pqopu2.jpg");
+   background-size: cover !important;
+	background-position: center !important;
+}
+.theme-dark .emoji-alias-input .emoji-input {
+    background-color: black;
+}
+.botTagRegular-288-ZL {
+    background: black;
+    color: white;
+    border: 2px solid red;
+    margin-bottom: 0px !important;
+    left: 34px;
+    top: 31px;
+    position: absolute;
+}
