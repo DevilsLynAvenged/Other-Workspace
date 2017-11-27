@@ -5,6 +5,10 @@
 .scroller-NXV0-d {
     background: rgba(0,0,0,0.3);
 }
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+    border: none;
+}
 .theme-dark .channel-members h2 {
 	color: rgb(255, 187, 16) !important;
 	font-weight: bold;
