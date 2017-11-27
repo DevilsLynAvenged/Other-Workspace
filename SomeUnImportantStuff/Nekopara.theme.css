@@ -4,7 +4,10 @@
 .theme-dark .chat form .typing {
 	background-color: transparent !important;
 }
-
+.headerBar-cxbhPD {
+    background: rgba(86, 67, 75, 1);
+    box-shadow: none;
+}
 .guilds-wrapper .guilds {
 	padding: 4px 0 10px 9px;
 	background-color: rgba(86, 67, 75, 0.81);
