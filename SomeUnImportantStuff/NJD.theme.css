@@ -65,9 +65,7 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
   opacity: 1;
 }
 
-.horizontal-2BEEBe>.flexChild-1KGW5q:not(.themeDefault-3M0dJU):not(.themeClear-1NqU69) {
-  background: transparent !important;
-}
+
 
 .horizontal-2BEEBe>.flex-lFgbSz .chat {
   background: rgba(0,0,0,0.2) !important;
@@ -702,11 +700,11 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
 }
 .theme-dark .message-group .comment .edited, .theme-dark .message-group h2 span {
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 13px;
 }
 
 .chat .user-name {
-    font-size: 23px;
+    font-size: 15px;
     text-shadow: 2px 2px 1px #000, 2px 2px 1px #000, 2px 2px 1px #000, 2px 2px 1px #000;
 }
 
