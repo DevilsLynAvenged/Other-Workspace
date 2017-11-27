@@ -2,6 +2,10 @@
     background-color: rgba(201, 3, 6,0.8) !important;
     color: #FD5E00;
 }
+.theme-dark .inner-3if5cm {
+    background-color: rgba(253,94,0,0.4);
+    border: 2px solid black;
+}
 .scroller-NXV0-d {
     background: rgba(0,0,0,0.3);
 }
