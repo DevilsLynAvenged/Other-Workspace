@@ -2109,13 +2109,8 @@ background: #730000 !important;
 .theme-dark .topic-1KFf6J, .theme-dark .channelName-1G03vu, .theme-dark .groupDM-3gzbyG .channelName-1G03vu, .theme-dark .groupDMManaged-2z2S1A .channelName-1G03vu, .channelIcon-1KtcMW {
     color: orange;
 }
-.horizontal-2BEEBe>.flexChild-1KGW5q:last-child, .horizontal-2BEEBe>.flexChild-1KGW5q:first-child {
-    background: transparent !important;
-}
 
-.horizontal-2BEEBe>.flex-lFgbSz, .horizontal-2BEEBe>.flexChild-1KGW5q {
-   background: transparent !important;
-}
+
 .horizontalReverse-2LanvO>.flexChild-1KGW5q:first-child {
    background: transparent !important;
 }
