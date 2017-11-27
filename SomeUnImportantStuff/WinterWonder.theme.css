@@ -245,8 +245,9 @@
 
 ::-webkit-scrollbar-thumb
 {
-	border-radius: 10px;
+    border-radius: 10px;
     background-color: rgba(0,0,243,0.4) !important;
+    border: none;
 }
 .guilds-wrapper .guilds .guild.unread:before {
     width: 20px;
