@@ -1835,10 +1835,6 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
     background-color: transparent;
     border-radius: 0 0 10px 10px;
 }
-.upload-modal {
-    background: url(https://img00.deviantart.net/cc94/i/2015/296/e/8/hyperdimension_neptunia_noire_wallpaper_by_jessymoonn-d9e39x0.jpg) 20% 20%/cover !important;
-    background-position: 70% 60% !important;
-}
 .upload-modal .inner {
     border: none;
 }
