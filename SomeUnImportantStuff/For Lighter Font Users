@@ -1438,7 +1438,7 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
     color: rgb(246, 246, 247);
 }
 .theme-dark .header-1-f9X5,a,#bd-settings-sidebar .ui-tab-bar-header,.itemBrand-mC9YR4,.message-group .edit-message .edit-operation>a {
-    color: var(--Main-Color);
+    color: var(--Special-Links);
 }
 .theme-dark .separator-3z7STW {
     background: none;
