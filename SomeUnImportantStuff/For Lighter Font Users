@@ -1686,14 +1686,6 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
     border: none;
 }
 /* User Popout and User Profile */
-.userPopout-4pfA0d {
-    background: url(https://i.ytimg.com/vi/pIxb0oPDxvQ/maxresdefault.jpg) 40% 40%/cover !important;
-}
-.mask-2vyqAW {
-    border-radius: 1;
-    -webkit-mask: none;
-    mask: none;
-}
 .headerNormal-1cioxU,.body-3rkFrF,.footer-2J5zqP {
     background: rgba(0,0,0,0.4) !important;   
     border: none;
@@ -1777,9 +1769,6 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
 }
 
 /* Part 2 of that Section */
-.root-2sNHUF {
-    background: url(https://pm1.narvii.com/6186/09dd88766b960592640b9dc1ae985e3bb54e3fde_hq.jpg) 30% 30%/cover !important;
-}
 .topSectionNormal-2LlRG1,.theme-dark .body-3_tdh6 {
     background-color: rgba(0,0,0,0.3);
 }
