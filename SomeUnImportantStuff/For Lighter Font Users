@@ -292,6 +292,9 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
     line-height: 13px;
     border-radius: 0px;
 }
+.theme-dark .friends-table .messages .divider:not(.red) div, .theme-dark .messages-wrapper .messages .divider:not(.red) div {
+    background: transparent;
+}
 .theme-dark .friends-table .messages .divider.divider-red>div, .theme-dark .messages-wrapper .messages .divider.divider-red>div {
     background: none !important;
     opacity: .4;
