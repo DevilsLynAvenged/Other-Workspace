@@ -293,7 +293,7 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
     border-radius: 0px;
 }
 .theme-dark .friends-table .messages .divider.divider-red>div, .theme-dark .messages-wrapper .messages .divider.divider-red>div {
-    background: none;
+    background: none !important;
     opacity: .4;
 }
 .theme-dark .friends-table .messages .divider:before, .theme-dark .messages-wrapper .messages .divider:before {
