@@ -1546,7 +1546,7 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
 .body-3rkFrF {
     border-bottom: none;
 }
-.member-roles .member-role>.name{color:silver;}
+.member-roles .member-role>.name{color:white;}
 .member-roles .member-role{background-color:currentColor!important;border:0;}
 .theme-dark .rolesList-2YHFg5 .member-role {
     border: none;
