@@ -616,7 +616,6 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
     padding-top: 3px;
     padding-bottom: 3px;
     font-size: 17px;
-    text-shadow: 1px 3px 1px #000, 1px 3px 1px #000;
     border: 2px solid black;
 }
 .guilds-wrapper .guilds-add {
