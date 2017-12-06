@@ -879,7 +879,7 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
     background-image: url(/assets/347525ee5c5d59f9217d1c04eb88617d.svg)!important;
     border-color: var(--Hover-Color)!important;
     color: rgba(0, 0, 0, 0)!important;
-    background-size: cover;
+    background-size: cover !important;
     background-repeat: no-repeat;
 }
 .form.deprecated .btn-primary {
