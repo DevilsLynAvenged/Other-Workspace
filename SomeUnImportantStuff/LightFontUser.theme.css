@@ -876,7 +876,7 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
 }
 .clipboard-input-copied button {
     background-color: var(--Hover-Color)!important;
-    background-image: url(/assets/347525ee5c5d59f9217d1c04eb88617d.svg)!important;
+    background: url(/assets/347525ee5c5d59f9217d1c04eb88617d.svg) 40px 40px/cover !important;
     border-color: var(--Hover-Color)!important;
 }
 .form.deprecated .btn-primary {
