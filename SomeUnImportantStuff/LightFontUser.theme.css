@@ -1540,15 +1540,37 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
 .body-3rkFrF {
     border-bottom: none;
 }
-.member-roles .member-role>.name{color:white;}
-.member-roles .member-role{background-color:currentColor!important;border:0;}
-.theme-dark .rolesList-2YHFg5 .member-role {
-    border: none;
-    border-radius: 3px;
-    color: var(--Main-Color);
-    padding-top: 6px;
-    padding-bottom: 6px;
+.role-3rahR_ {
+  padding: 4px 6px;
+  border-radius: 3px;
+  overflow: hidden; 
+  }
+  .role-3rahR_ .roleCircle-3-vPZq {
+    opacity: .5;
+    height: 22px;
+    width: 5px;
+    margin-top: -4px;
+    margin-bottom: -4px;
+    margin-left: -5px;
+    margin-right: -1000px;
+    padding-right: 997px;
+    border-radius: 0; 
+    }
+    /* Secondary Roles */
+    .role-3rahR_[style*="border-color: rgba(185, 187, 190, 0.6)"] .roleCircle-3-vPZq {
+       background: var(--Main-Color) !important;
 }
+    .role-3rahR_ .roleCircle-3-vPZq:not(.roleCircleButton-sMOdib) + .roleName-DUQZ9m {
+      margin-left: 0; 
+      }
+  .role-3rahR_ .roleName-DUQZ9m {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px; 
+     color: white !important;
+     position: relative;
+     left: 4px;
+ }
 .bodyTitle-yehI7c {
     color: var(--Color-Font);
 }
