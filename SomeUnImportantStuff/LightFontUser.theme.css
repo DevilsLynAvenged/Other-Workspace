@@ -1306,8 +1306,11 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
 .theme-dark .separator-3z7STW {
     background: none;
 }
-.itemBrandSelected-3LxxzT,.itemDefaultSelected-1UAWLe,#bd-settings-sidebar .ui-tab-bar-item.selected,#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked,.themeClear-1NqU69.valueChecked-3Bzkbm,.barFill-18ABna {
+.itemSelected-3XxAMf,#bd-settings-sidebar .ui-tab-bar-item.selected,#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked,.themeClear-1NqU69.valueChecked-3Bzkbm,.barFill-18ABna {
     background-color: var(--Main-Color) !important;
+}
+.theme-dark .itemDefault-3NDwnY, .theme-dark .itemHover-3rojsB {
+    color: rgb(185, 187, 190);
 }
 .barFill-18ABna[style*="background: rgb(105, 196, 154); width: 28.2903%;"] {
     background: var(--Main-Color) !important;
