@@ -436,9 +436,8 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
     background-color: var(--Border-Color);
 }
 .message-group .comment .markup {
-    font-size: 19px;
+    font-size: 14px;
     line-height: 1.9em;
-    text-shadow: 1px 2px 2px #000, 1px 2px 2px #000;
 }
 .theme-dark .message-group h2 strong {
     color: var(--Color-Font);
