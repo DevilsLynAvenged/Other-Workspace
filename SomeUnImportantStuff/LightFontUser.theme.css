@@ -447,12 +447,11 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
 }
 .theme-dark .message-group h2 strong {
     color: var(--Color-Font);
-    font-size: 21px;
-    text-shadow: 1px 2px 2px #000, 1px 2px 2px #000;
+    font-size: 16px;
 }
 .theme-dark .message-group h2 span {
     color: var(--Color-Font);
-    font-size: 17px;
+    font-size: 14px;
 }
 .theme-dark .channel-members h2 {
     color: var(--Color-Font);
