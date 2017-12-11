@@ -6,6 +6,12 @@
     background-color: var(--Main-Color);
     border-color: rgba(0, 0, 0, 0);
 }
+.aka-2Ba14Z {
+    background-color: var(--Main-Color);
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    border: 2px solid var(--Border-Color);
+}
 .theme-dark .scrollerThemed-19vinI.themeGhostHairline-2H8SiW .scroller-fzNley::-webkit-scrollbar-thumb {
     background-color: var(--Main-Color);
     border-color: rgba(0, 0, 0, 0);
