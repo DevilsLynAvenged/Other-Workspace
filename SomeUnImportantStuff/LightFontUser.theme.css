@@ -554,7 +554,7 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
     box-shadow: 0 1px 0 rgba(0,0,0,1), inset 0 1px 0 hsla(0,0%,100%,.15);
     color: var(--Color-Font);
     border: 3px solid var(--Border-Color);
-    font-size: 17px;
+    font-size: 13px;
     padding: 6px 9px;
     text-shadow: 1px 1px 0 rgba(0,0,0,1), 1px 1px 0 rgba(0,0,0,1);
 }
