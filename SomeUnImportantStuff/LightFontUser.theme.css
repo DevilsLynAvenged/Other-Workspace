@@ -555,7 +555,7 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
     color: var(--Color-Font);
     border: 3px solid var(--Border-Color);
     font-size: 13px;
-    padding: 6px 9px;
+    padding: 3px 6px;
     text-shadow: 1px 1px 0 rgba(0,0,0,1), 1px 1px 0 rgba(0,0,0,1);
 }
 .guilds-wrapper .guilds-error:hover {
