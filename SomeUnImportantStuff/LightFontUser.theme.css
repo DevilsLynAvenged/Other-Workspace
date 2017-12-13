@@ -389,11 +389,19 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
     color: var(--Color-Font);
     font-weight: bold;
 }
+.botTagInvert-gorWR_ {
+    background: var(--Main-Color);
+    color: var(--Color-Font);
+}
+.botTagRegular-288-ZL {
+    background: var(--Main-Color);
+    color: var(--Color-Font);
+}
 .chat .avatar-large {
     width: 53px;
     height: 53px;
     background-size: cover;
-    border: 4px solid var(--Main-Color);
+    border: 4px solid var(--Border-Color);
 }
 ::-webkit-input-placeholder { 
   color: var(--Color-Font) !important;
