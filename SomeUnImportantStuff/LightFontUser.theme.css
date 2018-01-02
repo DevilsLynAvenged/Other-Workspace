@@ -521,8 +521,8 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
 }
 .theme-dark .message-group .mentioned .message-text {
     background: var(--Main-Color);
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding-top: 14px;
+    padding-bottom: 14px;
     border: 1px solid var(--Border-Color);
     padding-left: 4px;
 }
