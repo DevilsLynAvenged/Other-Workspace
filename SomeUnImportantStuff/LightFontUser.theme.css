@@ -466,8 +466,7 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
     background: var(--Main-Color);
     padding-top: 12px;
     padding-bottom: 12px;
-    box-shadow: 1px 3px 1px #000;
-    border: 3px solid var(--Border-Color);
+    border: 1px solid var(--Border-Color);
     font-size: 73%;
 }
 .container-iksrDt {
@@ -482,12 +481,12 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
 }
 .mention-RlZ5F3,.unread-2TDDFN {
     background-color: var(--Main-Color) !important;
-    border: 3px solid var(--Border-Color);
+    border: 1px solid var(--Border-Color);
     color: var(--Color-Font);
 }
 .mention-RlZ5F3:hover,.unread-2TDDFN:hover {
     background-color: var(--Hover-Color) !important;
-    border: 3px outset var(--Border-Hover-Color);
+    border: 1px outset var(--Border-Hover-Color);
     color: var(--Color-Font);
 }
 .icon-2qNMWC {
@@ -516,13 +515,13 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
     background-size: cover;
     margin-bottom: -3px;
     border-radius: 0px;
-    border: 4px solid var(--Border-Color);
+    border: 2px solid var(--Border-Color);
 }
 .theme-dark .message-group .mentioned .message-text {
     background: var(--Main-Color);
     padding-top: 2px;
     padding-bottom: 2px;
-    border: 3px solid var(--Border-Color);
+    border: 1px solid var(--Border-Color);
     padding-left: 4px;
 }
 .message-group .mentioned .message-text:after {
@@ -539,7 +538,7 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
 }
 .theme-dark .iconBadge-1FYlQB {
     border-color: var(--Border-Color);
-    border-width: 2px;
+    border-width: 1px;
     width: 13px;
     height: 13px;
     top: 2px;
@@ -551,7 +550,7 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
     border-radius: 30px;
     box-shadow: 0 1px 0 rgba(0,0,0,1), inset 0 1px 0 hsla(0,0%,100%,.15);
     color: var(--Color-Font);
-    border: 3px solid var(--Border-Color);
+    border: 2px solid var(--Border-Color);
     font-size: 17px;
     padding: 6px 9px;
     text-shadow: 1px 1px 0 rgba(0,0,0,1), 1px 1px 0 rgba(0,0,0,1);
@@ -561,7 +560,7 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
     border-radius: 30px;
     box-shadow: 0 1px 0 rgba(0,0,0,1), inset 0 1px 0 hsla(0,0%,100%,.15);
     color: var(--Color-Font);
-    border: 3px solid var(--Border-Color);
+    border: 2px solid var(--Border-Color);
     font-size: 13px;
     padding: 3px 6px;
     text-shadow: 1px 1px 0 rgba(0,0,0,1), 1px 1px 0 rgba(0,0,0,1);
@@ -585,7 +584,7 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
 .tooltip.tooltip-black {
     background-color: var(--Main-Color);
     color: var(--Color-Font);
-    border: 3px solid  var(--Border-Color);
+    border: 2px solid  var(--Border-Color);
 }
 .tooltip.tooltip-red.tooltip-right:after {
     border-right: none;
@@ -612,7 +611,7 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
 .theme-dark .message-group .comment .markup pre {
     background: transparent;
     border-color: black;
-    border-width: 3px;
+    border-width: 2px;
 }
 .theme-dark .message-group .comment .markup pre code {
     background-color: var(--Main-Color);
@@ -656,7 +655,7 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
 }
 .wrapper-2ldvyE {
     background: var(--Main-Color);
-    border-radius: 2px;
+    border-radius: 12px;
     color: var(--Color-Font);
     padding: 3px 3px;
     border-color: var(--Border-Color);
@@ -701,7 +700,7 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
 }
 .avatarSpeaking-3teDH6 {
     box-shadow: none;
-    border: 3px solid var(--Border-Color);
+    border: 2px solid var(--Border-Color);
 }
 .nameDefault-1I0lx8 {
     color: rgba(255,255,255,0.5);
@@ -718,7 +717,7 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
 /*Notification Settings */
 .theme-dark .ui-select>.Select .Select-control {
     background: var(--Main-Color);
-    border: 3px solid rgba(0,0,0,1);
+    border: 1px solid rgba(0,0,0,1);
     box-shadow: none;
 }
 .theme-dark .ui-select>.Select .Select-control .Select-placeholder {
@@ -848,10 +847,10 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
 }
 
 .form.deprecated .Select-control {
-    border: 3px solid  var(--Border-Color);
+    border: 1px solid  var(--Border-Color);
 }
 .form.deprecated .Select-control:hover {
-    border: 3px solid black;
+    border: 2px solid black;
 }
 .form.deprecated .Select.is-open .Select-control:hover {
     border-color:  var(--Border-Hover-Color);
@@ -873,7 +872,7 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
     background: transparent;
 }
 .clipboard-input-inner {
-    border: 3px solid black;
+    border: 2px solid black;
 }
 #instant-invite-modal .clipboard-input-inner input {
     color: var(--Color-Font);
@@ -901,13 +900,13 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
     background: linear-gradient(90deg,rgba(255, 255, 255, 0),black);
 }
 .theme-dark .search-results-wrap .search-result.expanded {
-    border: 3px solid var(--Border-Color);
+    border: 2px solid var(--Border-Color);
     border-radius: 1px;
 }
 .theme-dark .search-results-wrap .search-result.expanded .search-result-message.hit {
     background-color: var(--Main-Color);
-    border-bottom: 2px solid var(--Border-Color);
-    border-top: 2px solid var(--Border-Color);
+    border-bottom: 1px solid var(--Border-Color);
+    border-top: 1px solid var(--Border-Color);
 }
 .chat>.title-wrap>.title .channel-name.channel-private:before {
     color: white;
@@ -1005,7 +1004,7 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
 }
 .theme-dark.context-menu .context-menu {
     background: var(--Main-Color);
-    border: 3px solid var(--Border-Color);
+    border: 1px solid var(--Border-Color);
     box-shadow: none;
 }
 .context-menu .item-subMenu:hover { 
@@ -1027,24 +1026,24 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
     height: 100%;
 }
 .slider-handle {
-    border: 3px solid var(--Border-Color);
+    border: 2px solid var(--Border-Color);
 }
 .theme-dark .bubble-17BwqU:before, .slider-handle span:after, .slider-handle span:before {
     border-top: none !important;
 }
 .theme-dark .bubble-17BwqU, .slider-handle span {
     background-color: var(--Main-Color);
-    border: 3px solid var(--Border-Color);
+    border: 2px solid var(--Border-Color);
     color: var(--Color-Font);
 }
 .theme-dark .messages-popout-wrap .messages-popout .message-group {
     background-color: var(--Main-Color);
     border-color: var(--Border-Color);
-    border-width: 3px;
+    border-width: 2px;
 }
 .theme-dark .messages-popout-wrap .messages-popout .message-group:hover {
     border-color: var(--Border-Color);
-    border-width: 4px;
+    border-width: 2px;
 }
 .buttonRedFilled-1NjJNj {
     background-color: var(--Main-Color);
@@ -1063,7 +1062,7 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
 .theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button,.theme-dark .search-results-wrap .action-buttons .jump-button {
     background-color: var(--Main-Color);
     color: var(--Color-Font);
-    border: 3px solid var(--Border-Color);
+    border: 1px solid var(--Border-Color);
 }
 .theme-dark .search-results-wrap {
     background-color: var(--Main-Color);
@@ -1098,9 +1097,9 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
 .theme-dark .search-results-wrap .channel-separator .channel-name {
     background-color: var(--Main-Color);
     color: var(--Color-Font);
-    border-top: 3px solid var(--Border-Color);
-    border-right: 3px solid var(--Border-Color);
-    border-left: 3px solid var(--Border-Color);
+    border-top: 2px solid var(--Border-Color);
+    border-right: 2px solid var(--Border-Color);
+    border-left: 2px solid var(--Border-Color);
     padding-right: 6px;
     padding-left: 6px;
 }
@@ -1213,12 +1212,12 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
 }
 .search-popout .date-picker .date-picker-hint .hint-value {
     background-color: var(--Main-Color);
-    border-radius: 3px;
+    border-radius: 2px;
     color: var(--Color-Font);
 }
 .search-popout .date-picker .date-picker-hint .hint-value:hover {
     background-color: var(--Hover-Color);
-    border-radius: 3px;
+    border-radius: 8px;
     color: var(--Color-Font);
     border: none;
 }
@@ -1566,7 +1565,7 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
     margin-left: -5px;
     margin-right: -1000px;
     padding-right: 997px;
-    border-radius: 0; 
+    border-radius: 1; 
     }
     /* Secondary Roles */
     .role-3rahR_[style*="border-color: rgba(185, 187, 190, 0.6)"] .roleCircle-3-vPZq {
@@ -1631,7 +1630,7 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
 }
 .quick-message {
     background: none;
-    border-radius: 3px;
+    border-radius: 14px;
     padding: 8px 10px;
     border: none;
     color: var(--Color-Font);
