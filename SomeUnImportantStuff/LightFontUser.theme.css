@@ -522,7 +522,7 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
 .theme-dark .message-group .mentioned .message-text {
     background: var(--Main-Color);
     padding-top: 2px;
-    padding-bottom: 3px;
+    padding-bottom: 5px;
     border: 1px solid var(--Border-Color);
     padding-left: 4px;
 }
