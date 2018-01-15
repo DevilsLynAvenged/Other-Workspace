@@ -1626,7 +1626,7 @@ a,
 }
 .role-3rahR_ {
   padding: 4px 6px;
-  border-radius: 13px;
+  border-radius: var(--Button-Border-Radius);
   overflow: hidden; 
   }
   .role-3rahR_ .roleCircle-3-vPZq {
