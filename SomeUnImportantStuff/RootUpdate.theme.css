@@ -278,7 +278,7 @@ a,
 .theme-dark .chat .divider.divider-red>span {
     background-color: var(--Main-Color)!important;
     color: var(--Span-Font-Color) !important;
-    font-size: 20px;
+    font-size: 14px;
     padding: 5px 70px;
     position: relative;
     z-index: 2;
