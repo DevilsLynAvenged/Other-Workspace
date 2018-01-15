@@ -366,6 +366,20 @@ a,
 .attachButtonPlus-2l1NEU {
     opacity: .7;
 }
+.mention {
+    background-color: var(--Main-Color);
+    border: 2px solid var(--Border-Color);
+    color: var(--Font-Color);
+    padding-right: 1.2px;
+    padding-left: 1.2px;
+    padding-top: 1.2px;
+    padding-bottom: 1.2px;
+}
+.mention:hover {
+    background-color: var(--Hover-Color) !important;
+    color: var(--Hover-Font-Color);
+    border: 2px solid var(--Border-Hover-Color);
+}
 .theme-dark .message-group .comment .markup .mention:hover {
     background-color: var(--Hover-Color) !important;
     color: var(--Hover-Font-Color);
