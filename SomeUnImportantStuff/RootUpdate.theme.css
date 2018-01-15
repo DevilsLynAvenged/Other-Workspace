@@ -367,7 +367,7 @@ a,
     opacity: .7;
 }
 .mention {
-    background-color: var(--Main-Color);
+    background-color: var(--Main-Color) !important;
     border: 2px solid var(--Border-Color);
     color: var(--Font-Color);
     padding-right: 1.2px;
