@@ -434,10 +434,10 @@ a,
     width: 1.1rem;
 }
 .accountDetails-15i-_e .username {
-    font-size: 18px;
+    font-size: 14px;
 }
 .accountDetails-15i-_e .discriminator {
-    font-size: 14px;
+    font-size: 12px;
     opacity: 1;
     padding-top: 1px;
     color: var(--Font-Color);
