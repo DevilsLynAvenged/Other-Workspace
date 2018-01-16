@@ -1610,12 +1610,12 @@ a,
 }
 .ui-standard-sidebar-view .bda-slist li:nth-child(odd) {
     border: none;
-    background-image: linear-gradient(to right, rgb(0,0,0) 0%, rgb(var(--Main-Color) 100%);
+    background-image: linear-gradient(to right, rgb(0,0,0) 0%, rgb(var(--Main-Color) 100%));
 }
 .ui-standard-sidebar-view .bda-slist li {
     border: none;
     margin-bottom: 12px;
-    background-image: linear-gradient(to left, rgb(0,0,0) 0%, rgb(var(--Main-Color) 100%);
+    background-image: linear-gradient(to left, rgb(0,0,0) 0%, rgb(var(--Main-Color) 100%));
 }
 .checkbox .checkbox-inner input[type=checkbox]:checked+span {
     border: none;
