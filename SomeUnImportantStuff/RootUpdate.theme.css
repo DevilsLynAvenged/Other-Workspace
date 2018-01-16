@@ -484,7 +484,7 @@ a,
     border: 2px solid var(--Border-Color);
 }
 .theme-dark .selectorSelected-2M0IGv {
-    background-color: var(--Hover-Border-Color);
+    background-color: var(--Hover-Color);
 }
 .message-group .comment .markup {
     font-size: 14px;
