@@ -1219,9 +1219,6 @@ a,
     border-bottom: none !important;
     background: none;
 }
-.bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container {
-    background-color: var(--Main-Color);
-}
 .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb, .bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb {
     border: none !important;
     background-color: var(--Selected-Background-Color)  !important;
