@@ -493,7 +493,7 @@ a,
 .theme-dark .message-group h2 strong {
     color: var(--Font-Color);
     font-size: 18px;
-    text-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+    text-shadow: 1px 1px 7px rgba(0, 0, 0, 1),1px 1px 7px rgba(0, 0, 0, 1);
 }
 .theme-dark .message-group h2 span {
     color: var(--Font-Color);
