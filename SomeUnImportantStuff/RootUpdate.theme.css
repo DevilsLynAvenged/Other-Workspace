@@ -1716,6 +1716,7 @@ a,
     color: var(--Font-Color);
     font-size: 12px;
     line-height: 18px;
+    border-radius: var(--Button-Border-Radius);
 }
 .note textarea:focus{
     background: rgba(255,255,255,0.1) !important;
@@ -1726,10 +1727,10 @@ a,
 }
 .quick-message {
     background: none;
-    border-radius: 14px;
+    border-radius: var(--Button-Border-Radius);
     padding: 8px 10px;
     border: none;
-    color: var(--Button-Border-Radius);
+    color: var(--Font-Color);
 }
 .quick-message:focus {
     background: rgba(255, 255, 255,0.12);
