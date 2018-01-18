@@ -679,9 +679,9 @@ a,
 }
 .theme-dark .message-group .comment .markup code.inline {
     background-color: var(--Main-Color);
-    padding-top: 3px;
-    padding-bottom: 3px;
-    font-size: 17px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 12px;
     border: 2px solid black;
 }
 .guilds-wrapper .guilds-add {
