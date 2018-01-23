@@ -839,51 +839,7 @@ a,
     background-color: var(--Hover-Color);
     border: 3px solid var(--Border-Hover-Color);
 }
-/* Instant Invite Corner */
-#instant-invite-modal .form-header header,
-#instant-invite-modal .blurb,
-#instant-invite-modal .expire-text, 
-.checkbox .checkbox-inner+span, 
-.form.deprecated .control-group label, 
-.form.deprecated .control-group .help-text {
-    color: var(--Invite-Font-Color);
-    opacity: 1;
-}
-#instant-invite-modal .checkbox .checkbox-inner input:checked+span {
-    border-color: var(--Selected-Border-Color);
-}
-.checkbox .checkbox-inner input[type=checkbox]:checked+span {
-    background-color: var(--Selected-Background-Color) !important;
-    border-color: var(--Selected-Border-Color) !important;
-}
-.checkbox .checkbox-inner input[type=checkbox]:checked+span:after {
-    border-color: white;
-    border-style: solid;
-    border-width: 0 3px 3px 0;
-}
-#instant-invite-modal-advanced .form-actions {
-    background-color: black;
-    border-top: none;
-    padding-top: 0;
-}
-.form.deprecated .form-header, .form.deprecated .form-inner {
-    background-color: black;
-    border-bottom: none;
-    border-radius: 1px 1px 0 0;
-    color: var(--Font-Color);  
-}
-.form.deprecated .is-focused:not(.is-open)>.Select-control {
-    border: 2px solid var(--Border-Color);
-    box-shadow: none;
-}
-.form.deprecated .Select-option {
-    color: var(--Font-Color);
-    background: rgba(0,0,0,0.4);
-}
-.Select-option.is-selected {
-    background: var(--Selected-Background-Color) !important;
-    color: var(--Font-Color);
-}
+
 .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label, 
 .has-value.Select--single>.Select-control .Select-value .Select-value-label {
     color: var(--Font-Color);
@@ -918,50 +874,7 @@ a,
 .form.deprecated .Select.is-open .Select-control:hover {
     border-color:  var(--Border-Hover-Color);
 }
-#instant-invite-modal-advanced .form-actions .btn-default {
-    color: var(--Font-Color);
-}
-#instant-invite-modal-advanced .form-actions .btn-default:hover {
-    color: var(--Hover-Font-Color);
-    border-bottom-color: white;
-}
-.form.deprecated .form-inner {
-    background-color: var(--Main-Color);
-}
-#instant-invite-modal .form-actions {
-    background-color: black;
-}   
-.instant-invite-modal {
-    background: transparent;
-}
-.clipboard-input-inner {
-    border: 2px solid black;
-}
-#instant-invite-modal .clipboard-input-inner input {
-    color: var(--Font-Color);
-    background-color: var(--Main-Color);
-}
-#instant-invite-modal .copy {
-    background-color: var(--Selected-Background-Color);
-    color: var(--Font-Color);
-}
-.clipboard-input-copied .clipboard-input-inner {
-    border-color: var(--Hover-Color);
-}
-.form.deprecated .btn-primary {
-    background-color: var(--Main-Color);
-    border-radius: var(--Button-Border-Radius);
-    color: var(--Font-Color);
-}
-.form.deprecated .btn-primary:hover {
-    background-color: var(--Hover-Color);
-    border-radius: var(--Button-Border-Radius);
-    color: var(--Hover-Font-Color);
-    border: 2px solid var(--Border-Hover-Color);
-}
-.clipboard-input-inner button:first-of-type:before {
-    background: linear-gradient(90deg,rgba(255, 255, 255, 0),black);
-}
+
 .theme-dark .search-results-wrap .search-result.expanded {
     border: 2px solid var(--Border-Color);
     border-radius: 1px;
