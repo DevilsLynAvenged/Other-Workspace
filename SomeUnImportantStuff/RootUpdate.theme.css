@@ -486,7 +486,7 @@ a,
     font-size: 18px;
     text-shadow: 1px 1px 7px rgba(0, 0, 0, 1),1px 1px 7px rgba(0, 0, 0, 1);
 }
-.theme-dark .message-group h2 span {
+.theme-dark .message-group h2 .timestamp {
     color: var(--Font-Color);
     font-size: 14px;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
