@@ -1732,7 +1732,7 @@ a,
 }
 /* Context Menu New Stuff */
 .theme-dark .itemSubMenu-3ZgIw- {
-   background: var(--Selected-Font-Color);
+   background: var(--Selected-Background-Color);
    border: 0.3px solid white;
 }
 .theme-dark .itemSubMenu-3ZgIw-:hover{
