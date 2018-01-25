@@ -6,6 +6,13 @@
     background-color: var(--Main-Color);
     border-color: rgba(0, 0, 0, 0);
 }
+.checkbox .checkbox-inner input[type=checkbox]:checked+span {
+    background-color: var(--Main-Color);
+    border-color: var(--Border-Color);
+}
+.theme-dark .item-1XYaYf {
+    color: var(--Font-Color);
+}
 .noticeInfo-3v29SJ {
     background-color: var(--Main-Color);
     color: var(--Font-Color);
