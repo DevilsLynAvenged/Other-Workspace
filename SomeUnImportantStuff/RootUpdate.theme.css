@@ -35,6 +35,9 @@
     color: var(--Selected-Font-Color);
     border: 2px solid var(--Selected-Border-Color);
 }
+.progressBar-mI5LOq {
+    background-color: var(--Selected-Background-Color);
+}
 .theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected) {
     background-color: var(--Hover-Color);
 }
