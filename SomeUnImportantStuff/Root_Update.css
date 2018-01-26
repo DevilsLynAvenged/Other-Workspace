@@ -10,9 +10,7 @@
     background-color: var(--Main-Color);
     border-color: var(--Border-Color);
 }
-.theme-dark .select-3JqNgs .Select-control .Select-placeholder {
-    color: var(--Font-Color) !important;
-}
+
 .theme-dark .item-1XYaYf {
     color: var(--Font-Color);
 }
