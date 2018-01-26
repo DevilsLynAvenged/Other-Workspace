@@ -13,9 +13,8 @@
     background-color: black !important;
     box-shadow: none;
 }
-.theme-dark .button-1qrA-N:hover {
-    background-color: black !important;
-    box-shadow: none;
+.user-settings-games .game:hover .remove-game {
+    background: black;
 }
 .buttonBrandFilled-3Mv0Ra {
     background-color: var(--Main-Color);
