@@ -864,6 +864,7 @@ a,
 }
 .Select--single>.Select-control .Select-value, .Select-placeholder {
     background: var(--Main-Color);
+    color: var(--Font-Color) !important;
 }
 .Select-menu-outer {
     background-color: var(--Main-Color) !important;
