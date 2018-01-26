@@ -2,9 +2,6 @@
     background-color: var(--Main-Color);
     border-color: transparent;
 }
-.theme-dark .select-3JqNgs .Select-control .Select-placeholder {
-    color: var(--Font-Color);
-}
 .scrollerThemed-19vinI.themeGhost-10fio9 .scroller-fzNley::-webkit-scrollbar-thumb {
     background-color: var(--Main-Color);
     border-color: rgba(0, 0, 0, 0);
