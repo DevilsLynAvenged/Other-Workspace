@@ -390,7 +390,7 @@ a,
     background-color: var(--Main-Color);
 }
 .theme-dark .button-1qrA-N {
-    background-color: white;
+    background-color: white !important;
     box-shadow: none;
 }
 .spinner-pulsing-ellipsis .spinner-item {
