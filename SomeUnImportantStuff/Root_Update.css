@@ -5,17 +5,12 @@
 .theme-dark .select-3JqNgs .Select-control .Select-placeholder {
     color: var(--Font-Color);
 }
-.theme-dark .searchAnswer-yD90ey, .theme-dark .searchFilter-1fJ0cd {
-    background-color: var(--Main-Color);
-}
+
 .theme-dark .card-11ynQk:before {
     background-color: var(--Main-Color);
     border-color: var(--Border-Color);
 }
-.theme-dark .button-1qrA-N {
-    background-color: black;
-    box-shadow: none;
-}
+
 .buttonBrandFilled-3Mv0Ra {
     background-color: var(--Main-Color);
     color: var(--Font-Color);
@@ -390,6 +385,13 @@ a,
 }
 .theme-dark .textArea-20yzAH {
     color: var(--Typing-Font-Color);
+}
+.theme-dark .searchAnswer-yD90ey, .theme-dark .searchFilter-1fJ0cd {
+    background-color: var(--Main-Color);
+}
+.theme-dark .button-1qrA-N {
+    background-color: black;
+    box-shadow: none;
 }
 .spinner-pulsing-ellipsis .spinner-item {
     background-color: var(--Main-Color);
