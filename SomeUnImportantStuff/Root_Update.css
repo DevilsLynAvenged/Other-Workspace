@@ -9,6 +9,12 @@
     background-color: var(--Main-Color);
     border-color: rgba(0, 0, 0, 0);
 }
+.themeDefault-3M0dJU {
+    background-color: var(--Main-Color);
+}
+.theme-dark .select-3JqNgs .Select-control .Select-placeholder {
+    color: var(--Font-Color);
+}
 .checkbox .checkbox-inner input[type=checkbox]:checked+span {
     background-color: var(--Main-Color);
     border-color: var(--Border-Color);
