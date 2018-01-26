@@ -5,7 +5,9 @@
 .theme-dark .select-3JqNgs .Select-control .Select-placeholder {
     color: var(--Font-Color);
 }
-
+.headerTop-1QGMLs {
+    background-color: transparent;
+}
 .theme-dark .card-11ynQk:before {
     background-color: var(--Main-Color);
     border-color: var(--Border-Color);
