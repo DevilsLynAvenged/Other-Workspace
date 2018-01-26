@@ -10,7 +10,7 @@
     border-color: var(--Border-Color);
 }
 .theme-dark .button-1qrA-N {
-    background-color: black;
+    background-color: black !important;
     box-shadow: none;
 }
 .buttonBrandFilled-3Mv0Ra {
