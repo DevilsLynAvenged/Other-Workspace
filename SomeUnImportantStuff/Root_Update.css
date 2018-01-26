@@ -5,6 +5,9 @@
 .theme-dark .select-3JqNgs .Select-control .Select-placeholder {
     color: var(--Font-Color);
 }
+.theme-dark .searchAnswer-yD90ey, .theme-dark .searchFilter-1fJ0cd {
+    background-color: var(--Main-Color);
+}
 .theme-dark .card-11ynQk:before {
     background-color: var(--Main-Color);
     border-color: var(--Border-Color);
