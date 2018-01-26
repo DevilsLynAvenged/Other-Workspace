@@ -10,10 +10,13 @@
     border-color: var(--Border-Color);
 }
 .theme-dark .button-1qrA-N {
-    background-color: black !important;
+    background-color: black;
     box-shadow: none;
 }
-
+.theme-dark .button-1qrA-N:hover {
+    background-color: black;
+    box-shadow: none;
+}
 .buttonBrandFilled-3Mv0Ra {
     background-color: var(--Main-Color);
     color: var(--Font-Color);
