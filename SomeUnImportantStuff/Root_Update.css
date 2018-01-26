@@ -5,6 +5,26 @@
 .theme-dark .select-3JqNgs .Select-control .Select-placeholder {
     color: var(--Font-Color);
 }
+.theme-dark .card-11ynQk:before {
+    background-color: var(--Main-Color);
+    border-color: var(--Border-Color);
+}
+.theme-dark .button-1qrA-N {
+    background-color: black;
+    box-shadow: none;
+}
+.buttonBrandFilled-3Mv0Ra {
+    background-color: var(--Main-Color);
+    color: var(--Font-Color);
+}
+.theme-dark .user-settings-games .game-name-input:focus {
+   background-color: var(--Selected-Background-Color);
+   border: none;
+}
+.theme-dark .user-settings-games .game-name-input:hover {
+    background-color: var(--Hover-Color);
+    border: none;
+}
 .scrollerThemed-19vinI.themeGhost-10fio9 .scroller-fzNley::-webkit-scrollbar-thumb {
     background-color: var(--Main-Color);
     border-color: rgba(0, 0, 0, 0);
