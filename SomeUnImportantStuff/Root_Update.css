@@ -533,7 +533,7 @@ a,
 }
 .message-group .comment .markup {
     font-size: 14px;
-    line-height: 1.4em;
+    line-height: 1.6em;
 }
 .theme-dark .message-group h2 strong {
     color: var(--Font-Color);
