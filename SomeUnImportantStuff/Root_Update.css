@@ -1341,12 +1341,12 @@ a,
     border: none;
     border-radius: var(--Button-Border-Radius);
 }
-.theme-dark .user-settings-connections .connect-account-btn .connect-account-btn-inner {
+.theme-dark .accountBtnInner-3zsU2z {
     background-color: var(--Main-Color);
     border: none;
     border-radius: var(--Button-Border-Radius);
 }
-.theme-dark .user-settings-connections .connect-account-btn .connect-account-btn-inner:hover {
+.theme-dark .accountBtnInner-3zsU2z:hover {
     background-color: var(--Hover-Color);
     border: none;
     border-radius: var(--Button-Border-Radius);
