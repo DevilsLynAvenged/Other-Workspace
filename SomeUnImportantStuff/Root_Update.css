@@ -1845,33 +1845,7 @@ a,
     border-radius: var(--Button-Border-Radius);
 }
 /* Upload Section */
-.uploadModal-2KN6Mm .inner-1-09ZV {
-    border: 2px dashed var(--Border-Color);
-    color: var(--Font-Color);
-}
-.uploadModal-2KN6Mm {
-    background-color: var(--Main-Color);
-}
-.uploadModal-2KN6Mm .footer-4pOKm8 {
-    background-color: var(--Main-Color);
-}
-.uploadModal-2KN6Mm .footer-4pOKm8 .button {
-    background-color: rgba(255,0,0,0.4);
-    border-radius: var(--Button-Border-Radius);
-}
-.uploadModal-2KN6Mm .footer-4pOKm8 .button:hover {
-    background-color: rgba(255,0,0,0.8);
-}
-.uploadModal-2KN6Mm .footer-4pOKm8 .button-primary {
-    background-color: var(--Main-Color);
-    color: var(--Font-Color);
-    border-radius: var(--Button-Border-Radius);
-}
-.uploadModal-2KN6Mm .footer-4pOKm8 .button-primary:hover {
-    background-color: var(--Hover-Color);
-    color: var(--Font-Color);
-    opacity: 1;
-}
+
 .uploadDropModal-BpFgz7 {
    background: var(--Main-Color);
 }
