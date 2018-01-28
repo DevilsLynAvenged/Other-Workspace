@@ -61,7 +61,12 @@
 .theme-dark .channel-members-loading[style*="opacity: 1;"] {
     background: transparent !important;
 }
-.theme-dark .channel-members-loading .member,.theme-dark .channel-members-loading .heading,.theme-dark .channel-members-loading .member:nth-child(3n+2), .theme-dark .channel-members-loading .member:nth-child(7n+4),.theme-dark .channel-members-loading .member:nth-child(2n-4), .theme-dark .channel-members-loading .member:nth-child(7n-1) {
+.theme-dark .channel-members-loading .member,
+.theme-dark .channel-members-loading .heading,
+.theme-dark .channel-members-loading .member:nth-child(3n+2), 
+.theme-dark .channel-members-loading .member:nth-child(7n+4),
+.theme-dark .channel-members-loading .member:nth-child(2n-4), 
+.theme-dark .channel-members-loading .member:nth-child(7n-1) {
     background: transparent;
 }
 .theme-dark .channel-members-loading .background {
@@ -528,7 +533,7 @@ a,
 }
 .message-group .comment .markup {
     font-size: 14px;
-    line-height: 1.1em;
+    line-height: 1.4em;
 }
 .theme-dark .message-group h2 strong {
     color: var(--Font-Color);
