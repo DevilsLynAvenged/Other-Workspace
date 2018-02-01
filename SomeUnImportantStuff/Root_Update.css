@@ -3,15 +3,15 @@
     border-color: transparent;
 }
 .theme-dark .title-qAcLxz {
-    background-color: var(--Main-Color);
+    background: var(--Main-Color);
     box-shadow: none;
 }
 .header-1tSljs {
-    background-color: transparent;
-    transition: background-color .3s ease-in;
+    background: transparent;
+    transition: background .3s ease-in;
 }
 .header-1tSljs:hover {
-    background-color: var(--Main-Color) !important;
+    background: var(--Main-Color) !important;
 }
 .theme-dark .select-3JqNgs .Select-control .Select-placeholder {
     color: var(--Font-Color);
