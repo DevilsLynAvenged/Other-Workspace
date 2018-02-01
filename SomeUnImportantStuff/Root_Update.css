@@ -2,7 +2,17 @@
     background-color: var(--Main-Color);
     border-color: transparent;
 }
-
+.theme-dark .title-qAcLxz {
+    background: var(--Main-Color);
+    box-shadow: none;
+}
+.header-1tSljs {
+    background-color: transparent;
+    transition: background-color .3s ease-in;
+}
+.header-1tSljs:hover {
+    background-color: var(--Main-Color);
+}
 .theme-dark .select-3JqNgs .Select-control .Select-placeholder {
     color: var(--Font-Color);
 }
