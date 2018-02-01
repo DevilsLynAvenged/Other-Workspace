@@ -10,6 +10,9 @@
     background-color: transparent;
     transition: background-color .3s ease-in;
 }
+.popout-open .header-1tSljs {
+    background-color: var(--Main-Color);
+}
 .header-1tSljs:hover {
     background-color: var(--Main-Color);
 }
