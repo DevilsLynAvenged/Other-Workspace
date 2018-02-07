@@ -856,8 +856,8 @@ a,
 .nameDefaultVoice-1swZoh, 
 .colorDefaultText-2v6rRX, 
 .colorDefaultVoice-1x4dEl {
-   color: #6d6d6d;
-   opacity: 0.8;
+   color: gray;
+   opacity: 1;
 }
 .colorHoveredText-1CsxK1, 
 .colorHoveredVoice-1P3kui {
