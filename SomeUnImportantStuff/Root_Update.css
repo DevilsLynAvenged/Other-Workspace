@@ -1103,7 +1103,7 @@ a,
     color: var(--Font-Color);
 }
 .option.history.selected::after {
-    background: var(--Selected-Background-Color) !important;
+    background:var(--Hover-Color) !important;
     color: var(--Selected-Font-Color);
 }
 .search-popout .search-query.selected {
