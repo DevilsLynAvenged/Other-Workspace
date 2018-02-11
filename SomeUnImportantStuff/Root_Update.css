@@ -156,7 +156,6 @@
 }
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover {
     background-color: var(--Hover-Color) !important;
-    color: var(--Hover-Font-Color);
     border: 2px solid var(--Border-Hover-Color);
 }
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary.selected {
@@ -890,10 +889,7 @@ a,
 .contentSelectedVoice-gTtYM9:active {
     background-color: var(--Hover-Color);
 }
-.nameHoveredText-2FFqiz, 
-.nameHoveredVoice-TIoHRJ {
-    color: var(--Hover-Font-Color);
-}
+
 /*Notification Settings */
 .theme-dark .ui-select>.Select .Select-control {
     background: black;
