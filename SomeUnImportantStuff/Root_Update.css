@@ -957,6 +957,10 @@ a,
     background-color: var(--Hover-Color);
 }
 
+.need-help-modal.deprecated .header input[type=text] {
+    background-color: black;
+    color: #555;
+}
 .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label, 
 .has-value.Select--single>.Select-control .Select-value .Select-value-label {
     color: var(--Font-Color);
