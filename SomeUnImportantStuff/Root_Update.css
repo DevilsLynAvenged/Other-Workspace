@@ -1093,7 +1093,10 @@ a,
 
 .slider-handle, 
 .slider-handle span {
-   background-color: var(--Slider-Fill-Color);
+   background-color: white;
+}
+.contextMenu-uoJTbz .barFill-18ABna {
+    background: var(--Slider-Fill-Color);
 }
 .slider-bar-fill {
     background: black;
