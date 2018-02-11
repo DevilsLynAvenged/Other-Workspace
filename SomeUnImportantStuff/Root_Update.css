@@ -106,7 +106,7 @@
 }
 .aka-2Ba14Z {
     background-color: var(--Main-Color);
-    border-radius: var(--Tag-Radius);
+    border-radius: var(--Border-Radius);
     color: rgb(255, 255, 255);
     border: 2px solid var(--Border-Color);
 }
@@ -145,7 +145,7 @@
     background-color: var(--Hover-Color);
 }
 #friends .tab-bar .tab-bar-item {
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
     line-height: 20px;
     padding: 1px 7px;
     text-align: center;
@@ -166,19 +166,19 @@
 }
 #friends .btn {
     background-color: var(--Main-Color);
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
     color: var(--Font-Color);
 }
 #friends .btn:hover {
     background-color: var(--Main-Color);
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
     color: var(--Font-Color);
     border: 2px solid var(--Border-Hover-Color);
 }
 .bda-slist .bda-footer button {
     background-color: var(--Selected-Background-Color) !important;
     color: var(--Font-Color);
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
     display: block;
     margin-left: auto;
     padding: 2px 16px;
@@ -209,11 +209,11 @@
 }
 .private-channel-recipients-invite .footer button {
     background-color: var(--Main-Color);
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
 }
 .private-channel-recipients-invite .footer button:hover {
     background-color: var(--Hover-Color) !important;
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
     border: 2px solid var(--Hover-Border-Color);
 }
 .theme-dark .quickswitcher-2NdiGJ {
@@ -270,7 +270,7 @@ a,
     width: 37px;
     height: 37px;
     background-size: cover; 
-    border-radius: var(--Avatar-Radius);
+    border-radius: var(--Border-Radius);
 }
 .theme-dark #friends .friends-table .friends-row+.friends-row {
     border-top: none;
@@ -282,27 +282,27 @@ a,
     background-color: var(--Main-Color);
     color: var(--Font-Color);
     border: 2px solid var(--Border-Color);
-    border-radius: var(--Avatar-Radius);
+    border-radius: var(--Border-Radius);
 }
 .theme-dark #friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn {
     background-color: var(--Main-Color);
     color: var(--Font-Color);
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
 }
 .theme-dark #friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn:hover {
     border: 2px solid var(--Border-Hover-Color);
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
 }
 .theme-dark #friends .friends-table .friends-row:hover {
     background: var(--Hover-Color);
 }
 #friends .friends-table .friends-row .friends-column-actions .friends-action {
     background-color: var(--Main-Color) !important;
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
 }
 #friends .friends-table .friends-row .friends-column-actions .friends-action:hover {
-    border-radius: var(--Button-Border-Radius);
-    background-color: var(--Hover-Color) !important;
+    border-radius: var(--Border-Radius);
+    background-color: var(--Selected-Background-Color) !important;
 }
 #friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-remove:hover {
     background-color: rgba(0, 0, 0,0.5)!important;
@@ -326,24 +326,24 @@ a,
 }
 .theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-add-header .connect-accounts .connect-account-btn-inner {
     background-color: var(--Main-Color);
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
 }
 .theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-add-header .connect-accounts .connect-account-btn-inner:hover {
     background-color: var(--Main-Color);
-    border: 2px solid var(--Border-Hover-Color);
-    border-radius: var(--Button-Border-Radius);
+    border: 2px solid ;
+    border-radius: var(--Border-Radius);
 }
 .guilds-wrapper .guilds .friends-icon {
     background-image: var(--Guild-Picture);
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
     background-size: cover;
 }
 .private-channels header {
     opacity: .6;
 }
 .guilds-wrapper .guilds .guild .guild-inner {
-    background: var(--Main-Color);
-    border-radius: var(--Button-Border-Radius) !important;
+    background-color: var(--Main-Color);
+    border-radius: var(--Border-Radius) !important;
 }
 .guilds-wrapper .guilds .guild .guild-inner a {
     background-color: var(--Main-Color);
@@ -398,7 +398,7 @@ a,
     position: relative;
     z-index: 2;
     line-height: 13px;
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
 }
 .theme-dark .friends-table .messages .divider.divider-red>div, .theme-dark .messages-wrapper .messages .divider.divider-red>div {
     background-color: transparent !important;
@@ -415,17 +415,13 @@ a,
     font-weight: 500;
 }
 .channel-members .avatar-small {
-    border: 2px solid var(--Border-Color);
-    border-radius: var(--Avatar-Radius);
-}
-.theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover {
-    background: var(--Hover-Color) !important;
+    border: 3px solid var(--Border-Color);
+    border-radius: var(--Border-Radius);
 }
 .option-popout .btn-item {
     color: var(--Font-Color);
 }
 .option-popout .btn-item:hover {
-    color: var(--Hover-Font-Color);
     background: var(--Hover-Color);
 }
 .small-popout-box {
@@ -485,7 +481,6 @@ a,
 }
 .theme-dark .message-group .comment .markup .mention:hover {
     background-color: var(--Hover-Color) !important;
-    border: 2px solid var(--Border-Hover-Color);
 }
 .theme-dark .message-group .comment .markup .mention {
     background-color: var(--Main-Color) !important;
@@ -498,14 +493,14 @@ a,
 }
 .botTagRegular-288-ZL.botTag-1OwMgs  {
     background: var(--Main-Color); 
-    border-radius: var(--Tag-Radius);
+    border-radius: var(--Border-Radius);
     color: var(--Font-Color) !important;
     padding: 4px 8px;
     font-weight: normal;
 }
 .channel-members .botTag-1OwMgs {
     background: var(--Main-Color); 
-    border-radius: var(--Tag-Radius);
+    border-radius: var(--Border-Radius);
     color: var(--Font-Color) !important;
     padding: 4px 8px;
     font-weight: normal;
@@ -519,7 +514,6 @@ a,
 }
 .theme-dark .reaction.reaction-me {
     background: var(--Selected-Background-Color);
-    border: 2px solid var(--Selected-Border-Color);
 }
 .theme-dark .reaction.reaction-me .reaction-count {
     color: var(--Font-Color);
@@ -529,28 +523,25 @@ a,
 .botTagInvert-gorWR_.botTag-1OwMgs {
     background: var(--Main-Color);
     color: var(--Font-Color);
-    border-radius: var(--Tag-Radius);
+    border-radius: var(--Border-Radius);
     padding: 4px 8px;
 }
 .botTagRegular-288-ZL {
     background: var(--Main-Color);
     color: var(--Font-Color); 
-    border-radius: var(--Tag-Radius);
+    border-radius: var(--Border-Radius);
 }
 .chat .avatar-large {
-    width: 53px;
-    height: 53px;
+    width: 57px;
+    height: 57px;
     background-size: cover;
-    border-radius: var(--Avatar-Radius);
+    border-radius: var(--Border-Radius);
     border: 2px solid var(--Border-Color);
     transition: border .2s ease-in;
 }
 .chat .avatar-large:hover {
-    width: 53px;
-    height: 53px;
-    background-size: cover;
-    border-radius: var(--Avatar-Radius);
     border: 2px solid var(--Border-Hover-Color);
+    opacity: 1;
 }
 ::-webkit-input-placeholder { 
   color: var(--Placeholder-Font-Color) !important;
@@ -627,16 +618,17 @@ a,
 .theme-dark .channel-members h2 {
     color: var(--Font-Color);
     background: var(--Main-Color);
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     font-size: 11px;
+    text-align: center;
 }
 .container-iksrDt {
     background: var(--Main-Color) !important;
     color: var(--Font-Color);
     height: 56px;
     width: 232px;
-    border-top: 1px solid var(--Border-Color) !important;
+    border-top: 2px solid var(--Border-Color) !important;
     padding: 0 4px !important;
     margin-bottom: 0px !important;
     bottom: 0px;
@@ -648,8 +640,6 @@ a,
 }
 .mention-RlZ5F3:hover,.unread-2TDDFN:hover {
     background-color: var(--Hover-Color) !important;
-    border: 1px outset var(--Border-Hover-Color);
-    color: var(--Hover-Font-Color);
 }
 .icon-2qNMWC {
     color: var(--Icon-Color);
@@ -676,7 +666,7 @@ a,
     height: 40px;
     background-size: cover;
     margin-bottom: -3px;
-    border-radius: var(--Avatar-Radius);
+    border-radius: var(--Border-Radius);
     border: 2px solid var(--Border-Color);
 }
 .theme-dark .message-group .mentioned .message-text {
@@ -701,7 +691,7 @@ a,
 }
 .theme-dark .iconBadge-1FYlQB {
     border-color: var(--Border-Color);
-    border-radius: var(--Icon-Radius);
+    border-radius: var(--Border-Radius);
     border-width: 1px;
     width: 8px;
     height: 8px;
@@ -711,7 +701,7 @@ a,
 }
 .wrapper-2xO9RX {
     background-color: var(--Main-Color);
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
     box-shadow: 0 1px 0 rgba(0,0,0,1), inset 0 1px 0 hsla(0,0%,100%,.15);
     color: var(--Font-Color);
     border: 2px solid var(--Border-Color);
@@ -721,7 +711,7 @@ a,
 }
 .badge {
     background-color: var(--Main-Color);
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
     box-shadow: 0 1px 0 rgba(0,0,0,1), inset 0 1px 0 hsla(0,0%,100%,.15);
     color: var(--Font-Color);
     border: 2px solid var(--Border-Color);
@@ -749,7 +739,7 @@ a,
 .tooltip.tooltip-black {
     background-color: var(--Main-Color);
     color: var(--Font-Color);
-    border: 2px solid  var(--Border-Color);
+    border: 2px solid var(--Border-Color);
 }
 .tooltip.tooltip-red.tooltip-right:after {
     border-right: none;
@@ -804,15 +794,14 @@ a,
     color: var(--Font-Color);
     border-width: 3px;
     background: var(--Main-Color);
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
 }
 .guilds-wrapper .guilds-add:hover {
     border-color: var(--Border-Hover-Color);
-    color: var(--Hover-Font-Color);
     border-width: 3px;
     border-style: solid;
     background: var(--Hover-Color);
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
 }
 /* Channel List Stuff */
 .inner-ptMwR- .rtc-connection-status-connected {
@@ -827,7 +816,7 @@ a,
 }
 .wrapper-2ldvyE {
     background: var(--Main-Color);
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
     color: var(--Font-Color);
     padding: 3px 3px;
     border-color: var(--Border-Color);
@@ -840,12 +829,12 @@ a,
 }
 .nameSelectedText-32NDX5, 
 .nameSelectedVoice-XpjYTw {
-    color: var(--Selected-Font-Color);
+    color: var(--Font-Color);
     font-size: 16px;
 }
 .colorSelectedText-3YhFC6, 
 .colorSelectedVoice-ieXC3Z {
-    color: var(--Selected-Font-Color);
+    color: var(--Font-Color);
     opacity: 1;
 }
 .nameUnreadText-1pxldj, 
@@ -856,12 +845,12 @@ a,
 .nameDefaultVoice-1swZoh, 
 .colorDefaultText-2v6rRX, 
 .colorDefaultVoice-1x4dEl {
-   color: #565656;
-   opacity: 1;
+   color: #6d6d6d;
+   opacity: 0.8;
 }
 .colorHoveredText-1CsxK1, 
 .colorHoveredVoice-1P3kui {
-    color: var(--Hover-Font-Color);
+    color: var(--Font-Color);
     opacity: 1;
 }
 .colorUnreadText-1KwCnP, 
@@ -919,7 +908,7 @@ a,
     box-shadow: none;
 }
 .item-2zi_5J {
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
     cursor: pointer;
 }
 .cardPrimaryEditable-2IQ7-V[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] {
@@ -970,7 +959,6 @@ a,
 }
 .buttonBrandFilledDefault-2Rs6u5:hover {
     background-color: var(--Hover-Color);
-    border: 3px solid var(--Border-Hover-Color);
 }
 
 .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label, 
@@ -995,7 +983,6 @@ a,
 }
 .form.deprecated .Select-option.is-focused {
     background-color: var(--Hover-Color) !important;
-    color: var(--Hover-Font-Color);
     border: 2px solid  var(--Border-Hover-Color);
 }
 .form.deprecated .Select-control {
@@ -1070,8 +1057,7 @@ a,
 }
 [class*="item item-toggle"]:hover
 {
-    border: var(--Border-Hover-Color) !important;
-    background: var(--Hover-Background-Color) !important;
+    background: var(--Hover-Color) !important;
 }
 .search-popout {
     background: var(--Main-Color);
@@ -1079,7 +1065,6 @@ a,
 }
 .option.search-option.selected {
   background: var(--Selected-Border-Color) !important;
-  color: var(--Selected-Font-Color);
 }
 .option.search-option {
     background: var(--Main-Color) !important;
@@ -1087,12 +1072,10 @@ a,
 }
 .option.search-option.selected::after {
     background: var(--Selected-Border-Color) !important;
-    color: var(--Selected-Font-Color);
 }
 
 .option.history.selected {
     background: var(--Selected-Border-Color) !important;
-    color: var(--Selected-Font-Color);
 }
 .option.history {
     background: var(--Main-Color) !important;
@@ -1103,28 +1086,31 @@ a,
     color: var(--Font-Color);
 }
 .option.history.selected::after {
-    background:var(--Selected-Border-Color) !important;
-    color: var(--Selected-Font-Color);
+    background: var(--Selected-Background-Color) !important;
 }
 .search-popout .search-query.selected {
-    background: var(--Selected-Border-Color);
+    border: 2px solid var(--Selected-Border-Color);
+    background: var(--Selected-Background-Color);
 }
 
 .slider-handle, 
 .slider-handle span {
-   background-color: var(--Main-Color);
+   background-color: var(--Slider-Fill-Color);
 }
 .slider-bar-fill {
-    background: var(--Fill-Color);
+    background: black;
     height: 100%;
 }
 .slider-handle {
     border: 2px solid var(--Border-Color);
 }
-.theme-dark .bubble-17BwqU:before, .slider-handle span:after, .slider-handle span:before {
+.theme-dark .bubble-17BwqU:before, 
+.slider-handle span:after, 
+.slider-handle span:before {
     border-top: none !important;
 }
-.theme-dark .bubble-17BwqU, .slider-handle span {
+.theme-dark .bubble-17BwqU, 
+.slider-handle span {
     background-color: var(--Main-Color);
     border: 2px solid var(--Border-Color);
     color: var(--Font-Color);
@@ -1141,11 +1127,10 @@ a,
 .buttonRedFilled-1NjJNj {
     background-color: var(--Main-Color);
     color: var(--Font-Color);
+    border: 2px solid var(--Border-Color);
 }
 .buttonRedFilled-1NjJNj:hover {
     background-color: var(--Hover-Color);
-    color: var(--Hover-Font-Color);
-    border-color: var(--Border-Hover-Color);
     border-width: 2px;
 }
 .theme-dark .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
@@ -1235,7 +1220,10 @@ a,
     border-bottom: none !important;
     background: none;
 }
-.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb, .bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb {
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb, 
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb, 
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb, 
+.bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb {
     border: none !important;
     background-color: var(--Selected-Background-Color)  !important;
 }
@@ -1254,41 +1242,8 @@ a,
     background: var(--Hover-Color);
     color: var(--Font-Color);
 }
-.theme-dark .react-datepicker__day.react-datepicker__day--weekend:hover:first-of-type:not(.react-datepicker__day--disabled):not(.react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--weekend.react-datepicker__day--outside-month) {
-    border-left: none;
-    border-top: none;
-    color: var(--Font-Color);
-    background:  var(--Hover-Color);
-}
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day:hover, .theme-light .ui-calendar-picker .react-datepicker__day:hover,.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day:hover:last-of-type:not(.react-datepicker__day--disabled), .theme-light .ui-calendar-picker .react-datepicker__day:hover:last-of-type:not(.react-datepicker__day--disabled){
-   background:  var(--Hover-Color);
-}
-[class*="react-datepicker__day react-datepicker__day--sat react-datepicker__day--weekend react-datepicker__day--outside-month"]:hover {
-   background: var(--Darker-Calendar-Color) !important;
-}
-
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__week .react-datepicker__day:last-of-type, .theme-light .ui-calendar-picker .react-datepicker__week .react-datepicker__day:last-of-type {
-    border-right: none;
-}
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker, .theme-light .ui-calendar-picker .react-datepicker {
-    background-color: var(--Main-Color);
-}
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__header, .theme-light .ui-calendar-picker .react-datepicker__header {
-    background-color: var(--Main-Color);
-    border: none;
-}
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day-name, .theme-light .ui-calendar-picker .react-datepicker__day-name {
-    color: var(--Font-Color);
-}
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__current-month, .theme-light .ui-calendar-picker .react-datepicker__current-month {
-    border-bottom: none;
-    color: var(--Font-Color);
-}
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__week:last-of-type .react-datepicker__day, .theme-light .ui-calendar-picker .react-datepicker__week:last-of-type .react-datepicker__day {
-    border-bottom: none;
-}
 .search-popout .date-picker .date-picker-hint .hint {
-    color: var(--Font-Color);
+    color: var(--Calendar-Font-Color);
     font-size: 16px;
 }
 .search-popout .date-picker .date-picker-hint {
@@ -1299,14 +1254,13 @@ a,
 }
 .search-popout .date-picker .date-picker-hint .hint-value {
     background-color: var(--Main-Color);
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
     color: var(--Font-Color);
     border: 3px solid var(--Border-Color);
 }
 .search-popout .date-picker .date-picker-hint .hint-value:hover {
     background-color: var(--Hover-Color);
-    border-radius: var(--Button-Border-Radius);
-    border: 3px dotted var(--Border-Hover-Color);
+    border-radius: var(--Border-Radius);
     color: var(--Font-Color);
 }
 
@@ -1402,7 +1356,7 @@ a,
     background-color: rgba(0,0,0,0.09);
 }
 .theme-dark .desc-2dKaro {
-    color: var(--Font-Color);
+    color: var(--BD-Font-Color);
     font-weight: bold;
 }
 .theme-dark .ui-hover-card:before {
@@ -1419,28 +1373,28 @@ a,
 }
 .user-settings-keybinds .ghost-pill {
     background-color: var(--Main-Color);
-    color: var(--Font-Color);
+    color: var(--BD-Font-Color);
 }
 .formNotice-2tZsrh,.user-settings-connections .connect-account-list {
     background-color: var(--Main-Color) !important;
     border: none;
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
 }
 .theme-dark .accountBtnInner-3zsU2z {
     background-color: var(--Main-Color);
     border: none;
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
 }
 .theme-dark .accountBtnInner-3zsU2z:hover {
     background-color: var(--Hover-Color);
     border: none;
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
 }
 .theme-dark .user-settings-notifications .notifications-sound {
     box-shadow: none;
 }
 .buttonLinkLink-PqcWoA,.theme-dark .markValue-235z9M {
-    color: var(--Font-Color);
+    color: var(--BD-Font-Color);
 }
 .buttonLinkLinkDefault-3EZi6x:active .contents-4L4hQM, 
 .buttonLinkLinkDefault-3EZi6x:hover .contents-4L4hQM {
@@ -1455,7 +1409,7 @@ a,
     border: none;
 }
 .theme-dark .user-settings-games .last-played, .theme-dark .user-settings-games .overlay-status-text {
-    color: var(--Font-Color);
+    color: var(--BD-Font-Color);
 }
 .theme-dark .user-settings-games .game {
     box-shadow: none;
@@ -1477,7 +1431,7 @@ a,
 }
 .grabber-1TZCZi {
     background-color: rgb(255, 255, 255);
-    border: 2px solid black;
+    border: 3px solid black;
     box-shadow: none;
 }
 .theme-dark .markDash-3j1QxS {
@@ -1537,7 +1491,7 @@ a,
     margin-right: 12px;
     width: 100px;
     background: var(--Selected-Background-Color);
-    color: var(--Selected-Font-Color);
+    color: var(--BD-Font-Color);
     border: none;
     height: 26px;
     font-weight: 600;
@@ -1546,21 +1500,21 @@ a,
 .content-region #bd-customcss-attach-controls, 
 #bd-customcss-detach-container #bd-customcss-attach-controls {
     background: var(--Main-Color);
-    color: var(--Font-Color);
+    color: var(--BD-Font-Color);
     border: none;
     box-shadow: none;
 }
 .bda-slist .bda-name {
-    color: var(--Font-Color);
+    color: var(--BD-Font-Color);
 }
 .ui-standard-sidebar-view .bda-slist .bda-description {
     border-top: none;
-    color: var(--Font-Color);
+    color: var(--BD-Font-Color);
 }
 .ui-standard-sidebar-view .bda-slist .bda-right button  {
     background: var(--Selected-Background-Color);
-    color: var(--Font-Color);
-    border-radius: var(--Button-Border-Radius);
+    color: var(--BD-Font-Color);
+    border-radius: var(--Border-Radius);
     height: 30px;
     display: block;
     width: 100px;
@@ -1572,23 +1526,23 @@ a,
 }
 .bd-pfbtn {
     background: var(--Main-Color);
-    color: var(--Font-Color);
+    color: var(--BD-Font-Color);
     border: none;
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
     height: 25px;
 }
 .bd-pfbtn:hover {
     background: var(--Hover-Color);
-    color: var(--Font-Color);
+    color: var(--BD-Font-Color);
     border: none;
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
     height: 25px;
 }
 .ui-standard-sidebar-view #editor-detached button {
     background: var(--Main-Color);
-    color: var(--Font-Color);
+    color: var(--BD-Font-Color);
     font-weight: 600;
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
     font-size: 40px;
     border: none;
 }
@@ -1627,7 +1581,7 @@ a,
 }
 .role-3rahR_ {
   padding: 4px 6px;
-  border-radius: var(--Button-Border-Radius) !important;
+  border-radius: var(--Border-Radius) !important;
   overflow: hidden; 
   }
   .role-3rahR_ .roleCircle-3-vPZq {
@@ -1657,7 +1611,7 @@ a,
      left: 4px;
  }
 .bodyTitle-yehI7c {
-    color: var(--Font-Color);
+    color: var(--Popout-Font-Color);
 }
 .headerStreaming-3F-wjT {
     background: rgba(89, 54, 149,0.4);
@@ -1683,16 +1637,16 @@ a,
     width: 42px;
     z-index: 3;
 }
-.body-3rkFrF .note-3Zfyi2 textarea {
+.theme-dark .note-2AtC_s textarea {
     padding: 6px 10px;
 }
-.note textarea {
+.theme-dark .note-2AtC_s textarea {
     color: var(--Font-Color);
     font-size: 12px;
     line-height: 18px;
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
 }
-.note textarea:focus{
+.theme-dark .note-2AtC_s textarea:focus{
     background: rgba(255,255,255,0.1) !important;
     border: none;
 }
@@ -1702,7 +1656,7 @@ a,
 }
 .quick-message {
     background: none;
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
     padding: 8px 10px;
     border: none;
     color: var(--Font-Color);
@@ -1735,6 +1689,8 @@ a,
    text-shadow: 0px 0px 7px #000000, 0px 0px 7px #000000;;
    padding-top: 3px;
    padding-bottom: 3px;
+   padding-right: 8px;
+   padding-left: 8px;
 }
 .guildNick-1oZKE3, .listName-1Xr1Jk {
     color: var(--Font-Color);
@@ -1772,7 +1728,7 @@ a,
 /* This Weeks Update Right Now */ 
 .theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__header .react-datepicker__current-month {
    background: var(--Main-Color);
-   color: var(--Font-Color);
+   color: var(--Calendar-Font);
 }
 .theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker {
     background: var(--Main-Color);
@@ -1810,9 +1766,8 @@ a,
 .theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri.react-datepicker__day--today:hover,
 .theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--today:hover,
 .theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--today:hover {
-    background-color: black;
-    border: 2px solid var(--Selected-Border-Color);
-    color: white;
+    background-color: var(--Selected-Background-Color);
+    color: var(--Calendar-Font);
 }
 .theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon,
 .theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue,
@@ -1905,7 +1860,8 @@ a,
     text-shadow: 1px 1px 13px rgba(0, 0, 0, 1), 1px 1px 13px rgba(0, 0, 0, 1), 1px 1px 13px rgba(0, 0, 0, 1);
 }
 .theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover {
-    background: linear-gradient(90deg,black 85%,var(--Selected-Background-Color));
+    background: linear-gradient(90deg,black 35%,var(--Hover-Color));
+    border: 2px dashed var(--Border-Hover-Color);
 }
 /* Popup Menu */
 .separator-1hpa3S {
@@ -1927,7 +1883,7 @@ a,
 .bda-slist .bda-footer button {
     background: var(--Darker-Button-Color);
     color: var(--Font-Color);
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
 }
 /* Upload Section */
 .uploadModal-2KN6Mm .inner-1-09ZV {
@@ -1953,7 +1909,6 @@ a,
 }
 .uploadModal-2KN6Mm .footer-4pOKm8 .button-primary:hover {
     background-color: var(--Hover-Color);
-    border: 1px solid var(--Border-Hover-Color);
     color: var(--Font-Color);
     opacity: 1;
 }
@@ -1971,7 +1926,7 @@ a,
     background-color: transparent;
     background-size: cover;
     border: 2px solid var(--Border-Color);
-    border-radius: var(--Picture-Border-Radius);
+    border-radius: var(--Border-Radius);
 }
 .theme-dark .topic-1KFf6J a {
     color: var(--Special-Links);
@@ -2014,7 +1969,7 @@ a,
 /* ----------------------- */
 .wrapper-VSYYTS .instantInviteModal-5L33Qh .checkbox .checkbox-inner span,
 .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .checkbox .checkbox-inner span {
-    border: 2px solid var(--Border-Hover-Color);
+    border: 2px solid var(--Border-Color);
 }
 .form-deprecated .is-focused:not(.is-open)>.Select-control, 
 .form.deprecated .is-focused:not(.is-open)>.Select-control {
@@ -2042,7 +1997,7 @@ a,
 }
 .form-deprecated .Select-option.is-focused,
 .form.deprecated .Select-option.is-focused {
-     background: linear-gradient(to right, #0e76f5 0%, transparent 50%, #5bb5f0 100%);
+    background: linear-gradient(to right, var(--Hover-Color) 0%, transparent 50%, var(--Hover-Color) 100%);
     color: var(--Font-Color);
 }
 .form-deprecated .Select-option, 
@@ -2053,13 +2008,12 @@ a,
 .form-deprecated .btn-primary, 
 .form.deprecated .btn-primary {
     background-color: black !important;
-    border-radius: var(--Button-Border-Radius);
+    border-radius: var(--Border-Radius);
     color: var(--Font-Color);
 }
 .form-deprecated .btn-primary:hover, 
 .form.deprecated .btn-primary:hover {
-    color: var(--Font-Color);
-    border: 1px solid var(--Border-Hover-Color);
+    border: 2px solid var(--Border-Color);
 }
 .clipboardInputInner-oj8y-S {
     background: var(--Main-Color);
@@ -2075,7 +2029,7 @@ a,
 }
 /* Copied Invite Button */
 .clipboardInputCopied-UXgFh2 .clipboardInputInner-oj8y-S {
-    border-color: var(--Border-Hover-Color);
+    border-color: #00FF00;
 }
 /* -------------------- */
 .clipboardInputInner-oj8y-S button:first-of-type:before {
