@@ -135,7 +135,6 @@
 /* End of Transparency Setup */
   .theme-dark #friends .tab-bar .tab-bar-item.selected {
     background-color: var(--Selected-Background-Color);
-    color: var(--Selected-Font-Color);
     border: 2px solid var(--Selected-Border-Color);
 }
 .progressBar-mI5LOq {
@@ -160,7 +159,6 @@
 }
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary.selected {
     background-color: var(--Selected-Background-Color);
-    color: var(--Selected-Font-Color);
     border: 2px solid var(--Selected-Border-Color);
 }
 #friends .btn {
