@@ -1870,7 +1870,6 @@ a,
 }
 .theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover {
     background: linear-gradient(90deg,black 35%,var(--Hover-Color));
-    border: 2px dashed var(--Border-Hover-Color);
 }
 /* Popup Menu */
 .separator-1hpa3S {
