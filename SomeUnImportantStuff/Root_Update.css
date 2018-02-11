@@ -1062,18 +1062,18 @@ a,
     color: var(--Font-Color);
 }
 .option.search-option.selected {
-  background: var(--Selected-Border-Color) !important;
+  background: var(--Selected-Background-Color) !important;
 }
 .option.search-option {
     background: var(--Main-Color) !important;
     color: var(--Font-Color);
 }
 .option.search-option.selected::after {
-    background: var(--Selected-Border-Color) !important;
+    background: var(--Selected-Background-Color) !important;
 }
 
 .option.history.selected {
-    background: var(--Selected-Border-Color) !important;
+    background: var(--Selected-Background-Color) !important;
 }
 .option.history {
     background: var(--Main-Color) !important;
