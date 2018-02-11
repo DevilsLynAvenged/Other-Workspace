@@ -1301,6 +1301,10 @@ a,
     background-color: var(--Hover-Color);
     color: var(--Font-Color);
 }
+.theme-dark #friends .tab-bar .tab-bar-item.selected .badge {
+    background-color: var(--Selected-Background-Color);
+    color: #fff;
+}
 .theme-dark .ui-standard-sidebar-view .esc-text {
     color: var(--Font-Color);
 }
