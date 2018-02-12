@@ -1737,7 +1737,7 @@ a,
 /* This Weeks Update Right Now */ 
 .theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__header .react-datepicker__current-month {
    background: var(--Main-Color);
-   color: var(--Calendar-Font);
+   color: var(--Calendar-Font-Color);
 }
 .theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker {
     background: var(--Main-Color);
@@ -1776,7 +1776,7 @@ a,
 .theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--today:hover,
 .theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--today:hover {
     background-color: var(--Selected-Background-Color);
-    color: var(--Calendar-Font);
+    color: var(--Calendar-Font-Color);
 }
 .theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon,
 .theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue,
