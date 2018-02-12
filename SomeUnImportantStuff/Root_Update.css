@@ -668,8 +668,8 @@ a,
 }
 .theme-dark .message-group .mentioned .message-text {
     background: var(--Main-Color);
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     border: 1px solid var(--Border-Color);
     padding-left: 4px;
 }
