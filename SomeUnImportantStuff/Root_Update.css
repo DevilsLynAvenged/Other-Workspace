@@ -1625,6 +1625,11 @@ a,
 .headerStreaming-3F-wjT {
     background: rgba(89, 54, 149,0.4);
 }
+.menu-3BZuDT {
+    background: transparent;
+    border-radius: 0px;
+    box-shadow: none;
+}
 .headerLive-2dDMvp:hover {
     background-color: rgba(89, 54, 149,0.5);
 }
