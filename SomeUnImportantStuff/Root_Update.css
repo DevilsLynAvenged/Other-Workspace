@@ -1177,7 +1177,7 @@ a,
 }
 .headerSpotify-1fSJPO,
 .topSectionSpotify-3744IX {
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.4) !important;
 }
 .theme-dark .search-results-wrap .channel-separator .channel-name {
     background-color: var(--Main-Color);
@@ -1916,12 +1916,12 @@ a,
     background-color: rgba(255,0,0,0.8);
 }
 .uploadModal-2KN6Mm .footer-4pOKm8 .button-primary {
-    background-color: var(--Main-Color);
+    background-color: var(--Main-Color) !important;
     color: var(--Font-Color);
     border: 1px solid var(--Border-Color);
 }
 .uploadModal-2KN6Mm .footer-4pOKm8 .button-primary:hover {
-    background-color: var(--Hover-Color);
+    background-color: var(--Hover-Color) !important;
     color: var(--Font-Color);
     opacity: 1;
 }
