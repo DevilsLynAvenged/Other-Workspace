@@ -1175,6 +1175,10 @@ a,
 .need-help-modal.deprecated a:hover {
     color: var(--Special-Links);
 }
+.video-3lOWa6,
+.theme-dark .private-channel-call {
+    background-color: transparent;
+}
 .headerSpotify-1fSJPO,
 .topSectionSpotify-3744IX {
     background: rgba(0,0,0,0.4) !important;
