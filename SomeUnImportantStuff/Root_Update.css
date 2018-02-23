@@ -1285,7 +1285,7 @@ a,
     border: none !important;
 }
 /* Discord Settings */
-.theme-dark .user-settings-voice .preview-overlay {
+.theme-dark .userSettingsVoice-TvPQ80 .previewOverlay-2vHj3H {
     background-color: rgba(0,0,0,0.3);
     border: none;
 }
@@ -1349,7 +1349,7 @@ a,
     background-color: var(--Main-Color) !important;
 }
 .barFill-18ABna {
-    background-color: var(--Main-Color);
+    background-color: var(--Main-Color) !important;
 }
 
 .theme-dark .itemDefault-3NDwnY, .theme-dark .itemHover-3rojsB {
