@@ -14,6 +14,10 @@
 .theme-dark .reaction.reaction-me .reaction-count {
     color: white;
 }
+.noticeInfo-3v29SJ {
+    background-color: var(--M-Color);
+    color: #fff;
+}
 .wrapper-2ldvyE {
     background-color: black;
     border-radius: var(--B-Radius);
