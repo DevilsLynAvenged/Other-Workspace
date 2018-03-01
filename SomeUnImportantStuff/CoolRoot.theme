@@ -1,0 +1,1931 @@
+/* -------- Main Chat  -------- */
+ .theme-dark .chat form {
+    box-shadow: none;
+}
+.theme-dark .reaction {
+    background: rgba(var(--MCT-Color));
+}
+.theme-dark .reaction .reaction-count {
+    color: white;
+}
+.theme-dark .reaction.reaction-me {
+    background: rgba(var(--SCT-Color));
+}
+.theme-dark .reaction.reaction-me .reaction-count {
+    color: white;
+}
+.wrapper-2ldvyE {
+    background-color: black;
+    border-radius: var(--B-Radius);
+    color: white;
+    border: 1px var(--BOR-Type) var(--BOR-Color);
+}
+.iconCollapsed-1INdMX, 
+.iconDefault-xzclSQ, 
+.nameCollapsed-3_ChMu, 
+.nameDefault-Lnjrwm {
+    color: var(--M-Color);
+}
+.iconHovered-3PRzOR, 
+.iconHoveredCollapsed-jNYgOD, 
+.nameHovered-1YFSWq, 
+.nameHoveredCollapsed-2c-EHI {
+    color: var(--H-Color);
+}
+.iconMuted-Hb4ttQ, 
+.iconUnread-3sxnnr,
+.nameMuted-1n0LSj {
+       color: white;
+       text-shadow: 0 0 6px red, 0 0 6px red, 0 0 6px red;
+}
+.nameCollapsed-3_ChMu, 
+.nameDefault-Lnjrwm, 
+.nameHovered-1YFSWq, 
+.nameHoveredCollapsed-2c-EHI, 
+.nameMuted-1n0LSj, 
+.nameUnread-WKlSv- {
+    text-transform: capitalize;
+}
+.theme-dark .hljs-comment, 
+.theme-dark .hljs-quote {
+    color: #E0E0E0;
+}
+.theme-dark .hljs-name, 
+.theme-dark .hljs-section, 
+.theme-dark .hljs-selector-class,
+.theme-dark .hljs-selector-id,
+.theme-dark .hljs-title {
+    color: var(--Code-Color1);
+}
+.theme-dark .hljs-attr, 
+.theme-dark .hljs-attribute, 
+.theme-dark .hljs-class .hljs-title, 
+.theme-dark .hljs-template-variable, 
+.theme-dark .hljs-type, 
+.theme-dark .hljs-variable {
+    color: var(--Code-Color2);
+}
+
+.theme-dark .hljs-bullet, 
+.theme-dark .hljs-link, 
+.theme-dark .hljs-meta, 
+.theme-dark .hljs-meta .hljs-keyword, 
+.theme-dark .hljs-selector-attr, 
+.theme-dark .hljs-selector-pseudo, 
+.theme-dark .hljs-subst, 
+.theme-dark .hljs-symbol {
+    color: var(--Code-Color3);
+}
+/* Hide 'playing' in member activity*/
+.channel-members .member .member-activity{
+text-indent: -9999px;
+line-height: 0px;
+}
+.channel-members .member .member-activity strong{
+ text-indent: 0;
+  display: block;
+  line-height: initial;
+ 
+}
+.theme-dark .divider-1GKkV3 {
+    background: transparent;
+}
+.durationBarGrabber-1cFmrd, .durationBarProgress-3sJ7Pt, 
+.durationBarProgress-3sJ7Pt:after, 
+.durationBarProgress-3sJ7Pt:before {
+    background-color: var(--M-Color);
+}
+.durationBarInteraction-23MVSC:hover .durationBarWrapper-3-wksR, 
+.durationBarInteractionDragging-2t191e:hover .durationBarWrapper-3-wksR {
+    box-shadow: none;
+}
+.durationBarPreview-2q4B-3, 
+.durationBarPreview-2q4B-3:after,
+.durationBarPreview-2q4B-3:before {
+    background-color: rgba(255,255,255,0.7);
+}
+.durationBarInteraction-23MVSC:hover .durationBarGrabber-1cFmrd {
+    background-color: var(--S-Color);
+}
+.buffer-3qw5qC, 
+.buffer-3qw5qC:after, 
+.buffer-3qw5qC:before {
+    background-color: black;
+}
+.durationBarWrapper-3-wksR, 
+.durationBarWrapper-3-wksR:after, 
+.durationBarWrapper-3-wksR:before {
+    background-color: black;
+}
+.theme-dark .friends-table .messages .divider:before,
+.theme-dark .friends-table .messages .divider span, 
+.theme-dark .messages-wrapper .messages .divider:before, 
+.theme-dark .messages-wrapper .messages .divider span {
+    background-color: transparent;
+}
+ .chat .divider>span {
+	background: rgba(255, 255, 255, 0.1) !important;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin: 10px 0px;
+	border-radius: 0px;
+	opacity: 1;
+	padding: 5px 15px;
+	width: 100%;
+	text-align: center;
+}
+.theme-dark .message-group:not(.has-divider) {
+    border-bottom-color: transparent;
+}
+.chat .divider.divider-red>span {
+	background: var(--M-Color) !important;
+	color: var(--MF-Color) !important;
+}
+ .theme-dark .inner-3if5cm {
+    background-color: black;
+}
+.theme-dark .contentTitle-sL6DrN {
+    color: var(--MF-Color);
+}
+.theme-dark .iconForeground-1U-F96 {
+    fill: var(--MF-Color);
+}
+.theme-dark .descriptionDiscriminator-3KCIMj {
+    color: var(--MF-Color);
+}
+.backdrop-2ohBEd {
+    background-color: rgba(0,0,0,0.3) !important;
+}
+.theme-dark .welcomeMessage-1U7Ntv a,
+.app .welcomeMessage-1U7Ntv h1 {
+    color: var(--M-Color);
+}
+
+.theme-dark .description-YnaVYa, 
+.theme-dark .descriptionUsername-1quCGz,
+.marginLeft4-3RAvyQ,
+.marginLeft8-34JoM2 {
+    color: var(--MF-Color);
+}
+.theme-dark .message-group h2 .timestamp {
+    color: white;
+    text-shadow: 0 0 8px black, 0 0 8px black, 0 0 8px black, 0 0 8px black;
+}
+.chat .user-name {
+     text-shadow: 0 0 8px black, 0 0 8px black, 0 0 8px black, 0 0 8px black;
+}
+
+.theme-dark .textArea-20yzAH {
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: var(--PHF-Color);
+}
+.theme-dark .message-group a {
+    color: var(--a-link-Color) !important;
+}
+.highlight {
+    background: rgba(var(--SCT-Color));
+}
+.theme-dark #friends .tab-bar .tab-bar-item.selected .badge {
+    background-color: var(--S-Color);
+    color: var(--PF-Color);
+}
+.theme-dark #friends .tab-bar .tab-bar-item .badge {
+    background-color: var(--M-Color);
+    color: var(--PF-Color);
+    padding: 4px 7px;
+    border-radius: var(--B-Radius);
+}
+.message-group .accessory>* {
+    margin-top: 8px;
+}
+.spinner-wandering-cubes .spinner-item,
+.wanderingCubesItem-35kyMu {
+    background-color: var(--M-Color);
+}
+.theme-dark .autocomplete-1TnWNR {
+    background-color: black;
+}
+.autocomplete-1TnWNR {
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    z-index: 3;
+}
+
+.theme-dark .message-group .mentioned .message-text {
+    background: black;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    border: 2px var(--BOR-Type) var(--BOR-Color);
+}
+.message-group .mentioned .message-text:after {
+    background: transparent;
+    border-left: none;
+}
+::-webkit-input-placeholder {
+  color: var(--PHF-Color) !important;
+}
+
+.theme-dark .selectorSelected-2M0IGv {
+    background-color: transparent;
+    border: 2px var(--BOR-Type) var(--BOR-Color);
+}
+.theme-dark .attachButtonPlus-2l1NEU {
+    fill: var(--PHF-Color);
+}
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, 
+.theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece,
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar, 
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track, 
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece, 
+.bda-dark #pubs-container .scroller::-webkit-scrollbar, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track, 
+.bda-dark #pubs-container .scroller::-webkit-scrollbar-track-piece,
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar, 
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track, 
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece,
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar, 
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, 
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece, 
+.bda-dark .emojiPicker-3g68GS .scroller-2dsok0::-webkit-scrollbar, 
+.bda-dark .emojiPicker-3g68GS .scroller-2dsok0::-webkit-scrollbar-track,
+.bda-dark .emojiPicker-3g68GS .scroller-2dsok0::-webkit-scrollbar-track-piece,
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar, 
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track, 
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece, 
+.bda-dark #pubs-container .scroller::-webkit-scrollbar, 
+.bda-dark #pubs-container .scroller::-webkit-scrollbar-track, 
+.bda-dark #pubs-container .scroller::-webkit-scrollbar-track-piece,
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar, 
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track, 
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece,
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar, 
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, 
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece, 
+.bda-dark .emojiPicker-3g68GS .scroller-2dsok0::-webkit-scrollbar, 
+.bda-dark .emojiPicker-3g68GS .scroller-2dsok0::-webkit-scrollbar-track, 
+.bda-dark .emojiPicker-3g68GS .scroller-2dsok0::-webkit-scrollbar-track-piece {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, 
+.theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb,
+.scrollerThemed-19vinI.themeGhostHairline-2H8SiW .scroller-fzNley::-webkit-scrollbar-thumb, 
+.scrollerThemed-19vinI.themeGhostHairlineChannels-2lQojW .scroller-fzNley::-webkit-scrollbar-thumb,
+.scrollerThemed-19vinI.themeDark-BdSAwu .scroller-fzNley::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2uBjct .scroller-fzNley::-webkit-scrollbar-thumb, 
+.theme-light .scrollerThemed-19vinI.themeDark-BdSAwu .scroller-fzNley::-webkit-scrollbar-thumb,
+.theme-dark .scrollerThemed-19vinI.themeGhostHairline-2H8SiW .scroller-fzNley::-webkit-scrollbar-thumb,
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb, 
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb, 
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb, 
+.bda-dark emojiPicker-3g68GS .scroller-2dsok0::-webkit-scrollbar-thumb, 
+.bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb {
+    background-color: var(--M-Color) !important;
+    border-color: transparent !important;
+    border-radius: var(--B-Radius);
+}
+.scrollerThemed-19vinI.themeGhost-10fio9.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+.chat .new-messages-bar {
+    background-color: var(--M-Color);
+}
+.chat .new-messages-bar:hover {
+    background-color:  var(--H-Color);
+}
+.chat .new-messages-bar button {
+    color: #fff !important;
+}
+.theme-dark .chat .jump-to-present-bar {
+    background-color: var(--M-Color) !important;
+}
+.chat .jump-to-present-bar button {
+    color: white !important;
+}
+.theme-dark .chat .has-more button {
+    background: var(--M-Color);
+    border: 1px var(--BOR-Type) var(--BOR-Color);
+    color: white;
+    box-shadow: none;
+}
+.menu-3BZuDT {
+    background: black;
+    border-radius: 0px;
+}
+.theme-dark .topic-1KFf6J:before {
+    background-color: transparent;
+}
+.item-rK1j5B:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px var(--BOR-Type) var(--BOR-Color);
+    opacity: 1;
+}
+.tipsy-inner {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid var(--M-Color);
+    border-radius: var(--B-Radius);
+}
+.theme-dark .message-group .comment .markup {
+    color: white;
+    text-shadow: 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px black;
+    line-height: 1.34em;
+}
+.separator-1hpa3S {
+    border-bottom: none;
+}
+.item-rK1j5B {
+    color: white;
+}
+.message-group .accessory>*:not(.reactions):not(.embed-2diOCQ):not(.wrapper-uAa07y):not(.attachment-1Vom9D) {
+       border: 2px var(--BOR-Type) var(--BOR-Color);
+       border-radius: 5px;
+}
+.avatarSpeaking-3teDH6:after {
+    padding-right: 92px;
+    padding-left: 62px;
+    content: "";
+    width: 2px;
+    margin-bottom: 0px !important;
+    padding-top: 3px;
+    padding-bottom: 25px;
+    position: absolute;
+    left: 4px;
+    bottom: -0.25px;
+    border-radius: 50px;
+    background: linear-gradient(to right, rgba(var(--MCT-Color)) 0%, rgba(var(--MCT-Color)) 41%, transparent 71%, transparent 100%);
+}
+.avatarSpeaking-3teDH6 {
+    box-shadow: 0 0 0 2px var(--M-Color), inset 0 0 0 2px black;
+}
+.imageWrapper-38T7d9 img {
+   border-radius: 5px;
+}
+.guilds-wrapper .guilds .guild.unread:before {
+    background: var(--M-Color);
+    border-radius: var(--B-Radius);
+    height: 20px;
+    width: 20px;
+    left: 33px;
+    z-index: 1;
+    top: 3px;
+}
+.guilds-wrapper .guilds .guild.unread.selected:before {
+     top: 14px;
+     border-radius: var(--B-Radius);
+}
+.guilds-wrapper .guilds .guild.selected:before {
+     top: 25px;
+     background: var(--M-Color);
+     border-radius: var(--B-Radius);
+}
+.theme-dark .search .search-bar .public-DraftEditorPlaceholder-root {
+    color: rgba(255, 255, 255, 0.3);
+}
+.theme-dark .search .search-bar {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0px;
+}
+.unread-23Kvxk {
+    background-color: transparent;
+}
+.contentUnreadText-3oxASB, 
+.contentUnreadVoice-1vHNNW {
+     background-color: rgba(var(--MCT-Color));
+}
+.guilds-wrapper .guilds .guild.selected:before {
+    top: 26px;
+}
+.channelIcon-1KtcMW {
+    color: var(--M-Color);
+}
+.contentSelectedText-3j5CXt {
+    background-color: var(--M-Color);
+}
+.contentHoveredText-2HYGIY, 
+.contentHoveredVoice-3qGNKh:active, 
+.contentSelectedVoice-gTtYM9:active {
+    background-color: rgba(var(--HCT-Color));
+}
+.nameMutedText-1YDcP-, 
+.nameMutedVoice-26k4cP,
+.nameMutedText-1YDcP-:hover, 
+.nameMutedVoice-26k4cP:hover {
+    color: white;
+    text-shadow:  0 0 6px red, 0 0 6px red, 0 0 6px red, 0 0 6px red, 0 0 6px black, 0 0 6px black;
+    padding-left: 3px; 
+}
+.guilds-wrapper .guilds .guild .guild-inner {
+    background: var(--M-Color);
+    border-radius: var(--B-Radius) !important;
+    overflow: visible;
+}
+.guilds-wrapper .guilds .guild .avatar-small,
+.private-channel-recipients-invite .friend .avatar-small {
+    border-radius: var(--B-Radius);
+}
+.unreadBar-3lDSDn {
+    box-shadow: none;
+}
+.unread-2TDDFN,
+.mention-RlZ5F3 {
+    background-color: var(--M-Color);
+    box-shadow: none;
+    border-radius: var(--B-Radius);
+  }
+.unread-2TDDFN:hover,
+.mention-RlZ5F3:hover {
+ background-color: var(--H-Color);
+ box-shadow: none;
+ border-radius: var(--B-Radius);
+}
+.guilds-wrapper .guilds .guild .badge {
+    bottom: -2px;
+    padding: 4px 8px;
+    right: 31px;
+    box-shadow: 0 1px 0 rgba(0,0,0,.25), inset 0 1px 0 hsla(0,0%,100%,.15);
+   border-radius: var(--B-Radius);
+}
+.wrapper-2xO9RX {
+    background-color: var(--M-Color);
+    border-radius: var(--B-Radius);
+    box-shadow: 0 0 10px rgba(0,0,0,1), 0 0 10px rgba(0,0,0,1);
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    padding: 3px 7px;
+    text-shadow: 0 0 6px rgba(0,0,0,1);
+}
+.badge {
+    background-color: var(--M-Color);
+    border-radius: var(--B-Radius);
+    box-shadow: 0 0 10px rgba(0,0,0,1), 0 0 10px rgba(0,0,0,1);
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    padding: 3px 7px;
+    text-shadow: 0 0 6px rgba(0,0,0,1);
+}
+.nameDefaultText-QoumjC, 
+.nameDefaultVoice-1swZoh, 
+.nameLockedText-2fGz07, 
+.nameLockedVoice-wNOMNa,
+.colorDefaultText-2v6rRX, 
+.colorDefaultVoice-1x4dEl {
+    color: #4d4d4d;
+    opacity: 1;
+}
+.colorMutedText-2DBGZ2, 
+.colorMutedVoice-2FZw4C {
+    color: transparent;
+}
+.theme-dark .mention:hover {
+    background-color: black !important;
+    border: 2px solid var(--H-Color);
+    color: white;
+}
+.theme-dark .mention {
+    background-color: black !important;
+    border: 2px solid var(--M-Color);
+    color: white;
+    padding: 0 3px;
+}
+.botTag-1OwMgs {
+   background: var(--M-Color);
+   color: white;
+   padding: 2px 2px;
+}
+.header-1tSljs {
+    box-shadow: none;
+    transition: background-color 2s ease;
+    border-radius: 0px !important;
+}
+.header-1tSljs:hover {
+    background-color: var(--H-Color);
+}
+.container-3NvGrL, 
+.header-1tSljs {
+    border-radius: 0px;
+}
+.popout-open .header-1tSljs {
+    background-color: var(--M-Color);
+    border-radius: 0px !important;
+}
+.progressBar-mI5LOq {
+    background-color: black;
+}
+.progress-33epXr {
+    background-color: var(--M-Color);
+}
+.theme-dark .message-group .comment .edited {
+    color: white;
+}
+.theme-dark .channel-members .member.popout-open {
+    background: transparent;
+    border: 2px var(--BOR-Type) var(--S-Color);
+}
+.theme-dark .channel-members .member:hover {
+    background: transparent;
+    border: 2px var(--BOR-Type) var(--M-Color);
+}
+.channel-members .member .member-activity strong,
+.theme-dark .channel-members h2 {
+   color: var(--M-Color);
+}
+.alt-2vq4VR .item-rK1j5B .helper-3X2gjI {
+    color: transparent;
+}
+.theme-dark .title-qAcLxz {
+    box-shadow: none;
+}
+.theme-dark .iconBadge-1FYlQB {
+    border-color: transparent;
+    background-color: var(--M-Color);
+    height: 5px;
+    position: absolute;
+    right: 7px;
+    top: 2px;
+    width: 5px;
+}
+.channel-members .member .member-activity-icon-foreground {
+    fill: var(--M-Color);
+}
+.guilds-wrapper .guilds-add {
+    background: var(--M-Color);
+    border: transparent !important; 
+    border-radius: var(--B-Radius);
+    color: white;
+}
+.guilds-wrapper .guilds-add:hover {
+    background: var(--H-Color);
+}
+.small-popout-box {
+    background: black;
+    border: 1px solid var(--M-Color);
+    border-radius: var(--B-Radius);
+    position: relative;
+}
+.option-popout .btn-item {
+    color: white !important;
+}
+.option-popout .btn-item:hover {
+    background-color:  transparent;
+    border-top: 1px solid var(--H-Color);
+    border-bottom: 1px solid var(--H-Color);
+}
+.guilds-wrapper .guilds-error:hover {
+    background: rgba(var(--HCT-Color));
+}
+.guilds-wrapper .guilds-error {
+    border: none;
+    color: white;
+    border-radius: var(--B-Radius);
+    background: rgba(var(--MCT-Color));
+    font-size: 29px;
+}
+.tooltip.tooltip-red {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+.tooltip.tooltip-black {
+    background-color: black;
+    color: white;
+    border: 1px var(--BOR-Type) var(--BOR-Color);
+}
+.tooltip.tooltip-red.tooltip-right:after {
+    border-right: none;
+}
+.tooltip.tooltip-black.tooltip-top:after {
+    border-top: none;
+}
+.tooltip.tooltip-black.tooltip-right:after {
+    border-right: none;
+}
+.tooltip.tooltip-black.tooltip-bottom:after {
+    border-bottom: none;
+}
+.tooltip.tooltip-black.tooltip-left:after {
+    border-left: none;
+}
+.theme-dark .message-group .comment .markup pre {
+    background: transparent;
+    border-color: transparent;
+}
+.theme-dark .message-group .comment .markup code.inline, 
+.theme-dark .message-group .comment .markup pre code {
+    background: rgba(255,255,255,0.2);
+}
+.theme-dark .hljs {
+    background: transparent;
+    color: white;
+}
+.message-group .comment .markup pre {
+    border: none;
+}
+.theme-dark .channel-members-loading[style*="opacity: 1;"] {
+    background: transparent !important;
+}
+.theme-dark .channel-members-loading .member,
+.theme-dark .channel-members-loading .heading,
+.theme-dark .channel-members-loading .member:nth-child(3n+2), 
+.theme-dark .channel-members-loading .member:nth-child(7n+4),
+.theme-dark .channel-members-loading .member:nth-child(2n-4), 
+.theme-dark .channel-members-loading .member:nth-child(7n-1) {
+    background: transparent;
+}
+.theme-dark .channel-members-loading .background {
+    background-image: linear-gradient(90deg,rgba(0, 0, 0, 0),rgba(252, 0, 0, 0.3),rgba(0, 0, 0, 0));
+}
+/* -------- End of Main Chat  -------- */
+/* -------- Avatar Stuff -------- */
+.avatar-large .status, 
+.avatar-profile .status, 
+.avatar-small .status, 
+.avatar-xlarge .status, 
+.avatar-xsmall .status, 
+.avatar-xxlarge .status {
+    border: transparent !important;
+    border-radius: var(--B-Radius);
+}
+.chat .avatar-large {
+    opacity: 1 !important;
+    width: 56px;
+    height: 56px;
+    border-radius: var(--B-Radius);
+    background-size: cover;
+    border: 2px solid var(--BOR-Color);
+}
+.channel-members .avatar-small .status {
+    bottom: -1px;
+    right: -2px;
+    border-radius: var(--B-Radius);
+}
+.channel-members .avatar-small,
+.private-channels .channel .avatar-small,
+#friends .friends-table .friends-row .friends-column-name .avatar-small,
+.container-iksrDt .avatar-small,
+.search-popout .option.user .display-avatar {
+    border-radius: var(--B-Radius);
+}
+.xsmall-2rXiD4 .mask-2vyqAW {
+      border-radius: var(--B-Radius);
+    -webkit-mask: none;
+    mask: none;
+}
+.avatar-uploader-inner,
+.cardPrimary-ZVL9Jr .avatar-xxlarge {
+    border-radius: var(--B-Radius);
+    background-color: var(--M-Color);
+    border: 2px var(--BOR-Type) var(--BOR-Color) !important;
+    animation: fadeInLeft 1s ease normal; 
+}
+.user-settings-account .avatar-uploader-inner {
+    animation: fadeInLeft 1s ease normal; 
+}
+.avatar-uploader {
+    animation: fadeInLeft 1s ease normal;
+}
+@keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+} 
+/* -------- End of Avatar Stuff -------- */
+/* -------- Notification Settings -------- */
+.theme-dark .modal-3HOjGZ,
+.theme-dark .footer-1PYmcw {
+    background-color: black;
+    box-shadow: none;
+}
+.theme-dark .divider-1G01Z9 {
+    background-color: transparent;
+}
+.theme-dark .cardPrimaryEditable-2IQ7-V {
+    background: transparent;
+    border-color: transparent;
+}
+.cardPrimaryEditable-2IQ7-V[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] {
+         background: transparent !important;
+         border-color: transparent !important;
+}
+.checked-2TahvT[style="border-color: rgb(114, 137, 218);"] ,
+.theme-dark .checkbox-1QwaS4[style="background-color: rgb(114, 137, 218); border-color: rgb(114, 137, 218);"] {
+          border: 1px solid var(--BOR-Color) !important;
+          background: transparent !important;
+}
+.theme-dark .checkbox-1QwaS4 {
+    border-color: transparent;
+}
+.checked-2TahvT[style="border-color: rgb(114, 137, 218);"] polyline[stroke],
+.theme-dark .checkbox-1QwaS4[style="background-color: rgb(114, 137, 218); border-color: rgb(114, 137, 218);"] polyline[stroke] {
+    stroke: var(--M-Color);
+    stroke-width: 2;
+}
+.theme-dark .button-1qrA-N {
+    background-color: black !important;
+    box-shadow: none;
+}
+.theme-dark .guildName-1u0hy7, 
+.theme-dark .override-251XCL, 
+.theme-dark .overrideHighlight-2DXyuU,
+.theme-dark .description-3MVziF, 
+.theme-dark .labelDescriptor-1BebCl,
+.theme-dark .h5-3KssQU,
+.theme-dark .select-3JqNgs .Select-control .Select-placeholder {
+    color: white;
+}
+.themeDefault-3M0dJU.sizeDefault-rZbSBU {
+    box-shadow: none;
+}
+.theme-dark .themeDefault-3M0dJU {
+    background-color: black;
+    box-shadow:  0 0px 13px var(--M-Color), 0 0px 13px var(--M-Color);
+}
+.themeDefault-3M0dJU.sizeDefault-rZbSBU:after,
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch:before{
+    box-shadow: none;
+}
+.valueChecked-3Bzkbm.sizeDefault-rZbSBU:after,
+.valueUnchecked-XR6AOk:after {
+    transform: none;
+}
+.size-yI1KRe:active:after,
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch:before {
+    background-color: transparent;
+}
+.value-kmHGfs:after {
+    transition: none;
+    transition: none;
+}
+.theme-dark .themeDefault-3M0dJU.valueChecked-3Bzkbm,
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked {
+    background-color: black;
+    box-shadow:  0 0px 13px var(--S-Color), 0 0px 13px var(--S-Color);
+}
+.size-yI1KRe:after {
+    background: none;
+}
+.theme-dark .separator-NBIcXB {
+    box-shadow: none;
+}
+.theme-dark .select-3JqNgs .Select-menu-outer {
+    background: black;
+    border-color: transparent;
+    box-shadow: none;
+}
+.theme-dark .select-3JqNgs .Select-option.is-focused,
+.theme-dark .select-3JqNgs .Select-option:hover {
+    background: rgba(0,0,0,0);
+    border: 2px var(--BOR-Type) var(--BOR-Color);
+}
+.theme-dark .select-3JqNgs .Select-option,
+.icon-3_ICKH ,
+.theme-dark .primary-2giqSn {
+    color: white;
+}
+.lighten-bXgwKO {
+    opacity: 1;
+}
+.lookFilled-luDKDo.colorBrand-3PmwCE {
+    background-color: var(--M-Color);
+    border-radius: var(--B-Radius);
+    color: #fff;
+}
+.lookFilled-luDKDo.colorBrand-3PmwCE:hover {
+    background-color: var(--H-Color);
+}
+/* -------- End of Notification Settings -------- */
+/* -------- Need Help Popout -------- */
+.need-help-modal.deprecated {
+    background: black;
+}
+.form-deprecated .form-inner, .form.deprecated .form-inner {
+    background-color: transparent;
+    padding: 28px 40px 48px;
+}
+.need-help-modal.deprecated .header {
+    background-color: transparent;
+}
+.need-help-modal.deprecated .footer {
+    background-color: black;
+    border-top: none;
+    color: white
+}
+.need-help-modal.deprecated a,
+.theme-dark .topic-1KFf6J a {
+    color: var(--a-link-Color) !important;
+}
+.need-help-modal.deprecated .header input[type=text] {
+    background-color: black;
+    border-radius: 0px;
+    box-shadow: none;
+    color: var(--a-link-Color);
+    font-size: 13px;
+}
+.form-deprecated .control-group input[type=email], 
+.form-deprecated .control-group input[type=number], 
+.form-deprecated .control-group input[type=password], 
+.form-deprecated .control-group input[type=text], 
+.form-deprecated .control-group textarea, 
+.form.deprecated .control-group input[type=email], 
+.form.deprecated .control-group input[type=number], 
+.form.deprecated .control-group input[type=password], 
+.form.deprecated .control-group input[type=text], 
+.form.deprecated .control-group textarea {
+    border-bottom: none;
+    color: var(--a-link-Color);
+}
+.need-help-modal.deprecated .header input[type=text]:focus {
+    border-bottom: none;
+}
+/* -------- End of Need Help Menu -------- */
+/* -------- Message Group, Pinned Messages Stuff and Search Stuff -------- */
+.theme-dark .themed-popout,
+.theme-dark .themed-popout .header {
+    background-color: black;
+    border: none;
+    box-shadow: none;
+}
+.theme-dark .contextMenu-uoJTbz {;
+    background: black;
+    box-shadow: none;
+}
+.barFill-18ABna {
+    background: var(--M-Color) !important;
+}
+.theme-dark .bar-2cFRGz {
+    background: black !important;
+}
+.theme-dark .item-1XYaYf:hover {
+    background: var(--H-Color);
+}
+.theme-dark .item-1XYaYf {
+    color: #fff !important;
+}
+.theme-dark .itemSubMenu-3ZgIw- {
+    background: transparent;
+    border: 1px solid var(--S-Color);
+}
+.checkbox .checkbox-inner input[type=checkbox]:checked+span {
+    background-color: transparent;
+    border-color: var(--BOR-Color) !important;
+}
+.checkbox .checkbox-inner input[type=checkbox]:checked+span:after {
+    border-color: var(--M-Color);
+}
+.theme-dark .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+    background-color: transparent;
+    box-shadow: none;
+}
+.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button,
+.theme-dark .search-results-wrap .action-buttons .jump-button {
+    background-color: var(--M-Color);
+    color: white;
+}
+.theme-dark .themed-popout .header .subtitle,
+.theme-dark .themed-popout .text {
+    color: white;
+}
+.theme-dark .messages-popout-wrap .messages-popout .message-group:hover {
+    border-color: var(--BOR-Color);
+     border-style: var(--BOR-Type);
+}
+.theme-dark .messages-popout-wrap .messages-popout .message-group {
+    background-color: transparent;
+    border-color: transparent;
+}
+.theme-dark .search-popout {
+    box-shadow: none;
+    background: black;
+}
+.search-popout .results-group:before {
+    border-top: none;
+}
+.search-popout .results-group .header {
+    color: white;
+    text-transform:Capitalize;
+}
+.search-popout .option:after,
+.search-popout .option.selected:after {
+    background: transparent;
+}
+.search-popout .option .filter {
+    color: white;
+}
+.search-popout .option .non-text {
+    color: #3d3d3d;
+}
+.search-popout .option .answer {
+    color: white;
+    font-weight: normal;
+    background-color: rgba(var(--SCT-Color));
+    padding: 4px 4px;
+}
+.search-popout .search-option .answer {
+    color: #caccce;
+    font-weight: 400;
+}
+.search-popout .search-query {
+    border: none;
+    border-bottom: none;
+    color: gray;
+}
+.search-popout .option.user .displayed-nick {
+    color: #515151;
+    font-weight: 500;
+    margin: 0 5px;
+}
+.search-popout .option.user .display-username {
+    color: #bfbfbf;
+    background-color: rgba(var(--SCT-Color));
+    padding: 4px 4px;
+    font-weight: normal;
+}
+.search-result-channel-icon {
+    color: gray;
+    margin-right: 4px;
+    vertical-align: top;
+}
+.search-popout .option.selected {
+    background-color: black;
+   border: 2px var(--BOR-Type) var(--BOR-Color);
+}
+/* This Weeks Update Right Now */ 
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__header .react-datepicker__current-month {
+   background: black;
+   color: white;
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker {
+    background: black;
+    border: none;
+}
+.search-popout .date-picker,
+.search-popout .date-picker .date-picker-hint {
+    border-top: none;
+}
+.search-popout .date-picker .date-picker-hint .hint-value {
+    background-color: transparent;
+    border-radius: var(--B-Radius);
+    border: 1px  var(--BOR-Type) var(--BOR-Color);
+}
+.theme-dark .searchAnswer-yD90ey, 
+.theme-dark .searchFilter-1fJ0cd {
+    background-color: var(--M-Color);
+}
+.search-popout .date-picker .date-picker-hint .hint-value:hover {
+    background-color: transparent;
+    border-radius: var(--B-Radius);
+    border: 1px  var(--BOR-Type) var(--H-Color);
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue.react-datepicker__day--disabled.react-datepicker__day--outside-month {
+    border: none;
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon.react-datepicker__day--disabled,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue.react-datepicker__day--disabled,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--wed.react-datepicker__day--disabled, 
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--thu.react-datepicker__day--disabled,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri.react-datepicker__day--disabled,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--disabled.react-datepicker__day--weekend,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--disabled.react-datepicker__day--weekend {
+    border: none;
+    color: rgba(255,255,255,0.2);
+    background: black;
+}
+.theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--selected:after, 
+.theme-light .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--selected:after {
+   background: none;
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon.react-datepicker__day--today,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue.react-datepicker__day--today,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--wed.react-datepicker__day--today,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--thu.react-datepicker__day--today,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri.react-datepicker__day--today,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--today,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--today,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon.react-datepicker__day--today:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue.react-datepicker__day--today:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--wed.react-datepicker__day--today:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--thu.react-datepicker__day--today:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri.react-datepicker__day--today:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--today:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--today:hover {
+    background-color: var(--S-Color);
+    color: white;
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--wed,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--thu,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--weekend,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--weekend {
+    background: black;
+    border: none;
+    color: rgba(255,255,255,0.8);
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--wed:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--thu:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--weekend:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--weekend:hover {
+    background: var(--H-Color);
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__header .react-datepicker__day-names .react-datepicker__day-name {
+   color: white;
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__header {
+   background: black;
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__header .react-datepicker__current-month {
+   border: none;
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon.react-datepicker__day--outside-month,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue.react-datepicker__day--outside-month,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--wed.react-datepicker__day--outside-month,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--thu.react-datepicker__day--outside-month,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri.react-datepicker__day--outside-month,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--weekend.react-datepicker__day--outside-month,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--weekend.react-datepicker__day--outside-month {
+   color: rgba(255,255,255,0.3);
+   border: none;
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon.react-datepicker__day--outside-month:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue.react-datepicker__day--outside-month:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--wed.react-datepicker__day--outside-month:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--thu.react-datepicker__day--outside-month:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri.react-datepicker__day--outside-month:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--weekend.react-datepicker__day--outside-month:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--weekend.react-datepicker__day--outside-month:hover {
+    background: var(--DC-Color);
+}
+.theme-dark .search-results-wrap .search-header {
+    background-color: black;
+    box-shadow: none;
+}
+.theme-dark .search-results-wrap .search-header .tab.selected {
+       background-color: black;
+}
+.theme-dark .search-results-wrap .channel-separator:before {
+    border: none;
+}
+.theme-dark .search-results-wrap .search-result .search-result-message.hit {
+    border: 2px var(--BOR-Type) var(--BOR-Color);
+}
+.theme-dark .search-results-wrap .channel-separator .channel-name {
+    background-color: black;
+    color: #fff;
+}
+.theme-dark .search-results-wrap .search-result.expanded .search-result-message.hit {
+    background-color: transparent;
+    border-bottom: 2px solid var(--BOR-Color);
+    border-top: 2px solid var(--BOR-Color);
+}
+.theme-dark .search-results-wrap .search-result.expanded {
+    border: none;
+}
+.theme-dark .search-results-wrap .search-result .hit {
+    background-color: black;
+    box-shadow: none;
+}
+.theme-dark .search-results-wrap {
+    background-color: black;
+}
+.theme-dark .search-results-wrap .search-result:after,
+.theme-dark .search-results-wrap .search-result:before {
+    background: transparent;
+}
+.chat .base-2KDOo9 h1 {
+    color: white;
+}
+/* -------- End of Message Group, Pinned Messages, and  Search Option Menu -------- */
+/* -------- Friends and DMS --------  */
+.guilds-wrapper .guilds .friends-icon {
+    background-image: var(--Guild-Icon);
+    background-size: cover;
+    background-color: var(--M-Color);
+}
+.guilds-wrapper .guilds .friends-icon:hover {
+    background-color: var(--H-Color);
+}
+.private-channel-recipients-invite .footer button:disabled {
+    background-color: rgba(var(--MCT-Color));
+    border-radius: var(--B-Radius);
+    color: #fff;
+}
+.private-channel-recipients-invite .footer button {
+    background-color: var(--M-Color);
+    border-radius: var(--B-Radius);
+    color: #fff;
+}
+.private-channel-recipients-invite .footer button:disabled:hover {
+    background-color: rgba(var(--HCT-Color));
+}
+.theme-dark .themed-popout .footer {
+    background-color: black;
+}
+.private-channel-recipients-invite .footer button:hover {
+    background-color: var(--H-Color);
+}
+.popout .themed-popout .search-bar .search-bar-inner {
+    background: black;
+    border: none;
+    border-radius: var(--B-Radius);
+}
+.search-bar .search-bar-inner {
+    background: rgba(0,0,0,.4);
+    border: none;
+    border-radius: var(--B-Radius);
+}
+.scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, 
+.theme-dark .scrollerWrap-2uBjct.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, 
+.theme-light .scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+.theme-dark .private-channel-recipients-invite .friend {
+    background: black;
+    color: #fff;
+}
+.theme-dark .private-channel-recipients-invite .friend.selected {
+    background: transparent;
+    border: 1px solid var(--S-Color);
+}
+.theme-dark .private-channel-recipients-invite .friend:hover {
+    background: transparent;
+    border: 1px solid var(--H-Color);
+}
+.private-channels .channel.selected a {
+    background-color: rgba(var(--SCT-Color));
+    color: #fff;
+}
+.private-channels .channel:hover {
+    background-color: transparent;
+}
+.private-channels .channel:hover a  {
+    background-color: rgba(var(--HCT-Color));
+}
+.guilds-wrapper .guild-separator:after {
+    background: transparent;
+}
+.guilds-wrapper .guilds .friends-online,
+.theme-dark #friends .friends-table .friends-table-header .friends-column,
+#friends .friends-table .friends-row .discord-tag,
+#friends .friends-table .friends-row .friends-column-status .friend-activity-text, 
+#friends .friends-table .friends-row .friends-column-status .status-text {
+    color: var(--PF-Color);
+}
+#friends .friends-table .friends-row .friends-column-guilds .avatar-small {
+    background-color: var(--M-Color);
+    color: var(--PF-Color);
+     border-radius: var(--B-Radius);
+}
+.theme-dark #friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn {
+    border-color: var(--M-Color);
+    color: var(--PF-Color);
+     border-radius: var(--B-Radius);
+}
+.theme-dark #friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn:hover {
+    border-color: var(--H-Color);
+    color: var(--PF-Color);
+}
+.private-channels .channel .channel-name,
+.private-channels header {
+    color: var(--PF-Color);
+    opacity: .7;
+}
+.theme-dark #friends .friends-table .friends-row:hover {
+    background: rgba(var(--MCT-Color));
+    border: 1px solid var(--BOR-Color) !important;
+}
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary {
+    background-color: var(--M-Color) !important;
+    color: var(--PF-Color);
+     border-radius: var(--B-Radius);
+}
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover {
+    background-color: var(--H-Color);
+    color: var(--PF-Color);
+}
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary.selected {
+    background-color: var(--S-Color);
+    color: var(--PF-Color);
+    border: 1px solid black;
+}
+.theme-dark #friends .tab-bar .tab-bar-item.selected {
+    background-color: var(--S-Color);
+    color: var(--PF-Color);
+}
+.theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected) {
+    background-color: rgba(var(--HCT-Color));
+}
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action {
+    background-color: var(--M-Color);
+    border: 1px solid var(--BOR-Color);
+    border-radius: var(--B-Radius);
+}
+#friends .btn {
+    background-color: var(--M-Color);
+    border-radius:  var(--B-Radius);
+    color: var(--PF-Color);
+}
+#friends .btn:hover {
+    background-color: var(--H-Color);
+    border-radius:  var(--B-Radius);
+    color: var(--PF-Color);
+}
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action:hover {
+    background-color: var(--H-Color) !important;
+}
+.theme-dark #friends .friends-table .friends-table-header .friends-column-separator,
+.theme-dark #friends .tab-bar .tab-bar-separator {
+    background-color: transparent;
+}
+.theme-dark #friends .friends-table .friends-table-header,
+.theme-dark #friends .friends-table .friends-row+.friends-row {
+    border: none;
+}
+.theme-dark .headerBar-cxbhPD,
+.private-channels .search-bar {
+    box-shadow: none;
+}
+.theme-dark .quickswitcher-2NdiGJ {
+    background-color: black;
+    color: white;
+}
+.theme-dark .tipsWithoutResults-202oQR, 
+.theme-dark .tipsWithResults-3TVZGE {
+    border-color: transparent;
+    color: white;
+}
+a {
+    color: var(--a-link-Color);
+}
+.theme-dark .keybindShortcutTipsSelect-2VHe9M:last-of-type:before {
+    background-color: transparent;
+}
+.dark-2Ll8iS span {
+    background-color: var(--M-Color);
+    border-color: transparent;
+    box-shadow: none;
+    color: white;
+}
+.theme-dark .input-MwQhcX {
+    background-color: black;
+    box-shadow: none;
+}
+.theme-dark .input-MwQhcX:focus {
+    border: 1px solid var(--BOR-Color);
+}
+.theme-dark .contentDefault-EFuBhq {
+    color: white;
+}
+.theme-dark .resultFocused-2geRUA {
+    background-color: transparent;
+    border: 1px var(--BOR-Type) var(--S-Color);
+}
+.dark-2Ll8iS span .bindArrow-3Mm64N g {
+    fill: white !important;
+}
+/* ---------- End of Friends and DMs -------- */
+/* -------- Upload Modal -------- */
+.uploadModal-2KN6Mm .inner-1-09ZV {
+    border: 2px dotted var(--BOR-Color);
+    color: rgb(255, 255, 255);
+}
+.uploadModal-2KN6Mm {
+    background-color: black;
+}
+.uploadModal-2KN6Mm .footer-4pOKm8 {
+    background-color: black;
+}
+.uploadModal-2KN6Mm .footer-4pOKm8 .button {
+    background-color: rgba(255,0,0,0.4);
+}
+.uploadModal-2KN6Mm .footer-4pOKm8 .button:hover {
+    background-color: rgba(255,0,0,0.8);
+}
+.uploadModal-2KN6Mm .footer-4pOKm8 .button-primary {
+    background-color: var(--M-Color) !important;
+    color: var(--MF-Color);
+    border: 1px solid var(--BOR-Color);
+}
+.uploadModal-2KN6Mm .footer-4pOKm8 .button-primary:hover {
+    background-color: var(--H-Color) !important;
+    color: var(--MF-Color);
+    opacity: 1;
+}
+.uploadDropModal-BpFgz7 {
+   background: black;
+}
+.uploadModalIn-14sS7w .uploadDropModal-BpFgz7 .bgScale-1i4Cp3  {
+    background: black !important;
+}
+.uploadModalIn-14sS7w .uploadDropModal-BpFgz7 .inner-1-09ZV  {
+    background: black !important;
+    border: 2px dashed var(--BOR-Color);
+}
+.uploadModal-2KN6Mm .inner-1-09ZV .file-XhJJS_ .icon-19bbE_.image-sUU6Oh {
+    background-color: transparent;
+    background-size: cover;
+    border: 2px solid var(--BOR-Color);
+    border-radius: var(--B-Radius);
+}
+/* -------- End of Upload Modal -------- */
+/* -------- User Popout and User Modal -------- */
+.theme-dark .headerNormal-3Vn9nT,
+.headerPlaying-2Q7mBy,
+.headerSpotify-26yUf5,
+.topSectionSpotify-3744IX,
+.topSectionPlaying-3jAH9b,
+.theme-dark .body-3_tdh6,
+.topSectionNormal-2LlRG1 {
+    background-color: rgba(0,0,0,0.3);
+}
+.roleCircle-3-vPZq {
+    background: transparent !important;
+}
+.headerStreaming-lmgoma,
+.topSectionStreaming-3rIBIm {
+    background: rgba(65,0,147 ,.4);
+}
+.theme-dark .body-3ljq11, 
+.theme-dark .footer-2wFs91 {
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    border: none;
+}
+.bodyTitle-18hsd9 {
+    color: white;
+    text-transform: capitalize;
+}
+.theme-dark .protip-q743VF {
+    display: none;
+}
+.theme-dark .quickMessage-OCo-Q0 {
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+    border-radius: var(--B-Radius);
+}
+.role-3rahR_ {
+    border: 1px solid;
+    border-radius: var(--B-Radius);
+}
+.theme-dark .note-2AtC_s textarea {
+    color: white;
+    border-radius: var(--B-Radius);
+}
+.theme-dark .note-2AtC_s textarea:focus {
+    background-color: rgba(255,255,255,.2) !important;
+}
+.role-3rahR_[style*="border-color: rgba(185, 187, 190, 0.6);"] {
+         border: 2px solid var(--M-Color) !important;
+}
+.roleName-DUQZ9m {
+    margin-right: 11px;
+    text-shadow: 0 0 9px black,0 0 9px black,0 0 9px black,0 0 9px black;
+}
+.role-3rahR_:nth-child(odd) {
+         float: left;
+         clear: right;
+}
+.role-3rahR_:nth-child(even) {
+         float: right;
+         clear: left;
+}
+.theme-dark .quickMessage-OCo-Q0:focus {
+    background-color: rgba(255,255,255,.2);
+    border-color: var(--S-Color);
+    color: white;
+}
+.theme-dark .quickMessage-OCo-Q0 {
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+}
+.tabBarContainer-3RVZc- {
+    border-top: none;
+}
+.theme-dark .userInfoSection-2WJxMm+.userInfoSection-2WJxMm {
+    border-color: transparent;
+}
+.theme-dark .connectedAccount-3mKaTA {
+   border: 1px solid var(--BOR-Color);
+   background: rgba(var(--MCT-Color));
+}
+.theme-dark .connectedAccount-3mKaTA:hover {
+   border: 1px solid var(--BOR-Color);
+   background: rgba(var(--HCT-Color));
+}
+.listAvatar-MpHQ5z {
+    color: #fff;
+    background-color: var(--M-Color);
+    border-radius: var(--B-Radius);
+}
+.guildNick-1oZKE3, 
+.listName-1Xr1Jk {
+    color: white;
+}
+.theme-dark .listRow-1wEi-U {
+    color: white;
+}
+.theme-dark .listRow-1wEi-U:hover {
+    background: rgba(var(--HCT-Color));
+    color: white;
+}
+.status-3jUEha {
+    border-radius: var(--B-Radius);
+}
+.userInfoSectionHeader-pmdPGs {
+    color: white;
+}
+.profile-3z9uol .mask-2vyqAW {
+    border-radius: 0;
+    width: 100px;
+    height: 100px;
+    -webkit-mask: none;
+    mask: none;
+}
+.statusProfile-29OBzn {
+    bottom: -7px;
+    height: 18px;
+    position: absolute;
+    right: -5px;
+    width: 18px;
+}
+.lookInverted-2lPGe7.colorBrand-3PmwCE {
+    border: 1px solid #7289da;
+    color: white;
+    background: rgba(114, 137, 218,0.3);
+    border-radius: var(--B-Radius);
+}
+.lookInverted-2lPGe7.colorBrand-3PmwCE:hover {
+    background: rgba(114, 137, 218,0.6);
+}
+.lookInverted-2lPGe7.colorGreen-22At8E {
+    background-color: rgba(67, 181, 129,0.3);
+    color: white;
+    border-radius: var(--B-Radius);
+    border: 1px solid #43b581;
+}
+.lookInverted-2lPGe7.colorGreen-22At8E:hover {
+    background-color: rgba(67, 181, 129,0.6);
+}
+.buttonInvertedPurple-15OGid {
+    background-color: rgba(89, 54, 149,0.3);
+    color: white;
+    border-radius: var(--B-Radius);
+    border: 1px solid #593695;
+}
+.buttonInvertedPurple-15OGid:hover {
+    background-color: rgba(89, 54, 149,0.6);
+}
+/* -------- End of User Popout and User Modal -------- */
+/* -------- Emote Picker -------- */
+.bda-dark #bda-qem {
+    border-bottom: none !important;
+    background: transparent;
+}
+.bda-dark #bda-qem button {
+    background: black;
+    border-left: none;
+    box-shadow: none;
+    border-radius: 0px;
+}
+.bda-dark #bda-qem button:hover {
+    background-color: black;
+    border: 1px solid var(--H-Color);
+}
+.bda-dark #bda-qem button.active {
+    background-color: black;
+    border: 1px solid var(--S-Color);
+}
+.emojiPicker-3g68GS .header-27dQ-e {
+    border-bottom: none;
+}
+.bda-dark .emoji-picker .header .search-bar, 
+.bda-dark .emojiPicker-3g68GS .header-27dQ-e .search-bar {
+    background-color: transparent;
+}
+.bda-dark .emoji-picker .category, 
+.bda-dark .emojiPicker-3g68GS .category-3rCtoh {
+    background-color: black;
+    color: white;
+    border: 1px var(--BOR-Type) var(--BOR-Color);
+}
+.emojiPicker-3g68GS .categories-jw8z2h .item-lsWB-j.selected-1LQfcZ {
+    border-bottom-color: var(--S-Color);
+}
+.bda-dark .emoji-picker .diversity-selector .popout, 
+.bda-dark .emojiPicker-3g68GS .diversitySelector-O3ea2c .popout-2lja3I {
+    background: black;
+    border-color: transparent;
+}
+.bda-dark .emoji-picker .dimmer.visible, 
+.bda-dark .emojiPicker-3g68GS .dimmer-jySV_v.visible-1CGy1m {
+    background-color: rgba(0,0,0,0.45);
+}
+.diversitySelector-O3ea2c .item-lsWB-j:hover {
+    border: 1px solid var(--H-Color);
+}
+.search-bar.search-bar-light .search-bar-inner {
+    background-color: black;
+    border: 1px var(--BOR-Type) var(--BOR-Color);
+    border-radius: var(--B-Radius) !important;
+}
+/* -------- End of Emote Picker -------- */
+/* -------- Invite Menu -------- */
+/* New Invite Stuff */
+.wrapper-VSYYTS {
+    background: transparent;
+    border: none;
+}
+.form-deprecated .form-header, 
+.form.deprecated .form-header {
+    background: black;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    color: white;
+}
+.form-deprecated .Select-control, 
+.form.deprecated .Select-control {
+    border: 1px solid black;
+    background: black;
+}
+.has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label, 
+.has-value.Select--single>.Select-control .Select-value .Select-value-label {
+    color: white;
+}
+.form-deprecated .form-inner, 
+.form.deprecated .form-inner {
+    background-color: black;
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .form-actions {
+    background-color: black;
+}
+.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions {
+    background-color: black;
+}
+.Select-menu-outer {
+    background-color: transparent;
+    border: none;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-color: transparent;
+    box-shadow: none;
+}
+/* Invite Checkbox*/
+.checkbox .checkbox-inner+span {
+    color: white;
+}
+/* ----------------------- */
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .checkbox .checkbox-inner span,
+.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .checkbox .checkbox-inner span {
+    border: 2px solid var(--M-Color);
+}
+.form-deprecated .is-focused:not(.is-open)>.Select-control, 
+.form.deprecated .is-focused:not(.is-open)>.Select-control {
+    border: 1px solid var(--S-Color);
+}
+.form-deprecated .Select.is-disabled .Select-control:hover, 
+.form-deprecated .Select.is-open .Select-control:hover, .form.deprecated .Select.is-disabled .Select-control:hover, .form.deprecated .Select.is-open .Select-control:hover {
+    border-color: var(--H-Color);
+}
+.form-deprecated .Select.is-disabled .Select-control,
+.form-deprecated .Select.is-open .Select-control, 
+.form.deprecated .Select.is-disabled .Select-control, 
+.form.deprecated .Select.is-open .Select-control {
+    border: 1px solid var(--S-Color);
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .form-header header,
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .blurb-ArHxCz,
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .expireText-NeAc7v,
+.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions .btn-default,
+.form-deprecated .control-group .help-text, .form.deprecated .control-group .help-text,
+.form-deprecated .control-group label, .form.deprecated .control-group label {
+    color: white;
+}
+.form-deprecated .Select-option.is-focused, 
+.form.deprecated .Select-option.is-focused {
+    background: var(--DC-Color);
+    color: white;
+}
+.form-deprecated .Select-option,
+.form.deprecated .Select-option {
+    color: white;
+    background: black;
+}
+.Select .Select-option.is-selected {
+    background-color: var(--S-Color);
+}
+.form-deprecated .btn-primary, 
+.form.deprecated .btn-primary {
+    background-color: black;
+    border-radius: var(--B-Radius);
+    color: rgb(255, 255, 255);
+    border: 1px solid var(--M-Color);
+}
+.form-deprecated .btn-primary:hover, 
+.form.deprecated .btn-primary:hover {
+    background-color: black;
+    border-radius: var(--B-Radius);
+    color: rgb(255, 255, 255);
+    border: 1px solid var(--H-Color);
+}
+.clipboardInputInner-oj8y-S {
+    background: black;
+    border: 1px solid var(--M-Color);
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .clipboardInputInner-dxVheg input {
+    color: white;
+    background: black;
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .copy-2xFKb_ {
+    background-color: black;
+    border-left: none;
+}
+/* Copied Invite Button */
+.clipboardInputCopied-UXgFh2 .clipboardInputInner-oj8y-S {
+    border-color: var(--S-Color);
+}
+/* -------------------- */
+.clipboardInputInner-oj8y-S button:first-of-type:before {
+    background: linear-gradient(90deg,rgba(255, 255, 255, 0),var(--M-Color));
+}
+/* -------- End of Invite Menu -------- */
+/* -------- Discord Settings -------- */
+.theme-dark .cardPrimary-ZVL9Jr {
+    background: black;
+    border-color: transparent;
+}
+.lookOutlined-1c5nhl.colorRed-3HTNPV {
+    border-color: red;
+    color:  white;
+    background: rgba(255,0,0,0.3);
+    border-radius: var(--B-Radius);
+}
+.lookOutlined-1c5nhl.colorRed-3HTNPV:hover {
+    border-color: red;
+    color:  white;
+    background: rgba(255,0,0,0.6);
+}
+.lookFilled-luDKDo.colorGreen-22At8E {
+    background-color: rgba(0,255,0,0.3);
+    color: #fff;
+    border: 1px solid #00FF00;
+    border-radius: var(--B-Radius);
+}
+.lookFilled-luDKDo.colorGreen-22At8E:hover {
+    background-color: rgba(0,255,0,0.6);
+    color: #fff;
+    border: 1px solid #00FF00;
+}
+.theme-dark .input-2YozMi {
+    background-color: rgba(0,0,0,.3);
+    border-color: transparent;
+    color: white;
+    border-radius: var(--B-Radius);
+}
+.theme-dark .input-2YozMi:focus,
+.theme-dark .input-2YozMi.focused-xL_GX6
+{
+    background-color: rgba(0,0,0,.8);
+    border-color: var(--S-Color);
+    color: white;
+}
+.theme-dark .header-1-f9X5,
+#bd-settings-sidebar .ui-tab-bar-header {
+    color: var(--M-Color);
+}
+.side-2nYO0F .itemSelected-3XxAMf,
+#bd-settings-sidebar .ui-tab-bar-item.selected {
+    background-color: var(--S-Color);
+    color: #fff;
+}
+.side-2nYO0F .item-3879bf[style*="color: rgb(114, 137, 218);"] {
+       color: var(--M-Color) !important;
+}
+.side-2nYO0F .item-3879bf,
+#bd-settings-sidebar .ui-tab-bar-item {
+    border-radius: var(--B-Radius);
+}
+.theme-dark .separator-3z7STW,
+#bd-settings-sidebar .ui-tab-bar-separator {
+    background-color: transparent;
+}
+.theme-dark .cardPrimaryOutline-2YyAz2 {
+    border-color: transparent;
+}
+[class*="flexChild-1KGW5q switchEnabled-3CPlLV switch-3lyafC valueChecked-3Bzkbm value-kmHGfs sizeDefault-rZbSBU size-yI1KRe themeClear-1NqU69"][style*="background-color: rgba(255, 255, 255, 0.298039);"] {
+        background: transparent !important;
+        box-shadow: 0 0 6px white,  0 0 6px white,  0 0 6px white;
+}
+.theme-dark [class*="itemSelected-3XxAMf item-3879bf selected-eNoxEK"][style*="background-color: rgb(114, 137, 218);"] {
+        background: var(--S-Color) !important;
+        color: white !important;
+}
+.theme-dark .accountBtnInner-3zsU2z {
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: var(--B-Radius);
+}
+.theme-dark .accountBtnInner-3zsU2z:hover {
+    background-color: var(--H-Color);
+    border-color: var(--BOR-Color);
+    border-style: var(--BOR-Type);
+    border-width: 2px;
+}
+.userSettingsVoice-TvPQ80 .media-engine-video {
+    background-color: transparent;
+}
+.theme-dark .userSettingsVoice-TvPQ80 .previewOverlay-2vHj3H {
+    background-color: rgba(255,255,255,0.3);
+    border-color: transparent;
+    border-radius: var(--B-Radius);
+}
+.theme-dark .notificationsSound-3TXEoH {
+    box-shadow: none;
+}
+.theme-dark .card-11ynQk:before {
+    background-color: rgba(255,255,255,0.2);
+    border-color: transparent;
+}
+.theme-dark .row-3ZE8bQ {
+    box-shadow: none;
+}
+.ghostPill-1yup5q {
+    border-radius: var(--B-Radius);
+}
+.theme-dark .input-1aITJk {
+    color: white;
+    position: relative;
+    right: 6px;
+}
+.theme-dark .ui-standard-sidebar-view .btn-close {
+    border-color: transparent;
+    border-radius: var(--B-Radius);
+}
+.theme-dark .ui-standard-sidebar-view .btn-close:hover {
+    background-color: var(--H-Color);
+}
+.theme-dark .ui-standard-sidebar-view .esc-text {
+    color: white;
+}
+.container-3mpa-y.recording-1Ne76k .button-2jURHM {
+    background-color: rgba(240,71,71,.1);
+    color: #f04747;
+    box-shadow: inset 0 0 6px red, 0 0 6px red;
+}
+.theme-dark .user-settings-games .game {
+    box-shadow: none;
+}
+.lookLink-3VWONr.colorLink-Ttelix {
+    color: var(--a-link-Color);
+}
+.lookLink-3VWONr.colorLink-Ttelix:hover .contents-4L4hQM {
+    background-image: linear-gradient(0deg,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0) 1px,var(--a-link-Color) 0,var(--a-link-Color) 2px,rgba(0, 0, 0, 0) 0);
+}
+.theme-dark .user-settings-games .now-playing-add,
+.theme-light .user-settings-games .now-playing-add,
+.theme-dark .user-settings-games .last-played, 
+.theme-dark .user-settings-games .overlay-status-text {
+    color: white;
+}
+.theme-dark .user-settings-games .now-playing, 
+.theme-light .user-settings-games .now-playing {
+    background-color: var(--M-Color);
+    border: 2px solid black;
+    border-radius: var(--B-Radius);
+}
+.theme-dark .add-game-popout {
+    background-color: black;
+}
+.theme-dark .elevationBorderHigh-3Y6y6W {
+    box-shadow: none;
+}
+.theme-dark .markValue-235z9M {
+    color: white;
+}
+.grabber-1TZCZi {
+    background-color: #fff;
+    border-color: black;
+    border-radius: var(--B-Radius);
+    box-shadow: none;
+    border-width: 2px;
+}
+.theme-dark .item-3tXG-o {
+    box-shadow: none;
+}
+.theme-dark .markDash-3j1QxS {
+    background: white;
+}
+.theme-dark .user-settings-games .not-detected, 
+.theme-light .user-settings-games .not-detected {
+    background-color: var(--DC-Color);
+    border: 2px solid black;
+    border-radius: var(--B-Radius);
+}
+.theme-dark .user-settings-games .game-name-input:focus, 
+.theme-dark .user-settings-games .game-name-input:hover {
+    background-color: rgba(0,0,0,0.3);
+    border-color: transparent;
+}
+.theme-dark .user-settings-games .now-playing .last-played, 
+.theme-dark .user-settings-games .now-playing .overlay-status-text, 
+.theme-light .user-settings-games .now-playing .last-played, 
+.theme-light .user-settings-games .now-playing .overlay-status-text {
+    color: #ecf0f1;
+}
+#bd-settingspane-container .ui-switch-item .style-description {
+    color: white;
+    border-bottom: none;
+}
+.bd-pfbtn {
+    background: var(--M-Color);
+    color: #FFF;
+    border-radius: var(--B-Radius);
+    margin-left: 10px;
+}
+.bda-slist .bda-header {
+    color: white;
+    font-weight: normal;
+    border-bottom: none;
+}
+.bda-slist .bda-footer {
+    border-top: none;
+    color: white;
+    font-weight: normal;
+}
+.bda-slist .bda-description {
+    color: white;
+}
+.bd-pfbtn:hover {
+    background: var(--H-Color);
+}
+.ui-standard-sidebar-view #bd-customcss-attach-controls button, 
+.bd-detached-css-editor #bd-customcss-attach-controls button {
+    background: var(--M-Color);
+    color: #FFF;
+    height: 26px;
+    font-weight: normal;
+    margin-right: 3px;
+    border-radius: var(--B-Radius) !important;
+    border: none !important;
+}
+.ui-standard-sidebar-view #bd-customcss-attach-controls button:hover, 
+.bd-detached-css-editor #bd-customcss-attach-controls button:hover {
+    background: var(--H-Color);
+}
+.content-region #bd-customcss-attach-controls, 
+#bd-customcss-detach-container #bd-customcss-attach-controls {
+    background: black;
+    color: #FFF;
+    border: 0;
+    box-shadow: none;
+}
+.ui-standard-sidebar-view #editor-detached button {
+    background: var(--M-Color);
+    color: #FFF;
+    font-size: 26px;
+    font-weight: normal;
+    border-radius: var(--B-Radius);
+}
+.ui-standard-sidebar-view #editor-detached h3 {
+    color: white;
+    font-weight: normal;
+    font-size: 22px;
+}
+.bda-slist .bda-footer button {
+    background: var(--S-Color);
+    color: #FFF;
+    border-radius: var(--B-Radius);
+}
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
+    background-color: black;
+    box-shadow:  0 0px 13px var(--M-Color), 0 0px 13px var(--M-Color);
+}
+#bd-settingspane-container .ui-switch-item.ui-switch-item .ui-switch-wrapper .ui-switch {
+    right: 4px;
+    top: 4px;
+}
+.bda-slist li {
+    background: black;
+    border: 1px var(--BOR-Type) var(--BOR-Color);
+}
+/* -------- End of Discord Settings -------- */
+ /* ------------------ */
