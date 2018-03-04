@@ -1122,6 +1122,7 @@ line-height: 0px;
 .guilds-wrapper .guilds .friends-icon {
     background-image: var(--Guild-Icon);
     background-size: cover;
+    border-radius: var(--B-Radius);
     background-color: var(--M-Color);
 }
 .guilds-wrapper .guilds .friends-icon:hover {
