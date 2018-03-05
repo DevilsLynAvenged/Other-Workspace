@@ -146,7 +146,7 @@ line-height: 0px;
 	color: var(--MF-Color) !important;
 }
  .theme-dark .inner-3if5cm {
-    background-color: black;
+    background-color: transparent;
 }
 .theme-dark .contentTitle-sL6DrN {
     color: var(--MF-Color);
@@ -209,7 +209,7 @@ line-height: 0px;
     background-color: var(--M-Color);
 }
 .theme-dark .autocomplete-1TnWNR {
-    background-color: transparent;
+    background-color: black;
 }
 .autocomplete-1TnWNR {
     border-radius: 5px 5px 0 0;
