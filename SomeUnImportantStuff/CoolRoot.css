@@ -146,7 +146,7 @@ line-height: 0px;
 	color: var(--MF-Color) !important;
 }
  .theme-dark .inner-3if5cm {
-    background-color: transparent;
+    background-color: transparent !Important;
 }
 .theme-dark .contentTitle-sL6DrN {
     color: var(--MF-Color);
