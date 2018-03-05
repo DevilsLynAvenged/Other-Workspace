@@ -151,6 +151,9 @@ line-height: 0px;
 .theme-dark .contentTitle-sL6DrN {
     color: var(--MF-Color);
 }
+.connectedAccountName-3EFj01 {
+    color: white;
+}
 .theme-dark .iconForeground-1U-F96 {
     fill: var(--MF-Color);
 }
@@ -597,11 +600,13 @@ line-height: 0px;
 .tooltip.tooltip-red {
     background-color: rgba(0,0,0,0.5);
     color: white;
+    text-shadow: 0px 0px 10px var(--M-Color);
 }
 .tooltip.tooltip-black {
     background-color: black;
     color: white;
     border: 1px var(--BOR-Type) var(--BOR-Color);
+    text-shadow: 0px 0px 10px var(--M-Color);
 }
 .tooltip.tooltip-red.tooltip-right:after {
     border-right: none;
