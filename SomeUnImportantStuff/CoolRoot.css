@@ -589,6 +589,7 @@ line-height: 0px;
     background-color:  transparent;
     border-top: 1px solid var(--H-Color);
     border-bottom: 1px solid var(--H-Color);
+    border-radius: var(--B-Radius);
 }
 .guilds-wrapper .guilds-error:hover {
     background: rgba(var(--HCT-Color));
