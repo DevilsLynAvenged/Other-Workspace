@@ -561,6 +561,9 @@ line-height: 0px;
     top: 2px;
     width: 5px;
 }
+.durationBarInteractionDragging-2t191e .durationBarGrabber-1cFmrd {
+    background-color: var(--H-Color);
+}
 .channel-members .member .member-activity-icon-foreground {
     fill: var(--M-Color);
 }
