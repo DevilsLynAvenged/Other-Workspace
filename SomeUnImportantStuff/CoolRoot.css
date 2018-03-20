@@ -1169,6 +1169,10 @@ line-height: 0px;
     border: none;
     border-radius: var(--B-Radius);
 }
+.theme-dark.contextMenu-uoJTbz {
+    background: black;
+    box-shadow: none;
+}
 .scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, 
 .theme-dark .scrollerWrap-2uBjct.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, 
 .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track {
