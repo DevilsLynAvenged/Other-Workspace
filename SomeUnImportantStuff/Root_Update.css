@@ -118,6 +118,10 @@
     background-color: var(--Main-Color);
     border-color: rgba(0, 0, 0, 0);
 }
+.theme-dark.contextMenu-uoJTbz {
+    background: black;
+    box-shadow: none;
+}
 .theme-dark .channel-members-loading[style*="opacity: 1;"] {
     background: transparent !important;
 }
