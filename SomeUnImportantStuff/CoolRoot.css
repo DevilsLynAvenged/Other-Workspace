@@ -351,6 +351,9 @@ line-height: 0px;
        border: 2px var(--BOR-Type) var(--BOR-Color);
        border-radius: 5px;
 }
+.aka-2Ba14Z {
+    background: var(--M-Color);
+}
 .avatarSpeaking-3teDH6:after {
     padding-right: 92px;
     padding-left: 62px;
