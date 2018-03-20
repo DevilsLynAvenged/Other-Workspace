@@ -582,7 +582,7 @@ line-height: 0px;
 .small-popout-box {
     background: black;
     border: 1px solid var(--M-Color);
-    border-radius: var(--B-Radius);
+    border-radius: 2px;
     position: relative;
 }
 .option-popout .btn-item {
@@ -592,7 +592,7 @@ line-height: 0px;
     background-color:  transparent;
     border-top: 1px solid var(--H-Color);
     border-bottom: 1px solid var(--H-Color);
-    border-radius: var(--B-Radius);
+    border-radius: 2px;
 }
 .guilds-wrapper .guilds-error:hover {
     background: rgba(var(--HCT-Color));
