@@ -1676,7 +1676,7 @@ a,
 .protip {
     display: none;
 }
-.quick-message {
+.theme-dark .quickMessage-OCo-Q0 {
     background: none;
     border-radius: var(--Border-Radius);
     padding: 8px 10px;
@@ -1684,14 +1684,14 @@ a,
     color: var(--Font-Color);
 }
 
-.quick-message:focus {
+.theme-dark .quickMessage-OCo-Q0:focus {
     background: rgba(255, 255, 255,0.12);
     border: none;
     padding: 8px 10px;
 }
 
 /* Part 2 of that Section */
-.topSectionNormal-2LlRG1,.theme-dark .body-3_tdh6 {
+.theme-dark .topSectionNormal-2LlRG1,.theme-dark .body-3_tdh6 {
     background-color: rgba(0,0,0,0.3);
 }
 .theme-dark .userInfoSection-2WJxMm+.userInfoSection-2WJxMm {
