@@ -252,7 +252,8 @@
 a, 
 .theme-dark .message-group a,
 .chat .welcome-message h1,
-.theme-dark .chat .welcome-message a {
+.theme-dark .chat .welcome-message a,
+.content-3KEfmo a {
     color: var(--Special-Links) !important;
 }
 .keybind-shortcut.dark span .bind-arrow g {
