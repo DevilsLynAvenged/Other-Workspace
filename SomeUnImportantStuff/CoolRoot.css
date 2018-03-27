@@ -188,7 +188,8 @@ line-height: 0px;
     letter-spacing: 1px;
     color: var(--PHF-Color);
 }
-.theme-dark .message-group a {
+.theme-dark .message-group a,
+.content-3KEfmo a {
     color: var(--a-link-Color) !important;
 }
 .highlight {
