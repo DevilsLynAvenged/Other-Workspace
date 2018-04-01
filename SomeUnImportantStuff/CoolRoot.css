@@ -81,11 +81,11 @@
     color: var(--Code-Color3);
 }
 /* Hide 'playing' in member activity*/
-.channel-members .member .member-activity{
+.activityText-258pdj {
 text-indent: -9999px;
 line-height: 0px;
 }
-.channel-members .member .member-activity strong{
+.activity-1PAe08 strong {
  text-indent: 0;
   display: block;
   line-height: initial;
@@ -568,7 +568,7 @@ line-height: 0px;
 .durationBarInteractionDragging-2t191e .durationBarGrabber-1cFmrd {
     background-color: var(--H-Color);
 }
-.channel-members .member .member-activity-icon-foreground {
+.theme-dark .activityIconForeground-1o4t0w {
     fill: var(--M-Color);
 }
 .guilds-wrapper .guilds-add {
