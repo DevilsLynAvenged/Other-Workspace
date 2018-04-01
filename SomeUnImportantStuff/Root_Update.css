@@ -759,14 +759,14 @@ a,
     border-left: none;
 }
 .theme-dark .topic-1KFf6J,
-.channel-members .member .member-activity-text,
+ .activityText-258pdj,
 .theme-dark .channelName-1G03vu, 
 .theme-dark .groupDM-3gzbyG .channelName-1G03vu, 
 .theme-dark .groupDMManaged-2z2S1A .channelName-1G03vu,
 .channelIcon-1KtcMW,.name-3gtcmp {
     color: var(--Font-Color);
 }
-.channel-members .member .member-activity-icon-foreground {
+.theme-dark .activityIconForeground-1o4t0w {
     fill: var(--Icon-Color);
 }
 /* Code Block Codes */
