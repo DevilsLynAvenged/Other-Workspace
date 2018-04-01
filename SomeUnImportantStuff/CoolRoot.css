@@ -538,15 +538,15 @@ line-height: 0px;
 .theme-dark .message-group .comment .edited {
     color: white;
 }
-.theme-dark .channel-members .member.popout-open {
+.theme-dark .member-2FrNV0.popout-open .content-3JzEqq {
     background: transparent;
     border: 2px var(--BOR-Type) var(--S-Color);
 }
-.theme-dark .channel-members .member:hover {
+.theme-dark .member-2FrNV0:hover .content-3JzEqq {
     background: transparent;
     border: 2px var(--BOR-Type) var(--M-Color);
 }
-.channel-members .member .member-activity strong,
+.activity-1PAe08 strong,
 .theme-dark .channel-members h2 {
    color: var(--M-Color);
 }
