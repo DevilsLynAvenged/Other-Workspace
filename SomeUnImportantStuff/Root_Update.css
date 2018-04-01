@@ -1883,7 +1883,9 @@ a,
     color: white;
     text-shadow: 1px 1px 13px rgba(0, 0, 0, 1), 1px 1px 13px rgba(0, 0, 0, 1), 1px 1px 13px rgba(0, 0, 0, 1);
 }
-.theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover {
+.theme-dark .member-2FrNV0:hover .content-3JzEqq, 
+.theme-dark .member-2FrNV0.popout-open .content-3JzEqq, 
+.theme-dark .member-2FrNV0.popout-open:hover .content-3JzEqq {
     background: linear-gradient(90deg,black 35%,var(--Hover-Color));
 }
 /* Popup Menu */
