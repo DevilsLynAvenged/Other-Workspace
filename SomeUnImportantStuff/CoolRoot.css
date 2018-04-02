@@ -538,7 +538,8 @@ line-height: 0px;
 .theme-dark .message-group .comment .edited {
     color: white;
 }
-.theme-dark .member-2FrNV0.popout-open .content-3JzEqq {
+.theme-dark .member-2FrNV0.popout-open .content-3JzEqq, 
+.theme-dark .member-2FrNV0.popout-open:hover .content-3JzEqq {
     background: transparent;
     border: 2px var(--BOR-Type) var(--S-Color);
 }
