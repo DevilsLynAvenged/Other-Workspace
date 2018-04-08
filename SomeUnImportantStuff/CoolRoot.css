@@ -539,6 +539,7 @@ line-height: 0px;
     color: white;
 }
 .theme-dark .member-2FrNV0.popout-open .content-3JzEqq, 
+.memberOnline-1xn3V8.member-2FrNV0.popout-open,
 .theme-dark .member-2FrNV0.popout-open:hover .content-3JzEqq {
     background: transparent;
     border: 2px var(--BOR-Type) var(--S-Color);
