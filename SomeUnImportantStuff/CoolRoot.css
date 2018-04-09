@@ -870,7 +870,7 @@ line-height: 0px;
 /* -------- Message Group, Pinned Messages Stuff and Search Stuff -------- */
 .theme-dark .themed-popout,
 .theme-dark .themed-popout .header {
-    background-color: black;
+    background-color: black !important;
     border: none;
     box-shadow: none;
 }
@@ -902,12 +902,12 @@ line-height: 0px;
     border-color: var(--M-Color);
 }
 .theme-dark .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
-    background-color: transparent;
-    box-shadow: none;
+    background: none !important;
+    box-shadow: none !important;
 }
 .theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button,
 .theme-dark .search-results-wrap .action-buttons .jump-button {
-    background-color: var(--M-Color);
+    background-color: var(--M-Color) !important;
     color: white;
 }
 .theme-dark .themed-popout .header .subtitle,
@@ -915,12 +915,12 @@ line-height: 0px;
     color: white;
 }
 .theme-dark .messages-popout-wrap .messages-popout .message-group:hover {
-    border-color: var(--BOR-Color);
-     border-style: var(--BOR-Type);
+    border-color: var(--BOR-Color) !important;
+     border-style: var(--BOR-Type) !important;
 }
 .theme-dark .messages-popout-wrap .messages-popout .message-group {
-    background-color: transparent;
-    border-color: transparent;
+    background-color: transparent !important;
+    border-color: transparent !important;
 }
 .theme-dark .search-popout {
     box-shadow: none;
@@ -1152,7 +1152,7 @@ line-height: 0px;
     background-color: rgba(var(--HCT-Color));
 }
 .theme-dark .themed-popout .footer {
-    background-color: black;
+    background-color: black !important;
 }
 .private-channel-recipients-invite .footer button:hover {
     background-color: var(--H-Color);
