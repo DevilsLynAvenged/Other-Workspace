@@ -173,12 +173,12 @@
     transition: opacity 250ms ease;
 }
 .theme-dark .themed-popout {
-    background-color: var(--Main-Color);
-    border: 1px solid var(--Hover-Color);
+    background-color: var(--Main-Color) !important;
+    border: 1px solid var(--Hover-Color) !important;
     box-shadow: none;
 }
 .theme-dark .themed-popout .header,.private-channel-recipients-invite .body {
-    background-color: var(--Main-Color);
+    background-color: var(--Main-Color) !important;
     box-shadow: none;
 }
 .theme-dark .private-channel-recipients-invite .friend.selected,.theme-dark .private-channel-recipients-invite .friend:hover {
@@ -1109,12 +1109,12 @@ a,
     color: var(--Font-Color);
 }
 .theme-dark .messages-popout-wrap .messages-popout .message-group {
-    background-color: var(--Main-Color);
-    border-color: var(--Border-Color);
+    background-color: var(--Main-Color) !important;
+    border-color: var(--Border-Color) !important;
     border-width: 2px;
 }
 .theme-dark .messages-popout-wrap .messages-popout .message-group:hover {
-    border-color: var(--Border-Hover-Color);
+    border-color: var(--Border-Hover-Color) !important;
     border-width: 2px;
 }
 .buttonRedFilled-1NjJNj {
@@ -1127,14 +1127,14 @@ a,
     border-width: 2px;
 }
 .theme-dark .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
-    background: none;
-    box-shadow: none;
+    background: none !important;
+    box-shadow: none !important;
 }
 .theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button,
 .theme-dark .search-results-wrap .action-buttons .jump-button {
-    background-color: var(--Main-Color);
+    background-color: var(--Main-Color) !important;
     color: var(--Font-Color);
-    border: 1px solid var(--Border-Color);
+    border: 1px solid var(--Border-Color) !important;
 }
 .theme-dark .search-results-wrap {
     background-color: black;
