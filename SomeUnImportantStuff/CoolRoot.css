@@ -1151,7 +1151,7 @@ line-height: 0px;
 .private-channel-recipients-invite .footer button:disabled:hover {
     background-color: rgba(var(--HCT-Color));
 }
-.theme-dark .themed-popout .footer {
+.theme-dark .popout .messages-popout-wrap .footer {
     background-color: black !important;
 }
 .private-channel-recipients-invite .footer button:hover {
