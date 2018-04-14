@@ -934,7 +934,8 @@ line-height: 0px;
 .option-1MvVr1.selected-_bTXUG:after {
     background: transparent;
 }
-.theme-dark .searchOption-vKNX73 .filter-3kZ3tT {
+.theme-dark .searchOption-vKNX73 .filter-3kZ3tT,
+.theme-dark .option-1MvVr1 .filter-3kZ3tT {
     color: white;
 }
 .theme-dark .option-1MvVr1 .nonText-1oayCI {
