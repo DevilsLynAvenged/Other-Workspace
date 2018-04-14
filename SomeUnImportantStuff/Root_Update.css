@@ -1011,7 +1011,8 @@ a,
 .option-1MvVr1.selected-_bTXUG:after {
     background-color: var(--Hover-Color);
 }
-.theme-dark .searchOption-vKNX73 .filter-3kZ3tT {
+.theme-dark .searchOption-vKNX73 .filter-3kZ3tT,
+.theme-dark .option-1MvVr1 .filter-3kZ3tT {
    color: var(--Font-Color) !important;
    font-weight: bold;
 }
