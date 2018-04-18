@@ -318,14 +318,14 @@ line-height: 0px;
     color: white;
     box-shadow: none;
 }
-.menu-3BZuDT {
+.theme-dark .menu-3BZuDT {
     background: black;
     border-radius: 0px;
 }
 .theme-dark .topic-1KFf6J:before {
     background-color: transparent;
 }
-.item-rK1j5B:hover {
+.theme-dark .item-rK1j5B:hover {
     background-color: transparent;
     color: white;
     border: 1px var(--BOR-Type) var(--BOR-Color);
@@ -345,7 +345,7 @@ line-height: 0px;
 .separator-1hpa3S {
     border-bottom: none;
 }
-.item-rK1j5B {
+.theme-dark .item-rK1j5B {
     color: white;
 }
 .message-group .accessory>*:not(.reactions):not(.embed-2diOCQ):not(.wrapper-uAa07y):not(.attachment-1Vom9D) {
