@@ -1598,7 +1598,7 @@ a,
 .headerStreaming-3F-wjT {
     background: rgba(89, 54, 149,0.4);
 }
-.menu-3BZuDT {
+.theme-dark .menu-3BZuDT {
     background: transparent;
     border-radius: 0px;
     box-shadow: none;
@@ -1812,7 +1812,7 @@ a,
 .separator-1hpa3S {
     border-bottom: none;
 }
-.item-rK1j5B:hover {
+.theme-dark .item-rK1j5B:hover {
     background-color: var(--Hover-Color);
     color: var(--Font-Color);
     opacity: 1;
@@ -1820,7 +1820,7 @@ a,
 .alt-2vq4VR .item-rK1j5B .helper-3X2gjI {
    color: var(--Font-Color);
 }
-.item-rK1j5B {
+.theme-dark .item-rK1j5B {
     background-color: var(--Main-Color);
     color: var(--Font-Color);
     opacity: 1;
