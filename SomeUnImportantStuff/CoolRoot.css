@@ -939,19 +939,19 @@ line-height: 0px;
 .option-1MvVr1.selected-_bTXUG:after{
     background: transparent;
 }
-.search-popout .option .filter {
+.theme-dark .searchOption-vKNX73 .filter-3kZ3tT {
     color: white;
 }
-.search-popout .option .non-text {
+.theme-dark .option-1MvVr1 .nonText-1oayCI {
     color: #3d3d3d;
 }
-.search-popout .option .answer {
+.theme-dark .option-1MvVr1 .answer-9L5NhD {
     color: white;
     font-weight: normal;
     background-color: rgba(var(--SCT-Color));
     padding: 4px 4px;
 }
-.search-popout .search-option .answer {
+.theme-dark .searchOption-vKNX73 .answer-9L5NhD {
     color: #caccce;
     font-weight: 400;
 }
@@ -976,7 +976,8 @@ line-height: 0px;
     margin-right: 4px;
     vertical-align: top;
 }
-.search-popout .option.selected {
+.theme-dark .option-1MvVr1.selected-_bTXUG,
+.theme-dark .option-1MvVr1.searchOption-vKNX73.selected-_bTXUG {
     background-color: black;
    border: 2px var(--BOR-Type) var(--BOR-Color);
 }
@@ -990,7 +991,7 @@ line-height: 0px;
     border: none;
 }
 .search-popout .date-picker,
-.theme-dark .datePicker-1RD4eT .datePickerHint-1iW7Wz
+.theme-dark .datePicker-1RD4eT .datePickerHint-1iW7Wz {
     border-top: none;
 }
 .theme-dark .datePicker-1RD4eT .datePickerHint-1iW7Wz .hintValue-45YyWZ {
