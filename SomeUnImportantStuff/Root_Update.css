@@ -1015,15 +1015,15 @@ a,
 .search-popout.option.selected:after {
     background-color: var(--Hover-Color);
 }
-.search-popout .option .filter to .theme-dark .searchOption-vKNX73 .filter-3kZ3tT {
+.theme-dark .searchOption-vKNX73 .filter-3kZ3tT {
    color: var(--Font-Color) !important;
    font-weight: bold;
 }
-.search-popout .option .answer  to .theme-dark .searchOption-vKNX73 .answer-9L5NhD {
+.theme-dark .searchOption-vKNX73 .answer-9L5NhD {
     color: var(--Font-Color) !important;
     font-weight: bold;
 }
-.search-popout .option .non-text to  .theme-dark .option-1MvVr1 .nonText-1oayCI {
+.theme-dark .option-1MvVr1 .nonText-1oayCI {
     color: var(--Font-Color) !important;
     font-weight: bold;
 }
