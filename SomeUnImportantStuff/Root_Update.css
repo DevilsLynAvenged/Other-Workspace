@@ -337,6 +337,10 @@ a,
 .guilds-wrapper .guilds .guild .guild-inner a {
     background-color: var(--Main-Color);
 }
+.private-channel-recipients-invite .body .scroller::-webkit-scrollbar-track {
+    background-color: transparent !important;
+    border: none !important;
+}
 /* Main Chat Area Stuff */
 [name*="Gear"] path[fill] {
    fill: var(--Icon-Color);
@@ -1228,7 +1232,7 @@ a,
     color: var(--Calendar-Font-Color);
     font-size: 16px;
 }
-.theme-dark .datePicker-1RD4eT .datePickerHint-1iW7Wz
+.theme-dark .datePicker-1RD4eT .datePickerHint-1iW7Wz {
     border-top: none;
 }
 .theme-dark .datePicker-1RD4eT .datePickerHint-1iW7Wz .hintValue-45YyWZ {
