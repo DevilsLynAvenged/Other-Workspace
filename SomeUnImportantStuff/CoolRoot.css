@@ -282,7 +282,7 @@ line-height: 0px;
 .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb, 
 .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb, 
 .bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb, 
-.bda-dark emojiPicker-3g68GS .scroller-2dsok0::-webkit-scrollbar-thumb, 
+.bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-thumb, 
 .bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb {
     background-color: var(--M-Color) !important;
     border-color: transparent !important;
@@ -312,7 +312,7 @@ line-height: 0px;
     color: white;
     box-shadow: none;
 }
-.menu-Sp6bN1 {
+.theme-dark .menu-Sp6bN1 {
     background: black;
     border-radius: 0px;
 }
