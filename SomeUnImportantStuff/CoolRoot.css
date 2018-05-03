@@ -1093,6 +1093,9 @@ line-height: 0px;
     border-radius: var(--B-Radius);
     background-color: var(--M-Color);
 }
+.private-channel-recipients-invite .header .search-bar {
+    border-radius: var(--B-Radius);
+}
 .private-channel-recipients-invite .body .scroller::-webkit-scrollbar-track {
     background-color: transparent !important;
 }
