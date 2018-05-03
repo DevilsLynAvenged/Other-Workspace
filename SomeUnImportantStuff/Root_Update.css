@@ -207,6 +207,9 @@
     color: var(--Font-Color);
     border: 2px solid var(--Border-Color);
 }
+.search-bar-tag {
+    background: var(--Hover-Color);
+}
 .tipsMiscControls-2b1XcI,.tipsListNav-2U56FY {
     color: var(--Font-Color);
  }
