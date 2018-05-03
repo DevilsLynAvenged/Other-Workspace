@@ -1374,7 +1374,7 @@ a,
     border: none;
     border-radius: var(--Border-Radius);
 }
-.accountBtnInner-sj5jLs{
+.theme-dark .accountBtnInner-sj5jLs {
     background-color: var(--Main-Color);
     border: none;
     border-radius: var(--Border-Radius);
@@ -1820,7 +1820,7 @@ a,
 .separator-2zcjq8 {
     border-bottom: none;
 }
-.item-1GzJrl:hover {
+.theme-dark .item-1GzJrl:hover {
     background-color: var(--Hover-Color);
     color: var(--Font-Color);
     opacity: 1;
@@ -1828,7 +1828,7 @@ a,
 .alt-3btY0e .item-1GzJrl .helper-2c73HK {
    color: var(--Font-Color);
 }
-.item-1GzJrl {
+.theme-dark .item-1GzJrl {
     background-color: var(--Main-Color);
     color: var(--Font-Color);
     opacity: 1;
