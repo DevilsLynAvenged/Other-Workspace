@@ -1649,13 +1649,15 @@ a {
     background: black;
     border-color: transparent;
 }
-.lookOutlined-1c5nhl.colorRed-3HTNPV {
+
+.lookOutlined-3sRXeN.colorRed-1TFJan {
     border-color: red;
     color:  white;
     background: rgba(255,0,0,0.3);
     border-radius: var(--B-Radius);
 }
-.lookOutlined-1c5nhl.colorRed-3HTNPV:hover {
+
+.lookOutlined-3sRXeN.colorRed-1TFJan:hover {
     border-color: red;
     color:  white;
     background: rgba(255,0,0,0.6);
