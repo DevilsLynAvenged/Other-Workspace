@@ -319,7 +319,7 @@ line-height: 0px;
 .theme-dark .topic-1KFf6J:before {
     background-color: transparent;
 }
-.item-1GzJrl:hover {
+.theme-dark .item-1GzJrl:hover {
     background-color: transparent;
     color: white;
     border: 1px var(--BOR-Type) var(--BOR-Color);
@@ -339,7 +339,7 @@ line-height: 0px;
 .separator-2zcjq8 {
     border-bottom: none;
 }
-.item-1GzJrl {
+.theme-dark .item-1GzJrl {
     color: white;
 }
 .message-group .accessory>*:not(.reactions):not(.embed-2diOCQ):not(.wrapper-uAa07y):not(.attachment-1Vom9D) {
