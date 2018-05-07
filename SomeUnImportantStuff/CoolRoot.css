@@ -1340,7 +1340,7 @@ a {
 }
 .role-2irmRk[style*="border-color: rgba(185, 187, 190, 0.6);"] {
          background-color: rgba(0,0,0,0.5) !important;
-         border: 2px solid  var(--M-Color) !important;
+         border: 2px solid  black !important;
 }
 .roleCircle-3xAZ1j[style*="background-color: rgb(185, 187, 190);"] {
          border: 2px solid var(--M-Color) !important;
