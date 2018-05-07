@@ -1331,6 +1331,28 @@ a {
 }
 /* -------- End of Upload Modal -------- */
 /* -------- User Popout and User Modal -------- */
+
+.role-2irmRk {
+    border: 2px solid;
+    border-radius: var(--B-Radius);
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: 0 0 6px black;
+}
+.role-2irmRk[style*="border-color: rgba(185, 187, 190, 0.6);"] {
+         background-color: rgba(0,0,0,0.5) !important;
+}
+.roleCircle-3xAZ1j[style*="background-color: rgb(185, 187, 190);"] {
+         border: 2px solid var(--M-Color) !important;
+         background-color: black;
+}
+.roleCircle-3xAZ1j {
+         border-radius: var(--B-Radius);
+}
+.roleName-32vpEy {
+    margin-right: 11px;
+    text-shadow: 0 0 6px black,0 0 6px black,0 0 6px black,0 0 6px black;
+    padding: 6px;
+}
 .theme-dark .headerNormal-T_seeN,
 .headerPlaying-j0WQBV,
 .headerSpotify-zpWxgT,
@@ -1340,9 +1362,7 @@ a {
 .theme-dark .topSectionNormal-2-vo2m {
     background-color: rgba(0,0,0,0.55);
 }
-.roleCircle-3xAZ1j {
-    background: transparent !important;
-}
+
 .headerStreaming-2FjmGz,
 .topSectionStreaming-1Tpf5X {
     background: rgba(65,0,147 ,.4);
@@ -1366,10 +1386,7 @@ a {
     color: white;
     border-radius: var(--B-Radius);
 }
-.role-2irmRk {
-    border: 1px solid;
-    border-radius: var(--B-Radius);
-}
+
 .theme-dark .note-3kmerW textarea {
     color: white;
     border-radius: var(--B-Radius);
@@ -1377,21 +1394,7 @@ a {
 .theme-dark .note-3kmerW textarea:focus {
     background-color: rgba(255,255,255,.2) !important;
 }
-.role-2irmRk[style*="border-color: rgba(185, 187, 190, 0.6);"] {
-         border: 2px solid var(--M-Color) !important;
-}
-.roleName-32vpEy {
-    margin-right: 11px;
-    text-shadow: 0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black;
-}
-.role-2irmRk:nth-child(odd) {
-         float: left;
-         clear: right;
-}
-.role-2irmRk:nth-child(even) {
-         float: right;
-         clear: left;
-}
+
 .theme-dark .quickMessage-1yeL4E:focus {
     background-color: rgba(255,255,255,.2);
     border-color: var(--S-Color);
