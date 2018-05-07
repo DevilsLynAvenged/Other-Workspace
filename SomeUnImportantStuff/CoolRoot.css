@@ -1343,7 +1343,7 @@ a {
 }
 .roleCircle-3xAZ1j[style*="background-color: rgb(185, 187, 190);"] {
          border: 2px solid var(--M-Color) !important;
-         background-color: black;
+         background-color: transparent !important;
 }
 .roleCircle-3xAZ1j {
          border-radius: var(--B-Radius);
