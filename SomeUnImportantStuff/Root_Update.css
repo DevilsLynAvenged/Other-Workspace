@@ -92,7 +92,10 @@
 
 .theme-dark .item-1Yvehc {
     color: var(--Font-Color);
+    border-radius: 0;
+    padding: 8px;
 }
+
 .noticeInfo-3_iTE1 {
     background-color: var(--Main-Color);
     color: var(--Font-Color);

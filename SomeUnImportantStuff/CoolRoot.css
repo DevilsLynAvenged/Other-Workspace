@@ -887,6 +887,8 @@ line-height: 0px;
 }
 .theme-dark .item-1Yvehc {
     color: #fff !important;
+    border-radius: 0;
+    padding: 8px;
 }
 .theme-dark .itemSubMenu-1vN_Yn {
     background: transparent;
