@@ -155,12 +155,14 @@
     background-color: var(--Selected-Background-Color);
     border: 2px solid var(--Selected-Border-Color);
 }
-#friends .btn {
+#friends .btn,
+.private-channel-recipients-invite .error-state.not-friends .btn {
     background-color: var(--Main-Color);
     border-radius: var(--Border-Radius);
     color: var(--Font-Color);
 }
-#friends .btn:hover {
+#friends .btn:hover,
+.private-channel-recipients-invite .error-state.not-friends .btn:hover {
     background-color: var(--Main-Color);
     border-radius: var(--Border-Radius);
     color: var(--Font-Color);
@@ -1708,11 +1710,7 @@ a,
     background-color: var(--Main-Color);
     border: 2px solid black;
 }
-#user-profile-modal .guilds .guild .status {
-    border: none !important;
-    bottom: -2px;
-    right: -4px;
-}
+
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
     background-clip: padding-box;
     background-color: transparent;
