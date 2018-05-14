@@ -1739,7 +1739,8 @@ a {
     border-style: var(--BOR-Type);
     border-width: 2px;
 }
-.userSettingsVoice-iwdUCU .media-engine-video {
+.userSettingsVoice-iwdUCU .media-engine-video,
+.theme-dark .private-channel-call {
     background-color: transparent;
 }
 .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
