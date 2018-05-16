@@ -1106,12 +1106,13 @@ a,
 .slider-handle {
     border: 2px solid var(--Border-Color);
 }
-.theme-dark .bubble-17BwqU:before, 
+
+.theme-dark .bubble-3we2di:before, 
 .slider-handle span:after, 
 .slider-handle span:before {
     border-top: none !important;
 }
-.theme-dark .bubble-17BwqU, 
+.theme-dark .bubble-3we2di, 
 .slider-handle span {
     background-color: var(--Main-Color);
     border: 2px solid var(--Border-Color);

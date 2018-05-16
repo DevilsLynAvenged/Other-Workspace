@@ -423,6 +423,13 @@ line-height: 0px;
     text-shadow:  0 0 6px red, 0 0 6px red, 0 0 6px red, 0 0 6px red, 0 0 6px black, 0 0 6px black;
     padding-left: 3px; 
 }
+.theme-dark .bubble-3we2di {
+   border: 1px var(--BOR-Type) var(--BOR-Color);
+   background-color: black;
+}
+.theme-dark .bubble-3we2di:before {
+    border-top-color: transparent;
+}
 .guilds-wrapper .guilds .guild .guild-inner {
     background-color: var(--M-Color) !important;
     border-radius: var(--B-Radius) !important;
