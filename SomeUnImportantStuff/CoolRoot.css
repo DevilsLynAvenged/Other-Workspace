@@ -424,7 +424,7 @@ line-height: 0px;
     padding-left: 3px; 
 }
 .guilds-wrapper .guilds .guild .guild-inner {
-    background: var(--M-Color) !important;
+    background-color: var(--M-Color) !important;
     border-radius: var(--B-Radius) !important;
     overflow: visible;
 }
