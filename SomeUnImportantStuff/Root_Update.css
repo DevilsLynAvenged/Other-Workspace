@@ -46,7 +46,6 @@
     border-color: transparent;
 }
 .theme-dark .title-3qD0b- {
-    background: var(--Main-Color);
     box-shadow: none;
 }
 .header-2o-2hj {
@@ -54,10 +53,10 @@
     transition: background-color .3s ease-in;
 }
 .popout-open .header-2o-2hj {
-    background-color: var(--Main-Color);
+    background-color: rgba(0,0,0,0.52) !important;
 }
 .header-2o-2hj:hover {
-    background-color: var(--Main-Color);
+    background-color: rgba(0,0,0,0.22);
 }
 .theme-dark .select-2TCrqx .Select-control .Select-placeholder {
     color: var(--Font-Color);
@@ -93,7 +92,9 @@
 .theme-dark .item-1Yvehc {
     color: var(--Font-Color);
     border-radius: 0;
-    padding: 8px;
+    padding: 7px;
+    background-color: rgba(0,0,0,0.6);
+    margin-bottom: 4px;
 }
 
 .noticeInfo-3_iTE1 {
@@ -115,8 +116,9 @@
     border-color: rgba(0, 0, 0, 0);
 }
 .theme-dark.contextMenu-HLZMGh {
-    background: black;
+    background: rgba(0,0,0,0.5);
     box-shadow: none;
+    padding: 9px;
 }
 
 /* End of Transparency Setup */
@@ -1576,21 +1578,25 @@ a,
 .body-3ND3kc {
     border-bottom: none;
 }
+.roleRemoveIcon-2-TeGW {
+    height: 10px;
+    width: 10px;
+    background-color: red;
+}
 .role-2irmRk {
   padding: 4px 6px;
   border-radius: var(--Border-Radius) !important;
   overflow: hidden; 
+  border: none;
+  box-shadow: 0 0 7px black,0 0 7px black;
+  margin-top: 5px;
   }
   .role-2irmRk .roleCircle-3xAZ1j {
-    opacity: .5;
-    height: 22px;
-    width: 5px;
-    margin-top: -4px;
-    margin-bottom: -4px;
-    margin-left: -5px;
-    margin-right: -1000px;
-    padding-right: 997px;
-    border-radius: 0; 
+    opacity: 1;
+    height: 14px;
+    width: 14px;
+    border-radius: 50px; 
+    box-shadow: inset 0 0 6px black;
     }
     /* Secondary Roles */
     .role-2irmRk[style*="border-color: rgba(185, 187, 190, 0.6)"] .roleCircle-3xAZ1j {
