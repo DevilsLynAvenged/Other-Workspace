@@ -125,6 +125,11 @@
   .theme-dark #friends .tab-bar .tab-bar-item.selected {
     background-color: var(--Selected-Background-Color);
     border: 2px solid var(--Selected-Border-Color);
+    color: white;
+}
+.theme-dark .tipsWithoutResults-lGY-De, .theme-dark .tipsWithResults-HhTE9b {
+    border-color: transparent;
+    color: white;
 }
 .progressBar-3u8FBM,
 .progress-2XXRYo,
@@ -156,12 +161,15 @@
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary.selected {
     background-color: var(--Selected-Background-Color);
     border: 2px solid var(--Selected-Border-Color);
+    color: white;
 }
 #friends .btn,
 .private-channel-recipients-invite .error-state.not-friends .btn {
     background-color: var(--Main-Color);
     border-radius: var(--Border-Radius);
     color: var(--Font-Color);
+    border: 2px solid transparent;
+    transition: border .5s ease;
 }
 #friends .btn:hover,
 .private-channel-recipients-invite .error-state.not-friends .btn:hover {
@@ -208,6 +216,7 @@
 .private-channel-recipients-invite .footer button {
     background-color: var(--Main-Color);
     border-radius: var(--Border-Radius);
+    transition: background-color .5s ease;
 }
 .private-channel-recipients-invite .footer button:hover {
     background-color: var(--Hover-Color) !important;
@@ -237,7 +246,17 @@
     color: var(--Font-Color);
 }
 .theme-dark .input-2VB9rf:focus {
-    border: 2px solid var(--Selected-Border-Color);
+    border: 2px solid #43A047;
+}
+.theme-dark .emptyStateNote-ZYTetQ {
+    color: white;
+}
+.theme-dark .divider-2PMBlV,
+.theme-dark #friends .tab-bar .tab-bar-separator {
+    background: transparent;
+}
+.theme-dark #friends .friends-table .friends-row .friends-column-status .friend-activity-icon-foreground {
+    fill: white;
 }
 .theme-dark .resultFocused-3aIoYe {
     background-color: var(--Hover-Color);
@@ -253,7 +272,8 @@ a,
 .theme-dark .message-group a,
 .chat .welcome-message h1,
 .theme-dark .chat .welcome-message a,
-.content-3KEfmo a {
+.content-3KEfmo a,
+.anchor-3Z-8Bb {
     color: var(--Special-Links) !important;
 }
 .theme-dark .keybindShortcut-1BD6Z1 span .bindArrow-3Mm64N g {
@@ -970,9 +990,18 @@ a,
     background-color: var(--Hover-Color);
 }
 
+.need-help-modal.deprecated .form-inner {
+    background-color: black;
+}
 .need-help-modal.deprecated .header input[type=text] {
     background-color: black;
-    color: #555;
+    color: white;
+    box-shadow: none;
+    border-radius: 0px;
+    border: none;
+}
+.need-help-modal.deprecated .header input[type=text]:focus {
+    border-bottom: none;
 }
 .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label, 
 .has-value.Select--single>.Select-control .Select-value .Select-value-label {
@@ -1282,6 +1311,55 @@ a,
 .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
     background-color: rgba(0,0,0,0.3);
     border: none;
+}
+[class="itemDefault-3Jdr52 item-PXvHYJ notSelected-1N1G5p"][style*="color: rgb(114, 137, 218);"] {
+     color: var(--Main-Color) !important;
+}
+[class="itemDefault-3Jdr52 item-PXvHYJ notSelected-1N1G5p"][style*="background-color: rgba(114, 137, 218, 0.0980392);"] {
+    background-color: rgba(var(--NCT-Color),0.3) !important;
+}
+.theme-dark .searchBar-1MOL6S {
+    background-color: rgba(0,0,0,0.4);
+}
+.avatar-uploader-inner {
+    background-color: var(--Main-Color);
+}
+.theme-dark .description-3_Ncsb, .theme-dark .labelDescriptor-1PqHgD {
+    color: white;
+}
+#bd-settings-sidebar .ui-tab-bar-separator {
+    background-color: transparent;
+}
+.theme-dark .notificationsSound-27jFSh,
+.theme-dark .row-2okwlC {
+    box-shadow: none;
+}
+.theme-dark .emoji-alias-input .emoji-input {
+    background-color: black;
+}
+.theme-dark .cardPrimary-1Hv-to,
+.theme-dark .cardPrimaryOutline-29Ujqw,
+.theme-dark .headerClickable-2IVFo9, .theme-dark .headerDefault-1wrJcN {
+    background: rgba(0,0,0,0.4);
+    border-color: transparent;
+    box-shadow: 0 0 6px black, 0 0 6px black;
+}
+.lookOutlined-3sRXeN.colorRed-1TFJan,
+[class="itemDefault-3Jdr52 item-PXvHYJ notSelected-1N1G5p"][style*="color: rgb(240, 71, 71);"] {
+    border: 1px solid #d32f2f !important;
+    color: white !important;
+    background-color: transparent !important;
+    transition: background-color .7s ease;
+    box-shadow: 0 2px 6px black, 0 2px 6px black, 0 2px 6px black;
+}
+.lookOutlined-3sRXeN.colorBrand-3pXr91 {
+    border-color: rgba(114,137,218,.3);
+    color: #7289da;
+}
+.lookOutlined-3sRXeN.colorRed-1TFJan:hover,
+[class="itemDefault-3Jdr52 item-PXvHYJ notSelected-1N1G5p"][style*="color: rgb(240, 71, 71); background-color: rgba(240, 71, 71, 0.0980392);"]:hover {
+    background-color: #d32f2f !important;
+    box-shadow: 0 2px 6px black, 0 2px 6px black, 0 2px 6px black;
 }
 .user-settings-voice .media-engine-video {
     background: transparent;
@@ -1910,6 +1988,8 @@ a,
     background-size: cover;
     border: 2px solid var(--Border-Color);
     border-radius: var(--Border-Radius);
+    z-index: 0;
+    padding: 64px;
 }
 .theme-dark .topic-2QX7LI a {
     color: var(--Special-Links);
@@ -1922,99 +2002,4 @@ a,
 }
 .progress-2XXRYo {
     background-color: var(--Main-Color);
-}
-/* New Invite Stuff */
-.wrapper-VSYYTS {
-    background: transparent;
-    border: 1px solid var(--Border-Color);
-}
-.form-deprecated .form-header, 
-.form.deprecated .form-header {
-    background: var(--Main-Color);
-    border-bottom: none;
-    border-radius: 5px 5px 0 0;
-    color: var(--Font-Color);
-}
-.form-deprecated .form-inner, 
-.form.deprecated .form-inner {
-    background-color: black;
-}
-.wrapper-VSYYTS .instantInviteModal-5L33Qh .form-actions {
-    background-color: black;
-}
-.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions {
-    background-color: black;
-}
-/* Invite Checkbox*/
-.checkbox .checkbox-inner+span {
-    color: white;
-}
-/* ----------------------- */
-.wrapper-VSYYTS .instantInviteModal-5L33Qh .checkbox .checkbox-inner span,
-.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .checkbox .checkbox-inner span {
-    border: 2px solid var(--Border-Color);
-}
-.form-deprecated .is-focused:not(.is-open)>.Select-control, 
-.form.deprecated .is-focused:not(.is-open)>.Select-control {
-    border: 1px solid var(--Selected-Border-Color);
-}
-.form-deprecated .Select.is-disabled .Select-control:hover, 
-.form-deprecated .Select.is-open .Select-control:hover, 
-.form.deprecated .Select.is-disabled .Select-control:hover, 
-.form.deprecated .Select.is-open .Select-control:hover {
-    border-color: var(--Border-Hover-Color);
-}
-.form-deprecated .Select.is-disabled .Select-control, 
-.form-deprecated .Select.is-open .Select-control, 
-.form.deprecated .Select.is-disabled .Select-control, 
-.form.deprecated .Select.is-open .Select-control {
-    border: 1px solid var(--Selected-Border-Color);
-}
-.wrapper-VSYYTS .instantInviteModal-5L33Qh .form-header header,
-.wrapper-VSYYTS .instantInviteModal-5L33Qh .blurb-ArHxCz,
-.wrapper-VSYYTS .instantInviteModal-5L33Qh .expireText-NeAc7v,
-.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions .btn-default,
-.form-deprecated .control-group .help-text, .form.deprecated .control-group .help-text,
-.form-deprecated .control-group label, .form.deprecated .control-group label {
-    color: var(--Font-Color);
-}
-.form-deprecated .Select-option.is-focused,
-.form.deprecated .Select-option.is-focused {
-    background: linear-gradient(to right, var(--Hover-Color) 0%, transparent 50%, var(--Hover-Color) 100%);
-    color: var(--Font-Color);
-}
-.form-deprecated .Select-option, 
-.form.deprecated .Select-option {
-    color: var(--Font-Color);
-    background: var(--Selected-Background-Color);
-}
-.form-deprecated .btn-primary, 
-.form.deprecated .btn-primary {
-    background-color: black !important;
-    border-radius: var(--Border-Radius);
-    color: var(--Font-Color);
-}
-.form-deprecated .btn-primary:hover, 
-.form.deprecated .btn-primary:hover {
-    border: 2px solid var(--Border-Color);
-}
-.clipboardInputInner-oj8y-S {
-    background: var(--Main-Color);
-    border: 1px solid var(--Border-Color);
-}
-.wrapper-VSYYTS .instantInviteModal-5L33Qh .clipboardInputInner-dxVheg input {
-    color: var(--Font-Color);
-    background: black;
-}
-.wrapper-VSYYTS .instantInviteModal-5L33Qh .copy-2xFKb_ {
-    background-color: var(--Main-Color);
-    border-left: none;
-}
-/* Copied Invite Button */
-.clipboardInputCopied-UXgFh2 .clipboardInputInner-oj8y-S {
-    border-color: #00FF00;
-}
-/* -------------------- */
-.clipboardInputInner-oj8y-S button:first-of-type:before {
-    background: linear-gradient(90deg,rgba(255, 255, 255, 0), var(--Main-Color));
 }
