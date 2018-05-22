@@ -5,6 +5,10 @@
     background-color: black;
     border: 1px solid var(--Border-Color);
 }
+.theme-dark .title-3qD0b- {
+    background: transparent;
+    box-shadow: none;
+}
 .bda-dark .emojiPicker-3m1S-j .diversitySelector-tmmMv0 .popout-2nUePc {
     background: var(--Main-Color);
     border-color: var(--Border-Color);
