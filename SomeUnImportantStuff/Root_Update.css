@@ -5,6 +5,13 @@
     background-color: black;
     border: 1px solid var(--Border-Color);
 }
+*::selection {
+   background-color: var(--Main-Color);
+   text-shadow: 0 0 6px black, 0 0 6px black, 0 0 6px black;
+}
+.message-group .edit-message .edit-container-outer {
+    margin-left: 0px;
+}
 .theme-dark .title-3qD0b- {
     background: transparent;
     box-shadow: none;

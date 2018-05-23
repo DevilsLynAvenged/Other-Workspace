@@ -5,6 +5,9 @@
 .theme-dark .reaction {
     background: rgba(var(--MCT-Color));
 }
+*::selection {
+   background-color: var(--M-Color);
+}
 .message-group .edit-message .edit-container-outer {
     margin-left: 0px;
 }
