@@ -5,6 +5,9 @@
 .theme-dark .reaction {
     background: rgba(var(--MCT-Color));
 }
+.message-group .edit-message .edit-container-outer {
+    margin-left: 0px;
+}
 .theme-dark .reaction .reaction-count {
     color: white;
 }
