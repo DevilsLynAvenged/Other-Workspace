@@ -198,25 +198,13 @@
     padding: 2px 16px;
     transition: opacity 250ms ease;
 }
-.private-channel-recipients-invite .body .scroller::-webkit-scrollbar-track {
-    background-color: transparent !important;
-}
-.theme-dark .themed-popout {
-    background-color: var(--Main-Color);
-    border: 1px solid var(--Hover-Color);
-    box-shadow: none;
-}
-.theme-dark .themed-popout .header,.private-channel-recipients-invite .body {
-    background-color: var(--Main-Color);
-    box-shadow: none;
-}
-.theme-dark .private-channel-recipients-invite .friend.selected,.theme-dark .private-channel-recipients-invite .friend:hover {
+
+
+
+.theme-dark .friendSelected--wQP3f {
      background: var(--Hover-Color) !important;
 }
-.theme-dark .private-channel-recipients-invite .friend {
-    background: var(--Main-Color) !important;
-    color: var(--Font-Color);
-}
+
 .search-bar .search-bar-inner {
     border: 2px solid var(--Border-Color);
     background-color: var(--Main-Color);
@@ -224,16 +212,7 @@
 .search-bar {
     background-color: var(--Main-Color);
 }
-.private-channel-recipients-invite .footer button {
-    background-color: var(--Main-Color);
-    border-radius: var(--Border-Radius);
-    transition: background-color .5s ease;
-}
-.private-channel-recipients-invite .footer button:hover {
-    background-color: var(--Hover-Color) !important;
-    border-radius: var(--Border-Radius);
-    border: 2px solid var(--Hover-Border-Color);
-}
+
 .theme-dark .quickswitcher-3JagVE {
     background-color: var(--Main-Color);
     color: var(--Font-Color);
@@ -381,10 +360,7 @@ a,
 .guilds-wrapper .guilds .guild .guild-inner a {
     background-color: var(--Main-Color) !important;
 }
-.private-channel-recipients-invite .body .scroller::-webkit-scrollbar-track {
-    background-color: transparent !important;
-    border: none !important;
-}
+
 /* Main Chat Area Stuff */
 [name*="Gear"] path[fill] {
    fill: var(--Icon-Color);
@@ -956,7 +932,8 @@ a,
     border-width: 2px;
     background-image: linear-gradient(to right, rgb(0,0,0) 0%, var(--Selected-Background-Color) 100%) !important;
 }
-.theme-dark .checked-3_4uQ9[style*="border-color: rgb(114, 137, 218);"] {
+.theme-dark .checked-3_4uQ9[style*="border-color: rgb(114, 137, 218);"],
+.theme-dark .checked-3_4uQ9 {
     background-color: black !important;
     border-color: var(--Selected-Border-Color) !important;
 }
@@ -989,7 +966,7 @@ a,
     border: none;
 }
 .theme-dark .checkbox-1ix_J3 {
-    border-color: rgba(255,255,255,0.2);
+    border-color: rgba(255,255,255,0.2) !important;
 }
 .themeDefault-24hCdX.valueChecked-m-4IJZ {
     background-color: var(--Selected-Background-Color);
@@ -1204,7 +1181,8 @@ a,
     background-color: var(--Main-Color);
     box-shadow: none;
 }
-.theme-dark .themed-popout .header .subtitle, .theme-dark .themed-popout .text {
+.theme-dark .subtitle-2iWJ5y
+ {
     color: var(--Font-Color) !important;
 }
 .need-help-modal.deprecated .header {
