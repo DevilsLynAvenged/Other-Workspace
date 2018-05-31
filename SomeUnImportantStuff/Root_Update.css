@@ -937,7 +937,8 @@ a,
     background-color: black !important;
     border-color: var(--Selected-Border-Color) !important;
 }
-.cardPrimaryEditable-3KtE4g[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] polyline[stroke] {
+.cardPrimaryEditable-3KtE4g[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] polyline[stroke],
+.theme-dark .checked-3_4uQ9[style*="border-color: rgb(79, 84, 92);"] polyline[stroke] {
     stroke: var(--Main-Color);
     stroke-width: 2;
 }
