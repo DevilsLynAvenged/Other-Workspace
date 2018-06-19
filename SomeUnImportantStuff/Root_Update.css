@@ -357,6 +357,9 @@ a,
     background-color: var(--Main-Color) !important;
     border-radius: var(--Border-Radius) !important;
 }
+.guilds-wrapper .guilds .guild-icon {
+  border-radius: var(--B-Radius) !important;	
+}
 .guilds-wrapper .guilds .guild .guild-inner a {
     background-color: var(--Main-Color) !important;
 }
