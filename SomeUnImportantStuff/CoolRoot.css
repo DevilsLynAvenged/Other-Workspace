@@ -440,6 +440,9 @@ line-height: 0px;
     border-radius: var(--B-Radius) !important;
     overflow: visible;
 }
+.guilds-wrapper .guilds .guild-icon {
+  border-radius: var(--B-Radius) !important;	
+}
 .guilds-wrapper .guilds .guild .avatar-small,
 .friend-2PO6ke .avatar-small {
     border-radius: var(--B-Radius);
