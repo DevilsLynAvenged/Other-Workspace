@@ -1,0 +1,74 @@
+//META{"name":"Theme_Starter","description":"Start Making Your Theme Here","author":"DevilsTheAvenged","version":"1.0"}*//{}
+@import url(@import url('https://fonts.googleapis.com/css?family=Gothic+A1|Open+Sans');
+* {
+ font-family: 'Gothic A1', sans-serif !important;
+ }
+.app {
+	background-image: url("https://wallpaperstudio10.com/static/wpdb/wallpapers/1000x563/002549.jpg");
+	background-size: cover !important;
+	background-position: center !important;
+}
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, 
+.theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+    border-color: transparent;
+}
+.channels-Ie2l6A {
+    background-color: rgba(0,0,0,0);
+}
+.container-PNkimc {
+    background-color:  transparent;
+}
+ /* fix not having a background image anymore */
+.layers-3iHuyZ, .layer-3QrUeG, .container-2lgZY8, .typing-2GQL18 {
+  background: transparent !important;
+}
+/* optionally adjust background brightness (0: original image, 1: black) */
+.layers-3iHuyZ {
+  background: rgba(0,0,0, 0.3) !important;
+}
+.container-2lgZY8 {
+    background-color:  rgba(0,0,0,0);
+}
+.theme-dark .layer, .theme-dark .layers {
+    background: transparent;
+}
+.guilds-wrapper {
+    background-color: transparent;
+}
+.theme-dark .chat form {
+    background-color: transparent;
+    box-shadow: none;
+}
+.theme-dark .chat>.content {
+    background-color: transparent;
+}
+.theme-dark .chat {
+    background-color: transparent;
+}
+
+.theme-dark .friends-table, .theme-dark .messages-wrapper {
+    background-color: transparent;
+}
+.theme-dark .members-1998pB {
+    background-color: transparent;
+}
+.theme-dark .title-3qD0b- {
+    background: transparent;
+    box-shadow: none;
+}
+.theme-dark #friends {
+    background-color: transparent;
+}
+.theme-dark .headerBar-UHpsPw {
+    background: transparent;
+}
+.theme-dark .ui-standard-sidebar-view .content-region {
+    background: transparent;
+}
+.theme-dark .ui-standard-sidebar-view .sidebar-region {
+    background: transparent;
+}
+.theme-dark .ui-standard-sidebar-view {
+    background: transparent;
+}
