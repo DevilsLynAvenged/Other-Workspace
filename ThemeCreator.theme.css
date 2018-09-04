@@ -449,6 +449,10 @@
     border: 3px solid var(--Secondary-Color);
     box-shadow: 0 0 5px 2px black;
 }
+.nameHoveredText-1uO31y {
+    color: white;
+    text-shadow: 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px black;
+}
 .contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active {
     background-color: var(--Secondary-Color);
     border: 2px solid rgba(255,255,255,0.23);
