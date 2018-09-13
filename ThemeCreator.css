@@ -2017,12 +2017,12 @@ text-shadow: 0 0 7px black, 0 0 7px black, 0 0 7px black, 0 0 7px black, 0 0 7px
     background-color: rgba(0,0,0,.4);
     border-color: transparent;
 }
-.channel-2QD9_O.selected-1HYmZZ .channel-2QD9_O.selected-1HYmZZ,
-.private-channels .channel:hover a {
+
+.channel-2QD9_O:hover a {
     background-color: rgba(0,0,0,.4);
    border: 2px solid  rgba(var(--Primary-Transparency-Color), 0.7);
 }
-.channel-2QD9_O.selected-1HYmZZ {
+.channel-2QD9_O.selected-1HYmZZ a {
     background-color: rgba(0,0,0,.6);
    border: 2px solid  rgba(var(--Secondary-Transparency-Color), 0.7);
 }
