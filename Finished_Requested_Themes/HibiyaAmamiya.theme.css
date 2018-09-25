@@ -1,0 +1,65 @@
+//META{"name":"Hibiya_Amamiya","description":"Requested by Hibiya Amamiya","author":"DevilsTheAvenged","version":"1"}*//{}
+@import url(https://rawgit.com/DevilsLynAvenged/Other-Workspace/master/ThemeCreator.css);
+
+.app {
+	background-image: url("https://wallup.net/wp-content/uploads/2016/01/3526-Kisaragi_Momo.jpg");
+    background-size: cover !important;
+    background-position: 90%;
+    background-color: #bfa883;
+}
+:root {
+   --Primary-Color: #bfa883;
+   --Primary-Transparency-Color: 191, 168, 131;
+   --Secondary-Color: #c7aa7b;
+   --Secondary-Transparency-Color: 199, 170, 123;
+}
+.theme-dark .chat-3bRxxu,
+.theme-dark .content-yTz4x3, 
+.theme-dark .chat-3bRxxu form,
+.channels-Ie2l6A,
+.container-PNkimc,
+.theme-dark .friends-table, 
+.theme-dark .messagesWrapper-3lZDfY,
+.theme-dark .typing-2GQL18,
+.container-2lgZY8,
+.theme-dark #friends,
+.theme-dark .ui-standard-sidebar-view {
+    background-color: transparent;
+}
+.typeMacOS-3EmCyP,
+.theme-dark .members-1998pB,
+.theme-dark .guildsWrapper-5TJh6A {
+    background-color: rgba(0,0,0,0.3);
+}
+.theme-dark .layer-3QrUeG, 
+.theme-dark .layers-3iHuyZ{
+    background: rgba(0,0,0,0.42);
+}
+.theme-dark .ui-standard-sidebar-view .sidebar-region,
+.theme-dark .ui-standard-sidebar-view .content-region {
+    background: rgba(0,0,0,0.3);
+}
+.root-SR8cQa {
+    border-radius: 0;
+    background: url(https://static.zerochan.net/Amamiya.Hibiya.full.1929922.jpg) 50%/cover;
+}
+.theme-dark .headerNormal-T_seeN,
+.theme-dark .topSectionNormal-2-vo2m {
+    background-color: rgba(0,0,0,0.34);
+}
+.theme-dark .body-3iLsc4,
+.theme-dark .body-3ND3kc {
+    background-color: rgba(0,0,0,0.34);
+    color: white;
+}
+.theme-dark .footer-1fjuF6 {
+    background-color: rgba(0,0,0,0.34);
+    border: none;
+    color: white;
+}
+.userPopout-3XzG_A {
+    border-radius: 0;
+    background: url(https://pm1.narvii.com/6695/c940e22c1c1faa4a5c7e5d31bc73e1dfc5e80b4e_hq.jpg) 50%/cover;
+    box-shadow: 0 2px .5em 0 rgba(0,0,0,.6);
+    overflow: visible;
+}
