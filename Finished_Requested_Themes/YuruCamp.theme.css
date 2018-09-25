@@ -1,0 +1,65 @@
+//META{"name":"Yuru_Camp","description":"Requested by Oomorath","author":"DevilsTheAvenged","version":"1"}*//{}
+@import url(https://rawgit.com/DevilsLynAvenged/Other-Workspace/master/ThemeCreator.css);
+
+.app {
+	background-image: url("https://cdn.discordapp.com/attachments/457159558054281216/493625300119191572/903273.png");
+    background-size: cover !important;
+    background-position: 90%;
+    background-color: #e6b95a;
+}
+:root {
+   --Primary-Color: #e6b95a;
+   --Primary-Transparency-Color: 230, 185, 90;
+   --Secondary-Color: #b2946f;
+   --Secondary-Transparency-Color: 178, 148, 111;
+}
+.theme-dark .chat-3bRxxu,
+.theme-dark .content-yTz4x3, 
+.theme-dark .chat-3bRxxu form,
+.channels-Ie2l6A,
+.container-PNkimc,
+.theme-dark .friends-table, 
+.theme-dark .messagesWrapper-3lZDfY,
+.theme-dark .typing-2GQL18,
+.container-2lgZY8,
+.theme-dark #friends,
+.theme-dark .ui-standard-sidebar-view {
+    background-color: transparent;
+}
+.typeMacOS-3EmCyP,
+.theme-dark .members-1998pB,
+.theme-dark .guildsWrapper-5TJh6A {
+    background-color: rgba(0,0,0,0.4);
+}
+.theme-dark .layer-3QrUeG, 
+.theme-dark .layers-3iHuyZ{
+    background: rgba(0,0,0,0.32);
+}
+.theme-dark .ui-standard-sidebar-view .sidebar-region,
+.theme-dark .ui-standard-sidebar-view .content-region {
+    background: rgba(0,0,0,0.3);
+}
+.root-SR8cQa {
+    border-radius: 0;
+    background: url(https://cdn.discordapp.com/attachments/457159558054281216/493625283967057921/899474.png) 50%/cover;
+}
+.theme-dark .headerNormal-T_seeN,
+.theme-dark .topSectionNormal-2-vo2m {
+    background-color: rgba(0,0,0,0.34);
+}
+.theme-dark .body-3iLsc4,
+.theme-dark .body-3ND3kc {
+    background-color: rgba(0,0,0,0.34);
+    color: white;
+}
+.theme-dark .footer-1fjuF6 {
+    background-color: rgba(0,0,0,0.34);
+    border: none;
+    color: white;
+}
+.userPopout-3XzG_A {
+    border-radius: 0;
+    background: url(https://cdn.discordapp.com/attachments/457159558054281216/493625289759522817/a48f5a37dd279e7a4309686801c2b65c.jpg) 50%/cover;
+    box-shadow: 0 2px .5em 0 rgba(0,0,0,.6);
+    overflow: visible;
+}
