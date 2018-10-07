@@ -449,10 +449,6 @@
     border: 3px solid var(--Secondary-Color);
     box-shadow: 0 0 5px 2px black;
 }
-.nameHoveredText-1uO31y {
-    color: white;
-    text-shadow: 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px black;
-}
 .contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active {
     background-color: var(--Secondary-Color);
     border: 2px solid rgba(255,255,255,0.23);
@@ -683,12 +679,16 @@
 .theme-dark .descriptionDiscriminator-3vUOCc {
     color: silver;
 }
-.theme-dark .divider-3gKybi.dividerRed-MKoLlr>div,
-.theme-dark .divider-3gKybi:not(.red-1YQ4s7) div,
-.theme-dark .divider-3gKybi:before, 
-.theme-dark .divider-3gKybi span {
-    background: transparent;
+
+
+
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:after, .theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before,
+.theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after, .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:before {
+   border-color: transparent;
 }
+
+
+
 .theme-dark .divider-3gKybi.dividerRed-MKoLlr>span {
     color: white;
     text-shadow: 0 0 6px black, 0 0 6px black;
@@ -696,7 +696,7 @@
     border-radius: 13px;
     padding: 4px 32px;
 }
-.theme-dark .divider-3gKybi:not(.red-1YQ4s7) span {
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI, .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI {
     color: white;
     padding: 4px 32px;
     border-radius: 13px;
@@ -1743,7 +1743,7 @@ text-shadow: 0 0 7px black, 0 0 7px black, 0 0 7px black, 0 0 7px black, 0 0 7px
     background-color: rgba(255,255,255,.29);
     border-color: transparent;
 }
-.theme-dark .bda-slist li {
+.theme-dark .theme-dark .bda-slist li {
     background-color: rgba(0,0,0,.6);
     color: white;
     box-shadow: 0 4px 22px .2pc rgba(0,0,0,.6), 0 4px 22px .2pc rgba(0,0,0,.6);
@@ -1998,7 +1998,7 @@ text-shadow: 0 0 7px black, 0 0 7px black, 0 0 7px black, 0 0 7px black, 0 0 7px
     background-color: rgba(0,0,0,.4);
     border-color: transparent;
 }
-
+.privateChannels-1nO12o .channel-2fhmY8:hover .channel-2QD9_O.selected-1HYmZZ a,
 .channel-2QD9_O:hover a {
     background-color: rgba(0,0,0,.4);
    border: 2px solid  rgba(var(--Primary-Transparency-Color), 0.7);
@@ -2157,6 +2157,30 @@ text-shadow: 0 0 7px black, 0 0 7px black, 0 0 7px black, 0 0 7px black, 0 0 7px
 .avatar-3EQepX, 
 .popout-2fzvxG:not(.avatarStatus-3Ay1VL) {
     background-color: rgba(var(--Primary-Transparency-Color), 0.5);
+}
+.root-SR8cQa {
+    border-radius: 0;
+    background: url(https://images3.alphacoders.com/109/109325.jpg) 50%/cover;
+}
+.theme-dark .headerNormal-T_seeN,
+.theme-dark .topSectionNormal-2-vo2m {
+    background-color: rgba(0,0,0,0.34);
+}
+.theme-dark .body-3iLsc4,
+.theme-dark .body-3ND3kc {
+    background-color: rgba(0,0,0,0.34);
+    color: white;
+}
+.theme-dark .footer-1fjuF6 {
+    background-color: rgba(0,0,0,0.34);
+    border: none;
+    color: white;
+}
+.userPopout-3XzG_A {
+    border-radius: 0;
+    background: url(https://mfiles.alphacoders.com/661/661194.jpg) 50%/cover;
+    box-shadow: 0 2px .5em 0 rgba(0,0,0,.6);
+    overflow: visible;
 }
 .bodyTitle-Y0qMQz {
     color: white;
