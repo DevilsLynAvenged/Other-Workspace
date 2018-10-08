@@ -8,6 +8,11 @@
     background-color: var(--Primary-Color);
     border-radius: 0; 
 }
+
+.option-96V44q:after {
+   background: none;
+} 
+
 .callAvatarBorder-1D_KaE.voice-2D-tt_.speaking-oCqYMI,
 .callAvatarBorder-1D_KaE.video-3GgX2M.speaking-oCqYMI {
     border-radius: 0; 
