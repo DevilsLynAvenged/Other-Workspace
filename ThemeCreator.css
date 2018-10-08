@@ -8,11 +8,6 @@
     background-color: var(--Primary-Color);
     border-radius: 0; 
 }
-
-.option-96V44q:after {
-   background: none;
-} 
-
 .callAvatarBorder-1D_KaE.voice-2D-tt_.speaking-oCqYMI,
 .callAvatarBorder-1D_KaE.video-3GgX2M.speaking-oCqYMI {
     border-radius: 0; 
@@ -739,8 +734,8 @@
 }
 .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, 
 .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb,
-.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb, 
-.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb, 
+#bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb, 
+#bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb, 
 .bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb, 
 .bda-dark emojiPicker-3g68GS .scroller-3vODG7::-webkit-scrollbar-thumb, 
 .bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb {
@@ -748,6 +743,11 @@
     border-color: transparent !important;
     border-radius: 23px;
 }
+
+.emojiPicker-3m1S-j .stickyHeader-1SS0JU {
+    background: transparent;
+}
+
 .newMessagesBar-mujexs,
 .theme-dark .jumpToPresentBar-9P20AM {
     background-color: rgba(0,0,0,.5) !important;
@@ -798,8 +798,7 @@
 }
 #bda-qem-twitch-container, 
 #bda-qem-favourite-container,
-.emoji-picker, 
-.emojiPicker-3m1S-j {
+.emoji-picker, .emojiPicker-3m1S-j {
     background: linear-gradient(351deg, #000000, var(--Primary-Color));
     border: none;
 }
