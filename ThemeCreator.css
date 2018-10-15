@@ -1473,7 +1473,7 @@
     color: #fff !important;
 }
 .side-8zPYf6 .itemSelected-1qLhcL,
-.theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
+.theme-dark .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
    background-color: var(--Primary-Color) !important;
    border: 3px dashed rgba(255,255,255,0.42);
 }
