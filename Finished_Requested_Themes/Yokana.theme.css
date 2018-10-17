@@ -1582,8 +1582,8 @@ a,
    box-shadow: inset 0 0 56px rgb(20,17,139);
 }
 .lookInverted-2D7oAl.colorBrand-3pXr91 {
-    background-color: rgb(20,17,139);
-    color: white;
+    background-color: rgb(20,17,139) !important;
+    color: white !important;
 }
 .headerSpotify-zpWxgT,
 .headerXbox-3G-4PF,
@@ -1796,3 +1796,47 @@ a,
 .theme-dark .sectionLine-JjseS9 {
     background-color: transparent;
 }
+
+/* New Stuff */
+.theme-dark .gameLibrary-TTDw4Y,
+.theme-dark .applicationStore-1pNvnv,
+.theme-dark .itemBackground-1jfD8p {
+    background-color: transparent
+}
+
+.theme-dark .itemBackground-1jfD8p:before {
+    background: radial-gradient(ellipse at top,rgba(0, 0, 0, 0),black),linear-gradient(90deg,black 0,rgba(0, 0, 0, 0) 40%,rgba(0, 0, 0, 0) 60%,black),linear-gradient(0deg,black 0,rgba(0, 0, 0, 0) 25%)
+}
+
+.theme-dark .overlappingBorder-1ysb12 {
+    border-color: #ae0008
+}
+
+.theme-dark .announcingNitro-3Ptg6m:hover {
+    color: white
+}
+
+.theme-dark .announcingNitro-3Ptg6m {
+    border-color: transparent;
+    color: #ae0008
+}
+
+.theme-dark .distributionApplicationsActions-3D2_kD, .theme-dark .premiumApplicationsHeader-Zmkm5e {
+    border-color: transparent
+}
+
+.theme-dark .tileWrapper-2khh-w {
+    background-color: rgba(0,0,0,0.34);
+    box-shadow: none
+}
+
+.theme-dark .tileWrapper-2khh-w:hover {
+    background-color: rgba(0,0,0,0.84);
+    box-shadow: 0 9px 20px 0 rgba(0,0,0,.32);
+}
+
+.theme-dark .mediaDescription-31GsyQ {
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0),black 45%,black)
+}
+
+/* --- */

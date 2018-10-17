@@ -2145,7 +2145,7 @@ text-shadow: 0 0 7px black, 0 0 7px black, 0 0 7px black, 0 0 7px black, 0 0 7px
 }
 .lookInverted-2D7oAl.colorBrand-3pXr91 {
     background-color: rgb(72, 52, 212) !important;
-    color: white;
+    color: white !important;
 }
 .headerStreaming-2FjmGz,
 .topSectionStreaming-1Tpf5X {
@@ -2314,3 +2314,47 @@ text-shadow: 0 0 7px black, 0 0 7px black, 0 0 7px black, 0 0 7px black, 0 0 7px
 .connectedAccountName-f8AEe2, .connectedAccountNameInner-1phBvE {
     overflow: visible;
 }
+
+/* New Stuff */
+.theme-dark .gameLibrary-TTDw4Y,
+.theme-dark .applicationStore-1pNvnv,
+.theme-dark .itemBackground-1jfD8p {
+    background-color: transparent
+}
+
+.theme-dark .itemBackground-1jfD8p:before {
+    background: radial-gradient(ellipse at top,rgba(0, 0, 0, 0),black),linear-gradient(90deg,black 0,rgba(0, 0, 0, 0) 40%,rgba(0, 0, 0, 0) 60%,black),linear-gradient(0deg,black 0,rgba(0, 0, 0, 0) 25%)
+}
+
+.theme-dark .overlappingBorder-1ysb12 {
+    border-color: var(--Primary-Color)
+}
+
+.theme-dark .announcingNitro-3Ptg6m:hover {
+    color: white
+}
+
+.theme-dark .announcingNitro-3Ptg6m {
+    border-color: transparent;
+    color: var(--Primary-Color)
+}
+
+.theme-dark .distributionApplicationsActions-3D2_kD, .theme-dark .premiumApplicationsHeader-Zmkm5e {
+    border-color: transparent
+}
+
+.theme-dark .tileWrapper-2khh-w {
+    background-color: rgba(0,0,0,0.34);
+    box-shadow: none
+}
+
+.theme-dark .tileWrapper-2khh-w:hover {
+    background-color: rgba(0,0,0,0.84);
+    box-shadow: 0 9px 20px 0 rgba(0,0,0,.32);
+}
+
+.theme-dark .mediaDescription-31GsyQ {
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0),black 45%,black)
+}
+
+/* --- */
