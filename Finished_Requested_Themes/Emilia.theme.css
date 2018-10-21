@@ -8,7 +8,7 @@
 .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .container-2lgZY8, .theme-dark .typing-2GQL18, .theme-dark #friends {
     background: transparent;
 }
-.theme-dark .standardSidebarView-3F1I7i .content-region,
+.theme-dark .contentRegion-3nDuYy,
 .theme-dark .sidebarRegion-VFTUkN{
     background: transparent;
 }
@@ -1478,7 +1478,7 @@ a,
 }
 /* BetterDiscord Side */
 .theme-dark #bd-settingspane-container .ui-switch-item .style-description,
-.ui-standard-sidebar-view #editor-detached h3 {
+.standardSidebarView-3F1I7i #editor-detached h3 {
     color: silver;
 }
 #bd-settingspane-container .ui-switch-item .style-description {
@@ -1495,7 +1495,7 @@ a,
     background-color: rgba(0,0,0,0.24);
     color: white;
 }
-.ui-standard-sidebar-view #editor-detached button {
+.standardSidebarView-3F1I7i #editor-detached button {
     background: #6F6FA9; /* Primary Color */
     height: 29px;
     width: 69px;
@@ -1512,14 +1512,14 @@ a,
     background-color: rgba(0, 0, 0,.7); 
     box-shadow: none;
 }
-.ui-standard-sidebar-view #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button {
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button {
     border: none !important;
     background: rgba(111, 111, 169,.3); /* Primary Transparency Color */
     font-weight: 400;
     margin-right: 23px;
     border-radius: 6px;
 }
-.ui-standard-sidebar-view #bd-customcss-attach-controls button:hover, .bd-detached-css-editor #bd-customcss-attach-controls button:hover {
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button:hover, .bd-detached-css-editor #bd-customcss-attach-controls button:hover {
     background: rgba(111, 111, 169,.6); /* Primary Transparency Color */
     border: 2px solid rgba(255,255,255,0.200) !important;
 }

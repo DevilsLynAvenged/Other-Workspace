@@ -54,7 +54,7 @@
 .theme-dark .standardSidebarView-3F1I7i {
    background-color: transparent;
 }
-.theme-dark .standardSidebarView-3F1I7i .content-region,
+.theme-dark .contentRegion-3nDuYy,
 .theme-dark .sidebarRegion-VFTUkN {
     background: rgba(0,0,0,0.4);
 }
@@ -416,17 +416,17 @@ a,
 }
 #bd-settingspane-container .bd-pfbtn,
 .bda-slist .bda-footer button,
-.ui-standard-sidebar-view #editor-detached button {
+.standardSidebarView-3F1I7i #editor-detached button {
     background: rgba(176, 151, 209,.5); /* RGB Main Color */
     color: #FFF;
     border-radius: 0;
 }
 #bd-settingspane-container .bd-pfbtn:hover,
 .bda-slist .bda-footer button:hover,
-.ui-standard-sidebar-view #editor-detached button:hover{
+.standardSidebarView-3F1I7i #editor-detached button:hover{
     background: rgba(222, 207, 243,.7); /* RGB Hover Color */
 }
-.ui-standard-sidebar-view #editor-detached button {
+.standardSidebarView-3F1I7i #editor-detached button {
    font-size: 27px;
 }
 #bd-settingspane-container .bd-pfbtn:active {
@@ -455,18 +455,18 @@ a,
     background: #B097D1;
     box-shadow: none;
 }
-.ui-standard-sidebar-view #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button {
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button {
     background: #B097D1;
     border: 2px dashed rgba(255,255,255,0.13) !important;
     font-weight: normal;
     margin-right: 5px;
     border-radius: 0;
 }
-.ui-standard-sidebar-view #bd-customcss-attach-controls button:hover, .bd-detached-css-editor #bd-customcss-attach-controls button:hover {
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button:hover, .bd-detached-css-editor #bd-customcss-attach-controls button:hover {
     background: #DECFF3;
     border: 2px dashed rgba(255,255,255,0.13) !important;
 }
-.ui-standard-sidebar-view #bd-customcss-attach-controls button:active, .bd-detached-css-editor #bd-customcss-attach-controls button:active {
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button:active, .bd-detached-css-editor #bd-customcss-attach-controls button:active {
     background: #ed49d1;
     border: 2px solid rgba(255,255,255,0.13) !important;
 }
