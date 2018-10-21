@@ -9,11 +9,11 @@
 .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .container-2lgZY8, .theme-dark .typing-2GQL18, .theme-dark #friends {
     background: transparent;
 }
-.theme-dark .ui-standard-sidebar-view .content-region,
-.theme-dark .ui-standard-sidebar-view .sidebar-region {
+.theme-dark .standardSidebarView-3F1I7i .content-region,
+.theme-dark .sidebarRegion-VFTUkN{
     background: transparent;
 }
-.theme-dark .ui-standard-sidebar-view {
+.theme-dark .standardSidebarView-3F1I7i {
     background: rgba(0,0,0,0.5);
 }
 .theme-dark .layers-3iHuyZ {

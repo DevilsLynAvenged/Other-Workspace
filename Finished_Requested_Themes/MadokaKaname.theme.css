@@ -57,11 +57,11 @@
 }
 /* ----- */
 /* Discord and BD Settings */
-.theme-dark .ui-standard-sidebar-view {
+.theme-dark .standardSidebarView-3F1I7i {
    background-color: transparent;
 }
-.theme-dark .ui-standard-sidebar-view .content-region,
-.theme-dark .ui-standard-sidebar-view .sidebar-region  {
+.theme-dark .standardSidebarView-3F1I7i .content-region,
+.theme-dark .sidebarRegion-VFTUkN {
     background: rgba(0,0,0,0.4);
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91,
@@ -82,7 +82,7 @@
 .theme-dark .faded-3bns_w,
 .theme-dark .h5-18_1nd,
 .theme-dark .avatar-uploader .remove-button,
-.theme-dark .ui-standard-sidebar-view .esc-text,
+.theme-dark .standardSidebarView-3F1I7i .esc-text,
 .theme-dark .inputPrefix-2VAOGg,
 .theme-dark .select-2TCrqx .Select-control .Select-placeholder {
     color: white;
@@ -118,10 +118,10 @@
 #bd-settings-sidebar .ui-tab-bar-separator {
     background-color: transparent;
 }
-.theme-dark .ui-standard-sidebar-view .btn-close {
+.theme-dark .standardSidebarView-3F1I7i .btn-close {
     border-color: transparent;
 }
-.theme-dark .ui-standard-sidebar-view .btn-close:hover {
+.theme-dark .standardSidebarView-3F1I7i .btn-close:hover {
     border-color: #EE8196; /* Selected Color */
     background-color: #E79EAD; /* Main Color */
 }
