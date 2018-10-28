@@ -1,0 +1,65 @@
+//META{"name":"Albedo","description":"Requested by Ax","author":"DevilsTheAvenged","version":"1"}*//{}
+@import url(https://gitcdn.xyz/repo/DevilsLynAvenged/Other-Workspace/master/ThemeCreator.css);
+
+.app {
+	background-image: url("https://cdn.discordapp.com/attachments/457159558054281216/504682605958922240/810974.png");
+    background-size: cover !important;
+    background-position: 90%;
+    background-color: #2b283e;
+}
+:root {
+   --Primary-Color: #2b283e;
+   --Primary-Transparency-Color: 43, 40, 62;
+   --Secondary-Color: #4b466d;
+   --Secondary-Transparency-Color: 75, 70, 109;
+}
+.theme-dark .chat-3bRxxu,
+.theme-dark .content-yTz4x3, 
+.theme-dark .chat-3bRxxu form,
+.channels-Ie2l6A,
+.container-PNkimc,
+.theme-dark .friends-table, 
+.theme-dark .messagesWrapper-3lZDfY,
+.theme-dark .typing-2GQL18,
+.container-2lgZY8,
+.theme-dark #friends,
+.theme-dark .standardSidebarView-3F1I7i {
+    background-color: transparent;
+}
+.typeMacOS-3EmCyP,
+.theme-dark .members-1998pB,
+.theme-dark .guildsWrapper-5TJh6A {
+    background-color: rgba(0,0,0,0.4);
+}
+.theme-dark .layer-3QrUeG, 
+.theme-dark .layers-3iHuyZ{
+    background: rgba(0,0,0,0.42);
+}
+.theme-dark .sidebarRegion-VFTUkN,
+.theme-dark .contentRegion-3nDuYy {
+    background: rgba(0,0,0,0.3);
+}
+.root-SR8cQa {
+    border-radius: 0;
+    background: url(https://i.pinimg.com/originals/b2/a7/b6/b2a7b6441eb4eae8d7573a10954d9134.jpg) 50%/cover;
+}
+.theme-dark .headerNormal-T_seeN,
+.theme-dark .topSectionNormal-2-vo2m {
+    background-color: rgba(0,0,0,0.34);
+}
+.theme-dark .body-3iLsc4,
+.theme-dark .body-3ND3kc {
+    background-color: rgba(0,0,0,0.34);
+    color: white;
+}
+.theme-dark .footer-1fjuF6 {
+    background-color: rgba(0,0,0,0.34);
+    border: none;
+    color: white;
+}
+.userPopout-3XzG_A {
+    border-radius: 0;
+    background: url(https://kawaii-mobile.com/wp-content/uploads/2015/10/Overlord-Albedo.Lenovo-K900-wallpaper-1080x1920.jpg) 50%/cover;
+    box-shadow: 0 2px .5em 0 rgba(0,0,0,.6);
+    overflow: visible;
+}
