@@ -732,7 +732,7 @@
     background-color: transparent !important;
     border-color: transparent !important;
 }
-.scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb {
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb, .bda-dark emojiPicker-3g68GS .scroller-3vODG7::-webkit-scrollbar-thumb, .bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb,.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb {
     background-color: var(--Primary-Color) !important;
     border-color: transparent !important;
     border-radius: 23px;
@@ -772,7 +772,7 @@
 .theme-dark .item-2J1YMK:hover {
     background-color: var(--Secondary-Color);
 } 
-.bda-dark #bda-qem
+.bda-dark #bda-qem {
     border-bottom: none !important;
     background: transparent;
 }
@@ -790,8 +790,7 @@
     background-color: rgba(0,0,0,0.76);
     border: 2px solid rgba(255,255,255,0.63);
 }
-#bda-qem-twitch-container, 
-#bda-qem-favourite-container,
+.bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container,
 .bda-dark .emoji-picker, .bda-dark .emojiPicker-3m1S-j {
     background: linear-gradient(351deg, #000000, var(--Primary-Color));
     border: none;
