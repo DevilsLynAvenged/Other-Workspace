@@ -732,7 +732,7 @@
     background-color: transparent !important;
     border-color: transparent !important;
 }
-.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb, .bda-dark emojiPicker-3g68GS .scroller-3vODG7::-webkit-scrollbar-thumb, .bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb {
+.scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb {
     background-color: var(--Primary-Color) !important;
     border-color: transparent !important;
     border-radius: 23px;
@@ -772,21 +772,21 @@
 .theme-dark .item-2J1YMK:hover {
     background-color: var(--Secondary-Color);
 } 
-#bda-qem {
+.bda-dark #bda-qem
     border-bottom: none !important;
     background: transparent;
 }
-#bda-qem button.active {
+.bda-dark #bda-qem button.active {
     background-color: rgb(0,0,0) !important;
     border: none !important;
 }
-#bda-qem button {
+.bda-dark #bda-qem button {
     background: rgba(0,0,0,0.56);
     border-left: none;
     box-shadow: none;
     color: #FFF;
 }
-#bda-qem button:hover {
+.bda-dark #bda-qem button:hover {
     background-color: rgba(0,0,0,0.76);
     border: 2px solid rgba(255,255,255,0.63);
 }

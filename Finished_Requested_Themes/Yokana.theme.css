@@ -383,20 +383,20 @@
 .checkbox .checkbox-inner span {
     border-radius: 5px;
 }
-.bda-dark #bda-qem {
+.bda-dark .bda-dark #bda-qem
     border-bottom: none !important;
     background: transparent;
 }
-.bda-dark #bda-qem button {
+.bda-dark .bda-dark #bda-qem button {
     background: #ae0008; /* Primary Color */
     border-left: none;
     box-shadow: none;
     color: #FFF;
 }
-.bda-dark #bda-qem button:hover {
+.bda-dark .bda-dark #bda-qem button:hover {
     background-color: #c40000; /* Secondary Color */
 }
-.bda-dark #bda-qem button.active {
+.bda-dark .bda-dark #bda-qem button.active {
     background: #ae0008; /* Primary Color */
     border: 2px solid rgba(255,255,255,0.34);
 }
@@ -430,11 +430,11 @@
     background-color: transparent !important;
     border-color: transparent !important;
 }
-.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb, .bda-dark emojiPicker-3g68GS .scroller-3vODG7::-webkit-scrollbar-thumb, .bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb {
+.scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb {
     background-color: #ae0008; /* Primary Color */
     border-color: rgba(0, 0, 0, 0.56);
 }
-.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb, .bda-dark emojiPicker-3g68GS .scroller-3vODG7::-webkit-scrollbar-thumb, .bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb {
+.scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb {
     border: 2px solid rgba(0, 0, 0, 0.56) !important;
     background-color: #ae0008 !important; /* Primary Color */
 }
