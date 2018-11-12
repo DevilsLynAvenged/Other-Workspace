@@ -954,46 +954,7 @@ a,
 .theme-dark .searchQuery-1B7rtx .searchFor-3W5Vad strong {
     color: white;
 }
-.create-guild-container.deprecated .create-or-join .form-inner {
-    background-color: #1a1a1a;
-}
-.create-guild-container.deprecated .create-or-join header {
-    color: #6F6FA9; /* Primary Color */
-}
-.create-guild-container.deprecated .action {
-    background: rgba(0, 0, 0, 0.45);
-    border: none;
-    border-radius: 13px;
-    box-shadow: 0 0 6px 4px rgba(255,255,255,0.12);
-    transition: background .6s linear;
-}
-.create-guild-container.deprecated .action.create:hover {
-    background: rgba(46, 105, 255, 0.35);
-}
-.create-guild-container.deprecated .action.join:hover {
-    background: rgba(1, 203, 0, 0.35);
-}
-.create-guild-container.deprecated .action.create .action-header {
-    color: #2e69ff;
-}
-.create-guild-container.deprecated .action.join .action-header {
-    color: #01cb00;
-}
-.create-guild-container.deprecated .action.create .btn {
-    background-color: #2e69ff !important;
-}
 
-.create-guild-container.deprecated .action.join .btn,
-.create-guild-container.deprecated .action:hover.join .btn {
-    background-color: #01cb00 !important;
-}
-.create-guild-container.deprecated .create-or-join .actions .or {
-    background-image: url(https://www.icon2s.com/wp-content/uploads/2014/08/arrows-red-green.png);
-    background-position: 50%,50%;
-    background-repeat: no-repeat;
-    background-size: 52px,52px;
-    color: transparent;
-}
 .theme-dark .guildsError-3cFMtY:hover {
     background-color: rgba(0,0,0,0.53);
 }
