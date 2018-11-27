@@ -1,0 +1,64 @@
+//META{"name":"Gurren_Lagann","description":"Requested by charlie","author":"DevilsTheAvenged","version":"1"}*//{}
+@import url(https://gitcdn.xyz/repo/DevilsLynAvenged/Other-Workspace/master/ThemeCreator.css);
+
+.app {
+	background-image: url("https://cdn.discordapp.com/attachments/457159558054281216/515596668712910852/Gurren-Lagann-Review.png");
+    background-size: cover !important;
+    background-position: 90%;
+    background-color: #4e5284;
+}
+:root {
+   --Primary-Color: #4e5284;
+   --Primary-Transparency-Color: 78, 82, 132;
+   --Secondary-Color: #211b5c;
+   --Secondary-Transparency-Color: 33, 27, 92;
+}
+.theme-dark .chat-3bRxxu,
+.theme-dark .content-yTz4x3, 
+.theme-dark .chat-3bRxxu form,
+.channels-Ie2l6A,
+.container-PNkimc,
+.theme-dark .friends-table, 
+.theme-dark .messagesWrapper-3lZDfY,
+.theme-dark .typing-2GQL18,
+.container-2lgZY8,
+.theme-dark #friends,
+.theme-dark .standardSidebarView-3F1I7i {
+    background-color: transparent;
+}
+.typeMacOS-3EmCyP,
+.theme-dark .members-1998pB,
+.theme-dark .guildsWrapper-5TJh6A {
+    background-color: rgba(0,0,0,0.4);
+}
+.theme-dark .layer-3QrUeG, 
+.theme-dark .layers-3iHuyZ{
+    background: rgba(0,0,0,0.42);
+}
+.theme-dark .sidebarRegion-VFTUkN,
+.theme-dark .contentRegion-3nDuYy {
+    background: rgba(0,0,0,0.3);
+}
+.root-SR8cQa {
+    border-radius: 0;
+    background: linear-gradient(45deg, #3241A4 0%, #123075 100%);
+}
+.theme-dark .headerNormal-T_seeN,
+.theme-dark .topSectionNormal-2-vo2m {
+    background-color: rgba(0,0,0,0.34);
+}
+.theme-dark .body-3iLsc4,
+.theme-dark .body-3ND3kc {
+    background-color: rgba(0,0,0,0.34);
+    color: white;
+}
+.theme-dark .footer-1fjuF6 {
+    background-color: rgba(0,0,0,0.34);
+    border: none;
+    color: white;
+}
+.userPopout-3XzG_A {
+    border-radius: 0;
+    background: url(https://cdn.discordapp.com/attachments/457159558054281216/515618546123014166/images.png) 50%/cover;
+    overflow: visible;
+}

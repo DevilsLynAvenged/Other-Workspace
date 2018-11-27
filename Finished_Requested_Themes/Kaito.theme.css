@@ -1,0 +1,64 @@
+//META{"name":"Kaito","description":"Requested by Frost","author":"DevilsTheAvenged","version":"1"}*//{}
+@import url(https://gitcdn.xyz/repo/DevilsLynAvenged/Other-Workspace/master/ThemeCreator.css);
+
+.app {
+	background-image: url("https://cdn.discordapp.com/attachments/457159558054281216/515184826568146944/3893c84e49929defc79434f1e823fa49.png");
+    background-size: cover !important;
+    background-position: 90%;
+    background-color: #304593;
+}
+:root {
+   --Primary-Color: #304593;
+   --Primary-Transparency-Color: 48, 69, 147;
+   --Secondary-Color: #142260;
+   --Secondary-Transparency-Color: 20, 34, 96;
+}
+.theme-dark .chat-3bRxxu,
+.theme-dark .content-yTz4x3, 
+.theme-dark .chat-3bRxxu form,
+.channels-Ie2l6A,
+.container-PNkimc,
+.theme-dark .friends-table, 
+.theme-dark .messagesWrapper-3lZDfY,
+.theme-dark .typing-2GQL18,
+.container-2lgZY8,
+.theme-dark #friends,
+.theme-dark .standardSidebarView-3F1I7i {
+    background-color: transparent;
+}
+.typeMacOS-3EmCyP,
+.theme-dark .members-1998pB,
+.theme-dark .guildsWrapper-5TJh6A {
+    background-color: rgba(0,0,0,0.4);
+}
+.theme-dark .layer-3QrUeG, 
+.theme-dark .layers-3iHuyZ{
+    background: rgba(0,0,0,0.42);
+}
+.theme-dark .sidebarRegion-VFTUkN,
+.theme-dark .contentRegion-3nDuYy {
+    background: rgba(0,0,0,0.3);
+}
+.root-SR8cQa {
+    border-radius: 0;
+    background: url(https://wallpapercave.com/wp/Vegq84m.jpg) 50%/cover;
+}
+.theme-dark .headerNormal-T_seeN,
+.theme-dark .topSectionNormal-2-vo2m {
+    background-color: rgba(0,0,0,0.34);
+}
+.theme-dark .body-3iLsc4,
+.theme-dark .body-3ND3kc {
+    background-color: rgba(0,0,0,0.34);
+    color: white;
+}
+.theme-dark .footer-1fjuF6 {
+    background-color: rgba(0,0,0,0.34);
+    border: none;
+    color: white;
+}
+.userPopout-3XzG_A {
+    border-radius: 0;
+    background: url(https://cdn.discordapp.com/attachments/457159558054281216/515184898609381405/bf8eb60173b016d88560230190bf46e4.png) 50%/cover;
+    overflow: visible;
+}
