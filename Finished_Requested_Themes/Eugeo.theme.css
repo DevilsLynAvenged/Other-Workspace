@@ -1,7 +1,7 @@
 //META{"name":"Eugeo_Theme","description":"Requested by Spite","author":"DevilsTheAvenged","version":"1"}*//{}
 @import url(https://gitcdn.xyz/repo/DevilsLynAvenged/Other-Workspace/master/ThemeCreator.css);
 
-.app {
+#app-mount {
 	background-image: url("https://images3.alphacoders.com/956/956496.png");
     background-size: cover !important;
     background-position: 80%;
@@ -22,7 +22,7 @@
 .theme-dark .messagesWrapper-3lZDfY,
 .theme-dark .typing-2GQL18,
 .container-2lgZY8,
-.theme-dark #friends,
+.theme-dark .container-3gCOGc,
 .theme-dark .standardSidebarView-3F1I7i {
     background-color: transparent;
 }

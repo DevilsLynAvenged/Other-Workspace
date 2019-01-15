@@ -1,7 +1,7 @@
 //META{"name":"Kagamine_Rin_Request_Theme","description":"Requested by Frisk","author":"DevilsTheAvenged","version":"1"}*//{}
 @import url(https://gitcdn.xyz/repo/DevilsLynAvenged/Other-Workspace/master/ThemeCreator.css);
 
-.app {
+#app-mount {
 	background-image: url("https://cdn.discordapp.com/attachments/457159558054281216/516819115239931924/7a6535_3472556.jpg");
     background-size: cover !important;
     background-position: 90%;
@@ -22,7 +22,7 @@
 .theme-dark .messagesWrapper-3lZDfY,
 .theme-dark .typing-2GQL18,
 .container-2lgZY8,
-.theme-dark #friends,
+.theme-dark .container-3gCOGc,
 .theme-dark .standardSidebarView-3F1I7i {
     background-color: transparent;
 }
