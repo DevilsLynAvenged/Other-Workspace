@@ -354,11 +354,11 @@
     margin: 5px 0;
     padding: 8px 9px;
 }
-.checkbox .checkbox-inner input[type=checkbox]:checked+span {
+.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span {
     background-color: rgba(0,0,0,0.38);
     border-color: transparent;
 }
-.theme-dark .checkbox .checkbox-inner span {
+.theme-dark .checkbox-3kaeSU .checkboxInner-3yjcPe span {
     border-color: transparent;
     background-color: rgba(0,0,0,0.08);
 }

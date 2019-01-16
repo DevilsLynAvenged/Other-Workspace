@@ -224,8 +224,8 @@
     border-color: transparent !important;
 }
 .theme-dark .checked-3_4uQ9[style*="border-color: rgb(114, 137, 218);"],
-.theme-dark .checkbox .checkbox-inner span,
-.checkbox .checkbox-inner input[type=checkbox]:checked+span,
+.theme-dark .checkbox-3kaeSU .checkboxInner-3yjcPe span,
+.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span,
 .theme-dark .checkbox-1ix_J3 {
     background-color: rgba(0,0,0,.3) !important;
     border-color: transparent !important;
@@ -888,12 +888,7 @@ text-shadow: 0 0 6px black, 0 0 6px black;
     font-weight: normal;
     padding: 0 6px;
 }
-.accountDetails-3k9g4n {
-    right: 45px;
-    bottom: 12px;
-    position: relative;
-    margin-right: 0px !important;
-}
+
 
 .theme-dark .alt-3btY0e .helper-2c73HK {
     display: none;
@@ -938,14 +933,7 @@ text-shadow: 0 0 6px black, 0 0 6px black;
     right: -4px!important;
     width: 32px!important;
 }
-.container-2Thooq .status-2kJpnA {
-   border: none;
-   left: 40px;
-   width: 23px;
-   height: 23px;
-   bottom: -3px;
-   border-radius: 50%;
-}
+
 .status-3fQvEa {
     height: 20px;
     width: 20px;
