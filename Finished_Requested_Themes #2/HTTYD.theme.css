@@ -1418,7 +1418,7 @@
 }
 .theme-dark .notificationsSound-27jFSh,
 .theme-dark .row-2okwlC,
-.theme-dark .user-settings-games .game,
+.theme-dark .game-1ipmAa,
 .theme-dark .item-3eFBNF   {
         box-shadow: none;
 }
@@ -1436,7 +1436,7 @@
         background-color: rgba(0, 0, 0, .2);
 
 }
-.theme-dark .user-settings-games .now-playing {
+.theme-dark .nowPlaying-284llR {
         background-color: rgba(255, 255, 255, .2);
 }
 .lookLink-9FtZy-.colorLink-35jkBc {
@@ -1445,16 +1445,16 @@
 .lookLink-9FtZy-.colorLink-35jkBc:hover .contents-18-Yxp {
         background-image: linear-gradient(0deg,transparent,transparent 1px #00d9ff 0 #00d9ff 2px,transparent 0);
 }
-.theme-dark .add-game-popout {
+.theme-dark .addGamePopout-2RY8Ju {
         background-color: rgba(0, 0, 0, .5);
 }
-.theme-dark .user-settings-games .game-name-input:focus, 
-.theme-dark .user-settings-games .game-name-input:hover {
+.theme-dark .gameNameInput-385LoS:focus, 
+.theme-dark .gameNameInput-385LoS:hover {
         background-color: transparent;
         border-color: #202d42;
 }
 
-.theme-dark .user-settings-games .game-name {
+.theme-dark .game-1ipmAa-name {
         color: white;
 }
 .theme-dark .markDash-3hAolZ {
