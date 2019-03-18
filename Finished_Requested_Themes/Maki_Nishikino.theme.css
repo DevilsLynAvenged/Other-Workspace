@@ -8,7 +8,7 @@
 }
 
 .container-2lgZY8,
-.theme-dark .guildsWrapper-5TJh6A,
+.theme-dark .wrapper-1Rf91z,
 .theme-dark .typing-2GQL18,
 .container-PNkimc,
 .channels-Ie2l6A,
@@ -222,12 +222,12 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-.theme-dark .guildsError-3cFMtY {
+.theme-dark .guildsError-b7zR5H {
     background: rgba(0,0,0,0.6);
     border-color: transparent;
 }
 
-.theme-dark .guildsError-3cFMtY:hover {
+.theme-dark .guildsError-b7zR5H:hover {
     background: rgba(0,0,0,0.8);
     border-color: #e00d0b;
 }
@@ -640,20 +640,20 @@
     color: white;
 }
 
-.theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
+.theme-dark .wrapper-2lTRaf {
     background: #ae4a50 !important;
 }
 
 
-.guild-1EfMGQ .guildInner-3DSoA4 {
+.wrapper-2lTRaf {
     border-radius: 20% !important;
 }
 
-.theme-dark .guildSeparator-1X4GQ1:after {
+.theme-dark .guildSeparator-3s64Iy:after {
     background: transparent;
 }
 
-.theme-dark .friendsOnline-_wi_fM {
+.theme-dark .friendsOnline-2JkivW {
     color: white;
 }
 
@@ -1064,20 +1064,20 @@
 }
 /* - */
 /* Main Chat */
-.theme-dark .guildsAdd-21_IdK:hover {
+.theme-dark .circleIconButton-jET_ig:hover {
         border-color: rgba(255, 255, 255, 0.75);
         color: white;
         background: #a85457;
         text-shadow: 0 2px 2px rgba(0,0,0,0.3), 0 2px 2px rgba(0,0,0,0.3);
 }
 
-.theme-dark .guildsAdd-21_IdK {
+.theme-dark .circleIconButton-jET_ig {
         background: #ae4a50;
         border-color: rgba(255, 255, 255, 0.45);
         color: silver;
 }
 
-.guildsAdd-21_IdK {
+.circleIconButton-jET_ig {
         border-radius: 20%;
         border-style: solid;
         border-width: 2px;
@@ -1085,24 +1085,24 @@
         font-weight: 500;
 }
 
-.theme-dark .guild-1EfMGQ.unread-qLkInr:before {
+.theme-dark .unread-2OHH1w:before {
         background: rgba(255,255,255,.25);
         border-right: 2px solid black;
 }
 
 
-.guild-1EfMGQ.unread-qLkInr:before {
+.unread-2OHH1w:before {
         border-radius: 3px;
         height: 15px;
         margin-top: -6px;
 }
 
-.theme-dark .guild-1EfMGQ.selected-ML3OIq:before {
+.theme-dark .selected-nT-gM3:before {
         border-right: none;
         background-color: #ae4a50;
 }
 
-.guild-1EfMGQ.selected-ML3OIq:before {
+.selected-nT-gM3:before {
         border-radius: 30px;
         height: 30px;
         left: -11px;

@@ -5,7 +5,7 @@
     background-size: cover;
 }
 
-.theme-dark .guildsWrapper-5TJh6A,
+.theme-dark .wrapper-1Rf91z,
 .theme-dark .members-1998pB,
 .theme-dark .chat-3bRxxu, 
 .theme-dark .chat-3bRxxu form, 
@@ -83,31 +83,31 @@
         border: 3px outset #202d42; /* Primary Color */
 }
 
-.theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
+.theme-dark .wrapper-2lTRaf {
         background: transparent !important;
 }
 
-.theme-dark .guild-1EfMGQ .guildInner-3DSoA4:hover {
+.theme-dark .wrapper-2lTRaf:hover {
         background: linear-gradient(45deg, #000000 0%, #202d42 /* Primary Color */ 100%) !important;
 }
 
-.guild-1EfMGQ .guildInner-3DSoA4 {
+.wrapper-2lTRaf {
           border-radius: 0px 17px 0px 17px !important;
 }
 
-.theme-dark .guildsAdd-21_IdK {
+.theme-dark .circleIconButton-jET_ig {
         background: rgba(0, 0, 0, 0.4);
         border-color: black;
         color: #202d42;
 }
 
-.theme-dark .guildsAdd-21_IdK:hover {
+.theme-dark .circleIconButton-jET_ig:hover {
         background: rgba(32, 45, 54, 0.43);
         border-color: black;
         color: white;
 }
 
-.guildsAdd-21_IdK {
+.circleIconButton-jET_ig {
         border-radius: 0px 17px 0px 17px;
         border-style: solid;
         border-width: 2px;
@@ -115,13 +115,13 @@
         font-weight: 500;
 }
 
-.theme-dark .guildsError-3cFMtY {
+.theme-dark .guildsError-b7zR5H {
     background: black;
     border-color: transparent;
     color: #fff;
 }
 
-.theme-dark .guildsError-3cFMtY:hover {
+.theme-dark .guildsError-b7zR5H:hover {
     background-color: #DA2C43;
 }
 
@@ -130,11 +130,11 @@
     color: silver;
 }
 
-.theme-dark .guildSeparator-1X4GQ1:after {
+.theme-dark .guildSeparator-3s64Iy:after {
         background: transparent;
 }
 
-.theme-dark .friendsOnline-_wi_fM {
+.theme-dark .friendsOnline-2JkivW {
         color: white;
 }
 
@@ -169,12 +169,12 @@
         text-shadow: none;
 }
 
-.theme-dark .guild-1EfMGQ.unread-qLkInr:before {
+.theme-dark .unread-2OHH1w:before {
         background: #202d42; /* Primary Color */
 }
 
 
-.guild-1EfMGQ.unread-qLkInr:before {
+.unread-2OHH1w:before {
         border-radius: 2px;
         height: 20px;
         left: -10px;
@@ -183,7 +183,7 @@
         width: 10px;
 }
 
-.theme-dark .guild-1EfMGQ.selected-ML3OIq:before {
+.theme-dark .selected-nT-gM3:before {
         background-color: #5FA778;
 }
 
