@@ -62,3 +62,6 @@
     background: url(https://cdn.discordapp.com/attachments/457159558054281216/515184898609381405/bf8eb60173b016d88560230190bf46e4.png) 50%/cover;
     overflow: visible;
 }
+.theme-dark .button-OhfaWu {
+     background-color: transparent !important;
+}
