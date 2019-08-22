@@ -1745,9 +1745,9 @@
   background: rgba(0,0,0,0.9);
   box-shadow: none;
 }
-.bannerImage-1jOskm {
-	opacity: 0.2 !important;
-	background-image: linear-gradient(rgba(54, 57, 63, 0) 0%, transparent 100%), url("https://cdn.discordapp.com/banners/320896491596283906/5938ad9df1be78f116451213c66035fc.jpg?size=512") !important;
+.channels-Ie2l6A .bannerImage-1jOskm {
+    background-size: 0, cover;
+		opacity: 0.4 !important;
 }
 .bannerImage-1jOskm:after {
   background-color: transparent;
