@@ -1040,17 +1040,17 @@ border-radius: 12px 12px 0 0;
  }
 
  .emojiPicker-3m1S-j {
-   box-shadow: none;
-   border-top: none;
-   border-radius: 0 0 12px 12px;
- }
+  box-shadow: none;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+}
 
- .emojiPicker-3m1S-j {
-   overflow: visible;
-   border: none;
-   box-shadow: none;
-   border-radius: 12px;
- }
+.emojiPicker-3m1S-j {
+  overflow: visible;
+  border: none;
+  box-shadow: none;
+  border-radius: 5px;
+}
 
  .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb,
  .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb {
@@ -2445,6 +2445,40 @@ border-radius: 12px 12px 0 0;
    height: 49px;
    border-radius: 0px;
  }
+
+ /* Emote Picker */
+.bda-dark .emojiPicker-3m1S-j,
+.bda-dark #bda-qem-favourite-container, 
+.bda-dark #bda-qem-twitch-container {
+  background: linear-gradient(342deg, rgba(0, 0, 0, 1) 0%, rgba(228,165,78, 0.7) 100%);
+}
+
+
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb, 
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb, 
+.bda-dark .emojiPicker-3g68GS .scroller-3vODG7::-webkit-scrollbar-thumb {
+  border-color: transparent!important;
+  background-color: rgba(0, 0, 0, 0.45)!important;
+}
+
+.bda-dark #bda-qem {
+  border-bottom: none !important;
+  background: transparent;
+}
+
+.bda-dark #bda-qem button {
+  background: black;
+  border-left: none;
+  box-shadow: none;
+}
+
+.bda-dark #bda-qem button:hover {
+  background-color: #d79a43;
+}
+
+.bda-dark #bda-qem button.active {
+  background-color: #e4a54e;
+}
 
  /* ----- */
 
