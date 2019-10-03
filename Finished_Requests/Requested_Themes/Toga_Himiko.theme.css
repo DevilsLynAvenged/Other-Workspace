@@ -231,6 +231,12 @@ border-radius: 12px 12px 0 0;
   background: #d79a43; /*Hover Color */
   color: #fff !important;
 }
+
+.clickable-11uBi-:hover, 
+.selected-BYpGTS {
+  background: #e4a54e;
+}
+
 .barFill-23-gu- {
   background: #e4a54e; /* Main Color */
   height: 100%;
@@ -399,13 +405,16 @@ border-radius: 12px 12px 0 0;
    box-shadow: none;
  }
 
-.theme-dark .messagesPopoutWrap-1MQ1bW,
-.theme-dark .messagesPopout-24nkyi {
+.theme-dark .messagesPopoutWrap-1MQ1bW {
    background: radial-gradient(circle, #e4a54e 0%, rgba(0, 0, 0, 1) 50%, #e4a54e 100%);
    /* Main Color */
    border: 2px solid black;
    box-shadow: none;
  }
+ 
+ .theme-dark .messagesPopout-24nkyi {
+   background-color: transparent;
+}
 
  .theme-dark .messageGroupWrapper-o-Zw7G {
    border-color: black !important;
@@ -2499,6 +2508,23 @@ border-radius: 12px 12px 0 0;
 
 .bda-dark #bda-qem button.active {
   background-color: #e4a54e;
+}
+
+.theme-dark .resultsGroup-r_nuzN:before {
+  border-top: none;
+}
+
+.h5-18_1nd {
+  color: silver;
+}
+
+.theme-dark .focused-2bY0OD {
+  background-color: rgba(0,0,0,0.3);
+}
+
+.theme-dark .queryContainer-RKFJW- {
+  color: white;
+  border-bottom-color: transparent;
 }
 
  /* ----- */
