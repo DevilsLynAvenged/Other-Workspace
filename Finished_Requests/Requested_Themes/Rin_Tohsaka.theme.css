@@ -830,7 +830,7 @@
   border-radius: 5px;
 }
 
-.scrollableContainer-38zsVD {
+.scrollableContainer-2NUZem {
   background-color: rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 4px 4px transparent;
   transition: box-shadow .2s linear;
@@ -840,11 +840,11 @@
   background-color: transparent;
 }
 
-.scrollableContainer-38zsVD:focus-within {
+.scrollableContainer-2NUZem:focus-within {
   box-shadow: 0 0 4px 4px #87261F;
 }
 
-.attachWrapper-1_D-pj,
+.attachWrapper-2TRKBi,
 .form-2fGMdU {
   border: none;
 }
@@ -1038,7 +1038,7 @@
   box-shadow: none;
 }
 
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+.theme-dark .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
   margin-top: -33px;
   margin-left: 16px;
   margin-right: 16px;
@@ -1054,11 +1054,11 @@
   box-shadow: none;
 }
 
-.uploadModal-2ifh8j .inner-3nWsbo {
+.theme-dark .uploadModal-2ifh8j .inner-3nWsbo {
   color: white;
 }
 
-.theme-dark .uploadModal-2ifh8j {
+.theme-dark .theme-dark .uploadModal-2ifh8j {
   background-color: #4A1511;
   box-shadow: none;
   border-radius: 4px;

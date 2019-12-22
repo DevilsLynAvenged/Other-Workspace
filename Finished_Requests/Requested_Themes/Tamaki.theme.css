@@ -1376,7 +1376,7 @@
 }
 
 .form-2fGMdU,
-.attachWrapper-1_D-pj {
+.attachWrapper-2TRKBi {
   border: none;
 }
 
@@ -1389,7 +1389,7 @@
   background-color: transparent;
 }
 
-.scrollableContainer-38zsVD {
+.scrollableContainer-2NUZem {
   box-shadow: 0 0 8px 2px #FF60CE;
   background-color: rgba(0,0,0,.4);
 }
@@ -1668,7 +1668,7 @@
   opacity: .6;
 }
 
-.uploadModal-2ifh8j .inner-3nWsbo,
+.theme-dark .uploadModal-2ifh8j .inner-3nWsbo,
 .timestamp-1E3uAL,
 .container-3-pyIM,
 .welcomeMessage-3_Mcht p,
@@ -1676,12 +1676,12 @@
   color: white;
 }
 
-.theme-dark .uploadModal-2ifh8j {
+.theme-dark .theme-dark .uploadModal-2ifh8j {
   background: linear-gradient(47deg, rgba(140,53,113,1) 36%, rgba(0,0,0,1) 100%);
   box-shadow: none;
 }
 
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+.theme-dark .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
   background-color: #FF60CE;
   border-radius: 7px;
   box-shadow: none;

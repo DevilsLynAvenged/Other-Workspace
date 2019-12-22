@@ -820,11 +820,7 @@
 .timestamp-1E3uAL {
     color: white;
 }
-.placeholder-P6ptfj, 
-.slateTextArea-1bp44y .hljs-comment, 
-.slateTextArea-1bp44y .hljs-quote {
-    color: white;
-}
+
 .headerCozyMeta-rdohGq {
     margin-top: -6px;
 }
@@ -863,7 +859,7 @@
     border: none;
 }
 
-.attachWrapper-1_D-pj {
+.attachWrapper-2TRKBi {
 	border: none;
 }
 
@@ -1011,7 +1007,6 @@
 .themedPopout-1TrfdI .header-2Kf7Yu+:after {
     box-shadow: none;
 }
-
 
 .theme-dark .emptyPlaceholder-1zh-Eu .body-bvcIjN,
 .tip-2ab612 {
@@ -1421,6 +1416,11 @@
     box-shadow: none;
 }
 
+.emojiPicker-3m1S-j .categories-1feg4n {
+    background: none;
+}
+
+
 #bda-qem button:hover {
     background-color: #5d448a;
 }
@@ -1428,12 +1428,6 @@
 #bda-qem button.active {
     background-color: #50387d !important;
 }
-
-.emojiPicker-3m1S-j .categories-1feg4n {
-    background: none;
-}
-
-
 
 .emojiPicker-3m1S-j,
 #bda-qem-favourite-container, 
@@ -1450,6 +1444,7 @@
 	box-shadow: none;
 	border-radius: 2px;
 }
+
 
 
 .emojiPicker-3m1S-j .diversitySelector-tmmMv0 .popout-2nUePc {
@@ -1490,27 +1485,25 @@
     background-color: transparent;
 }
   
-.scrollableContainer-38zsVD {
+.scrollableContainer-2NUZem {
     background: linear-gradient(270deg, #50387d 0%, transparent 82%);
 }
 
+
 /* Upload Stuff */
-.uploadModal-2ifh8j {
+.theme-dark .uploadModal-2ifh8j {
     background-color: #372752;
 }
-.theme-dark .footer-3mqk7D {
-    box-shadow: none;
-}
 
-.uploadModal-2ifh8j .inner-3nWsbo {
+.theme-dark .uploadModal-2ifh8j .inner-3nWsbo {
     border: 2px dashed #50387d;
 }
 
-.uploadModal-2ifh8j .footer-3mqk7D {
+.theme-dark .uploadModal-2ifh8j .footer-3mqk7D {
     background: none;
 }
 
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+.theme-dark .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
     margin-top: -53px;
     width: 134px;
     height: 134px;
@@ -2023,7 +2016,7 @@
 .item-2hkk8m {
 	width: 20px;
 	height: 20px !important;
-	background-color: #50387d;
+	background-color: rgba(80, 56, 125, 0.49) !important;
 	border-radius: 50px;
     margin-left: 8px;
     margin-top: -14px;

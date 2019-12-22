@@ -531,7 +531,7 @@
     border: none;
 }
 
-.uploadModal-2ifh8j .footer-3mqk7D {
+.theme-dark .uploadModal-2ifh8j .footer-3mqk7D {
     background-color: transparent;
     padding: 13px;
 }
@@ -539,17 +539,17 @@
     box-shadow: none;
 }
 
-.uploadModal-2ifh8j .inner-3nWsbo {
+.theme-dark .uploadModal-2ifh8j .inner-3nWsbo {
     border: none;
 }
   
-.uploadModal-2ifh8j {
+.theme-dark .uploadModal-2ifh8j {
     background: linear-gradient(45deg, #1e206e 0%, black 40%);
     background-size: cover;
     border-radius: 5px;
 }
 
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+.theme-dark .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
     background-color: #1e206e
     border: 3px solid black;
     border-radius: 10%;
@@ -564,7 +564,7 @@
     color: white;
 }
 
-.uploadModal-2ifh8j .footer-3mqk7D .lookLink-9FtZy-.colorWhite-rEQuAQ:hover {
+.theme-dark .uploadModal-2ifh8j .footer-3mqk7D .lookLink-9FtZy-.colorWhite-rEQuAQ:hover {
     background-color: rgba(255,0,0,0.6);
 }
 
@@ -1363,7 +1363,6 @@
     background-color: transparent;
 }
 
-
 .themedPopout-1TrfdI .header-2Kf7Yu+:after {
     box-shadow: none;
 }
@@ -1749,16 +1748,15 @@
     border-color: transparent;
 }
 
-.attachWrapper-1_D-pj {
+.attachWrapper-2TRKBi {
 	border: none;
 }
-
 
 .theme-dark .inner-zqa7da {
     background-color: transparent;
 }
   
-.scrollableContainer-38zsVD {
+.scrollableContainer-2NUZem {
     background: linear-gradient(to right, #1e206e 0%, rgba(0, 0, 0, 0.25) 100%);
 }
 
@@ -1775,16 +1773,16 @@
     border: none;
 }
 
-.uploadModal-2ifh8j .footer-3mqk7D {
+.theme-dark .uploadModal-2ifh8j .footer-3mqk7D {
     background-color: transparent;
     padding: 13px;
 }
 
-.uploadModal-2ifh8j .inner-3nWsbo {
+.theme-dark .uploadModal-2ifh8j .inner-3nWsbo {
     border: none;
 }
 
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+.theme-dark .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
     border: none;
     border-radius: 30px;
 }
@@ -2081,6 +2079,12 @@
     box-shadow: none;
 }
 
+.emojiPicker-3m1S-j .categories-1feg4n {
+    background: none;
+}
+
+
+
 #bda-qem button:hover {
     background-color: #1e206e;
 }
@@ -2090,18 +2094,11 @@
     border: 2px solid rgba(255, 255, 255, 0.15);
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n {
-    background: none;
-}
-
-
-
 .emojiPicker-3m1S-j,
 #bda-qem-favourite-container, 
 #bda-qem-twitch-container {
     background: linear-gradient(135deg, #1e206e 0%, #1e206e 48%, #000000 100%);
 }
-
 .infoBar-U6oBFk {
     background: none;
 }
