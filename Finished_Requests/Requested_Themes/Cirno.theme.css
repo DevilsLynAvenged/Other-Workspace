@@ -810,7 +810,8 @@
    border-radius: 12px;
  }
 
- .theme-dark .jumpButton-Ia2hRJ {
+ .theme-dark .jumpButton-Ia2hRJ,
+ .theme-dark .collapseButton-oSNpPX {
    background-color: #4389f8;
    /* Main Color */
    color: white;
@@ -1824,9 +1825,14 @@
 .theme-dark .separator-3gy7tq {
   box-shadow: none;
 }
-.backdrop-1wrmKB {
+.backdrop-1wrmKB,
+.backdropWithLayer-3_uhz4 {
   background-color: rgba(0,0,0,0.5) !important;
-		opacity: 0.8 !important;
+  opacity: 0.8 !important;
+}
+.theme-dark .root-1gCeng {
+    background-color: rgba(0, 0, 0, 0.55);
+    box-shadow: none;
 }
 .theme-dark .modal-yWgWj- {
   background: linear-gradient(73deg, rgba(0,0,0,1) 0%, rgba(67, 137, 248,0.8) 100%); /* Main Transparency Color */
@@ -2703,7 +2709,7 @@
 
 .dividerContent-2L12VI:after, 
 .dividerContent-2L12VI:before {
-   background-color: transparent !important;
+  border: none !important;
  }
 
  .mask-1l8v16 {

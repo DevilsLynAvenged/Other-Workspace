@@ -47,9 +47,15 @@
   color: white;
 }
 
-.backdrop-1wrmKB {
+.backdrop-1wrmKB,
+.backdropWithLayer-3_uhz4 {
+  background-color: rgba(0,0,0,0.4) !important;
   opacity: .6 !important;
-  background-color: rgba(0,0,0,.4) !important;
+}
+
+.theme-dark .root-1gCeng {
+    background-color: rgba(0, 0, 0, 0.55);
+    box-shadow: none;
 }
 
 .input-2VB9rf {
@@ -651,7 +657,7 @@
 
 .dividerRed-MKoLlr .dividerContent-2L12VI:after, 
 .dividerRed-MKoLlr .dividerContent-2L12VI:before {
-  background-color: transparent;
+  border: none;
 }
 
 .dividerRed-MKoLlr {
@@ -762,7 +768,7 @@
 
 .dividerContent-2L12VI:after, 
 .dividerContent-2L12VI:before {
-  background-color: transparent;
+  border: none;
 }
 
 .divider-3gKybi {
@@ -1057,7 +1063,8 @@
 }
 
 .theme-dark .jumpButton-3DTcS_,
-.theme-dark .jumpButton-Ia2hRJ {
+.theme-dark .jumpButton-Ia2hRJ,
+.theme-dark .collapseButton-oSNpPX {
   background-color: #DF171D;
   color: white;
 }

@@ -517,9 +517,15 @@
     background-color: rgba(35, 35, 35, 0.44);
 }
 
-.backdrop-1wrmKB {
-    background-color: rgba(0, 0, 0, 0.49) !important;
-    opacity: 1 !important;
+.backdrop-1wrmKB,
+.backdropWithLayer-3_uhz4 {
+  background-color: rgba(0,0,0,0.49) !important;
+  opacity: 1 !important;
+}
+
+.theme-dark .root-1gCeng {
+    background-color: rgba(0, 0, 0, 0.55);
+    box-shadow: none;
 }
 
 .uploadArea-3QgLtW {
@@ -1450,7 +1456,8 @@
 }
 
 .theme-dark .jumpButton-3DTcS_,
-.theme-dark .jumpButton-Ia2hRJ {
+.theme-dark .jumpButton-Ia2hRJ,
+.theme-dark .collapseButton-oSNpPX {
     background-color: #5a5a64;
     color: white !important;
 }
@@ -1663,7 +1670,7 @@
 .dividerRed-MKoLlr .dividerContent-2L12VI:before,
 .dividerContent-2L12VI:after, 
 .dividerContent-2L12VI:before {
-    background-color: transparent;
+    border: none;
 }
 
 .divider-3gKybi {
