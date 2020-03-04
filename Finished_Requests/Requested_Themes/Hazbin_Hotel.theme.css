@@ -22,7 +22,8 @@
 .theme-dark .container-1D34oG,
 .theme-dark .peopleList-3c4jOR,
 .scroller-zPkAnE,
-.scroller-2XE8rp {
+.scroller-2XE8rp,
+.scroller-9moviB {
   background-color: transparent;
 }
 
@@ -382,7 +383,10 @@
 }
 
 .topSectionNormal-2-vo2m .tabBarContainer-1s1u-z,
-.userInfoSection-2acyCx+.userInfoSection-2acyCx {
+.userInfoSection-2acyCx+.userInfoSection-2acyCx,
+.theme-dark .sectionAccountCredit-1uNhnJ, 
+.theme-dark .subscriptionDetails-1dUmjl,
+.marketingRefreshTier2Cta-bw9Vyc {
   border: none;
 }
 
@@ -515,6 +519,27 @@
 
 .avatar-1BDn8e {
   border-radius: 4px;
+}
+
+.voiceSectionGuildImage-3HwnfL, 
+.voiceSectionNoGuildImageWrapper-TicZR3 {
+  border-radius: 4px;
+  -webkit-mask: none;
+  mask: none;
+}
+
+.partyMember-1CzxeX:last-child,
+.partyMember-1CzxeX {
+  -webkit-mask: none;
+  mask: none;
+}
+
+.theme-dark .voiceSectionIconWrapper-FO7UEY {
+  border-radius: 4px;
+}
+
+.partyMember-1CzxeX foreignObject {
+  mask: none;
 }
 
 .channelTextArea-rNsIhG {
@@ -683,7 +708,8 @@
   background-color: transparent;
 }
 
-.container-3FojY8 {
+.zalgo-jN1Ica .messageContent-2qWWxC,
+.zalgo-jN1Ica.cozy-3raOZG .header-23xsNx {
   overflow: visible;
 }
 
@@ -838,10 +864,10 @@
 
 .theme-dark .searchResultChannelCategory-1l0lSn, 
 .theme-dark .searchResultChannelIcon-1DnTme,
-.timestampCozy-1HNQR2,
+.cozy-3raOZG .timestamp-3ZCmNB,
 .timestamp-1E3uAL,
-.timestampCompact-29LLPQ,
-.theme-dark .edited-DL9ECl,
+.cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt,
+.theme-dark .edited-3sfAzf,
 .theme-dark .option-96V44q.user-O3Czj0 .displayUsername-Qekxml,
 .theme-dark .option-96V44q .filter-3Y_im-,
 .subtext-1RtU34 {
@@ -1038,6 +1064,7 @@
 
 .theme-dark .searchResult-3pzFAB.expanded-v2Szsz {
   border: 2px solid black;
+  background: none;
 }
 
 .theme-dark .messageGroupWrapper-o-Zw7G:hover {
@@ -1070,6 +1097,10 @@
 .theme-dark .collapseButton-oSNpPX {
   background-color: #DF171D;
   color: white;
+}
+
+.applicationStore-1pNvnv {
+  background-color: transparent;
 }
 
 .theme-dark .message-2qRu38 {
@@ -1452,14 +1483,9 @@
 }
 
 .theme-dark .theme-light .or-3THJsp {
-  background: rgba(0, 0, 0, .38);
   border-radius: 4px;
-  border: none;
 }
 
-.theme-dark .or-3THJsp {
-  color: white;
-}
 
 .theme-dark .theme-light .footer-3rDWdC {
   background-color: transparent;
