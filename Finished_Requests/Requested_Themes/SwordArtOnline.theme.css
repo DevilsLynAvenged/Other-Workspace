@@ -1,0 +1,36 @@
+//META{"name":"Sword_Art_Online", "version":"1", "description":"Theme requested by Dreadingz", "author":"DevilsLynAvenged"}*//
+@import url('https://DevilsLynAvenged.github.io/Other-Themes/My-Base/MainBase.css');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+ 
+ body, div, span, textarea, ::-webkit-input-placeholder {
+     font-family: 'Lato';
+ }
+ 
+ .hljs,
+ .inline,
+ .hljs :-webkit-any(ol, li, span),
+ .editor-wrapper :-webkit-any(textarea, div, span) {
+     /**
+      * Keep Custom CSS editor and code related parts untouched.
+      * Avoids issues when working with the Custom CSS editor.
+      */
+     font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+ }
+
+ :root {
+  --primary-color: #f9482d; /* Controls Main Color */
+  --primary-transparency: rgba(249, 72, 45, .6); /* Controls Transparency of Main Color */
+  --background-image: url(https://cdn.discordapp.com/attachments/457159558054281216/691798618599849995/maxresdefault.jpg); /* Controls Current Background */
+  --background-opacity: rgba(0,0,0,.66); /* Controls Transparency of the Wallpaper opacity */
+  --button-radius: 6px; /* Controls Border Radius of Buttons */
+  --avatar-radius: 6px; /* Controls Border Radius of Avatars(Choose 0px - 4px for square avatars, 6px - 8px for rounded avatars, or go for 50px for a full circle because some of them are not shaped evenly) */
+  --checkmark-color: white; /* Choose either black or white for the checkmark depending on "Main Color" */
+  --word-color: white; /* Choose either black or white for the words depending on "Main Color" */
+}
+
+/* Customize other Custom CSS below this line */
+
+#app-mount .app-2rEoOp {
+  background-position: 14px;
+}
