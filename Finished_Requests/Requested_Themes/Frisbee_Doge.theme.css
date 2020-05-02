@@ -2024,7 +2024,7 @@
 
 .theme-dark .mentioned-xhSam7,
 .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, 
-.mouse-mode .mentioned-xhSam7:hover {
+.mouse-mode.full-motion .mentioned-xhSam7:hover {
     background: rgba(90, 90, 100, 0.42);
     border: 2px solid #5a5a64;
 }
