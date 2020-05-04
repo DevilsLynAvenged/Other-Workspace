@@ -718,66 +718,62 @@
 }
 
 /* Emote Picker */
-#bda-qem {
-  background: transparent;
-  border-bottom: none !important;
-}
 
-#bda-qem button {
+
+.navButtonActive-3RPAJy {
   border-left: none;
   background: rgba(0, 0, 0, .7);
   box-shadow: none;
 }
 
-#bda-qem button:hover {
+.navButtonActive-3RPAJy:hover {
   background: #4A1511;
 }
 
-#bda-qem button.active, 
-#bda-qem button.active:hover {
+.navButtonActive-3RPAJy.active, 
+.navButtonActive-3RPAJy.active:hover {
   background-color: #87261F;
 }
 
-#bda-qem-twitch-container, 
-#bda-qem-favourite-container,
-.emojiPicker-3m1S-j {
+
+.contentWrapper-2txmjs {
   background-color: #4A1511;
 }
 
-.emojiPicker-3m1S-j .header-1nkwgG {
+.emojiPicker-3PwZFl .header-8ilj5e {
   box-shadow: none;
 }
 
-.infoBar-U6oBFk,
-.emojiPicker-3m1S-j .categories-1feg4n {
+.inspector-sdLnLS,
+.wrapper-2N7X54 {
   background-color: transparent;
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .selected-39BZ4S {
+.categoryItemDefaultCategorySelected-_HCKoz, .categoryItemDefaultCategorySelected-_HCKoz:hover {
   border-bottom-color: #87261F;
+  border-bottom-width: 3px;
+  border-style: solid;
+  background: none;
 }
 
-.emojiPicker-3m1S-j .category-2U57w6 {
-  color: white;
+.categoryWrapper-UZ5YNj {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.emojiPicker-3m1S-j .stickyHeader-1SS0JU {
-  display: none;
-}
 
-.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
+
+.contentWrapper-2txmjs .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 6px;
 }
 
-.diversitySelector-tmmMv0 .popout-2nUePc {
+.diversitySelectorPopout-3FiGaM {
   background-color: rgba(0, 0, 0, .7);
   border: none;
   border-radius: 6px;
 }
 
-.diversitySelector-tmmMv0 .popout-2nUePc .item-16cXuq:hover {
+.diversityEmojiItem-L6_IXw:hover {
   background-color: #87261F;
 }
 
