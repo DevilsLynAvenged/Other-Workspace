@@ -518,24 +518,24 @@
   background-color: transparent;
 }
 
-.menu-Sp6bN1 {
+.styleFixed-sX-yHV {
   border-radius: 7px;
   box-shadow: none;
   background: #4A1511;
   padding: 9px 4px;
 }
 
-.itemBase-1Qj4z6 {
+.colorDefault-2K3EoJ {
   color: white;
   border-radius: 5px;
 }
 
-.itemBase-1Qj4z6:hover {
+.colorDefault-2K3EoJ.focused-3afm-j {
   background-color: rgba(0,0,0,.2);
   color: white !important;
 }
 
-.separator-2zcjq8 {
+.separator-2I32lJ {
   border: none;
 }
 
@@ -736,7 +736,7 @@
 }
 
 
-.contentWrapper-2txmjs {
+.contentWrapper-2txmjs, .emojiPicker-3PwZFl {
   background-color: #4A1511;
 }
 
@@ -760,6 +760,15 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+
+.colorDefault-2K3EoJ .checkbox-3s5GYZ, 
+.colorDefault-2K3EoJ .radioSelection-1HmrQS {
+  color: rgba(0, 0, 0, .26) !important;
+}
+
+.colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN {
+  color: white;
+}
 
 
 .contentWrapper-2txmjs .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
@@ -890,7 +899,8 @@
   background-color: rgba(0,0,0,0.3);
 }
 
-.contextMenu-HLZMGh {
+.styleFlexible-wGDiIL,
+.submenu-2-ysNh {
   border-radius: 7px;
   background-color: #4A1511;
   box-shadow: none;
@@ -977,14 +987,7 @@
   color: white;
 }
 
-.itemBase-tz5SeC.danger-2dXSTE {
-  color: #de2a2a;
-}
 
-.itemBase-tz5SeC.danger-2dXSTE:hover {
-  background-color: #de2a2a;
-  color: white;
-}
 
 .theme-dark .edited-3sfAzf {
   color: silver;
@@ -1215,40 +1218,39 @@
 }
 
 .theme-dark .header-ykumBX,
-.theme-dark .searchHeader-1l-wpR {
+.theme-dark .searchHeader-1EzJGH {
   background-color: #87261F;
   box-shadow: none;
 }
 
 .theme-dark .messagesPopoutWrap-1MQ1bW,
-.theme-dark .searchResultsWrap-2DKFzt {
+.theme-dark .searchResultsWrap-3-pOjs {
   background-color: #4A1511;
   border: none;
   box-shadow: none;
 }
 
-.tab-2Ixsn0, 
-.totalResults-gxvzgw {
+.tab-EiCZG6, .totalResults-1yK_Ym {
   opacity: .7;
 }
 
-.theme-dark .channelSeparator-1X1FuH:before {
+.theme-dark .channelSeparator-dTqJ4K:before {
   border-color: transparent;
 }
 
-.theme-dark .channelSeparator-1X1FuH .channelName-1QajIf {
+.theme-dark .channelSeparator-1X1FuH .channelName-wvgELL {
   background-color: rgba(0, 0, 0, .44);
   border: 2px solid rgba(135, 38, 31, .6);
   padding: 10px;
   margin-top: 6px;
 }
 
-.theme-dark .searchResult-3pzFAB:before,
-.theme-dark .searchResult-3pzFAB:after {
+.theme-dark .searchResult-2N9RV4:before,
+.theme-dark .searchResult-2N9RV4:after {
   background-image: none;
 }
 
-.theme-dark .searchResult-3pzFAB .hit-NLlWXA {
+.theme-dark .searchResult-2N9RV4 .hit-NLlWXA {
   border-color: transparent !important;
   background-color: rgba(0, 0, 0, .4);
   box-shadow: none;
@@ -1267,11 +1269,11 @@
 }
 
 .messageGroupWrapper-o-Zw7G .avatar-1BDn8e,
-.searchResult-3pzFAB .avatar-1BDn8e  {
+.searchResult-2N9RV4 .avatar-1BDn8e  {
   margin-top: -7px;
 }
 
-.theme-dark .searchResult-3pzFAB.expanded-v2Szsz {
+.theme-dark .searchResult-2N9RV4.expanded-ovgtuV {
   border: 2px solid #87261F;
   background: none;
 }
@@ -1281,11 +1283,11 @@
 }
 
 .theme-dark .messageGroupWrapper-o-Zw7G:hover,
-.theme-dark .searchResult-3pzFAB.expanded-v2Szsz .searchResultMessage-2VxO12.hit-NLlWXA {
+.theme-dark .searchResult-2N9RV4.expanded-ovgtuV .searchResultMessage-30QnSN.hit-1CXhXT {
   background-color: rgba(135, 38, 31, .6);
 }
 
-.theme-dark .searchResult-3pzFAB.expanded-v2Szsz .searchResultMessage-2VxO12.hit-NLlWXA {
+.theme-dark .searchResult-2N9RV4.expanded-ovgtuV .searchResultMessage-30QnSN.hit-1CXhXT {
   border: none;
 }
 
@@ -1295,7 +1297,7 @@
 }
 
 .theme-dark .jumpButton-3DTcS_,
-.theme-dark .jumpButton-Ia2hRJ,
+.theme-dark .jumpButton-1ol35X,
 .theme-dark .collapseButton-oSNpPX {
   background-color: #87261F;
   color: white;
@@ -1622,7 +1624,8 @@
   background-color: rgba(255,255,255,.1);
 }
 
-.selected-aXhQR6 .layout-2DM8Md {
+.selected-aXhQR6 .layout-2DM8Md,
+.categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG {
   background-color: rgba(135, 38, 31, 0.68);
   -webkit-text-fill-color: white;
 }
@@ -2080,7 +2083,7 @@
   color: white;
 }
 
-.theme-dark .bda-slist li {
+.theme-dark .bd-addon-list .bd-addon-card {
   background-color: rgba(74, 21, 17, .34);
   color: white;
   border-color: rgba(135, 38, 31,.6);

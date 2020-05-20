@@ -217,7 +217,8 @@
   border-radius: 4px;
 }
 
-.selected-aXhQR6 .layout-2DM8Md {
+.selected-aXhQR6 .layout-2DM8Md,
+.categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG {
   background-color: rgba(223, 23, 29, .6);
   border: 2px dashed #DF171D;
 }
@@ -361,13 +362,11 @@
   background-color: #4568b8;
 }
 
-.itemBase-tz5SeC.danger-2dXSTE,
-.item-1GzJrl.leave-1DRJfn {
+.colorDanger-2qLCe1, .colorDanger-2qLCe1 .checkbox-3s5GYZ, .colorDanger-2qLCe1 .radioSelection-1HmrQS {
   color: #ff3e3d;
 }
 
-.itemBase-tz5SeC.danger-2dXSTE:hover,
-.itemBase-1Qj4z6:hover.leave-1DRJfn {
+.colorDanger-2qLCe1.focused-3afm-j {
   background-color: rgba(255, 61, 61, .60);
   box-shadow: 0 0 3px 2px #ff3e3d;
   color: white;
@@ -1027,13 +1026,13 @@
 }
 
 .theme-dark .header-ykumBX,
-.theme-dark .searchHeader-1l-wpR {
+.theme-dark .searchHeader-1EzJGH {
   background-color: transparent;
   box-shadow: none;
 }
 
 .theme-dark .messagesPopoutWrap-1MQ1bW,
-.theme-dark .searchResultsWrap-2DKFzt {
+.theme-dark .searchResultsWrap-3-pOjs {
   background: linear-gradient(55deg, rgba(0,0,0,1) 0%, rgba(116,12,15,1) 100%);
   border: none;
   box-shadow: none;
@@ -1060,11 +1059,11 @@
   background-color: transparent;
 }
 
-.theme-dark .channelSeparator-1X1FuH:before {
+.theme-dark .channelSeparator-dTqJ4K:before {
   border: none;
 }
 
-.theme-dark .channelSeparator-1X1FuH .channelName-1QajIf {
+.theme-dark .channelSeparator-1X1FuH .channelName-wvgELL {
   background-color: #DF171D;
   padding: 8px 5px;
   margin-bottom: 5px;
@@ -1072,22 +1071,22 @@
   border-radius: 7px;
 }
 
-.theme-dark .searchResult-3pzFAB:before,
-.theme-dark .searchResult-3pzFAB:after {
+.theme-dark .searchResult-2N9RV4:before,
+.theme-dark .searchResult-2N9RV4:after {
   background-image: none;
 }
 
 .theme-dark .messageGroupWrapper-o-Zw7G,
-.theme-dark .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA {
+.theme-dark .searchResult-2N9RV4 .searchResultMessage-30QnSN.hit-1CXhXT {
   border-color: black;
   background-color: rgba(0, 0, 0, .3);
 }
 
-.theme-dark .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA {
+.theme-dark .searchResult-2N9RV4 .searchResultMessage-30QnSN.hit-1CXhXT {
   box-shadow: none;
 }
 
-.theme-dark .searchResult-3pzFAB.expanded-v2Szsz {
+.theme-dark .searchResult-2N9RV4.expanded-ovgtuV {
   border: 2px solid black;
   background: none;
 }
@@ -1097,7 +1096,7 @@
   border-color: transparent;
 }
 
-.theme-dark .searchResult-3pzFAB.expanded-v2Szsz .searchResultMessage-2VxO12.hit-NLlWXA {
+.theme-dark .searchResult-2N9RV4.expanded-ovgtuV .searchResultMessage-30QnSN.hit-1CXhXT {
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   background-color: rgba(223, 23, 29, .4);
@@ -1118,7 +1117,7 @@
 }
 
 .theme-dark .jumpButton-3DTcS_,
-.theme-dark .jumpButton-Ia2hRJ,
+.theme-dark .jumpButton-1ol35X,
 .theme-dark .collapseButton-oSNpPX {
   background-color: #DF171D;
   color: white;
@@ -1133,7 +1132,8 @@
   box-shadow: none;
 }
 
-.contextMenu-HLZMGh {
+.styleFlexible-wGDiIL,
+.submenu-2-ysNh {
   border-radius: 7px;
   background-color: #740C0F;
   box-shadow: none;
@@ -1154,8 +1154,7 @@
   background-color: rgba(0, 0, 0, .3);
 }
 
-.tab-2Ixsn0, 
-.totalResults-gxvzgw {
+.tab-EiCZG6, .totalResults-1yK_Ym {
   opacity: 1;
 }
 
@@ -1190,7 +1189,7 @@
   box-shadow: none;
 }
 
-.contentWrapper-2txmjs {
+.contentWrapper-2txmjs, .emojiPicker-3PwZFl {
   background: linear-gradient(45deg, black 0%, #740c0f 100%);
 }
 
@@ -1216,6 +1215,14 @@
   background-color: rgba(0, 0, 0, .4);
 }
 
+.colorDefault-2K3EoJ .checkbox-3s5GYZ, 
+.colorDefault-2K3EoJ .radioSelection-1HmrQS {
+  color: rgba(0, 0, 0, .26) !important;
+}
+
+.colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN {
+  color: white;
+}
 
 
 .inspector-sdLnLS,
@@ -1252,7 +1259,6 @@
 .navButtonActive-3RPAJy.active:hover {
   background-color: #DF171D;
 }
-
 
 
 .mini-dmm9yo .grabber-3mFHz2 {
@@ -1607,16 +1613,16 @@
   opacity: .3;
 }
 
-.menu-Sp6bN1 {
+.styleFixed-sX-yHV {
   box-shadow: none;
   background: #740C0F;
 }
 
-.separator-2zcjq8 {
+.separator-2I32lJ {
   border-bottom: 1px solid #DF171D;
 }
 
-.itemBase-1Qj4z6:hover {
+.colorDefault-2K3EoJ.focused-3afm-j {
   background-color: rgba(0, 0, 0, .3);
   color: white !important;
 }
@@ -1909,7 +1915,7 @@
   padding: 4px;
 }
 
-.theme-dark .bda-slist li {
+.theme-dark .bd-addon-list .bd-addon-card {
   background-image: linear-gradient(to right, #000000 0%, rgb(116, 12, 15, .6) 100%);
   color: white;
   border-color: black;
