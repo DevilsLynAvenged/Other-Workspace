@@ -296,7 +296,7 @@
   background-color: #4066c4;
 }
 
-.theme-dark .footer-3rDWdC,
+.theme-dark .footer-2gL1pp,
 .theme-dark .theme-light .footer-3rDWdC {
   background-color: transparent;
   box-shadow: none;
@@ -357,7 +357,7 @@
   color: silver;
 }
 
-.css-1rckt42-menu {
+.css-n57xjs-menu {
   background-color: #4A1511;
   box-shadow: none;
   color: white;
@@ -728,23 +728,23 @@
 /* Emote Picker */
 
 
-.navButtonActive-3RPAJy {
+.navButtonActive-1MkytQ {
   border-left: none;
   background: rgba(0, 0, 0, .7);
   box-shadow: none;
 }
 
-.navButtonActive-3RPAJy:hover {
+.navButtonActive-1MkytQ:hover {
   background: #4A1511;
 }
 
-.navButtonActive-3RPAJy.active, 
-.navButtonActive-3RPAJy.active:hover {
+.navButtonActive-1MkytQ.active, 
+.navButtonActive-1MkytQ.active:hover {
   background-color: #87261F;
 }
 
 
-.contentWrapper-2txmjs, .emojiPicker-3PwZFl {
+.contentWrapper-SvZHNd, .emojiPicker-3PwZFl {
   background-color: #4A1511;
 }
 
@@ -753,7 +753,7 @@
 }
 
 .inspector-sdLnLS,
-.wrapper-2N7X54 {
+.wrapper-2Gsate {
   background-color: transparent;
 }
 
@@ -764,7 +764,7 @@
   background: none;
 }
 
-.categoryWrapper-UZ5YNj {
+.wrapper-1-Fsb8 {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -779,7 +779,7 @@
 }
 
 
-.contentWrapper-2txmjs .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
+.contentWrapper-SvZHNd .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 6px;
 }
@@ -1231,8 +1231,14 @@
   box-shadow: none;
 }
 
+.messages-3G3erD {
+  background-color: rgba(0,0,0,.5);
+  border-radius: 4px;
+}
+
 .theme-dark .messagesPopoutWrap-1MQ1bW,
-.theme-dark .searchResultsWrap-3-pOjs {
+.theme-dark .searchResultsWrap-3-pOjs,
+.container-enaOkj {
   background-color: #4A1511;
   border: none;
   box-shadow: none;
@@ -1304,9 +1310,15 @@
   background: none;
 }
 
+.emptyChannelIcon-3IXV5M {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .26);
+}
+
 .theme-dark .jumpButton-3DTcS_,
 .theme-dark .jumpButton-1ol35X,
-.theme-dark .collapseButton-oSNpPX {
+.theme-dark .collapseButton-oSNpPX,
+.jumpButton-2dvRSC {
   background-color: #87261F;
   color: white;
 }
@@ -1541,7 +1553,8 @@
 }
 
 .theme-dark .bodyInner-245q0L, 
-.theme-dark .footer-1fjuF6 {
+.theme-dark .footer-1fjuF6,
+.theme-dark .body-3iLsc4 {
   background-color: rgba(0, 0, 0, 0.61);
   color: white;
 }
@@ -2268,7 +2281,8 @@
 .lookLink-9FtZy-.colorLink-35jkBc,
 .footer-3rDWdC a,
 .content-8biNdB a,
-.bda-slist .bda-footer a  {
+.bda-slist .bda-footer a,
+.editChannelButton-1dYN-G  {
   color: #ccbf8e;
 }
 

@@ -142,7 +142,7 @@
   border-radius: 9px;
 }
 
-.theme-dark .footer-3rDWdC {
+.theme-dark .footer-2gL1pp {
   background-color: transparent;
   box-shadow: none;
 }
@@ -323,7 +323,8 @@
 }
 
 .theme-dark .bodyInner-245q0L, 
-.theme-dark .footer-1fjuF6 {
+.theme-dark .footer-1fjuF6,
+.theme-dark .body-3iLsc4 {
   background-color: rgba(0, 0, 0, .7);
   color: white;
 }
@@ -1041,10 +1042,16 @@
 }
 
 .theme-dark .messagesPopoutWrap-1MQ1bW,
-.theme-dark .searchResultsWrap-3-pOjs {
+.theme-dark .searchResultsWrap-3-pOjs,
+.container-enaOkj {
   background: linear-gradient(55deg, rgba(0,0,0,1) 0%, rgba(116,12,15,1) 100%);
   border: none;
   box-shadow: none;
+}
+
+.messages-3G3erD {
+  background-color: rgba(0,0,0,.5);
+  border-radius: 4px;
 }
 
 .theme-dark .messagesPopout-24nkyi {
@@ -1127,9 +1134,15 @@
 
 .theme-dark .jumpButton-3DTcS_,
 .theme-dark .jumpButton-1ol35X,
+.jumpButton-2dvRSC,
 .theme-dark .collapseButton-oSNpPX {
   background-color: #DF171D;
   color: white;
+}
+
+.emptyChannelIcon-3IXV5M {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .26);
 }
 
 .applicationStore-1pNvnv {
@@ -1198,7 +1211,7 @@
   box-shadow: none;
 }
 
-.contentWrapper-2txmjs, .emojiPicker-3PwZFl {
+.contentWrapper-SvZHNd, .emojiPicker-3PwZFl {
   background: linear-gradient(45deg, black 0%, #740c0f 100%);
 }
 
@@ -1216,11 +1229,11 @@
   background-color: #740C0F;
 }
 
-.contentWrapper-2txmjs .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
+.contentWrapper-SvZHNd .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
   background-color: rgba(255, 255, 255, .18);
 }
 
-.categoryWrapper-UZ5YNj {
+.wrapper-1-Fsb8 {
   background-color: rgba(0, 0, 0, .4);
 }
 
@@ -1235,7 +1248,7 @@
 
 
 .inspector-sdLnLS,
-.wrapper-2N7X54 {
+.wrapper-2Gsate {
   background-color: transparent;
 }
 
@@ -1254,18 +1267,18 @@
 }
 
 
-.navButtonActive-3RPAJy {
+.navButtonActive-1MkytQ {
   border-left: none;
   background: black;
   box-shadow: none;
 }
 
-.navButtonActive-3RPAJy:hover {
+.navButtonActive-1MkytQ:hover {
   background: #740C0F;
 }
 
-.navButtonActive-3RPAJy.active, 
-.navButtonActive-3RPAJy.active:hover {
+.navButtonActive-1MkytQ.active, 
+.navButtonActive-1MkytQ.active:hover {
   background-color: #DF171D;
 }
 
@@ -1551,7 +1564,7 @@
 
 .css-1wqqa50-container,
 .theme-dark .searchBox-3Y2Vi7,
-.css-1rckt42-menu {
+.css-n57xjs-menu {
   background-color: rgba(0, 0, 0, .7);
   color: white;
   box-shadow: none;
@@ -2116,7 +2129,8 @@
 .standardSidebarView-3F1I7i a,
 .footer-3rDWdC a,
 .bda-slist .bda-footer a,
-.content-8biNdB a {
+.content-8biNdB a,
+.editChannelButton-1dYN-G {
   color: #c79d53;
 }
 

@@ -522,7 +522,7 @@
   box-shadow: none;
 }
 
-.theme-dark .footer-3rDWdC {
+.theme-dark .footer-2gL1pp {
   background-color: transparent;
   box-shadow: none;
 }
@@ -731,7 +731,8 @@
 }
 
 .theme-dark .bodyInner-245q0L, 
-.theme-dark .footer-1fjuF6 {
+.theme-dark .footer-1fjuF6,
+.theme-dark .body-3iLsc4 {
   background-color: rgba(0, 0, 0, .65);
   color: white;
 }
@@ -947,7 +948,13 @@
   box-shadow: none;
 }
 
-.theme-dark .messagesPopoutWrap-1MQ1bW {
+.messages-3G3erD {
+  background-color: rgba(0,0,0,.5);
+  border-radius: 4px;
+}
+
+.theme-dark .messagesPopoutWrap-1MQ1bW,
+.container-enaOkj {
   background: linear-gradient(47deg, #8c3571 36%, #000000 100%);
 }
 
@@ -1059,9 +1066,15 @@
 
 .botTagRegular-2HEhHi,
 .botTagInvert-18-95s,
-.theme-dark .jumpButton-3DTcS_ {
+.theme-dark .jumpButton-3DTcS_,
+.jumpButton-2dvRSC {
   background: #FF60CE;
   color: white;
+}
+
+.emptyChannelIcon-3IXV5M {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .26);
 }
 
 .group-spacing-16 .groupStart-23k01U {
@@ -1465,7 +1478,7 @@
 }
 
 
-.contentWrapper-2txmjs, .emojiPicker-3PwZFl {
+.contentWrapper-SvZHNd, .emojiPicker-3PwZFl {
   background: linear-gradient(47deg, rgba(140,53,113,1) 36%, rgba(0,0,0,1) 100%);
 }
 
@@ -1479,23 +1492,23 @@
 }
 
 
-.navButtonActive-3RPAJy {
+.navButtonActive-1MkytQ {
   border-left: none;
   background: rgba(0, 0, 0, .64);
   box-shadow: none;
 }
 
-.navButtonActive-3RPAJy:hover,
+.navButtonActive-1MkytQ:hover,
 .container-3cGP6G {
   background: #8C3571;
 }
 
-.navButtonActive-3RPAJy.active, 
-.navButtonActive-3RPAJy.active:hover {
+.navButtonActive-1MkytQ.active, 
+.navButtonActive-1MkytQ.active:hover {
   background-color: #FF60CE;
 }
 
-.categoryWrapper-UZ5YNj {
+.wrapper-1-Fsb8 {
   background-color: rgba(0, 0, 0, .5);
 }
 
@@ -1515,7 +1528,7 @@
 }
 
 .inspector-sdLnLS,
-.wrapper-2N7X54 {
+.wrapper-2Gsate {
   background: none;
 }
 
@@ -1946,7 +1959,7 @@
   box-shadow: none;
 }
 
-.css-1rckt42-menu {
+.css-n57xjs-menu {
   background-color: rgba(0, 0, 0, .7);
   box-shadow: none;
   color: white;
@@ -2154,7 +2167,8 @@
 .topic-TCb_qw a,
 .checkboxLabel-1zn0UC a,
 .helpText-h3r3wC a,
-.content-8biNdB a {
+.content-8biNdB a,
+.editChannelButton-1dYN-G {
   color: #c0ff55;
 }
 
