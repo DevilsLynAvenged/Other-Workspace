@@ -741,6 +741,10 @@
   background-color: transparent;
 }
 
+.members-1998pB>div {
+  background-color: transparent;
+}
+
 .zalgo-jN1Ica .messageContent-2qWWxC,
 .zalgo-jN1Ica.cozy-3raOZG .header-23xsNx {
   overflow: visible;
@@ -1132,17 +1136,17 @@
   -webkit-text-fill-color: white;
 }
 
-.theme-dark .jumpButton-3DTcS_,
-.theme-dark .jumpButton-1ol35X,
-.jumpButton-2dvRSC,
-.theme-dark .collapseButton-oSNpPX {
-  background-color: #DF171D;
-  color: white;
-}
-
 .emptyChannelIcon-3IXV5M {
   border-radius: 4px;
   background-color: rgba(0, 0, 0, .26);
+}
+
+.theme-dark .jumpButton-3DTcS_,
+.theme-dark .jumpButton-1ol35X,
+.theme-dark .collapseButton-oSNpPX,
+.jumpButton-2dvRSC {
+  background-color: #DF171D;
+  color: white;
 }
 
 .applicationStore-1pNvnv {

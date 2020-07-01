@@ -1156,11 +1156,6 @@
     box-shadow: none;
 }
 
-.emptyChannelIcon-3IXV5M {
-    border-radius: 4px;
-    background-color: rgba(0, 0, 0, .26);
-}
-
 .css-n57xjs-menu {
     background-color: rgba(0, 0, 0, 0.13);
     box-shadow: none;
@@ -1455,16 +1450,16 @@
     box-shadow: none;
 }
 
-.messages-3G3erD {
-    background-color: rgba(0,0,0,.5);
-    border-radius: 4px;
-}
-
 .theme-dark .messagesPopoutWrap-1MQ1bW,
 .container-enaOkj {
     background: linear-gradient(45deg, #000000 0%, #5a5a64 51%, #000000 100%);
     border: none;
     box-shadow: none;
+}
+
+.messages-3G3erD {
+    background-color: rgba(0,0,0,.5);
+    border-radius: 4px;
 }
 
 .theme-dark .messageGroupWrapper-o-Zw7G {
@@ -1482,10 +1477,15 @@
     background: none;
 }
 
+.emptyChannelIcon-3IXV5M {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .26);
+}
+
 .theme-dark .jumpButton-3DTcS_,
 .theme-dark .jumpButton-1ol35X,
-.jumpButton-2dvRSC,
-.theme-dark .collapseButton-oSNpPX {
+.theme-dark .collapseButton-oSNpPX,
+.jumpButton-2dvRSC {
     background-color: #5a5a64;
     color: white !important;
 }
@@ -2023,6 +2023,9 @@
 .members-1998pB {
     width: 240px;
     background-color: rgba(0, 0, 0, 0.33);
+}
+.members-1998pB>div {
+    background-color: transparent;
 }
 
 .activity-2Gy-9S {

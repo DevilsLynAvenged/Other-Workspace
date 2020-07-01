@@ -541,11 +541,6 @@
   box-shadow: none;
 }
 
-.emptyChannelIcon-3IXV5M {
-  border-radius: 4px;
-  background-color: rgba(0, 0, 0, .26);
-}
-
 .theme-dark .nowPlaying-284llR {
   background-color: rgba(155, 147, 230, .4);
 }
@@ -926,6 +921,10 @@
   background-color: transparent;
 }
 
+.members-1998pB>div {
+  background-color: transparent;
+}
+
 .members-1998pB {
   background-color: rgba(0, 0, 0, .4);
 }
@@ -1015,16 +1014,16 @@
   box-shadow: none;
 }
 
-.messages-3G3erD {
-  background-color: rgba(0,0,0,.5);
-  border-radius: 4px;
-}
-
 .theme-dark .messagesPopoutWrap-1MQ1bW,
 .container-enaOkj {
   background-color: #5A5585;
   border: none;
   box-shadow: none;
+}
+
+.messages-3G3erD {
+  background-color: rgba(0,0,0,.5);
+  border-radius: 4px;
 }
 
 .reaction-1hd86g.reactionMe-wv5HKu {
@@ -1678,6 +1677,11 @@
 .theme-dark .searchResult-2N9RV4 .hit-NLlWXA {
   background-color: rgba(0, 0, 0, .4);
   box-shadow: none;
+}
+
+.emptyChannelIcon-3IXV5M {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .26);
 }
 
 .theme-dark .jumpButton-1ol35X,
