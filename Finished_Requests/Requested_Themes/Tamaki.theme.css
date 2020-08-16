@@ -688,8 +688,7 @@
   color: white;
 }
 
-.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, 
-.theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb {
+.auto-Ge5KZx::-webkit-scrollbar-thumb {
   background-color: #FF60CE;
 }
 
@@ -855,12 +854,12 @@
   background-color: #FF60CE;
 }
 
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+.auto-Ge5KZx::-webkit-scrollbar-track  {
   background: none;
   border: none;
 }
 
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
+.auto-Ge5KZx::-webkit-scrollbar-thumb {
   background-color: #FF60CE;
   border: none;
 }
@@ -1193,10 +1192,7 @@
   min-height: 19px;
 }
 
-.scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, 
-.scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, 
-.theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, 
-.theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track {
+.auto-Ge5KZx::-webkit-scrollbar-track  {
   background: none;
 }
 
@@ -2099,7 +2095,11 @@
   background-color: rgba(0, 0, 0, .36);
 }
 
-
+.wrapper-3vR61M,
+.wrapper-1F5TKx {
+  background-color: transparent;
+  overflow: visible;
+}
 
 
 
@@ -2157,6 +2157,7 @@
 
 /* Color Links */
 .standardSidebarView-3F1I7i a,
+.imageDetails-1t6Zms a,
 .lookLink-9FtZy-.colorLink-35jkBc,
 .footer-3rDWdC a,
 .content-8biNdB a,
