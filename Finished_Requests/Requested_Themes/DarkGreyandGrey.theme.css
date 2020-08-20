@@ -1,0 +1,24 @@
+//META{"name":"Dark_Grey_and_Grey_Theme", "version":"1", "description":"Theme requested by Ablymora 死", "author":"DevilsLynAvenged"}*//
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://cdn.discordapp.com/attachments/457159558054281216/668157211318419465/wm77grlkjvf11.jpg);
+    --background-opacity: rgba(0, 0, 0, .7);
+    --word-color: white;
+    --primary-color: #3c3c3c;
+    --primary-transparency: rgba(60, 60, 60, .6);
+    --avatar-radius: 3px;
+    --button-radius: 3px;
+}
+
+/* Customize other Custom CSS below this line */
+.userPopout-3XzG_A {
+  box-shadow: none;
+  background: linear-gradient(0deg, #4f4f4f 35%, #797979 100%);
+}
+
+.root-SR8cQa {
+  background: linear-gradient(0deg, #4f4f4f 35%, #797979 100%);
+}

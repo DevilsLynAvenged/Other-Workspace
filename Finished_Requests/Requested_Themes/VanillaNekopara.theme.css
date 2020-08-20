@@ -1,0 +1,16 @@
+//META{"name":"Vanilla_Nekopara", "version":"1", "description":"Theme requested by DetektivMalik", "author":"DevilsLynAvenged"}*//
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://images6.alphacoders.com/964/964597.jpg);
+    --background-opacity: rgba(0, 0, 0, .7);
+    --word-color: white;
+    --primary-color: #4096e1;
+    --primary-transparency: rgba(64, 150, 225, .6);
+    --avatar-radius: 3px;
+    --button-radius: 3px;
+}
+
+/* Customize other Custom CSS below this line */

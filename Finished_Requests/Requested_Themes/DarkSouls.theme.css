@@ -1,0 +1,16 @@
+//META{"name":"Dark_Souls", "version":"1", "description":"Theme requested by Corruption", "author":"DevilsLynAvenged"}*//
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://images3.alphacoders.com/863/863863.jpg);
+    --background-opacity: rgba(0, 0, 0, .7);
+    --word-color: white;
+    --primary-color: #686357;
+    --primary-transparency: rgba(104, 99, 87, .6);
+    --avatar-radius: 3px;
+    --button-radius: 3px;
+}
+
+/* Customize other Custom CSS below this line */

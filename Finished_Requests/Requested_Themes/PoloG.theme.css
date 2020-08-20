@@ -1,0 +1,33 @@
+//META{"name":"Polo_G", "version":"1", "description":"Theme requested by Mike", "author":"DevilsLynAvenged"}*//
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://cdn.discordapp.com/attachments/457159558054281216/698530671328624693/Screenshot_28.png);
+    --background-opacity: rgba(0, 0, 0, .7);
+    --word-color: white;
+    --primary-color: #1767A2;
+    --primary-transparency: rgba(23, 103, 162, .6);
+    --avatar-radius: 3px;
+    --button-radius: 3px;
+}
+
+/* Customize other Custom CSS below this line */
+
+#app-mount .app-2rEoOp *,
+.menu-Sp6bN1 *, 
+.contextMenu-HLZMGh *,
+.theme-dark .modal-yWgWj- *,
+.messagesPopoutWrap-1MQ1bW *,
+.theme-dark .container-3ayLPN *,
+.theme-dark .uploadModal-2ifh8j *,
+.theme-dark .root-1gCeng *,
+.quickswitcher-3JagVE *,
+#app-mount .keybindShortcut-1BD6Z1 *  {
+  color: #1C82CF !important;
+}
+
+#app-mount .keybindShortcut-1BD6Z1 .bindArrow-2X3Aom g *  {
+  fill: #1C82CF !important
+}

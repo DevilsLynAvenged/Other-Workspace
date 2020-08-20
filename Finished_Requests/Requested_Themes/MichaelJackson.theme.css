@@ -1,0 +1,18 @@
+//META{"name":"Michael_Jackson", "version":"1", "description":"Theme requested by Zqink", "author":"DevilsLynAvenged"}*//
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://cdn.discordapp.com/attachments/457159558054281216/695133846659923968/334681dc8943c898bf724f78d3ed6acf.png);
+    --background-opacity: rgba(0, 0, 0, .7);
+    --word-color: white;
+    --primary-color: #b71212;
+    --primary-transparency: rgba(183, 18, 18, .6);
+    --avatar-radius: 3px;
+    --button-radius: 3px;
+}
+/* Customize other Custom CSS below this line */
+#app-mount .app-2rEoOp {
+    background-position: -35px -452px;
+}

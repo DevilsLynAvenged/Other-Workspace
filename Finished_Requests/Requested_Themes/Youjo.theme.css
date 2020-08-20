@@ -1,0 +1,25 @@
+//META{"name":"Youjo_Senki", "version":"1", "description":"Theme requested by Anna", "author":"DevilsLynAvenged"}*//
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://images4.alphacoders.com/831/831644.png);
+    --background-opacity: rgba(0, 0, 0, .7);
+    --word-color: white;
+    --primary-color: #396a5b;
+    --primary-transparency: rgba(57, 106, 91, .6);
+    --avatar-radius: 3px;
+    --button-radius: 3px;
+}
+
+/* Customize other Custom CSS below this line */
+
+.root-SR8cQa {
+  background: url(https://images7.alphacoders.com/827/827478.png) 60% / cover;
+}
+
+.userPopout-3XzG_A {
+  background: url(https://mfiles.alphacoders.com/798/798860.jpg) 60% / cover;
+  box-shadow: none;
+}

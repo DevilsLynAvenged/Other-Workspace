@@ -1,0 +1,25 @@
+//META{"name":"Yukine_Theme", "version":"1", "description":"Sleepy Ash", "author":"DevilsLynAvenged"}*//
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://cdn.discordapp.com/attachments/457159558054281216/680156993691975690/205.jpg);
+    --background-opacity: rgba(0, 0, 0, .7);
+    --word-color: white;
+    --primary-color: #3c93b8;
+    --primary-transparency: rgba(60, 147, 184, .6);
+    --avatar-radius: 3px;
+    --button-radius: 3px;
+}
+
+/* Customize other Custom CSS below this line */
+
+.root-SR8cQa {
+  background: url(https://cdn.discordapp.com/attachments/457159558054281216/680153407126110344/202.jpg) 60% / cover;
+}
+
+.userPopout-3XzG_A {
+  background: url(https://cdn.discordapp.com/attachments/457159558054281216/680157016551194764/203.png) 60% / cover;
+  box-shadow: none;
+}

@@ -1,0 +1,44 @@
+//META{"name":"Customizable_Sidebar", "version":"1", "description":"Theme requested by dylann", "author":"DevilsLynAvenged"}*//
+
+.theme-light .app-2rEoOp {
+  background-image: url(https://images6.alphacoders.com/687/687583.jpg);
+  background-color: transparent;
+  background-size: cover;
+}
+
+.theme-light .bg-h5JY_x,
+.theme-light .layer-3QrUeG,
+.theme-light .layers-3iHuyZ,
+.scroller-2TZvBN {
+  background-color: transparent;
+}
+
+.theme-light .sidebar-2K8pFh,
+.theme-light .container-PNkimc {
+  background-color: rgba(255,255,255,.5);
+}
+
+.theme-light .wrapper-1Rf91z,
+.theme-light .macButtons-2MuSAC {
+  background-color: rgba(255,255,255,.8);
+}
+
+.macButtons-2MuSAC {
+  width: 72px;
+}
+
+.theme-light .panels-j1Uci_ {
+  background-color: rgba(255,255,255,.4);
+}
+
+.modeSelected-1zApJ_ .content-3at_AU, 
+.modeSelected-1zApJ_:hover .content-3at_AU {
+  background-color: #50535c;
+}
+
+.modeSelected-1zApJ_ .name-3_Dsmg, 
+.modeSelected-1zApJ_:hover .name-3_Dsmg,
+.modeSelected-1zApJ_ .actionIcon-2Hi9ZG,
+.modeSelected-1zApJ_:hover .actionIcon-2Hi9ZG {
+  color: white;
+}

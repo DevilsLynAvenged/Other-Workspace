@@ -1,0 +1,16 @@
+//META{"name":"Purple_And_Pink", "version":"1", "description":"Theme requested by Heestiia", "author":"DevilsLynAvenged"}*//
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://images2.alphacoders.com/107/1079609.jpg);
+    --background-opacity: rgba(0, 0, 0, .7);
+    --word-color: white;
+    --primary-color: #9331d0;
+    --primary-transparency: rgba(255, 117, 149, 0.6);
+    --avatar-radius: 3px;
+    --button-radius: 3px;
+}
+
+/* Customize other Custom CSS below this line */
