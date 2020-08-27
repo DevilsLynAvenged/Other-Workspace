@@ -1,0 +1,17 @@
+//META{"name":"Blue_and_Red_Theme", "version":"1", "description":"Theme requested by Yronwood", "author":"DevilsLynAvenged"}*//
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://cdn.discordapp.com/attachments/457159558054281216/747580789587181638/discord_theme_background_by_supercosmoprower_daau1do-pre.jpg);
+    --background-opacity: rgba(0, 0, 0, .3);
+    --word-color: white;
+    --primary-color: #1709d7;
+    --primary-transparency: rgba(23, 9, 215, .6);
+    --avatar-radius: 3px;
+    --button-radius: 3px;
+}
+
+
+/* Customize other Custom CSS below this line */
