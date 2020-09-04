@@ -1,0 +1,17 @@
+//META{"name":"Himiko_Toga", "version":"1", "description":"Theme requested by Doe", "author":"DevilsLynAvenged"}*//
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://images8.alphacoders.com/968/968315.jpg);
+    --background-opacity: rgba(0, 0, 0, .65);
+    --word-color: white;
+    --primary-color: #F4AF61;
+    --primary-transparency: rgba(244, 175, 97, .6);
+    --avatar-radius: 3px;
+    --button-radius: 3px;
+}
+
+
+/* Customize other Custom CSS below this line */

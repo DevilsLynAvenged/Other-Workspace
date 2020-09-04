@@ -1,0 +1,17 @@
+//META{"name":"Galaxy_Theme", "version":"1", "description":"Theme requested by Galactic", "author":"DevilsLynAvenged"}*//
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://images3.alphacoders.com/773/77317.jpg);
+    --background-opacity: rgba(0, 0, 0, .5);
+    --word-color: white;
+    --primary-color: #5a238d;
+    --primary-transparency: rgba(90, 35, 141, .6);
+    --avatar-radius: 3px;
+    --button-radius: 3px;
+}
+
+
+/* Customize other Custom CSS below this line */

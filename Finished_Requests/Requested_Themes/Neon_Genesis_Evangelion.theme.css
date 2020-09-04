@@ -1,0 +1,17 @@
+//META{"name":"Neon_Genesis_Evangelion", "version":"1", "description":"Theme requested by Börninsky", "author":"DevilsLynAvenged"}*//
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://images7.alphacoders.com/101/1014998.jpg);
+    --background-opacity: rgba(0, 0, 0, .57);
+    --word-color: white;
+    --primary-color: #CF2D33;
+    --primary-transparency: rgba(207, 45, 51, .6);
+    --avatar-radius: 3px;
+    --button-radius: 3px;
+}
+
+
+/* Customize other Custom CSS below this line */

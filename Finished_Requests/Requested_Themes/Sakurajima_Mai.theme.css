@@ -1,0 +1,17 @@
+//META{"name":"Sakurajima_Mai", "version":"1", "description":"Theme requested by Peako", "author":"DevilsLynAvenged"}*//
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://images7.alphacoders.com/105/1057369.jpg);
+    --background-opacity: rgba(0, 0, 0, .6);
+    --word-color: white;
+    --primary-color: #619EEC;
+    --primary-transparency: rgba(97, 158, 236, .6);
+    --avatar-radius: 3px;
+    --button-radius: 3px;
+}
+
+
+/* Customize other Custom CSS below this line */
