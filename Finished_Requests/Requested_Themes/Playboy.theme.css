@@ -1,0 +1,17 @@
+//META{"name":"Playboy_Theme", "version":"1", "description":"Theme requested by nessa", "author":"DevilsLynAvenged"}*//
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://wallpaperset.com/w/full/a/c/8/516872.jpg);
+    --background-opacity: rgba(0, 0, 0, .3);
+    --word-color: white;
+    --primary-color: #1a1a1a;
+    --primary-transparency: rgba(255, 255, 255, .4);
+    --avatar-radius: 3px;
+    --button-radius: 3px;
+}
+
+
+/* Customize other Custom CSS below this line */

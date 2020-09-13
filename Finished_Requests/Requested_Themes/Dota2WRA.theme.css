@@ -1,0 +1,17 @@
+//META{"name":"Dota2_WRA", "version":"1", "description":"Theme requested by Aoba Moca", "author":"DevilsLynAvenged"}*//
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://external-preview.redd.it/_cIsCh_wyVmAvzcnUxSBcca0Uofeoww8RAvwE6txrMc.png?auto=webp&s=761f0045e917904a91a0311bd3b12737e4fda2d6);
+    --background-opacity: rgba(0, 0, 0, .7);
+    --word-color: white;
+    --primary-color: #4abe97;
+    --primary-transparency: rgba(74, 190, 151, .6);
+    --avatar-radius: 3px;
+    --button-radius: 3px;
+}
+
+
+/* Customize other Custom CSS below this line */
