@@ -1,0 +1,75 @@
+//META{"name":"Arknights_Theme", "version":"1", "description":"Theme requested by Selion", "author":"DevilsLynAvenged"}*//
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://cdn.discordapp.com/attachments/457159558054281216/754021241144475718/anime-girl-sniper-schwarz-arknights-uhdpaper.com-4K-6.1907.jpg);
+    --background-opacity: rgba(0, 0, 0, .6);
+    --word-color: white;
+    --primary-color: #83787a;
+    --primary-transparency: rgba(131, 120, 122, .6);
+    --avatar-radius: 50px;
+    --button-radius: 50px;
+}
+
+
+/* Customize other Custom CSS below this line */
+.childWrapper-anI2G9 {
+    background-color: var(--primary-transparency);
+    color: transparent; 
+    background-image: url(https://cdn.discordapp.com/attachments/722330318178222130/754022715467497513/Rhodes_Island.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.userPopout-3XzG_A {
+    box-shadow: none;
+    border-radius: 13px;
+    background-image: url(https://cdn.discordapp.com/attachments/722330318178222130/754109356068438127/ESCpY0ZUcAYfjCs.jpg-large.jpeg);
+    background-size: cover !important;
+    background-position: center center;
+}
+
+.root-SR8cQa {
+    background-color: transparent;
+    background-image: url(https://cdn.discordapp.com/attachments/722330318178222130/754109643642372137/ERYJLY3U4AI_X0n.jpg);
+    background-size: cover !important;
+    background-position: center center;
+}
+
+.topSectionStreaming-1Tpf5X,
+.topSectionXbox-3fWLjS,
+.topSectionSpotify-1lI0-P,
+.topSectionPlaying-1J5E4n {
+    background: rgba(0, 0, 0, .72) !important;
+}
+
+.roleCircle-3xAZ1j {
+    border-radius: 2px !important;
+    opacity: 0.6 !important;
+    transition: opacity .2s linear;
+}
+
+.role-2irmRk:hover .roleCircle-3xAZ1j {
+    opacity: 1 !important;
+}
+
+.headerPlaying-j0WQBV {
+    background-color: rgb(52, 117, 217, 0.7) !important;
+}
+
+.headerSpotify-zpWxgT,
+.headerXbox-3G-4PF {
+    background: rgba(18, 96, 45, 0.598) !important;
+}
+
+
+.headerStreaming-2FjmGz {
+    background: rgb(77, 43, 137, 0.6) !important;
+}
+
+.connectedAccount-36nQx7 {
+    border: none;
+    background-color: rgba(102, 153, 204, .4);
+}
