@@ -1,0 +1,17 @@
+//META{"name":"Kaede_Azusagawa", "version":"1", "description":"Theme requested by bordey", "author":"DevilsLynAvenged"}*//
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://cdn.discordapp.com/attachments/722330318178222130/758099288143691818/a8fc05f6cc6f001d6fcb94f24b2628f7182c041fr1-1280-720v2_uhq.jpg);
+    --background-opacity: rgba(0, 0, 0, .6);
+    --word-color: white;
+    --primary-color: #eb6685;
+    --primary-transparency: rgba(235, 102, 133, .6);
+    --avatar-radius: 3px;
+    --button-radius: 3px;
+}
+
+
+/* Customize other Custom CSS below this line */
