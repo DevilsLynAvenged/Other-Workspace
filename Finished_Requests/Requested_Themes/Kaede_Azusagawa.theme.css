@@ -1,6 +1,6 @@
 //META{"name":"Kaede_Azusagawa", "version":"1", "description":"Theme requested by bordey", "author":"DevilsLynAvenged"}*//
 @import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@400&display=swap');
 
 
 :root {
@@ -14,4 +14,8 @@
 }
 
 
+
 /* Customize other Custom CSS below this line */
+body, div, span, textarea, ::-webkit-input-placeholder {
+    font-family: 'Livvic', sans-serif !important;
+} 
