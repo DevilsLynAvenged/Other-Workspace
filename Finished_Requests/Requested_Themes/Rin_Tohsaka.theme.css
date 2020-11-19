@@ -57,6 +57,14 @@
   background-color: black;
 }
 
+.protip-1b9XPC {
+  border-top: none;
+}
+
+.autocompleteQuerySymbol-1kyGZ5 {
+  background-color: #87261F;
+}
+
 .circleIconButton-jET_ig.selected-ugP_am {
   background-color: #87261F;
 }
@@ -179,6 +187,16 @@
   background-color: #87261F;
 }
 
+.input--jS-j2 {
+  background-color: transparent;
+}
+  
+.container-UC8Ug1 {
+  border-radius: 4px;
+  border: 1px solid #4A1511;
+  background-color: rgba(0, 0, 0, .4);
+}
+
 .guildSeparator-3s64Iy {
   background: none;
 }
@@ -215,6 +233,10 @@
 .theme-dark .root-1gCeng {
     background-color: rgba(0, 0, 0, 0.55);
     box-shadow: none;
+}
+
+.colorHeaderSecondary-3Sp3Ft {
+  color: white;
 }
 
 .theme-dark .header-3ZP1MY,
@@ -357,7 +379,7 @@
   color: silver;
 }
 
-.css-n57xjs-menu {
+.css-3vaxre-menu {
   background-color: #4A1511;
   box-shadow: none;
   color: white;
@@ -396,12 +418,12 @@
   opacity: .3;
 }
 
-.container-PNkimc,
+.container-3w7J-x,
 .sidebar-2K8pFh {
   background-color: transparent;
 }
 
-.unread-3zKkbm {
+.unread-2lAfLh {
   background-color: #87261F;
   transform: rotate(91deg);
   margin-left: 4px;
@@ -410,16 +432,16 @@
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
 
-.modeSelected-1zApJ_ .icon-1_QxNX, 
-.modeSelected-1zApJ_:hover .icon-1_QxNX, 
-.modeUnread-1zpFdA .icon-1_QxNX, 
-.modeUnread-1zpFdA:hover .icon-1_QxNX {
+.modeSelected-346R90 .icon-1DeIlz, 
+.modeSelected-346R90:hover .icon-1DeIlz, 
+.modeUnread-1qO3K1 .icon-1DeIlz, 
+.modeUnread-1qO3K1:hover .icon-1DeIlz {
   color: white;
 }
 
-.modeSelected-1zApJ_ .content-3at_AU, 
-.modeSelected-1zApJ_:hover .content-3at_AU,
-.listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh {
+.modeSelected-346R90 .content-1x5b-n, 
+.modeSelected-346R90:hover .content-1x5b-n,
+.listDefault-3ir5aS .clickable-1lCRLF.selected-3t3Csj .content-1Wq3SX {
   background-color: rgba(135, 38, 31, .32)
 }
 
@@ -427,11 +449,11 @@
   background-color: #87261F !important;
 }
 
-.avatarSpeaking-3MqCHL {
+.avatarSpeaking-2IGMRN {
   box-shadow: inset 0 0 0 2px #b51287,inset 0 0 0 3px black;
 }
 
-.avatar-3elDyV {
+.avatar-3tNQiO {
   border-radius: 4px;
 }
 
@@ -444,20 +466,20 @@
   background-color: transparent;
 }
 
-.wrapper-pZmgj4 {
+.wrapper-2tAnRe {
   border-radius: 4px;
   color: white;
 }
 
-.users-i_3-kL {
+.users-3kndPl {
   background-color: #87261F;
 }
 
-.total-3tKGEB {
+.total-i6us2n {
   background-color: #4A1511;
 }
 
-.total-3tKGEB:after {
+.total-i6us2n:after {
   border-right-color: #4A1511;
 }
 
@@ -601,8 +623,8 @@
   background-color: #87261F !important;
 }
 
-.theme-dark .checked-3_4uQ9[style*="border-color"] polyline {
-  stroke: white;
+.theme-dark .checked-3_4uQ9[style*="border-color"] path {
+  fill: white;
 }
 
 .description-3_Ncsb, 
@@ -610,7 +632,7 @@
   color: white;
 }
 
-.css-mhi7q3-placeholder {
+.css-o3gndj-placeholder {
   color: white;
   opacity: 1;
 }
@@ -626,7 +648,7 @@
   opacity: .5;
 }
 
-.css-1gnr91b-option {
+.css-rzbxvl-option {
   background-color: #87261F;
   color: white;
 }
@@ -701,7 +723,7 @@
   border-radius: 3px;
 }
 
-.barBase-39XTcM {
+.newMessagesBar-265mhP {
   opacity: .75;
   background-color: #87261f;
 }
@@ -721,6 +743,10 @@
 
 /* Emote Picker */
 
+.guildIcon-3h-1IH {
+  background-color: transparent;
+  color: white;
+}
 
 .navButtonActive-1MkytQ {
   border-left: none;
@@ -742,11 +768,15 @@
   background-color: #4A1511;
 }
 
+.emojiItem-14v6tW.emojiItemSelected-1aLkfV {
+  background-color: rgba(0, 0, 0, .4);
+}
+
 .emojiPicker-3PwZFl .header-8ilj5e {
   box-shadow: none;
 }
 
-.inspector-sdLnLS,
+.inspector-S2gM3e,
 .wrapper-2Gsate {
   background-color: transparent;
 }
@@ -827,12 +857,12 @@
   background: none;
 }
 
-.theme-dark .selectorSelected-1_M1WV .content-Qb0rXO,
-.theme-dark .selectorSelected-1_M1WV .flexChild-faoVW3[style*="color:"] {
+.theme-dark .selected-1Tbx07 .content-Qb0rXO,
+.theme-dark .selected-1Tbx07 .flexChild-faoVW3[style*="color:"] {
   color: white !important;
 }
 
-.theme-dark .selectorSelected-1_M1WV {
+.theme-dark .selected-1Tbx07 {
   background-color: #87261F;
 }
 
@@ -1219,9 +1249,13 @@
   background-color: transparent;
 }
 
-.theme-dark .header-ykumBX,
-.theme-dark .searchHeader-1EzJGH {
+.theme-dark .header-ykumBX {
   background-color: #87261F;
+  box-shadow: none;
+}
+
+.theme-dark .searchHeader-2XoQg7 {
+  color: white; 
   box-shadow: none;
 }
 
@@ -1242,23 +1276,23 @@
   opacity: .7;
 }
 
-.theme-dark .channelSeparator-dTqJ4K:before {
+.theme-dark .channelSeparator-1DOiGt:before {
   border-color: transparent;
 }
 
-.theme-dark .channelSeparator-1X1FuH .channelName-wvgELL {
+.theme-dark .channelSeparator-1X1FuH .channelName-1JRO3C {
   background-color: rgba(0, 0, 0, .44);
   border: 2px solid rgba(135, 38, 31, .6);
   padding: 10px;
   margin-top: 6px;
 }
 
-.theme-dark .searchResult-2N9RV4:before,
-.theme-dark .searchResult-2N9RV4:after {
+.theme-dark .searchResult-9tQ1uo:before,
+.theme-dark .searchResult-9tQ1uo:after {
   background-image: none;
 }
 
-.theme-dark .searchResult-2N9RV4 .hit-NLlWXA {
+.theme-dark .searchResult-9tQ1uo .hit-NLlWXA {
   border-color: transparent !important;
   background-color: rgba(0, 0, 0, .4);
   box-shadow: none;
@@ -1277,11 +1311,11 @@
 }
 
 .messageGroupWrapper-o-Zw7G .avatar-1BDn8e,
-.searchResult-2N9RV4 .avatar-1BDn8e  {
+.searchResult-9tQ1uo .avatar-1BDn8e  {
   margin-top: -7px;
 }
 
-.theme-dark .searchResult-2N9RV4.expanded-ovgtuV {
+.theme-dark .searchResult-9tQ1uo.expanded-w_LCGl {
   border: 2px solid #87261F;
   background: none;
 }
@@ -1291,11 +1325,11 @@
 }
 
 .theme-dark .messageGroupWrapper-o-Zw7G:hover,
-.theme-dark .searchResult-2N9RV4.expanded-ovgtuV .searchResultMessage-30QnSN.hit-1CXhXT {
+.theme-dark .searchResult-9tQ1uo.expanded-w_LCGl .searchResultMessage-1fxgXh.hit-1fVM9e {
   background-color: rgba(135, 38, 31, .6);
 }
 
-.theme-dark .searchResult-2N9RV4.expanded-ovgtuV .searchResultMessage-30QnSN.hit-1CXhXT {
+.theme-dark .searchResult-9tQ1uo.expanded-w_LCGl .searchResultMessage-1fxgXh.hit-1fVM9e {
   border: none;
 }
 
@@ -1310,7 +1344,7 @@
 }
 
 .theme-dark .jumpButton-3DTcS_,
-.theme-dark .jumpButton-1ol35X,
+.theme-dark .jumpButton-JkYoYK,
 .theme-dark .collapseButton-oSNpPX,
 .jumpButton-2dvRSC {
   background-color: #87261F;
@@ -2302,7 +2336,7 @@
   fill: #87261F;
 }
 
-.form-2fGMdU:before,
+.theme-dark .form-2fGMdU:before,
 .separator-42rNt0 {
   background: none;}
 
