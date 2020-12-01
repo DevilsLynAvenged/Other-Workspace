@@ -1,4 +1,9 @@
-//META{"name":"Nature_Theme","description":"BD Theme requested by Ivyomen","author":"ShadowDevilsAvenged","version":"1"}*//{}
+/**
+ * @name Nature Theme
+ * @author ShadowDevilsAvenged
+ * @description BD Theme requested by Ivyomen
+ * @version 4
+ */
 
 * {
 	font-family: Calibri !important;
@@ -1680,7 +1685,7 @@
 	color: white !important;
 	background-color: rgba(109, 160, 120, 0.58);
 	padding: 3px 2px;
-	top: .-6em;
+	top: -.6em;
 	border-radius: 5px;
 }
 
