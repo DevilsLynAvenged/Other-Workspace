@@ -1,0 +1,161 @@
+/**
+ * @name Anime Cats
+ * @author ShadowDevilsAvenged
+ * @description Theme requested by Anjalea
+ * @version 4
+ */
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://images6.alphacoders.com/957/957145.jpg);
+    --background-opacity: rgba(0, 0, 0, .6);
+    --word-color: white;
+    --primary-color: #CCCCFF;
+    --primary-transparency: #C8A2C8;
+    --avatar-radius: 3px;
+    --button-radius: 3px;
+}
+
+/* Customize other Custom CSS below this line */
+#app-mount .cozy-3raOZG.wrapper-2a6GCs {
+ font-family: anime ace;
+}
+
+
+.group-spacing-16 .groupStart-23k01U::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 15px 19px 15px 0;
+  border-color: transparent #ffffff;
+  display: block;
+  width: 0;
+  z-index: 1;
+  left: -19px;
+  top: 11px;
+}
+
+.compact-T3H92H.wrapper-2a6GCs.mentioned-xhSam7::after, 
+.cozy-3raOZG.wrapper-2a6GCs.mentioned-xhSam7::after {
+  border-color: transparent var(--primary-transparency);
+  display: block;
+  width: 0;
+  z-index: 1;
+  left: -19px;
+  top: 11px;
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 15px 19px 15px 0;
+}
+
+.compact-T3H92H.wrapper-2a6GCs, 
+.cozy-3raOZG.wrapper-2a6GCs {
+  position: relative;
+  height: fit-content;
+  width: 70%;
+  padding-bottom: 5px;
+  right: -83px;
+  background: #ffffff !important;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 5px;
+  border: 2px solid black;
+}
+
+.compact-T3H92H.wrapper-2a6GCs.mentioned-xhSam7, 
+.cozy-3raOZG.wrapper-2a6GCs.mentioned-xhSam7 {
+  background: var(--primary-transparency) !important;
+}
+
+.edited-3sfAzf, 
+.colorHeaderSecondary-3Sp3Ft {
+	color: black;
+}
+
+
+
+.container-2fRDfG .colorHeaderSecondary-3Sp3Ft {
+  color: white;
+}
+
+.compact-T3H92H.wrapper-2a6GCs .avatar-1BDn8e, 
+.cozy-3raOZG.wrapper-2a6GCs .avatar-1BDn8e {
+  left: -71px;
+}
+
+.compact-T3H92H.wrapper-2a6GCs .header-23xsNx,
+.cozy-3raOZG.wrapper-2a6GCs .header-23xsNx {
+  margin-left: -59px;
+}
+
+.cozy-3raOZG.wrapper-2a6GCs .messageContent-2qWWxC,
+.compact-T3H92H.wrapper-2a6GCs .messageContent-2qWWxC {
+  margin-left: -134px;
+}
+
+.cozy-3raOZG.wrapper-2a6GCs .container-1ov-mD>*,
+.compact-T3H92H.wrapper-2a6GCs .container-1ov-mD>* {
+  margin-left: -64px;
+}
+
+.cozy-3raOZG .repliedMessage-VokQwo + .contents-2mQqc9 > .avatar-1BDn8e {
+	margin-top: -17px;
+}
+
+.cozy-3raOZG .header-23xsNx, .theme-dark .username-1A8OIy, .cozy-3raOZG .timestamp-3ZCmNB {
+  color: black !important;
+}
+
+.repliedTextPreview-2NBljf {
+	margin-left: 63px;
+	overflow: visible;
+}
+
+.icon-2Po-VO {
+  display: none;
+}
+
+.markup-2BOw-j, .repliedTextPreview-2NBljf.clickable-1bVtEA, .repliedTextPreview-2NBljf.clickable-1bVtEA:hover, .repliedMessage-VokQwo, .container-3-pyIM {
+  color: black !important;
+}
+
+.scrollableContainer-2NUZem .markup-2BOw-j {
+  color:white!important;
+}
+
+.replyBadge-r1su3o {
+	color: white;
+	background: black;
+}
+
+.cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt {
+  left: -62px;
+  color: white !important;
+}
+
+.markup-2BOw-j code {
+	line-height: 1.185rem;
+	background: none;
+	border: none;
+}
+
+[class*="hljs"] *,
+.hljs {
+	color: black !important;
+  text-shadow: none;
+  font-weight: 300;
+  font-family: anime ace;
+  font-size: smaller;
+}
+
+.attachment-33OFj0 {
+	border-color: transparent;
+	background-color: rgba(0, 0, 0, .1);
+}
+
+.metadata-3WGS0M {
+	color: black;
+}
