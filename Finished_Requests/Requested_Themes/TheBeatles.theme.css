@@ -1,0 +1,33 @@
+/**
+ * @name The Beatles Band
+ * @author ShadowDevilsAvenged
+ * @description Theme requested by Dettol2in
+ * @version 4
+ */
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://cdn.discordapp.com/attachments/457159558054281216/787645092835622922/Beatles_grp_photo.PNG);
+    --background-opacity: rgba(0, 0, 0, .5);
+    --word-color: white;
+    --primary-color: #e0bc77;
+    --primary-transparency:rgba(224, 188, 119, .6);
+    --avatar-radius: 3px;
+    --button-radius: 3px;
+}
+
+
+/* Customize other Custom CSS below this line */
+.userPopout-3XzG_A {
+    box-shadow: none;
+    background-image: url(https://cdn.discordapp.com/attachments/457159558054281216/787645193406906379/RIngo.PNG);
+    background-size: cover;
+    background-position: -62px;
+}
+
+.root-SR8cQa {
+	background-image: url(https://cdn.discordapp.com/attachments/457159558054281216/787645420779995176/636281188711788890-STG0421-classic-beatles-for-sale-01.png);
+    background-size: cover;
+}
