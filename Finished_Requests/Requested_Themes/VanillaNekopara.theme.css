@@ -1168,6 +1168,11 @@
   opacity: 1;
 }
 
+.searchResult-9tQ1uo .cozy-3raOZG {
+   margin-left: 4px;
+   margin-top: 5px;
+}
+
 .mentioned-xhSam7:before {
   display: none;
 }
@@ -1250,9 +1255,27 @@
   background-color: #4096e1;
   box-shadow: none;
 }
+
 .searchHeader-2XoQg7 {
   box-shadow: none;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.searchResult-9tQ1uo {
+  overflow: visible;
+  background-color: rgba(0, 0, 0, .23);
+}
+
+.tab-2j5AEF, .tab-2j5AEF:active, .tab-2j5AEF:hover {
   color: white;
+}
+
+.theme-dark .tab-2j5AEF.selected-2LAck8 {
+  background-color: #4096e1;
+}
+
+.tab-2j5AEF:hover {
+  background-color: #2A5F90;
 }
 
 .theme-dark .messagesPopoutWrap-1MQ1bW,
@@ -1266,27 +1289,6 @@
 .messages-3G3erD {
   background-color: rgba(0,0,0,.5);
   border-radius: 4px;
-}
-
-.tab-2j5AEF, .totalResults--dyAxF {
-  opacity: .7;
-}
-
-.channelSeparator-1DOiGt:before {
-  border-color: transparent;
-}
-
-.theme-dark .searchResult-9tQ1uo:before,
-.theme-dark .searchResult-9tQ1uo:after {
-  background-image: none;
-}
-
-.theme-dark .searchResult-9tQ1uo .hit-1fVM9e {
-  border-color: transparent !important;
-  background-color: rgba(0, 0, 0, .4);
-  box-shadow: none;
-  border: none;
-  padding: 9px 0;
 }
 
 .theme-dark .messageGroupWrapper-o-Zw7G {
@@ -1304,22 +1306,12 @@
   margin-top: -7px;
 }
 
-.theme-dark .searchResult-9tQ1uo.expanded-w_LCGl {
-  border: 2px solid #4096e1;
-  background: none;
-}
-
 .preview-2nSL_2 {
   background-color: rgba(0, 0, 0, .3);
 }
 
-.theme-dark .messageGroupWrapper-o-Zw7G:hover,
-.theme-dark .searchResult-9tQ1uo.expanded-w_LCGl .searchResultMessage-1fxgXh.hit-1fVM9e {
+.theme-dark .messageGroupWrapper-o-Zw7G:hover {
   background-color: rgba(64, 150, 225, .6);
-}
-
-.theme-dark .searchResult-9tQ1uo.expanded-w_LCGl .searchResultMessage-1fxgXh.hit-1fVM9e {
-  border: none;
 }
 
 .theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
@@ -1335,7 +1327,7 @@
 .theme-dark .jumpButton-3DTcS_,
 .theme-dark .jumpButton-1ol35X,
 .theme-dark .collapseButton-oSNpPX,
-.jumpButton-JkYoYK {
+.button-11zvza {
   background-color: #4096e1;
   color: white;
 }

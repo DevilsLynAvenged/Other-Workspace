@@ -1296,7 +1296,7 @@
   }
 
 .theme-dark .searchHeader-2XoQg7 {
-    color: white; 
+    background-color: rgba(0, 0, 0, .3);
     box-shadow: none;
 }
   
@@ -1313,33 +1313,30 @@
     border-radius: 4px;
   }
   
-  .tab-EiCZG6, .totalResults-1yK_Ym {
-    opacity: .7;
-  }
-  
-  .theme-dark .channelSeparator-1DOiGt:before {
-    border-color: transparent;
-  }
-  
-  .theme-dark .channelSeparator-1X1FuH .channelName-1JRO3C {
+  .theme-dark .channelName-1JRO3C {
     background-color: rgba(0, 0, 0, .44);
     border: 2px solid rgba(236, 112, 150, .6);
     padding: 10px;
     margin-top: 6px;
   }
-  
-  .theme-dark .searchResult-9tQ1uo:before,
-  .theme-dark .searchResult-9tQ1uo:after {
-    background-image: none;
+
+  .searchResult-9tQ1uo {
+    overflow: visible;
+    background-color: rgba(0, 0, 0, .23);
   }
   
-  .theme-dark .searchResult-9tQ1uo .hit-NLlWXA {
-    border-color: transparent !important;
-    background-color: rgba(0, 0, 0, .4);
-    box-shadow: none;
-    border: none;
-    padding: 9px 0;
+  .tab-2j5AEF, .tab-2j5AEF:active, .tab-2j5AEF:hover {
+    color: white;
   }
+  
+  .theme-dark .tab-2j5AEF.selected-2LAck8 {
+    background-color: #EC7096;
+  }
+  
+  .tab-2j5AEF:hover {
+    background-color: #9F4C65;
+  }
+  
   
   .theme-dark .messageGroupWrapper-o-Zw7G {
     border-color: transparent !important;
@@ -1356,23 +1353,14 @@
     margin-top: -7px;
   }
   
-  .theme-dark .searchResult-9tQ1uo.expanded-w_LCGl {
-    border: 2px solid #EC7096;
-    background: none;
-  }
-  
   .preview-2nSL_2 {
     background-color: rgba(0, 0, 0, .3);
   }
   
-  .theme-dark .messageGroupWrapper-o-Zw7G:hover,
-  .theme-dark .searchResult-9tQ1uo.expanded-w_LCGl .searchResultMessage-1fxgXh.hit-1fVM9e {
+  .theme-dark .messageGroupWrapper-o-Zw7G:hover {
     background-color: rgba(236, 112, 150, .6);
   }
   
-  .theme-dark .searchResult-9tQ1uo.expanded-w_LCGl .searchResultMessage-1fxgXh.hit-1fVM9e {
-    border: none;
-  }
   
   .theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
     box-shadow: none;
@@ -1385,7 +1373,7 @@
   }
   
   .theme-dark .jumpButton-3DTcS_,
-  .theme-dark .jumpButton-JkYoYK,
+  .theme-dark .button-11zvza,
   .theme-dark .collapseButton-oSNpPX,
   .jumpButton-2dvRSC {
     background-color: #EC7096;
