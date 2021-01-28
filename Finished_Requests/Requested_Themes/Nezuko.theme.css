@@ -1,0 +1,24 @@
+/**
+ * @name Nezuko
+ * @author ShadowDevilsAvenged
+ * @description Theme requested by sub
+ * @version 4
+ */
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://images5.alphacoders.com/104/1045349.jpg);
+    --background-opacity: rgba(0, 0, 0, .7);
+    --word-color: white;
+    --primary-color: #ff94e4;
+    --primary-transparency: rgba(255, 148, 228, .8);
+    --avatar-radius: 3px;
+    --button-radius: 3px;
+}
+
+/* Customize other Custom CSS below this line */
+#app-mount .app-2rEoOp {
+    background-position: 0 -325px;
+}
