@@ -1,0 +1,22 @@
+/**
+ * @name Kyo Nijimura(Born This Way)
+ * @author ShadowDevilsAvenged
+ * @description Theme requested by vicky
+ * @version 4
+ */
+ @import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+ @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+ 
+ 
+ :root {
+     --background-image: url(https://cdn.discordapp.com/attachments/457159558054281216/807420002705735710/image0.jpg);
+     --background-opacity: rgba(0, 0, 0, .6);
+     --word-color: white;
+     --primary-color: #512fcc;
+     --primary-transparency: rgba(81, 47, 204, .6);
+     --avatar-radius: 3px;
+     --button-radius: 3px;
+ }
+ 
+ 
+ /* Customize other Custom CSS below this line */
