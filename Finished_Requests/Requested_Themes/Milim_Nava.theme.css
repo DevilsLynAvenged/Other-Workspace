@@ -10,6 +10,143 @@
     background-color: transparent;
     font-family: calibri;
 }
+
+/* New Stuff */
+.option-3KoAJB.focused-1T6PE5 {
+  background-color:#ec7096 !important;
+  color: white;
+}
+
+.tutorialIcon-3f1miQ {
+  background-color:  #ec7096;
+  color: white;
+  border-radius: 6px;
+}
+
+.emptyChannelIcon-cc932w {
+  border-radius: 6px;
+  background-color: #ec7096;
+}
+.background-ujHpbY {
+  background-color: transparent !important;
+}
+.tile-2naSqK {
+  background-color: transparent;
+}
+.card-3RzMcx {
+  background-color: rgba(0, 0, 0, .30) !important;
+}
+
+.card-2Mz_4z {
+  border-radius: 5px;
+  color: white;
+  border: 1px solid #ec7096;
+  background-color: rgba(236, 112, 150, .3);
+}
+.border-3dQmSY.speaking-WDn8Wm {
+  box-shadow: inset 0 0 0 2px #ec7096, inset 0 0 0 3px #000;
+}
+.sourceThumbnail-27dolk {
+  background-color: transparent;
+}
+
+.theme-dark .item-3T2z1R {
+  border-color: transparent;
+}
+
+.item-3T2z1R:last-child {
+  border-radius: 0 5px 5px 0;
+}
+
+.selectorButton-EEUWed {
+  background-color: rgba(236, 112, 150, .3);
+}
+
+#app-mount .selectorButtonSelected-t5V9On {
+  background-color: #ec7096;
+}
+
+.selectorButton-EEUWed:not(.selectorButtonPremiumRequired-mKMbIu):hover {
+  background-color: rgba(236, 112, 150, .6);
+}
+
+.tile-2w4k5N:hover .sourceThumbnail-27dolk,
+.sourceThumbnail-27dolk.selected-1nOkyc {
+  box-shadow: inset 0 0 0 2px #ec7096;
+}
+
+.wrapper-39oAo3 {
+  background-color: rgba(0, 0, 0, .23);
+}
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+  color: white;
+  background-color: transparent;
+  border: 1px solid #4f545c;
+}
+
+.settingCard-3w2mVL.active-1ytUzX {
+  background: rgba(0, 0, 0, .7);
+}
+
+.settingCard-3w2mVL {
+  background: rgba(0, 0, 0, .7);
+  border-radius: 5px;
+}
+
+.cardFolder-28dwxo {
+  background-color: transparent;
+}
+
+.wrapper-uf3cnO {
+  background-color: transparent;
+}
+
+.selected-3xBBKs, .selected-3xBBKs:hover {
+  background-color: rgba(0, 0, 0, .23);
+}
+
+.selected-3xBBKs .icon-2VCx8O, .selected-3xBBKs:hover .icon-2VCx8O, .icon-2VCx8O {
+  color: white;
+}
+
+.tutorial-3w5I9h {
+  background-color: rgba(0, 0, 0, .23);
+}
+
+.theme-dark .activeButton-rvKcqq, .theme-dark .activeButton-rvKcqq:hover {
+  background-color:#ec7096;
+}
+
+.roundButton-CEHyUp {
+  border-radius: 6px;
+}
+
+.pageButton-2ruNwd:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, .23);
+}
+
+.button-F9qN4n {
+  border-radius: 6px;
+  background-color: transparent;
+}
+
+.customItem-a8hq58 {
+  color: white;
+  border-color: transparent;
+}
+
+.button-F9qN4n:hover, .keyboard-mode .button-F9qN4n.focused-3ZzkKr {
+  background-color: #ec7096;
+}
+
+.theme-dark .barBase-1c2Rfb {
+  background-color:rgba(0, 0, 0, .34);
+  opacity: .75;
+}
+
+/* New Stuff */
   
   .layers-3iHuyZ {
     background-color: rgba(0,0,0,.47);
@@ -204,6 +341,7 @@
     border: 1px solid #9F4C65;
     background-color: rgba(0, 0, 0, .4);
   }
+
   
   .guildSeparator-3s64Iy {
     background: none;
@@ -243,7 +381,8 @@
       box-shadow: none;
   }
 
-.colorHeaderSecondary-3Sp3Ft {
+.colorHeaderSecondary-3Sp3Ft,
+.colorHeaderPrimary-26Jzh- {
     color: white;
 }
 
@@ -2344,6 +2483,7 @@
   
   /* Color Link */
   .helpText-h3r3wC a,
+  .button-18p_f6,
   .colorStandard-2KCXvj a,
   .markup-2BOw-j a,
   .topic-TCb_qw a,
@@ -2367,7 +2507,7 @@
   .bda-slist .bda-footer a,
   .editChannelButton-1dYN-G,
   .fakeLink-26oLcc,
-  .button-18p_f6  {
+  .footerText-2a7NxZ a {
     color: #ccbf8e;
   }
   

@@ -11,6 +11,148 @@
   font-family: Calibri;
 }
 
+/* New Stuff */
+.settingCard-3w2mVL.active-1ytUzX {
+  background: rgba(0, 0, 0, .7);
+}
+
+.settingCard-3w2mVL {
+  background: rgba(0, 0, 0, .7);
+  border-radius: 5px;
+}
+
+.cardFolder-28dwxo {
+  background-color: transparent;
+}
+
+/* --- */
+.tutorialIcon-3f1miQ {
+  background-color: rgba(0, 0, 0, .23);
+  color: white;
+  border-radius: 7px;
+}
+
+.sourceThumbnail-27dolk {
+  background-color: transparent;
+}
+
+.tile-2w4k5N:hover .sourceThumbnail-27dolk,
+.sourceThumbnail-27dolk.selected-1nOkyc {
+  box-shadow: inset 0 0 0 2px #9b93e6;
+}
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+  color: white;
+  background-color: transparent;
+  border: 1px solid #4f545c;
+}
+
+.wrapper-39oAo3 {
+  background-color: rgba(0, 0, 0, .23);
+}
+
+.emptyChannelIcon-cc932w {
+  border-radius: 7px;
+  background-color: #9b93e6;
+}
+
+.card-2Mz_4z {
+  border-radius: 5px;
+  color: white;
+  border: 1px solid #9b93e6;
+  background-color: rgba(155, 147, 230, .3);
+}
+.border-3dQmSY.speaking-WDn8Wm {
+	box-shadow: inset 0 0 0 2px #9b93e6, inset 0 0 0 3px #000;
+} 
+
+
+.tile-2naSqK {
+  background-color: transparent;
+}
+.background-ujHpbY {
+  background-color: transparent !important;
+}
+.card-3RzMcx {
+  background-color: rgba(0, 0, 0, .30);
+}
+
+.theme-dark .item-3T2z1R {
+  border-color: transparent;
+}
+
+.item-3T2z1R:last-child {
+  border-radius: 0 5px 5px 0;
+}
+
+.selectorButton-EEUWed {
+  background-color: rgba(155, 147, 230, .3);
+}
+
+#app-mount .selectorButtonSelected-t5V9On {
+  background-color: #9b93e6;
+}
+
+.selectorButton-EEUWed:not(.selectorButtonPremiumRequired-mKMbIu):hover {
+  background-color: rgba(155, 147, 230, .6);
+}
+/* --- */
+
+.option-3KoAJB.focused-1T6PE5 {
+  background-color:#9b93e6 !important;
+  color: white;
+}
+
+.wrapper-uf3cnO {
+  background-color: transparent;
+}
+
+.selected-3xBBKs, .selected-3xBBKs:hover {
+  background-color: rgba(0, 0, 0, .23);
+}
+
+.selected-3xBBKs .icon-2VCx8O, .selected-3xBBKs:hover .icon-2VCx8O, .icon-2VCx8O {
+  color: white;
+}
+
+.tutorial-3w5I9h {
+  background-color: rgba(0, 0, 0, .23);
+}
+
+.theme-dark .activeButton-rvKcqq, .theme-dark .activeButton-rvKcqq:hover {
+  background-color:#9b93e6;
+}
+
+.roundButton-CEHyUp {
+  border-radius: 6px;
+}
+
+.pageButton-2ruNwd:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, .23);
+}
+
+.button-F9qN4n {
+  border-radius: 6px;
+  background-color: transparent;
+}
+
+.customItem-a8hq58 {
+  color: white;
+  border-color: transparent;
+}
+
+.button-F9qN4n:hover, .keyboard-mode .button-F9qN4n.focused-3ZzkKr {
+  background-color: #9b93e6;
+}
+
+.theme-dark .barBase-1c2Rfb {
+  background-color:rgba(0, 0, 0, .34);
+  opacity: .75;
+}
+
+/* New Stuff */
+
 .lowMotionItem-1DvHia,
 .wanderingCubesItem-WPXqao {
   background-color: #9b93e6;
@@ -687,6 +829,11 @@
   border-radius: 4px;
   border: 1px solid #9b93e6;
   background-color: rgba(0, 0, 0, .4);
+}
+.container-UC8Ug1 .colorStandard-2KCXvj,
+.colorHeaderPrimary-26Jzh-,
+.footer-2gL1pp .colorStandard-2KCXvj  {
+  color: white;
 }
 
 .bd-pfbtn {
@@ -2234,6 +2381,7 @@
 .bda-slist .bda-footer a,
 .fakeLink-11RWCQ,
 .helpText-h3r3wC a,
+.button-18p_f6,
 .theme-dark .filenameLinkWrapper-1-14c5,
 .theme-dark .filenameLinkWrapper-1-14c5 a,
 .markup-2BOw-j a,
@@ -2245,7 +2393,8 @@
 .description-yMw5z0 a,
 .checkboxLabel-1zn0UC a,
 .content-s2SEQO a,
-.editChannelButton-1dYN-G {
+.editChannelButton-1dYN-G,
+.footerText-2a7NxZ a {
   color: #ff6699;
 }
 
