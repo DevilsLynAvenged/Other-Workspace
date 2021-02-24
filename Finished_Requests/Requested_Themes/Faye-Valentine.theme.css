@@ -1,0 +1,82 @@
+/**
+ * @name Faye Valentine
+ * @author NFLD99(now taking control by ShadowDevilsAvenged)
+ * @version ersion auto updates
+ * @description Thank you for choosing NFLD Inc(now taking control by ShadowDevilsAvenged)!
+ * @source https://github.com/ShadowDevilsAvenged/Better-Discord
+ * @authorLink https://discordhub.com/profile/235302947058089984
+ * @donate https://paypal.me/kennethiwelumo1?locale.x=en_US
+ * @authorId 235302947058089984
+ * @invite VsWy8Ca
+*/
+/* Source Code */
+@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Master_Code.css);
+/* Animations */
+@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Animations/No.css);
+/* Fonts https://ShadowDevilsAvenged.github.io/Font_List.txt */
+@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Fonts/Yes.css);
+/* Settings Dock */
+@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Popup/Yes.css);
+/* Channels */
+@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Hide/Channels/No.css);
+/* Chat Title Bar */
+@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Hide/Chat_Title_Bar/No.css);
+/* Invites */ 
+@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Hide/Invites/No.css);
+/* Member List */ 
+@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Hide/Members/No.css);
+/* Windows Bar */ 
+@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Hide/Windows_Bar/No.css);
+/* Offline Members */ 
+@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Hide/Offline/No.css);
+/* User Popout Footer */ 
+@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Hide/Popout_Footer/Yes.css);
+/* Transparency Patch */ 
+@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Transparency/No.css);
+/* Use Chat Bubbles By Shiz */
+@import url(https://ShadowDevilsAvenged.github.io/Source_Code/Addons/Use_Chat_Bubbles/No.css);
+:root {
+  --Main-Colour: rgba(194, 152, 36);
+  --Background-Colour: rgb(78, 3, 1);
+  --Secondary-Background-Colour: rgba(228, 25, 25, 0.3);
+  --Secondary-Main-Colour: rgba(224, 160, 22, 0.5);
+  --Text-Shadow-Colour: rgba(0,0,0,.65);
+  --Scroller-Colour: rgba(246,142,139,0);
+  --Notification-Colour: rgb(158, 20, 15);
+  --Chat-Input-Background: rgba(0,0,0,0);
+  --Chat-Input-Colour: var(--Main-Colour) ;
+  --Unread-Message-1: var(--Main-Colour) ;
+  --Unread-Message-2: var(--Background-Colour) ;
+  --Chat-Background: url(https://cdn.discordapp.com/attachments/457159558054281216/814241508503846912/85923239_p0.jpg);
+  --Settings-Background: url(https://cdn.discordapp.com/attachments/457159558054281216/814241508503846912/85923239_p0.jpg);
+  --Callout-Background: url(https://cdn.discordapp.com/attachments/457159558054281216/814241508503846912/85923239_p0.jpg);
+  --Title-Background: var(--Background-Colour);
+  --Theme-Variant: " Faye Valentine";
+  --Chat-Font-Used: "Whitney";
+  --Chat-Font-Size: 15px;
+  --Unread-Message-Speed: 1.5s;
+  --Popout-Main-Colour: var(--Main-Colour);
+  --Popout-Background: var(--Chat-Background);
+  --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
+  --Emote-Popout-Background: var(--Secondary-Background-Colour);
+  --load1: "Thank You!";
+  --load2: "Please Enjoy!";
+  --load3: "➢ShadowDevilsAvenged";
+  --File-Updated-2020-5-24: ;
+  --Settings-Dock-Colour: var(--Main-Colour);
+  --Timestamp-Colour: var(--Secondary-Main-Colour);
+  --Guild-Columns: 2;
+  --ServerFolders-Guild-Columns: var(--Guild-Columns);
+  --Chat-Avatar-Border-Radius: 10%;
+  --Background-Darkness: 0.7;
+}
+
+#app-mount .userPopout-3XzG_A {
+  background: url(https://cdn.discordapp.com/attachments/457159558054281216/814241568012763167/fYv3sq5z.jpg) 50% 50%/cover;
+  border: 1px solid var(--Secondary-Main-Colour);
+}
+
+#app-mount .inner-1ilYF7 {
+  background: url(https://cdn.discordapp.com/attachments/457159558054281216/814241616235724800/2wB4JheZ.jpg) 50% 50%/cover!important;
+  border: 1px solid var(--Main-Colour);
+}
