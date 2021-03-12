@@ -1,0 +1,38 @@
+/**
+ * @name Mermaid 
+ * @author ShadowDevilsAvenged
+ * @description Theme requested by Anjalea
+ * @version 4
+ */
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://cdn.discordapp.com/attachments/457159558054281216/818235400447066125/scale.png);
+    --background-opacity: rgba(0, 0, 0, .65);
+    --word-color: white;
+    --primary-color: #2cd8c1;
+    --primary-transparency: rgba(44, 216, 193, .6);
+    --avatar-radius: 3px;
+    --button-radius: 3px;
+}
+
+
+/* Customize other Custom CSS below this line */
+
+.root-SR8cQa {
+    background-image: url(https://cdn.discordapp.com/attachments/457159558054281216/818235400447066125/scale.png);
+}
+
+.userPopout-3XzG_A {
+    background-image: url(https://cdn.discordapp.com/attachments/457159558054281216/818235375348219934/spring-wallpapers-fin-fun-05.jpg);
+    background-size: cover;
+}
+
+.childWrapper-anI2G9 {
+    background-color: transparent !important;
+    color: transparent !important;
+    background-image: url(https://cdn.discordapp.com/attachments/457159558054281216/818235422760501288/shell.gif);
+    background-size: cover;
+}

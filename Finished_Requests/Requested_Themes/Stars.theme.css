@@ -1,0 +1,55 @@
+/**
+ * @name Stars Kawaii Theme?
+ * @author ShadowDevilsAvenged
+ * @description Theme requested by Suzu
+ * @version 4
+ */
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://cdn.discordapp.com/attachments/457159558054281216/817545974289137724/original.png);
+    --word-color: white;
+    --primary-color: #5c8be2;
+    --primary-transparency: rgba(92, 139, 226, .6);
+    --avatar-radius: 3px;
+    --button-radius: 3px;
+}
+
+
+/* Customize other Custom CSS below this line */
+
+#app-mount .app-2rEoOp {
+    background-image: linear-gradient(180deg, rgba(0, 50, 97, 0.794) 100%, rgba(0, 0, 0, 0.298) 100%), var(--background-image);
+    background-size: cover;
+}
+
+.root-SR8cQa {
+    background-image: url(https://cdn.discordapp.com/attachments/457159558054281216/817545974289137724/original.png);
+    background-size: cover;
+}
+
+.userPopout-3XzG_A {
+    background-image: url(https://cdn.discordapp.com/attachments/457159558054281216/817545686366552084/d8t88dw-cc1b3656-06a4-4f32-b989-6271bbb7ede8.png);
+    background-size: cover;
+}
+
+.childWrapper-anI2G9 {
+    background-color: transparent !important;
+    color: transparent !important;
+    background-image: url(https://i.pinimg.com/originals/29/a2/22/29a222d0e480acf061b959b933ede8e9.gif);
+    background-size: cover;
+}
+
+.item-2hkk8m {
+    width: 30px;
+    height: 30px !important;
+    border-radius: 30px;
+    margin-left: 5px;
+    margin-top: -13px;
+    border: none;
+    background-color: transparent;
+    background-image: url(https://i.pinimg.com/originals/17/e9/43/17e94359620b4d10d911abbbc4b3ac40.gif);
+    background-size: cover;
+}
