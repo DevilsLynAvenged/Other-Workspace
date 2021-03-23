@@ -1,0 +1,25 @@
+/**
+ * @name Femboy Theme
+ * @author ShadowDevilsAvenged
+ * @description Theme requested by Selion
+ * @version 4
+ */
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://c.wallhere.com/photos/5d/e7/Fate_Series_FGO_Fate_Apocrypha_anime_boys_femboy_french_braid_bangs_blushing-1994719.jpg!d);
+    --background-opacity: rgba(0, 0, 0, .6);
+    --word-color: white;
+    --primary-color: #D36C6D;
+    --primary-transparency: rgba(211, 108, 109, .6);
+    --avatar-radius: 5px;
+    --button-radius: 5px;
+}
+
+
+/* Customize other Custom CSS below this line */
+#app-mount .app-2rEoOp {
+    background-position: 0px -70px;
+}

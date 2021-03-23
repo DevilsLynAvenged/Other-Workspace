@@ -1,0 +1,22 @@
+/**
+ * @name Quarrel Theme
+ * @author ShadowDevilsAvenged
+ * @description Theme requested by Selion
+ * @version 4
+ */
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://img.wallpapersafari.com/desktop/1280/1024/36/57/oFiKhC.jpg);
+    --background-opacity: rgba(0, 0, 0, .75);
+    --word-color: white;
+    --primary-color: #751B27;
+    --primary-transparency: rgba(117, 27, 39, .6);
+    --avatar-radius: 5px;
+    --button-radius: 5px;
+}
+
+
+/* Customize other Custom CSS below this line */
