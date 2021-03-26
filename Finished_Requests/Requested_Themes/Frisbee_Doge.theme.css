@@ -1087,8 +1087,8 @@
 
 .privateChannels-1nO12o,
 .scroller-1JbKMe,
-.theme-dark .wrapper-1Rf91z,
-.theme-dark .scroller-2TZvBN {
+.theme-dark .wrapper-3NnKdC,
+.theme-dark .scroller-1Bvpku {
     background-color: transparent;
 }
 
@@ -1369,7 +1369,7 @@
     background-color: #5a5a64;
 }
 
-.guildSeparator-3s64Iy {
+.guildSeparator-33mFX6 {
     background-color: transparent;
 }
 
@@ -1504,13 +1504,13 @@
     color: silver;
 }
 
-.circleIconButton-jET_ig {
+.circleIconButton-1QV--U {
     color: white;
     background-color: #5a5a64;
     border-radius: 40px !important;
 }
 
-.circleIconButton-jET_ig.selected-ugP_am {
+.circleIconButton-1QV--U.selected-ugP_am {
     color: white;
     background-color: #5a5a64;
     border: 2px solid rgba(255,255,255,.182);

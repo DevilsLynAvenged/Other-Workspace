@@ -164,13 +164,13 @@
 
 .bg-h5JY_x,
 .theme-dark .layer-3QrUeG,
-.wrapper-1Rf91z,
-.scroller-2TZvBN,
+.wrapper-3NnKdC,
+.scroller-1Bvpku,
 .scroller-9moviB {
   background-color: transparent;
 }
 
-.listItem-2P_4kh {
+.listItem-GuPuDH {
   margin: 0 0 5px;
 }
 
@@ -193,7 +193,7 @@
   background-color: #87261F;
 }
 
-.circleIconButton-jET_ig {
+.circleIconButton-1QV--U {
   color: #87261F;
   background-color: black;
 }
@@ -206,7 +206,7 @@
   background-color: #87261F;
 }
 
-.circleIconButton-jET_ig.selected-ugP_am {
+.circleIconButton-1QV--U.selected-ugP_am {
   background-color: #87261F;
 }
 
@@ -338,7 +338,7 @@
   background-color: rgba(0, 0, 0, .4);
 }
 
-.guildSeparator-3s64Iy {
+.guildSeparator-33mFX6 {
   background: none;
 }
 
@@ -2460,7 +2460,7 @@
 }
 
 .icon-27yU2q,
-.circleIconButton-jET_ig,
+.circleIconButton-1QV--U,
 .childWrapper-anI2G9,
 .guildsError-b7zR5H,
 .theme-dark .guildIconUnavailable-5PMHDN,
