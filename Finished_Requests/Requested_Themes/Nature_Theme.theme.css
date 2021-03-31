@@ -9,6 +9,11 @@
 	font-family: Calibri !important;
 }
 
+.repliedMessage-VokQwo {
+    --reply-spacing: 4px;
+	color: white;
+	margin-top: -16px;
+}
 
 #app-mount .app-2rEoOp {
 	background: url(https://wallpapercave.com/wp/wp5306638.jpg) 30%/cover;
@@ -30,12 +35,12 @@
 .sidebar-2K8pFh,
 .container-3w7J-x,
 .theme-dark .layer-3QrUeG,
-.theme-dark .wrapper-1Rf91z,
-.theme-dark .scroller-2TZvBN,
+.theme-dark .wrapper-3NnKdC,
+.theme-dark .scroller-1Bvpku,
 .scroller-305q3I,
 .contentRegionScroller-26nc1e,
 .sidebarRegionScroller-3MXcoP,
-.scroller-2TZvBN {
+.scroller-1Bvpku {
 	background-color: transparent;
 }
 
@@ -53,7 +58,7 @@
 	background: rgba(0, 0, 0, 0.6);
 }
 
-.wrapper-1Rf91z {
+.wrapper-3NnKdC {
 	margin: 38px 0;
 	border-radius: 0;
 }
@@ -62,7 +67,7 @@
 	width: 68px;
 }
 
-.scroller-2TZvBN {
+.scroller-1Bvpku {
 	padding: 12px 0;
 }
 
@@ -516,13 +521,13 @@
 	border-radius: 5px;
 }
 
-.wrapper-1Rf91z .unread-1xRYoj,
+.wrapper-3NnKdC .unread-1xRYoj,
 .unread-1xRYoj {
 	display: none;
 }
 
-.unreadMentionsIndicatorBottom-BXS58x, 
-.unreadMentionsIndicatorTop-gA6RCh {
+.unreadMentionsIndicatorBottom-2mDYbI, 
+.unreadMentionsIndicatorTop-2-tcdU {
 	overflow: visible;
 	height: 74px;
 }
@@ -532,7 +537,7 @@
 }
 
 .icon-27yU2q,
-.circleIconButton-jET_ig {
+.circleIconButton-1QV--U {
 	border-radius: 50px;
 }
 
@@ -599,7 +604,7 @@
 	color: silver;
 }
 
-.guildSeparator-3s64Iy {
+.guildSeparator-33mFX6 {
 	background: transparent;
 }
 
@@ -659,19 +664,19 @@
 
 /* Chat Section */
 
-.folderIconWrapper-226oVY {
+.folderIconWrapper-1_bOZe {
     border-radius: 5px;
     overflow: visible;
 }
 
-.theme-dark .expandedFolderBackground-2sPsd-,
-.theme-dark .expandedFolderBackground-2sPsd-.hover-2ji_A7 {
+.theme-dark .expandedFolderBackground-1cujaW,
+.theme-dark .expandedFolderBackground-1cujaW.hover-2ji_A7 {
    border-radius: 5px;
    background-color: rgba(0, 0, 0, 0.327);
 }
 
-.theme-dark .folder-21wGz3,
-.theme-dark .folder-21wGz3.hover-2ji_A7 {
+.theme-dark .folder-1hbNCn,
+.theme-dark .folder-1hbNCn.hover-2ji_A7 {
     background-color: rgba(0, 0, 0, 0.427);
 }
 
@@ -790,13 +795,13 @@
 	border: none;
 }
 
-.circleIconButton-jET_ig {
+.circleIconButton-1QV--U {
 	color: white;
 	background: rgba(109, 160, 120, .76);
 	border: 2px solid black;
 }
 
-.circleIconButton-jET_ig.selected-ugP_am {
+.circleIconButton-1QV--U.selected-1JjBPm {
 	background-color: #6da078;
 }
 
@@ -1760,7 +1765,7 @@
 }
 
 .mentioned-xhSam7 .avatar-1BDn8e {
-	margin-top: 6px;
+	margin-top: -6px;
 }
 
 .mentioned-xhSam7:before {
@@ -1787,10 +1792,12 @@
 	border: none;
 	font-weight: bold;
 	color: #ffffff !important;
+	position: relative;
+	top: 0;
 }
 
 .cozy-3raOZG .header-23xsNx {
-	margin-top: -11px;
+	margin-top: -1px;
 }
 
 .markup-2BOw-j pre {
