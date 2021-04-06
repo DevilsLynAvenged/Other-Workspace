@@ -1,0 +1,34 @@
+/**
+ * @name D.va The Overwatch Queen
+ * @author ShadowDevilsAvenged
+ * @description Theme requested by Robyn The Panda
+ * @version 4
+ */
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://cdn.discordapp.com/attachments/457159558054281216/824741110605545542/dds6ajw-8dbf0e1d-51f9-4e8e-8ba0-91192c2600ee.png);
+    --background-opacity: rgba(0, 0, 0, .6);
+    --word-color: white;
+    --primary-color: #5B8BEA;
+    --primary-transparency: rgba(91, 139, 234, .6);
+    --avatar-radius: 3px;
+    --button-radius: 3px;
+}
+
+
+
+/* Customize other Custom CSS below this line */
+.childWrapper-anI2G9 {
+    background-color: transparent !important;
+    color: transparent !important;
+    background-image: url(https://cdn.discordapp.com/attachments/457159558054281216/824741207712333844/4972541351853817872_1.png);
+    background-size: cover;
+}
+
+.userPopout-3XzG_A {
+    background-image: url(https://cdn.discordapp.com/attachments/457159558054281216/824741167907209266/D.png);
+    background-size: cover;
+}

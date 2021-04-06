@@ -1,8 +1,8 @@
 /**
- * @name Arknights Theme
+ * @name Arknights_Theme
  * @author ShadowDevilsAvenged
  * @description Theme requested by Selion
- * @version 4
+ * @version 2
  */
 @import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
@@ -26,6 +26,10 @@
     background-image: url(https://cdn.discordapp.com/attachments/722330318178222130/754022715467497513/Rhodes_Island.png);
     background-size: cover;
     background-position: center center;
+}
+
+.container-3w7J-x {
+    background-color: transparent;
 }
 
 .userPopout-3XzG_A {
