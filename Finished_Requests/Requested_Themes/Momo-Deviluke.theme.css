@@ -1,0 +1,22 @@
+/**
+ * @name Momo-Deviluke Theme
+ * @author ShadowDevilsAvenged
+ * @description Theme requested by sub
+ * @version 4
+ */
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://images3.alphacoders.com/672/672593.png);
+    --background-opacity: rgba(0, 0, 0, .6);
+    --word-color: white;
+    --primary-color: #E33986;
+    --primary-transparency: rgba(227, 57, 134, .6);
+    --avatar-radius: 5px;
+    --button-radius: 5px;
+}
+
+
+/* Customize other Custom CSS below this line */

@@ -1,0 +1,34 @@
+/**
+ * @name Ken-Kaneki Theme
+ * @author ShadowDevilsAvenged
+ * @description Theme requested by Envy
+ * @version 4
+ */
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://cdn.discordapp.com/attachments/457159558054281216/833546208772489226/932606.png);
+    --background-opacity: rgba(0, 0, 0, .6);
+    --word-color: white;
+    --primary-color: #e61212;
+    --primary-transparency: rgba(230, 18, 18, .6);
+    --avatar-radius: 5px;
+    --button-radius: 5px;
+}
+
+
+/* Customize other Custom CSS below this line */
+
+.childWrapper-anI2G9 {
+    background-color: transparent !important;
+    color: transparent !important;
+    background-image: url(https://dlblob.omlet.me/blob/bG9uZ2RhbjovL1RXTy9sZHByb2Qtc2cvdzNYTzRNRGVYcDBFRXFlOGtYVlNFdz09);
+    background-size: cover;
+}
+
+.userPopout-3XzG_A {
+    background-image: url(https://cdn.discordapp.com/attachments/457159558054281216/833546262913089557/25fe89f7bce0f43d3ad1ea66e93daa53.png);
+    background-size: cover;
+}
