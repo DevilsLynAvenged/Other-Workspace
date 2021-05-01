@@ -1,0 +1,25 @@
+/**
+ * @name Sung Jin-Woo Theme
+ * @author ShadowDevilsAvenged
+ * @description Theme requested by Reckless
+ * @version 4
+ */
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://images.alphacoders.com/109/1093511.png);
+    --background-opacity: rgba(0, 0, 0, .6);
+    --word-color: white;
+    --primary-color: #369eda;
+    --primary-transparency: rgba(54, 158, 218, .6);
+    --avatar-radius: 5px;
+    --button-radius: 5px;
+}
+
+
+/* Customize other Custom CSS below this line */
+#app-mount .app-2rEoOp {
+    background-position: 0px -70px;
+}
