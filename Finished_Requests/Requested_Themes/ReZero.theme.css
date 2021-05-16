@@ -455,7 +455,7 @@
 }
 
 
-.bd-switch {
+.bd-{
   background-color: #5A5585;
 }
 
@@ -470,7 +470,7 @@
   border-radius: 4px;
 }
 
-/* Regular Switch Deactivated */
+/* Regular Deactivated */
 .container-3auIfb {
 	border-radius: 5px;
 	background-color: #5A5585 !important;
@@ -483,21 +483,21 @@
 .container-3auIfb path {
 	fill: white;
 }
-/* Regular Switch Deactivated */
+/* Regular Deactivated */
 
 
-/* Regular Switch Activated */
-.container-3auIfb[style*="background-color: rgb(67, 181, 129);"] {
+/* Regular Activated */
+.container-3auIfb[style*="background-color: rgb(59, 165, 92);"] {
 	background-color: #9b93e6 !important;
 }
-.container-3auIfb[style*="background-color: rgb(67, 181, 129);"] rect {
-	fill: #11df3d;
+.container-3auIfb[style*="background-color: rgb(59, 165, 92);"] rect {
+	fill: #11df3d !important;
 	rx: 5;
 }
-.container-3auIfb[style*="background-color: rgb(67, 181, 129);"] path {
+.container-3auIfb[style*="background-color: rgb(59, 165, 92);"] path {
 	fill: white;
 }
-/* Regular Switch Activated */
+/* Regular Activated */
 
 .cardPrimaryOutline-29Ujqw {
   border-color: transparent;
@@ -627,7 +627,7 @@
   border: none;
 }
 
-.css-181m2lf-menu {
+.css-3vaxre-menu {
   background-color: #5A5585;
   box-shadow: none;
   color: white;
@@ -880,6 +880,16 @@
 #bd-customcss-attach-controls .help-text .inline {
   background: rgba(155, 147, 230, .6);
   padding: .4em;
+}
+
+.bd-addon-list .bd-addon-header {
+  color: white;
+  background: transparent;
+  overflow: visible
+}
+
+.container-lRFx4q {
+  background-color: rgba(0, 0, 0, .4);
 }
 
 .standardSidebarView-3F1I7i #bd-customcss-attach-controls button, 
@@ -1255,9 +1265,20 @@
   border-radius: 4px;
 }
 
+.reaction-1hd86g {
+  background-color: rgba(255,255,255,.029);
+  border: 1px solid rgba(255, 255, 255, 0.40);
+}
+
+.reaction-1hd86g:hover {
+  border-color: #9b93e6;
+  background: rgba(0, 0, 0, .7)
+}
+
 .reaction-1hd86g.reactionMe-wv5HKu {
   background-color: rgba(71, 194, 89, 0.3);
   padding: 2px;
+  border-color: #47c259;
 }
 
 .reactionMe-wv5HKu .reactionCount-2mvXRV, 
@@ -1408,7 +1429,7 @@
   color: white !important;
 }
 
-.wrapper-3WhCwL {
+.theme-dark .wrapper-3WhCwL {
   padding: 7px;
   border-radius: 4px;
 }
@@ -1560,12 +1581,12 @@
   color: white;
 }
 
-.tabBar-ZmDY9v .item-3HknzM[style*="background-color: rgb(67, 181, 129); color: rgb(255, 255, 255);"] {
+.tabBar-ZmDY9v .item-3HknzM[style*="background-color: rgb(59, 165, 92); color: rgb(255, 255, 255);"] {
   background-color: #34b547 !important;
   color: white !important;
 }
 
-.tabBar-ZmDY9v .item-3HknzM[style*="background-color: rgba(67, 181, 129, 0.2); color: rgb(67, 181, 129);"] {
+.tabBar-ZmDY9v .item-3HknzM[style*="background-color: rgba(67, 181, 129, 0.2); color: rgb(59, 165, 92);"] {
    background-color: #218430 !important;
    color: white !important;
 }
@@ -2318,7 +2339,20 @@
 
 
 .wrapper-3D2qGf {
-  background-color: transparent;
+  background-color: transparent !important;
+  border: none;
+}
+
+.section-2gLsgF {
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.header-2mZ9Ov, .titleContainer-2CXtJo {
+  background: none;
+}
+
+.top-28JiJ- .brand-1Zl8en.item-PXvHYJ:active, .top-28JiJ- .brand-1Zl8en.selected-3s45Ha.item-PXvHYJ {
+  border-bottom-color: #9b93e6;
 }
 
 .theme-dark .inset-3sAvek {

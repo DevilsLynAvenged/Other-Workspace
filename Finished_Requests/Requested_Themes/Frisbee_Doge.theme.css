@@ -530,7 +530,7 @@
   
   /* ---- */
 
-.bd-switch {
+.bd-{
     background-color: rgba(208, 208, 208, 0.30);
     border-radius: 6px;
 }
@@ -548,7 +548,7 @@
     background: #5a5a64;
 }
 
-/* Regular Switch Deactivated */
+/* Regular Deactivated */
 .container-3auIfb {
 	border-radius: 5px;
 	background-color: rgba(208, 208, 208, 0.30) !important;
@@ -561,21 +561,21 @@
 .container-3auIfb path {
 	fill: white;
 }
-/* Regular Switch Deactivated */
+/* Regular Deactivated */
 
 
-/* Regular Switch Activated */
-.container-3auIfb[style*="background-color: rgb(67, 181, 129);"] {
+/* Regular Activated */
+.container-3auIfb[style*="background-color: rgb(59, 165, 92);"] {
 	background-color: #5a5a64 !important;
 }
-.container-3auIfb[style*="background-color: rgb(67, 181, 129);"] rect {
-	fill: #11df3d;
+.container-3auIfb[style*="background-color: rgb(59, 165, 92);"] rect {
+	fill: #11df3d !important;
 	rx: 5;
 }
-.container-3auIfb[style*="background-color: rgb(67, 181, 129);"] path {
+.container-3auIfb[style*="background-color: rgb(59, 165, 92);"] path {
 	fill: white;
 }
-/* Regular Switch Activated */
+/* Regular Activated */
 
 .cardPrimaryOutline-29Ujqw {
     border-color: black;
@@ -589,6 +589,20 @@
 
 .box-mmYMsp {
     border-radius: 5px;
+}
+
+.bd-addon-list .bd-addon-header {
+    color: white;
+    background: transparent;
+    overflow: visible
+}
+
+.header-2mZ9Ov, .titleContainer-2CXtJo {
+    background: none;
+}
+
+.top-28JiJ- .brand-1Zl8en.item-PXvHYJ:active, .top-28JiJ- .brand-1Zl8en.selected-3s45Ha.item-PXvHYJ {
+    border-bottom-color: #5a5a64;
 }
 
 .theme-dark .checked-3_4uQ9 {
@@ -710,7 +724,7 @@
 }
 
 .theme-dark .popout-VcNcHB,
-.css-181m2lf-menu {
+.css-3vaxre-menu {
     border-color: transparent;
     background: rgba(18, 19, 21, 0.667);
 }
@@ -1985,12 +1999,30 @@
     padding: 2px;
 }
 
+.reaction-1hd86g:hover {
+    background: rgba(0, 0, 0, .5);
+    border-color: transparent;
+}
+
 .reaction-1hd86g.reactionMe-wv5HKu {
     background-color: rgba(13, 155, 22, 0.3);
+    border-color: #0d9b16;
 }
 
 .reactionMe-wv5HKu .reactionCount-2mvXRV, .reactionMe-23mbRf:hover .reactionCount-2mvXRV {
     color: rgb(13, 155, 22);
+}
+
+.container-lRFx4q {
+    background-color: rgba(0, 0, 0, .23);
+}
+
+.theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.section-2gLsgF {
+    background-color: transparent;
 }
 
 .botTagRegular-2HEhHi,
