@@ -1,0 +1,73 @@
+/**
+ * @name Utawarerumono Theme
+ * @author ShadowDevilsAvenged
+ * @description Theme requested by jansew02
+ * @version 1
+ */
+@import url('https://ShadowDevilsAvenged.github.io/Other-Themes/My-Base/MainThemeBase.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root {
+    --background-image: url(https://cdn.discordapp.com/attachments/457159558054281216/847028129050132490/sample_c93cdee81d0cecfabc08e70ff46ff3e983f698b1.png);
+    --background-opacity: rgba(0, 0, 0, .6);
+    --word-color: white;
+    --primary-color: #114b30;
+    --primary-transparency: rgba(17, 75, 48, .6);
+    --avatar-radius: 5px;
+    --button-radius: 5px;
+}
+
+
+/* Customize other Custom CSS below this line */
+
+.userPopout-3XzG_A {
+    box-shadow: none;
+    border-radius: 13px;
+    background-image: url(https://cdn.discordapp.com/attachments/457159558054281216/847028294587383818/8cbc0eb1bdc6475cfae60543c9075eba16898023.jpg);
+    background-size: cover !important;
+    background-position: center center;
+}
+
+.root-SR8cQa {
+    background-color: transparent;
+    background-image: url(https://cdn.discordapp.com/attachments/457159558054281216/847028347296415754/ecfb13e1af4655512e8b015a3b0d2e8d2fbac7f9v2_hq.jpg);
+    background-size: cover !important;
+    background-position: center center;
+}
+
+.topSectionStreaming-1Tpf5X,
+.topSectionXbox-3fWLjS,
+.topSectionSpotify-1lI0-P,
+.topSectionPlaying-1J5E4n {
+    background: rgba(0, 0, 0, .72) !important;
+}
+
+.roleCircle-3xAZ1j {
+    border-radius: 2px !important;
+    opacity: 0.6 !important;
+    transition: opacity .2s linear;
+}
+
+.role-2irmRk:hover .roleCircle-3xAZ1j {
+    opacity: 1 !important;
+}
+
+.headerPlaying-j0WQBV {
+    background-color: rgb(52, 117, 217, 0.7) !important;
+}
+
+.headerSpotify-zpWxgT,
+.headerXbox-3G-4PF {
+    background: rgba(18, 96, 45, 0.598) !important;
+}
+
+
+.headerStreaming-2FjmGz {
+    background: rgb(77, 43, 137, 0.6) !important;
+}
+
+.connectedAccount-36nQx7 {
+    border: none;
+    background-color: rgba(102, 153, 204, .4);
+}
